@@ -1,0 +1,40 @@
+{%- extends "base.html" %}
+{%- block title %}Elementary Types{%- endblock title %}
+{%- block content %}
+    <details id="int">
+        <summary>int</summary>
+        <div class="universal-operator">Universal Operator: + - * / %</div>
+        <div class="dropdown-area">
+            <div class="languages">
+                <button class="lg-btn">C++</button>
+                <div class="code" style="display: none;">
+                    <pre><code class="language-cpp">
+                        int x = 3;
+                        int y = (int)val;
+                        int z = static_cast&lt;int&gt;(val);
+                    </code></pre>
+                </div>
+            </div>
+            <div class="languages">
+                <button class="lg-btn">Python</button>
+                <div class="code" style="display: none;">
+                    <pre><code class="language-python">
+                        x: int = 3
+                        y = int(val)
+                        #
+                    </code></pre>
+                </div>
+            </div>
+            <div class="languages">
+                <button class="lg-btn">Javascript</button>
+                <div class="code" style="display: none;">
+                    <pre><code class="language-javascript">
+                        x: int = 3
+                        y = int(val)
+                        #
+                    </code></pre>
+                </div>
+            </div>
+        </div>
+    </details>
+{%- endblock content %}

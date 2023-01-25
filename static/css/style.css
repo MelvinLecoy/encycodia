@@ -1,0 +1,56 @@
+html {
+    font-size: 16px;
+}
+body {
+    background: url(wallpaper.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+nav a img {
+    width: 9vw;
+    border-radius: 10px;
+}
+button {
+    background-color: #fc4747bf;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+button:hover, button.clicked {
+    background-color: red;
+}
+pre {
+    font-size: 10px !important;
+    padding: 3px !important;
+    width: fit-content;
+    height: fit-content;
+}
+
+details summary {
+    font-size: 1.1rem;
+    color: white;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.dropdown-area {
+    padding-left: 15px;
+    padding-top: 5px;
+    display: flex;
+}
+.languages {
+    padding-right: 13px;
+}
+
+ol {
+    margin-block: 2px;
+    padding-inline-start: 17px;
+    color: white;
+}
+
+.universal-operator {
+    color: white;
+    padding-left: 15px;
+    padding-top: 2px;
+}

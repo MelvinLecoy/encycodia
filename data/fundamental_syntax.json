@@ -1,0 +1,137 @@
+[
+    {
+        "topic": "Comments",
+        "ol": false,
+        "languages": {
+            "C++, Javascript, Java": [
+                "// Commented out",
+                "/* Multiline\ncomment */"
+            ],
+            "Python": [
+                "# Commented out",
+                "\"\"\"Docstring /\nMultiline comment\"\"\""
+            ]
+        }
+    },
+    {
+        "topic": "Printing (fstring)",
+        "ol": false,
+        "languages": {
+            "C++": [
+                "std::cout << \"Hello\" << std::endl;\nstd::cout << \"Hello\";\nstd::cout << arr[i] << \" \";\nprintf(\"Hello %s\", name);\n//Stringstream\nstd::stringstream ss;\nss << \"Hello \" << name;\nstd::cout << ss.str() << '\\n';"
+            ],
+            "Python": [
+                "print(\"Hello\")\nprint(\"Hello\", end=\"\")\nprint(arr[i], end=\" \")\nprint(f\"Hello {name}\")  #fstring"
+            ],
+            "Javascript": [
+                "console.log(\"Hello\");\nprocess.stdout.write(\"Hello\");  //Only run in node.js\n//Don't really have a good way to log without newline\nconsole.log(`Hello ${name}`);   //template literal"
+            ],
+            "Java": [
+                "System.out.println(\"Hello\");\nSystem.out.print(\"Hello\");\nSystem.out.print(arr[i] + \" \");\nSystem.out.println(String.format(\"Hello %s\", name));"
+            ]
+        }
+    },
+    {
+        "topic": "MAIN",
+        "ol": false,
+        "languages": {
+            "C++": [
+                "int main(int argc, char** argv) {\n    return 0;\n}"
+            ],
+            "Python": [
+                "if __name__ == \"__main__\":\n    pass"
+            ],
+            "Javascript": [
+                "No such thing"
+            ],
+            "Java": [
+                "public class Main {\n    public static void main(String[] args) {\n        return 0;\n    }\n}"
+            ]
+        }
+    },
+    {
+        "topic": "Conditionals",
+        "ol": false,
+        "languages": {
+            "C++, Javascript, Java": [
+                "if (cond1) {}\nelse if (cond2) {}\nelse {}"
+            ],
+            "Python": [
+                "if cond1: pass\nelif cond2: pass\nelse: pass"
+            ]
+        }
+    },
+    {
+        "topic": "For loops",
+        "ol": true,
+        "languages": {
+            "C++": [
+                "for (int i = 0; i < 5; ++i)\n    std::cout << arr[i] << \" \";",
+                "for (const CLS& ele: arr)\n    std::cout << ele << \" \";"
+            ],
+            "Python": [
+                "for i in range(len(arr)):\n    print(arr[i])",
+                "for ele in arr:\n    print(ele)"
+            ],
+            "Javascript": [
+                "for (let i = 0; i < arr.length; ++i)\n    console.log(arr[i]);",
+                "for (const ele of arr)  //Loop over values\n    console.log(ele);   //Preferable",
+                "for (const ele in arr)  //Loop over properties/keys\n    console.log(ele);   //of objects(index for array)",
+                "arr.forEach(function(ele) {console.log(ele);});\narr.forEach(ele => console.log(ele));  //arrow func."
+            ]
+        }
+    },
+    {
+        "topic": "While loops",
+        "ol": true,
+        "languages": {
+            "C++, Javascript, Java": [
+                "int i = 0;\nwhile (i < 5) {\n    std::cout << i++ << \" \";\n}",
+                "int i = 0;\ndo {\n    std::cout << i++ << \" \";\n} while (i < 5);"
+            ],
+            "Python": [
+                "i = 0\nwhile i < 5:\n    print(i)\n    i += 1",
+                "No do-while loop"
+            ]
+        }
+    },
+    {
+        "topic": "Variables",
+        "ol": true,
+        "languages": {
+            "C++": [
+                "//Declaration\nint x;\nx = 3;\n//\n//",
+                "//type name = val;\nint x = 3;\n//\n//",
+                "//Multiples to diff. values\nint a = 1, b = 2, c = 3;",
+                "//Multiples to same value\nint a, b, c;\na = b = c = 0;"
+            ],
+            "Python": [
+                "#Declaration\nx: int  OR  x = None\nx = 3\n#\n#",
+                "#name: type = val\nx: int = 3  OR  x = 3\n#\n#",
+                "#Multiples to diff. values, Tuple\na, b, c = 1, 2, 3      #unpacking",
+                "#Multiples to same value\n#\na = b = c = 0"
+            ],
+            "Javascript": [
+                "//Declaration\nlet x;  OR  var x; //unpreferred\nx = 3;\n//let: only in block scope {}\n//var: only in function() {}",
+                "const x = 3;  \nlet x = 3;\nvar x = 3;  //Depricated\nvar x = 5;  //Still works",
+                "//Multiples to diff. values\nlet a = 1, b = 2, c = 3;",
+                "//Destructuring assignment (Tuple unpacking)\nlet a, b, c;\n[a, b, c] = [0, 0, 0]",
+                "//Assigning global variable\nlet name = \"X\";\n//var name = \"X\"; will change browser's\n//                    window properties"
+            ]
+        }
+    },
+    {
+        "topic": "Exceptions",
+        "ol": false,
+        "languages": {
+            "C++": [
+                "try {}\ncatch (const Exception& e) {}\ncatch (...) {}\n//\n//\n//",
+                "throw Exception();"
+            ],
+            "Python": [
+                "try: f = open('xxxfile.txt')\nexcept FileNotFoundError as e: print(e)\nexcept Exception: print(”Sth goes wrong”)\nelse: f.read()       #Run when no exception\nfinally: f.close()   #ALWAYS run, even when\n                     #above returned alrdy",
+                "raise Exception"
+            ]
+        }
+    }
+]

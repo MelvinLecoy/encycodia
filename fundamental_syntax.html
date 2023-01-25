@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/prism.css">
+    <title>Fundamental Syntax</title>
+</head>
+<body>
+    <nav><a href="index.html"><img src="static/logo.png" alt="Home Logo"></a></nav>
+    <details>
+        <summary>Comments</summary>
+        <div class="dropdown-area">
+            <div class="languages">
+                <button class="lg-btn">C++, Javascript, Java</button>
+                <div class="code" style="display: none;">
+                    
+                    <pre><code class="language-cpp">// Commented out</code></pre>
+                    <pre><code class="language-cpp">/* Multiline
+comment */</code></pre>
+                    
+                </div>
+            </div>
+            <div class="languages">
+                <button class="lg-btn">Python</button>
+                <div class="code" style="display: none;">
+                    
+                    <pre><code class="language-python"># Commented out</code></pre>
+                    <pre><code class="language-python">&#34;&#34;&#34;Docstring /
+Multiline comment&#34;&#34;&#34;</code></pre>
+                    
+                </div>
+            </div>
+        </div>
+    </details>
+    <details>
+        <summary>Printing (fstring)</summary>
+        <div class="dropdown-area">
+            <div class="languages">
+                <button class="lg-btn">C++</button>
+                <div class="code" style="display: none;">
+                    
+                    <pre><code class="language-cpp">std::cout &lt;&lt; &#34;Hello&#34; &lt;&lt; std::endl;
+std::cout &lt;&lt; &#34;Hello&#34;;
+std::cout &lt;&lt; arr[i] &lt;&lt; &#34; &#34;;
+printf(&#34;Hello %s&#34;, name);
+//Stringstream
+std::stringstream ss;
+ss &lt;&lt; &#34;Hello &#34; &lt;&lt; name;
+std::cout &lt;&lt; ss.str() &lt;&lt; &#39;\n&#39;;</code></pre>
+                    
+                </div>
+            </div>
+            <div class="languages">
+                <button class="lg-btn">Python</button>
+                <div class="code" style="display: none;">
+                    
+                    <pre><code class="language-python">print(&#34;Hello&#34;)
+print(&#34;Hello&#34;, end=&#34;&#34;)
+print(arr[i], end=&#34; &#34;)
+print(f&#34;Hello {name}&#34;)  #fstring</code></pre>
+                    
+                </div>
+            </div>
+            <div class="languages">
+                <button class="lg-btn">Javascript</button>
+                <div class="code" style="display: none;">
+                    
+                    <pre><code class="language-javascript">console.log(&#34;Hello&#34;);
+process.stdout.write(&#34;Hello&#34;);  //Only run in node.js
+//Don&#39;t really have a good way to log without newline
+console.log(`Hello ${name}`);   //template literal</code></pre>
+                    
+                </div>
+            </div>
+            <div class="languages">
+                <button class="lg-btn">Java</button>
+                <div class="code" style="display: none;">
+                    
+                    <pre><code class="language-java">System.out.println(&#34;Hello&#34;);
+System.out.print(&#34;Hello&#34;);
+System.out.print(arr[i] + &#34; &#34;);
+System.out.println(String.format(&#34;Hello %s&#34;, name));</code></pre>
+                    
+                </div>
+            </div>
+        </div>
+    </details>
+    <details>
+        <summary>MAIN</summary>
+        <div class="dropdown-area">
+            <div class="languages">
+                <button class="lg-btn">C++</button>
+                <div class="code" style="display: none;">
+                    
+                    <pre><code class="language-cpp">int main(int argc, char** argv) {
+    return 0;
+}</code></pre>
+                    
+                </div>
+            </div>
+            <div class="languages">
+                <button class="lg-btn">Python</button>
+                <div class="code" style="display: none;">
+                    
+                    <pre><code class="language-python">if __name__ == &#34;__main__&#34;:
+    pass</code></pre>
+                    
+                </div>
+            </div>
+            <div class="languages">
+                <button class="lg-btn">Javascript</button>
+                <div class="code" style="display: none;">
+                    
+                    <pre><code class="language-javascript">No such thing</code></pre>
+                    
+                </div>
+            </div>
+            <div class="languages">
+                <button class="lg-btn">Java</button>
+                <div class="code" style="display: none;">
+                    
+                    <pre><code class="language-java">public class Main {
+    public static void main(String[] args) {
+        return 0;
+    }
+}</code></pre>
+                    
+                </div>
+            </div>
+        </div>
+    </details>
+    <details>
+        <summary>Conditionals</summary>
+        <div class="dropdown-area">
+            <div class="languages">
+                <button class="lg-btn">C++, Javascript, Java</button>
+                <div class="code" style="display: none;">
+                    
+                    <pre><code class="language-cpp">if (cond1) {}
+else if (cond2) {}
+else {}</code></pre>
+                    
+                </div>
+            </div>
+            <div class="languages">
+                <button class="lg-btn">Python</button>
+                <div class="code" style="display: none;">
+                    
+                    <pre><code class="language-python">if cond1: pass
+elif cond2: pass
+else: pass</code></pre>
+                    
+                </div>
+            </div>
+        </div>
+    </details>
+    <details>
+        <summary>For loops</summary>
+        <div class="dropdown-area">
+            <div class="languages">
+                <button class="lg-btn">C++</button>
+                <div class="code" style="display: none;">
+                    <ol>
+                    <li><pre><code class="language-cpp">for (int i = 0; i &lt; 5; ++i)
+    std::cout &lt;&lt; arr[i] &lt;&lt; &#34; &#34;;</code></pre></li>
+                    <li><pre><code class="language-cpp">for (const CLS&amp; ele: arr)
+    std::cout &lt;&lt; ele &lt;&lt; &#34; &#34;;</code></pre></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="languages">
+                <button class="lg-btn">Python</button>
+                <div class="code" style="display: none;">
+                    <ol>
+                    <li><pre><code class="language-python">for i in range(len(arr)):
+    print(arr[i])</code></pre></li>
+                    <li><pre><code class="language-python">for ele in arr:
+    print(ele)</code></pre></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="languages">
+                <button class="lg-btn">Javascript</button>
+                <div class="code" style="display: none;">
+                    <ol>
+                    <li><pre><code class="language-javascript">for (let i = 0; i &lt; arr.length; ++i)
+    console.log(arr[i]);</code></pre></li>
+                    <li><pre><code class="language-javascript">for (const ele of arr)  //Loop over values
+    console.log(ele);   //Preferable</code></pre></li>
+                    <li><pre><code class="language-javascript">for (const ele in arr)  //Loop over properties/keys
+    console.log(ele);   //of objects(index for array)</code></pre></li>
+                    <li><pre><code class="language-javascript">arr.forEach(function(ele) {console.log(ele);});
+arr.forEach(ele =&gt; console.log(ele));  //arrow func.</code></pre></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </details>
+    <details>
+        <summary>While loops</summary>
+        <div class="dropdown-area">
+            <div class="languages">
+                <button class="lg-btn">C++, Javascript, Java</button>
+                <div class="code" style="display: none;">
+                    <ol>
+                    <li><pre><code class="language-cpp">int i = 0;
+while (i &lt; 5) {
+    std::cout &lt;&lt; i++ &lt;&lt; &#34; &#34;;
+}</code></pre></li>
+                    <li><pre><code class="language-cpp">int i = 0;
+do {
+    std::cout &lt;&lt; i++ &lt;&lt; &#34; &#34;;
+} while (i &lt; 5);</code></pre></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="languages">
+                <button class="lg-btn">Python</button>
+                <div class="code" style="display: none;">
+                    <ol>
+                    <li><pre><code class="language-python">i = 0
+while i &lt; 5:
+    print(i)
+    i += 1</code></pre></li>
+                    <li><pre><code class="language-python">No do-while loop</code></pre></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </details>
+    <details>
+        <summary>Variables</summary>
+        <div class="dropdown-area">
+            <div class="languages">
+                <button class="lg-btn">C++</button>
+                <div class="code" style="display: none;">
+                    <ol>
+                    <li><pre><code class="language-cpp">//Declaration
+int x;
+x = 3;
+//
+//</code></pre></li>
+                    <li><pre><code class="language-cpp">//type name = val;
+int x = 3;
+//
+//</code></pre></li>
+                    <li><pre><code class="language-cpp">//Multiples to diff. values
+int a = 1, b = 2, c = 3;</code></pre></li>
+                    <li><pre><code class="language-cpp">//Multiples to same value
+int a, b, c;
+a = b = c = 0;</code></pre></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="languages">
+                <button class="lg-btn">Python</button>
+                <div class="code" style="display: none;">
+                    <ol>
+                    <li><pre><code class="language-python">#Declaration
+x: int  OR  x = None
+x = 3
+#
+#</code></pre></li>
+                    <li><pre><code class="language-python">#name: type = val
+x: int = 3  OR  x = 3
+#
+#</code></pre></li>
+                    <li><pre><code class="language-python">#Multiples to diff. values, Tuple
+a, b, c = 1, 2, 3      #unpacking</code></pre></li>
+                    <li><pre><code class="language-python">#Multiples to same value
+#
+a = b = c = 0</code></pre></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="languages">
+                <button class="lg-btn">Javascript</button>
+                <div class="code" style="display: none;">
+                    <ol>
+                    <li><pre><code class="language-javascript">//Declaration
+let x;  OR  var x; //unpreferred
+x = 3;
+//let: only in block scope {}
+//var: only in function() {}</code></pre></li>
+                    <li><pre><code class="language-javascript">const x = 3;  
+let x = 3;
+var x = 3;  //Depricated
+var x = 5;  //Still works</code></pre></li>
+                    <li><pre><code class="language-javascript">//Multiples to diff. values
+let a = 1, b = 2, c = 3;</code></pre></li>
+                    <li><pre><code class="language-javascript">//Destructuring assignment (Tuple unpacking)
+let a, b, c;
+[a, b, c] = [0, 0, 0]</code></pre></li>
+                    <li><pre><code class="language-javascript">//Assigning global variable
+let name = &#34;X&#34;;
+//var name = &#34;X&#34;; will change browser&#39;s
+//                    window properties</code></pre></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </details>
+    <details>
+        <summary>Exceptions</summary>
+        <div class="dropdown-area">
+            <div class="languages">
+                <button class="lg-btn">C++</button>
+                <div class="code" style="display: none;">
+                    
+                    <pre><code class="language-cpp">try {}
+catch (const Exception&amp; e) {}
+catch (...) {}
+//
+//
+//</code></pre>
+                    <pre><code class="language-cpp">throw Exception();</code></pre>
+                    
+                </div>
+            </div>
+            <div class="languages">
+                <button class="lg-btn">Python</button>
+                <div class="code" style="display: none;">
+                    
+                    <pre><code class="language-python">try: f = open(&#39;xxxfile.txt&#39;)
+except FileNotFoundError as e: print(e)
+except Exception: print(”Sth goes wrong”)
+else: f.read()       #Run when no exception
+finally: f.close()   #ALWAYS run, even when
+                     #above returned alrdy</code></pre>
+                    <pre><code class="language-python">raise Exception</code></pre>
+                    
+                </div>
+            </div>
+        </div>
+    </details>
+</body>
+<script src="static/js/script.js"></script>
+<script src="static/js/prism.js"></script>
+</html>
