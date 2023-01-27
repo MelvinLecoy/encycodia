@@ -1,27 +1,56 @@
 {%- extends "base.html" %}
 {%- block title %}Fundamental Syntax{%- endblock title %}
 {%- block content %}
-    {%- for d in configs %}
-    <details>
-        <summary>{{ d.topic }}</summary>
-        <div class="dropdown-area">
-            {%- for language, codes in d.languages.items() %}
-            <div class="languages">
-                <button class="lg-btn">{{ language }}</button>
-                <div class="code" style="display: none;">
-                    {% if d.ol %}<ol>{% endif %}
-                    {% for code in codes %}
-                    {%- if d.ol %}<li>{%- endif %}
-                    {%- if language.find('C++') != -1 %}<pre><code class="language-cpp">{{ code }}</code></pre>
-                    {%- else %}<pre><code class="language-{{ language.lower() }}">{{ code }}</code></pre>
-                    {%- endif %}
-                    {%- if d.ol %}</li>{%- endif %}
-                    {% endfor %}
-                    {%- if d.ol %}</ol>{%- endif %}
+    <div class="subsection">
+        <div>Macroscopic</div>
+        {%- for d in configs.macroscopic %}
+        <details>
+            <summary>{{ d.topic }}</summary>
+            <div class="dropdown-area">
+                {%- for language, codes in d.languages.items() %}
+                <div class="languages">
+                    <button class="lg-btn">{{ language }}</button>
+                    <div class="code" style="display: none;">
+                        {% if d.ol %}<ol>{% endif %}
+                        {% for code in codes %}
+                        {%- if d.ol %}<li>{%- endif %}
+                        {%- if language.find('C++') != -1 %}<pre><code class="language-cpp">{{ code }}</code></pre>
+                        {%- else %}<pre><code class="language-{{ language.lower() }}">{{ code }}</code></pre>
+                        {%- endif %}
+                        {%- if d.ol %}</li>{%- endif %}
+                        {% endfor %}
+                        {%- if d.ol %}</ol>{%- endif %}
+                    </div>
                 </div>
+                {%- endfor %}
             </div>
-            {%- endfor %}
-        </div>
-    </details>
-    {%- endfor %}
+        </details>
+        {%- endfor %}
+    </div>
+    <div class="subsection">
+        <div>Microscopic</div>
+        {%- for d in configs.microscopic %}
+        <details>
+            <summary>{{ d.topic }}</summary>
+            <div class="dropdown-area">
+                {%- for language, codes in d.languages.items() %}
+                <div class="languages">
+                    <button class="lg-btn">{{ language }}</button>
+                    <div class="code" style="display: none;">
+                        {% if d.ol %}<ol>{% endif %}
+                        {% for code in codes %}
+                        {%- if d.ol %}<li>{%- endif %}
+                        {%- if language.find('C++') != -1 %}<pre><code class="language-cpp">{{ code }}</code></pre>
+                        {%- else %}<pre><code class="language-{{ language.lower() }}">{{ code }}</code></pre>
+                        {%- endif %}
+                        {%- if d.ol %}</li>{%- endif %}
+                        {% endfor %}
+                        {%- if d.ol %}</ol>{%- endif %}
+                    </div>
+                </div>
+                {%- endfor %}
+            </div>
+        </details>
+        {%- endfor %}
+    </div>
 {%- endblock content %}

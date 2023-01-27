@@ -1,37 +1,5 @@
 [
     {
-        "topic": "Comments",
-        "ol": false,
-        "languages": {
-            "C++, Javascript, Java": [
-                "// Commented out",
-                "/* Multiline\ncomment */"
-            ],
-            "Python": [
-                "# Commented out",
-                "\"\"\"Docstring /\nMultiline comment\"\"\""
-            ]
-        }
-    },
-    {
-        "topic": "Printing (fstring)",
-        "ol": false,
-        "languages": {
-            "C++": [
-                "std::cout << \"Hello\" << std::endl;\nstd::cout << \"Hello\";\nstd::cout << arr[i] << \" \";\nprintf(\"Hello %s\", name);\n//Stringstream\nstd::stringstream ss;\nss << \"Hello \" << name;\nstd::cout << ss.str() << '\\n';"
-            ],
-            "Python": [
-                "print(\"Hello\")\nprint(\"Hello\", end=\"\")\nprint(arr[i], end=\" \")\nprint(f\"Hello {name}\")  #fstring"
-            ],
-            "Javascript": [
-                "console.log(\"Hello\");\nprocess.stdout.write(\"Hello\");  //Only run in node.js\n//Don't really have a good way to log without newline\nconsole.log(`Hello ${name}`);   //template literal"
-            ],
-            "Java": [
-                "System.out.println(\"Hello\");\nSystem.out.print(\"Hello\");\nSystem.out.print(arr[i] + \" \");\nSystem.out.println(String.format(\"Hello %s\", name));"
-            ]
-        }
-    },
-    {
         "topic": "MAIN",
         "ol": false,
         "languages": {
@@ -117,6 +85,24 @@
                 "//Multiples to diff. values\nlet a = 1, b = 2, c = 3;",
                 "//Destructuring assignment (Tuple unpacking)\nlet a, b, c;\n[a, b, c] = [0, 0, 0]",
                 "//Assigning global variable\nlet name = \"X\";\n//var name = \"X\"; will change browser's\n//                    window properties"
+            ]
+        }
+    },
+    {
+        "topic": "Functions",
+        "ol": true,
+        "languages": {
+            "C++": [
+                "void func(const std::string& p1, int p2 = 3) {\n}"
+            ],
+            "Python": [
+                "def func(p1: str, p2: int = 3) -> None:\n    pass"
+            ],
+            "Javascript": [
+                "//Can be called before function definition\nfunction func(p1, p2 = 3) {}\nlet alias = function func(p1, p2) {};  //error if func()\n",
+                "//Anonymous function(Can't be called before function definition)\nlet alias = function(p1, p2) {};              //useful for callback\n(function() {console.log(p1, p2);})(p1, p2);  //Immediately invoked",
+                "//Arrow function(Can't return, can't be called beforehand)\n//One statement function body (No need parenthesis)\nlet func0 = () => sth  //no arg, need ()\nlet func1 = p => p     //1arg, no need ()\nlet func2 = (p1, p2) => console.log(p1, p2)  //2 args\n//More than one statement function body ({} needed)\nlet func3 = p => {\n    if (p.length) console.log();\n    else console.log();\n};",
+                "//Callbacks OR passing function as arguments\n1. btns.forEach(btn => btn.addEventListener(\"click\", () => btn.classList.toggle(\"clicked\")));\n2. document.querySelectorAll(\"details\").forEach(ele =>\n    ele.addEventListener(\"toggle\", event => {\n        if (!event.target.open) ...\n        else ...\n    })\n);"
             ]
         }
     },

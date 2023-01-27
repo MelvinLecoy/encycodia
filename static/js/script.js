@@ -10,7 +10,7 @@ btns.forEach(btn =>
 btns.forEach(btn => btn.addEventListener("click", () => btn.classList.toggle("clicked")));
 
 // Close all opened code sections when details are closed
-document.querySelectorAll("details").forEach(element => 
+document.querySelectorAll("details").forEach(element =>
     element.addEventListener("toggle", event => {
         if (!event.target.open) {
             event.target.querySelectorAll(".code").forEach(code => code.style.display = "none");
@@ -19,7 +19,7 @@ document.querySelectorAll("details").forEach(element =>
             event.target.firstElementChild.style.color = "";
         }
         else {
-            // event.target.firstElementChild.style.backgroundColor = "darkviolet";
+            event.target.firstElementChild.style.backgroundColor = "yellow";
             event.target.firstElementChild.style.color = "black";
         }
     })
