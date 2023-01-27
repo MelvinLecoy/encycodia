@@ -1,0 +1,71 @@
+[
+    {
+        "topic": "Swap values",
+        "ol": false,
+        "languages": {
+            "C++": [
+                "int temp = y;\ny = x;\nx = temp;"
+            ],
+            "Python": [
+                "#\n\nx, y = y, x   #Tuple unpacking"
+            ]
+        }
+    },
+    {
+        "topic": "enumerate",
+        "ol": false,
+        "languages": {
+            "C++": [
+                "int idx = 0;\nfor (const int& ele: arr)\n    std::cout << idx++ << \" \" << ele << \"\\n\";"
+            ],
+            "Python": [
+                "#\nfor idx, ele in enumerate(arr):\n    print(idx, ele)"
+            ]
+        }
+    },
+    {
+        "topic": "zip",
+        "ol": false,
+        "languages": {
+            "Python": [
+                "A, B = [1, 2, 3], [4, 5, 6]\nfor a, b in zip(A, B): print(a, b)\n#1 4\n#2 5\n#3 6\nlist(zip(A, B)) = [(1, 4), (2, 5), (3, 6)]\ndict(zip(A, B)) = {1: 4, 2: 5, 3: 6}\nzip(x, y, z)   #Can zip more than two"
+            ]
+        }
+    },
+    {
+        "topic": "‘’.join([])",
+        "ol": false,
+        "languages": {
+            "C++": [
+                "//\n\nstd::string s = “Hi”;\nfor (int i = 0; i < 10; ++i) s += “Hi”;"
+            ],
+            "Python": [
+                "s:str = ''.join([”Hi” for _ in range(10)])  #ONLY way\n#Below is the unacceptable, slow way\ns:str = “Hi”\nfor _ in range(10): s += “Hi”\n"
+            ]
+        }
+    },
+    {
+        "topic": "for-else loop",
+        "ol": false,
+        "languages": {
+            "C++": [
+                "bool found = false;\nfor (const int& ele: arr) {\n    if (ele == target) {\n        std::cout << \"Found\\n\";\n        found = true;\n        break;\n    }\n}\nif (!found) std::cout << \"Not found\\n\";\n"
+            ],
+            "Python": [
+                "for ele in arr:\n    if ele == target:\n        print(\"Found\")\n        break\nelse:   #No break occurred\n    print(\"Not found\")"
+            ]
+        }
+    },
+    {
+        "topic": "Readable numeric",
+        "ol": false,
+        "languages": {
+            "C++": [
+                "Do not support"
+            ],
+            "Python": [
+                "num:int = 10_000_000\nprint(f\"{num:,}\")    #10,000,000"
+            ]
+        }
+    }
+]

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/prism.css">
+    <title>Pythonic Tricks</title>
+</head>
+<body>
+    <nav><a href="index.html"><img src="static/images/logo.png" alt="Home Logo"></a></nav>
+    <details>
+        <summary> Walrus operator (Python 3.8)</summary>
+        <div class="dropdown-area">
+            <div class="languages">
+                <button class="lg-btn"> Without walrus</button>
+                <div class="code" style="display: none;">
+                    <ol>
+                        <li><pre><code class="language-python">
+                            x = 5
+                            print(x)
+                        </code></pre></li>
+                        <li><pre><code class="language-python">
+                            res = []
+                            for num in nums:
+                                r = func(num)
+                                if r > 10: res.append(r)
+                        </code></pre></li>
+                        <li><pre><code class="language-python">
+                            nums = []
+                            while True:
+                                num = int(input(”Enter: ”))
+                                if num == 0: break
+                                nums.append(num)
+                        </code></pre></li>
+                        <li><pre><code class="language-python">
+                            while True:
+                            f = file.read(n)
+                            if f == '': break
+                            process(f)
+                        </code></pre></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="languages">
+                <button class="lg-btn"> With walrus</button>
+                <div class="code" style="display: none;">
+                    <ol>
+                        <li><pre><code class="language-python">
+                            #
+                            print(x:=5)
+                        </code></pre></li>
+                        <li><pre><code class="language-python">
+                            res = [r for num in nums if (r:=func(num)) > 10]
+
+
+                            #
+                        </code></pre></li>
+                        <li><pre><code class="language-python">
+                            nums = []
+                            while (num:=int(input(”Enter: ”))) != 0:
+                                nums.append(num)
+                            
+                            #
+                        </code></pre></li>
+                        <li><pre><code class="language-python">
+                            while (f := file.read(n)) != '': process(f)
+                        </code></pre></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </details>
+    <details>
+        <summary>Swap values</summary>
+        <div class="dropdown-area">
+            <div class="languages">
+                <button class="lg-btn">C++</button>
+                <div class="code" style="display: none;">
+                    
+                    <pre><code class="language-cpp">int temp = y;
+y = x;
+x = temp;</code></pre>
+                    
+                </div>
+            </div>
+            <div class="languages">
+                <button class="lg-btn">Python</button>
+                <div class="code" style="display: none;">
+                    
+                    <pre><code class="language-python">#
+
+x, y = y, x   #Tuple unpacking</code></pre>
+                    
+                </div>
+            </div>
+        </div>
+    </details>
+    <details>
+        <summary>enumerate</summary>
+        <div class="dropdown-area">
+            <div class="languages">
+                <button class="lg-btn">C++</button>
+                <div class="code" style="display: none;">
+                    
+                    <pre><code class="language-cpp">int idx = 0;
+for (const int&amp; ele: arr)
+    std::cout &lt;&lt; idx++ &lt;&lt; &#34; &#34; &lt;&lt; ele &lt;&lt; &#34;\n&#34;;</code></pre>
+                    
+                </div>
+            </div>
+            <div class="languages">
+                <button class="lg-btn">Python</button>
+                <div class="code" style="display: none;">
+                    
+                    <pre><code class="language-python">#
+for idx, ele in enumerate(arr):
+    print(idx, ele)</code></pre>
+                    
+                </div>
+            </div>
+        </div>
+    </details>
+    <details>
+        <summary>zip</summary>
+        <div class="dropdown-area">
+            <div class="languages">
+                <button class="lg-btn">Python</button>
+                <div class="code" style="display: none;">
+                    
+                    <pre><code class="language-python">A, B = [1, 2, 3], [4, 5, 6]
+for a, b in zip(A, B): print(a, b)
+#1 4
+#2 5
+#3 6
+list(zip(A, B)) = [(1, 4), (2, 5), (3, 6)]
+dict(zip(A, B)) = {1: 4, 2: 5, 3: 6}
+zip(x, y, z)   #Can zip more than two</code></pre>
+                    
+                </div>
+            </div>
+        </div>
+    </details>
+    <details>
+        <summary>‘’.join([])</summary>
+        <div class="dropdown-area">
+            <div class="languages">
+                <button class="lg-btn">C++</button>
+                <div class="code" style="display: none;">
+                    
+                    <pre><code class="language-cpp">//
+
+std::string s = “Hi”;
+for (int i = 0; i &lt; 10; ++i) s += “Hi”;</code></pre>
+                    
+                </div>
+            </div>
+            <div class="languages">
+                <button class="lg-btn">Python</button>
+                <div class="code" style="display: none;">
+                    
+                    <pre><code class="language-python">s:str = &#39;&#39;.join([”Hi” for _ in range(10)])  #ONLY way
+#Below is the unacceptable, slow way
+s:str = “Hi”
+for _ in range(10): s += “Hi”
+</code></pre>
+                    
+                </div>
+            </div>
+        </div>
+    </details>
+    <details>
+        <summary>for-else loop</summary>
+        <div class="dropdown-area">
+            <div class="languages">
+                <button class="lg-btn">C++</button>
+                <div class="code" style="display: none;">
+                    
+                    <pre><code class="language-cpp">bool found = false;
+for (const int&amp; ele: arr) {
+    if (ele == target) {
+        std::cout &lt;&lt; &#34;Found\n&#34;;
+        found = true;
+        break;
+    }
+}
+if (!found) std::cout &lt;&lt; &#34;Not found\n&#34;;
+</code></pre>
+                    
+                </div>
+            </div>
+            <div class="languages">
+                <button class="lg-btn">Python</button>
+                <div class="code" style="display: none;">
+                    
+                    <pre><code class="language-python">for ele in arr:
+    if ele == target:
+        print(&#34;Found&#34;)
+        break
+else:   #No break occurred
+    print(&#34;Not found&#34;)</code></pre>
+                    
+                </div>
+            </div>
+        </div>
+    </details>
+    <details>
+        <summary>Readable numeric</summary>
+        <div class="dropdown-area">
+            <div class="languages">
+                <button class="lg-btn">C++</button>
+                <div class="code" style="display: none;">
+                    
+                    <pre><code class="language-cpp">Do not support</code></pre>
+                    
+                </div>
+            </div>
+            <div class="languages">
+                <button class="lg-btn">Python</button>
+                <div class="code" style="display: none;">
+                    
+                    <pre><code class="language-python">num:int = 10_000_000
+print(f&#34;{num:,}&#34;)    #10,000,000</code></pre>
+                    
+                </div>
+            </div>
+        </div>
+    </details>
+</body>
+<script src="static/js/script.js"></script>
+<script src="static/js/prism.js"></script>
+</html>

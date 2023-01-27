@@ -1,0 +1,89 @@
+{%- extends "base.html" %}
+{%- block title %}Pythonic Tricks{%- endblock title %}
+{%- block content %}
+    <details>
+        <summary> Walrus operator (Python 3.8)</summary>
+        <div class="dropdown-area">
+            <div class="languages">
+                <button class="lg-btn"> Without walrus</button>
+                <div class="code" style="display: none;">
+                    <ol>
+                        <li><pre><code class="language-python">
+                            x = 5
+                            print(x)
+                        </code></pre></li>
+                        <li><pre><code class="language-python">
+                            res = []
+                            for num in nums:
+                                r = func(num)
+                                if r > 10: res.append(r)
+                        </code></pre></li>
+                        <li><pre><code class="language-python">
+                            nums = []
+                            while True:
+                                num = int(input(”Enter: ”))
+                                if num == 0: break
+                                nums.append(num)
+                        </code></pre></li>
+                        <li><pre><code class="language-python">
+                            while True:
+                            f = file.read(n)
+                            if f == '': break
+                            process(f)
+                        </code></pre></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="languages">
+                <button class="lg-btn"> With walrus</button>
+                <div class="code" style="display: none;">
+                    <ol>
+                        <li><pre><code class="language-python">
+                            #
+                            print(x:=5)
+                        </code></pre></li>
+                        <li><pre><code class="language-python">
+                            res = [r for num in nums if (r:=func(num)) > 10]
+
+
+                            #
+                        </code></pre></li>
+                        <li><pre><code class="language-python">
+                            nums = []
+                            while (num:=int(input(”Enter: ”))) != 0:
+                                nums.append(num)
+                            
+                            #
+                        </code></pre></li>
+                        <li><pre><code class="language-python">
+                            while (f := file.read(n)) != '': process(f)
+                        </code></pre></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </details>
+    {%- for d in configs.main %}
+    <details>
+        <summary>{{ d.topic }}</summary>
+        <div class="dropdown-area">
+            {%- for language, codes in d.languages.items() %}
+            <div class="languages">
+                <button class="lg-btn">{{ language }}</button>
+                <div class="code" style="display: none;">
+                    {% if d.ol %}<ol>{% endif %}
+                    {% for code in codes %}
+                    {%- if d.ol %}<li>{%- endif %}
+                    {%- if language.find('C++') != -1 %}<pre><code class="language-cpp">{{ code }}</code></pre>
+                    {%- else %}<pre><code class="language-{{ language.lower() }}">{{ code }}</code></pre>
+                    {%- endif %}
+                    {%- if d.ol %}</li>{%- endif %}
+                    {% endfor %}
+                    {%- if d.ol %}</ol>{%- endif %}
+                </div>
+            </div>
+            {%- endfor %}
+        </div>
+    </details>
+    {%- endfor %}
+{%- endblock content %}
