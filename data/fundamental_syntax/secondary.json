@@ -1,0 +1,57 @@
+[
+    {
+        "topic": "Ternary Operator",
+        "ol": false,
+        "languages": {
+            "C++, Javascript, Java": [
+                "int x = (cond) ? valifTrue : valifFalse;"
+            ],
+            "Python": [
+                "x:int = valifTrue if cond else valifFalse"
+            ]
+        }
+    },
+    {
+        "topic": "Switch Case",
+        "ol": false,
+        "languages": {
+            "C++, Javascript": [
+                "//C++ can only be int, not for JS\nswitch (x) {\n    case 1: {... break;}\n    case 2: case 3: {... break;}\n    case 4: {... break;}\n    default: ...\n}"
+            ],
+            "Python": [
+                "#Python 3.10\nmatch expr:       #not confined to int\n    case val1: ...   #no breaks needed\n    case val2 | val3: ...\n    case val4: ...\n    case _: ..."
+            ]
+        }
+    },
+    {
+        "topic": "Lambda (Anonymous function)",
+        "ol": false,
+        "languages": {
+            "C++": [
+                "#include <functional>\nstd::function<bool(int, bool)> func = [&](int x, bool cond){\n    return cond and x>10;\n};\nfunc(3, true);"
+            ],
+            "Python": [
+                "filter(lambda x: x>5, arr)",
+                "from typing import Callable\nfunc:Callable[[int,bool],bool] = lambda x, cond: cond and x>10\nfunc(3, True)"
+            ],
+            "Javascript": [
+                "//Check 'Functions' from Macroscopic\n//Arrow function is the simplest form\n//of anonymous function in Javascript"
+            ]
+        }
+    },
+    {
+        "topic": "Type aliasing",
+        "ol": false,
+        "languages": {
+            "C++": [
+                "using Vector = std::vector<int>;\ntypedef std::vector<int> Vector;  #C-style\nVector v = {1, 2, 3};"
+            ],
+            "Python": [
+                "Vector = list[int]\n\nv:Vector = [1, 2, 3]"
+            ],
+            "Javascript": [
+                "No concept of types, check Typescript"
+            ]
+        }
+    }
+]

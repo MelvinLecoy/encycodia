@@ -53,13 +53,28 @@
         "ol": false,
         "languages": {
             "C++": [
-                "//Not common\n#include <typeinfo>\ntypeid(sth).name()  //OR\ndecltype"
+                "//Not common\n#include <typeinfo>\ntypeid(x).name()  //OR\ndecltype"
             ],
             "Python": [
-                "type(sth)        #Return type obj.\nisinstance(sth)  #Return boolean\n#Diff. on subclass, False for former"
+                "type(x)        #Return type obj.\nisinstance(x)  #Return boolean\n#Diff. on subclass, False for former"
             ],
             "Javascript": [
-                "typeof sth\ninstanceof sth"
+                "typeof x\ninstanceof x"
+            ]
+        }
+    },
+    {
+        "topic": "Check size",
+        "ol": false,
+        "languages": {
+            "C++": [
+                "sizeof(x)"
+            ],
+            "Python": [
+                "x.__sizeof__()\nsys.getsizeof(x)  #Above plus GC overhead"
+            ],
+            "Javascript": [
+                "Basically no such thing"
             ]
         }
     }

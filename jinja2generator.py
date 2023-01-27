@@ -14,6 +14,6 @@ def generate_html(input) -> None:
         with open(input + ".html", "w") as file: file.write(rendered_html)
         
 if __name__ == '__main__':
-    inputs = ["index", {"fundamental_syntax": ["macroscopic", "microscopic"]}, "elementary_types"]
+    inputs = ["index", {"fundamental_syntax": ["macroscopic", "microscopic", "secondary"]}, "elementary_types"]
     for input in inputs: generate_html(input)
     # generate_html("fundamental_syntax")

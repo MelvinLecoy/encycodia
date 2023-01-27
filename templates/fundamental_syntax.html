@@ -53,4 +53,130 @@
         </details>
         {%- endfor %}
     </div>
+    <div class="subsection">
+        <div>Secondary</div>
+        <details>
+            <summary>Plain Old Data(POD) / Data Classes</summary>
+            <div class="dropdown-area">
+                <div class="languages">
+                    <button class="lg-btn">C++</button>
+                    <div class="code" style="display: none;">
+                        <pre><code class="language-cpp">
+                            struct Circle {
+                                int x, y, r;
+                            };
+                            Circle c{1, 2, 3};   //Error: Circle c(1, 2, 3);
+                            std::cout &lt;&lt; c.x &lt; " " &lt;&lt; c.y &lt;&lt; " " c.r &lt;&lt; "\n";
+                        </code></pre>
+                    </div>
+                </div>
+                <div class="languages">
+                    <button class="lg-btn">Python</button>
+                    <div class="code" style="display: none;">
+                        <img src="static/images/python_dataclass_comp.png" alt="Python dataclasses comparison" class="dataclasses">
+                        <details>
+                            <summary>typing.NamedTuple</summary>
+                            <div class="pad">
+                                <pre><code class="language-python">
+                                    from typing import NamedTuple as NT
+                                    class Circle(NT):
+                                        x:int      #Can't set default val before non-default val
+                                        y:int = 1
+                                        r:int = 0  #Default value must be set from bottom
+                                    c1 = Circle(1, 2)    #(1, 2, 0)
+                                    c2 = Circle(1, r=2)  #(1, 1, 2)
+                                </code></pre>
+                                <pre><code class="language-python">
+                                    Circle = NT("Circle", [('x',int), ('y',int), ('r',int)])
+                                </code></pre>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>collections.namedtuple</summary>
+                            <div class="pad">
+                                <pre><code class="language-python">
+                                    from collections import namedtuple as nt
+                                    Circle = nt('Circle', ['x', 'y', 'r'], defaults = (1, 0))  #Defaults are applied to rightmost params: y=1, r=0
+                                    Circle.__annotations__ = {'x':int, 'y':int, 'r':int}
+                                    c = Circle(1, 2, 3)
+                                    c1 = Circle(1, 2)     #(1, 2, 0)
+                                    c2 = Circle(1, r=2)   #(1, 1, 2)
+                                    print(c.x, c.y, c[2])
+                                </code></pre>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>dataclasses.dataclass</summary>
+                            <div class="pad">
+                                <pre><code class="language-python">
+                                    from dataclasses import dataclass, astuple, asdict
+                                    @dataclass(slots=True, order=True, frozen = True)
+                                    class Circle:
+                                        x:int
+                                        y:int
+                                        r:int = 0
+                                        mtlist:list[Circle] = field(default_factory = list)  #Error: mtlist=[]
+                                        
+                                        def func()->Any: pass
+
+                                    c = Circle(1, 2, 3)
+                                    c.func()
+                                    astuple(c), asdict(c)
+                                </code></pre>
+                                <pre><code class="language-python">
+                                    @dataclass: __init__, __repr__, __eq__      #Default dunder methods
+                                    order=True: __ge__, __gt__, __le__, __lt__
+                                    frozen=True (hashable so attributes becomes immutable/readonly): __hash__, __setattr__
+                                    #If frozen but still want to change it, use dataclasses.replace(c, r = 5)
+                                </code></pre>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>types.SimpleNamespace</summary>
+                            <div class="pad">
+                                <pre><code class="language-python">
+                                    from types import SimpleNamespace as struct
+                                    Circle = struct(x=0, y=0, r=0)  #must as kwargs
+                                    c = Circle                      #Not callable
+                                    c.z = 1
+                                    print(c.x, c.y, c.z, c.r)       #(0, 0, 1, 0)
+                                </code></pre>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>attr (unfinished)</summary>
+                            <div class="pad">
+                                <pre><code class="language-python">
+                                    
+                                </code></pre>
+                            </div>
+                        </details>
+                    </div>
+                </div>
+            </div>
+        </details>
+        {%- for d in configs.secondary %}
+        <details>
+            <summary>{{ d.topic }}</summary>
+            <div class="dropdown-area">
+                {%- for language, codes in d.languages.items() %}
+                <div class="languages">
+                    <button class="lg-btn">{{ language }}</button>
+                    <div class="code" style="display: none;">
+                        {% if d.ol %}<ol>{% endif %}
+                        {% for code in codes %}
+                        {%- if d.ol %}<li>{%- endif %}
+                        {%- if language.find('C++') != -1 %}<pre><code class="language-cpp">{{ code }}</code></pre>
+                        {%- else %}<pre><code class="language-{{ language.lower() }}">{{ code }}</code></pre>
+                        {%- endif %}
+                        {%- if d.ol %}</li>{%- endif %}
+                        {% endfor %}
+                        {%- if d.ol %}</ol>{%- endif %}
+                    </div>
+                </div>
+                {%- endfor %}
+            </div>
+        </details>
+        {%- endfor %}
+    </div>
 {%- endblock content %}

@@ -9,7 +9,7 @@
     <title>Fundamental Syntax</title>
 </head>
 <body>
-    <nav><a href="index.html"><img src="static/logo.png" alt="Home Logo"></a></nav>
+    <nav><a href="index.html"><img src="static/images/logo.png" alt="Home Logo"></a></nav>
     <div class="subsection">
         <div>Macroscopic</div>
         <details>
@@ -165,11 +165,11 @@ while i &lt; 5:
                         <li><pre><code class="language-cpp">//Declaration
 int x;
 x = 3;
-//
+
 //</code></pre></li>
                         <li><pre><code class="language-cpp">//type name = val;
 int x = 3;
-//
+
 //</code></pre></li>
                         <li><pre><code class="language-cpp">//Multiples to diff. values
 int a = 1, b = 2, c = 3;</code></pre></li>
@@ -186,16 +186,16 @@ a = b = c = 0;</code></pre></li>
                         <li><pre><code class="language-python">#Declaration
 x: int  OR  x = None
 x = 3
-#
+
 #</code></pre></li>
                         <li><pre><code class="language-python">#name: type = val
 x: int = 3  OR  x = 3
-#
+
 #</code></pre></li>
                         <li><pre><code class="language-python">#Multiples to diff. values, Tuple
 a, b, c = 1, 2, 3      #unpacking</code></pre></li>
                         <li><pre><code class="language-python">#Multiples to same value
-#
+
 a = b = c = 0</code></pre></li>
                         </ol>
                     </div>
@@ -283,6 +283,51 @@ let func3 = p =&gt; {
             </div>
         </details>
         <details>
+            <summary>IO</summary>
+            <div class="dropdown-area">
+                <div class="languages">
+                    <button class="lg-btn">C++</button>
+                    <div class="code" style="display: none;">
+                        <ol>
+                        <li><pre><code class="language-cpp">//Input
+std::string str;
+std::cout &lt;&lt; “Enter: ”;
+std::cin &gt;&gt; str;</code></pre></li>
+                        <li><pre><code class="language-cpp">//Extract file
+std::ifstream fileIN(filename);
+while (fileIN &gt;&gt; str) {}
+//Write to file
+std::ofstream fileOUT(filename);
+fileOUT &lt;&lt; &#34;Hello\n&#34;;</code></pre></li>
+                        <li><pre><code class="language-cpp">//IO Redirection with command line,
+//Treat as normal cin cout</code></pre></li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="languages">
+                    <button class="lg-btn">Python</button>
+                    <div class="code" style="display: none;">
+                        <ol>
+                        <li><pre><code class="language-python">#Input
+string:str = str(input(”Enter: ”))
+
+#</code></pre></li>
+                        <li><pre><code class="language-python">#Extract file
+with open(filename, encoding=&#34;utf-8&#34;) as file:
+    for line in file:
+#Write to file
+with open(filename, &#39;w&#39;) as file:  #Context Manager
+    file.writre(”Hello\n”)</code></pre></li>
+                        <li><pre><code class="language-python">#Without context manager, unpreferred
+file = open(filename, ‘r’)
+data = file.read()
+file.close()</code></pre></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </details>
+        <details>
             <summary>Exceptions</summary>
             <div class="dropdown-area">
                 <div class="languages">
@@ -292,8 +337,8 @@ let func3 = p =&gt; {
                         <pre><code class="language-cpp">try {}
 catch (const Exception&amp; e) {}
 catch (...) {}
-//
-//
+
+
 //</code></pre>
                         <pre><code class="language-cpp">throw Exception();</code></pre>
                         
@@ -437,7 +482,7 @@ System.out.println(String.format(&#34;Hello %s&#34;, name));</code></pre></li>
                         
                         <pre><code class="language-cpp">//Not common
 #include &lt;typeinfo&gt;
-typeid(sth).name()  //OR
+typeid(x).name()  //OR
 decltype</code></pre>
                         
                     </div>
@@ -446,8 +491,8 @@ decltype</code></pre>
                     <button class="lg-btn">Python</button>
                     <div class="code" style="display: none;">
                         
-                        <pre><code class="language-python">type(sth)        #Return type obj.
-isinstance(sth)  #Return boolean
+                        <pre><code class="language-python">type(x)        #Return type obj.
+isinstance(x)  #Return boolean
 #Diff. on subclass, False for former</code></pre>
                         
                     </div>
@@ -456,8 +501,265 @@ isinstance(sth)  #Return boolean
                     <button class="lg-btn">Javascript</button>
                     <div class="code" style="display: none;">
                         
-                        <pre><code class="language-javascript">typeof sth
-instanceof sth</code></pre>
+                        <pre><code class="language-javascript">typeof x
+instanceof x</code></pre>
+                        
+                    </div>
+                </div>
+            </div>
+        </details>
+        <details>
+            <summary>Check size</summary>
+            <div class="dropdown-area">
+                <div class="languages">
+                    <button class="lg-btn">C++</button>
+                    <div class="code" style="display: none;">
+                        
+                        <pre><code class="language-cpp">sizeof(x)</code></pre>
+                        
+                    </div>
+                </div>
+                <div class="languages">
+                    <button class="lg-btn">Python</button>
+                    <div class="code" style="display: none;">
+                        
+                        <pre><code class="language-python">x.__sizeof__()
+sys.getsizeof(x)  #Above plus GC overhead</code></pre>
+                        
+                    </div>
+                </div>
+                <div class="languages">
+                    <button class="lg-btn">Javascript</button>
+                    <div class="code" style="display: none;">
+                        
+                        <pre><code class="language-javascript">Basically no such thing</code></pre>
+                        
+                    </div>
+                </div>
+            </div>
+        </details>
+    </div>
+    <div class="subsection">
+        <div>Secondary</div>
+        <details>
+            <summary>Plain Old Data(POD) / Data Classes</summary>
+            <div class="dropdown-area">
+                <div class="languages">
+                    <button class="lg-btn">C++</button>
+                    <div class="code" style="display: none;">
+                        <pre><code class="language-cpp">
+                            struct Circle {
+                                int x, y, r;
+                            };
+                            Circle c{1, 2, 3};   //Error: Circle c(1, 2, 3);
+                            std::cout &lt;&lt; c.x &lt; " " &lt;&lt; c.y &lt;&lt; " " c.r &lt;&lt; "\n";
+                        </code></pre>
+                    </div>
+                </div>
+                <div class="languages">
+                    <button class="lg-btn">Python</button>
+                    <div class="code" style="display: none;">
+                        <img src="static/images/python_dataclass_comp.png" alt="Python dataclasses comparison" class="dataclasses">
+                        <details>
+                            <summary>typing.NamedTuple</summary>
+                            <div class="pad">
+                                <pre><code class="language-python">
+                                    from typing import NamedTuple as NT
+                                    class Circle(NT):
+                                        x:int      #Can't set default val before non-default val
+                                        y:int = 1
+                                        r:int = 0  #Default value must be set from bottom
+                                    c1 = Circle(1, 2)    #(1, 2, 0)
+                                    c2 = Circle(1, r=2)  #(1, 1, 2)
+                                </code></pre>
+                                <pre><code class="language-python">
+                                    Circle = NT("Circle", [('x',int), ('y',int), ('r',int)])
+                                </code></pre>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>collections.namedtuple</summary>
+                            <div class="pad">
+                                <pre><code class="language-python">
+                                    from collections import namedtuple as nt
+                                    Circle = nt('Circle', ['x', 'y', 'r'], defaults = (1, 0))  #Defaults are applied to rightmost params: y=1, r=0
+                                    Circle.__annotations__ = {'x':int, 'y':int, 'r':int}
+                                    c = Circle(1, 2, 3)
+                                    c1 = Circle(1, 2)     #(1, 2, 0)
+                                    c2 = Circle(1, r=2)   #(1, 1, 2)
+                                    print(c.x, c.y, c[2])
+                                </code></pre>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>dataclasses.dataclass</summary>
+                            <div class="pad">
+                                <pre><code class="language-python">
+                                    from dataclasses import dataclass, astuple, asdict
+                                    @dataclass(slots=True, order=True, frozen = True)
+                                    class Circle:
+                                        x:int
+                                        y:int
+                                        r:int = 0
+                                        mtlist:list[Circle] = field(default_factory = list)  #Error: mtlist=[]
+                                        
+                                        def func()->Any: pass
+
+                                    c = Circle(1, 2, 3)
+                                    c.func()
+                                    astuple(c), asdict(c)
+                                </code></pre>
+                                <pre><code class="language-python">
+                                    @dataclass: __init__, __repr__, __eq__      #Default dunder methods
+                                    order=True: __ge__, __gt__, __le__, __lt__
+                                    frozen=True (hashable so attributes becomes immutable/readonly): __hash__, __setattr__
+                                    #If frozen but still want to change it, use dataclasses.replace(c, r = 5)
+                                </code></pre>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>types.SimpleNamespace</summary>
+                            <div class="pad">
+                                <pre><code class="language-python">
+                                    from types import SimpleNamespace as struct
+                                    Circle = struct(x=0, y=0, r=0)  #must as kwargs
+                                    c = Circle                      #Not callable
+                                    c.z = 1
+                                    print(c.x, c.y, c.z, c.r)       #(0, 0, 1, 0)
+                                </code></pre>
+                            </div>
+                        </details>
+                        <details>
+                            <summary>attr (unfinished)</summary>
+                            <div class="pad">
+                                <pre><code class="language-python">
+                                    
+                                </code></pre>
+                            </div>
+                        </details>
+                    </div>
+                </div>
+            </div>
+        </details>
+        <details>
+            <summary>Ternary Operator</summary>
+            <div class="dropdown-area">
+                <div class="languages">
+                    <button class="lg-btn">C++, Javascript, Java</button>
+                    <div class="code" style="display: none;">
+                        
+                        <pre><code class="language-cpp">int x = (cond) ? valifTrue : valifFalse;</code></pre>
+                        
+                    </div>
+                </div>
+                <div class="languages">
+                    <button class="lg-btn">Python</button>
+                    <div class="code" style="display: none;">
+                        
+                        <pre><code class="language-python">x:int = valifTrue if cond else valifFalse</code></pre>
+                        
+                    </div>
+                </div>
+            </div>
+        </details>
+        <details>
+            <summary>Switch Case</summary>
+            <div class="dropdown-area">
+                <div class="languages">
+                    <button class="lg-btn">C++, Javascript</button>
+                    <div class="code" style="display: none;">
+                        
+                        <pre><code class="language-cpp">//C++ can only be int, not for JS
+switch (x) {
+    case 1: {... break;}
+    case 2: case 3: {... break;}
+    case 4: {... break;}
+    default: ...
+}</code></pre>
+                        
+                    </div>
+                </div>
+                <div class="languages">
+                    <button class="lg-btn">Python</button>
+                    <div class="code" style="display: none;">
+                        
+                        <pre><code class="language-python">#Python 3.10
+match expr:       #not confined to int
+    case val1: ...   #no breaks needed
+    case val2 | val3: ...
+    case val4: ...
+    case _: ...</code></pre>
+                        
+                    </div>
+                </div>
+            </div>
+        </details>
+        <details>
+            <summary>Lambda (Anonymous function)</summary>
+            <div class="dropdown-area">
+                <div class="languages">
+                    <button class="lg-btn">C++</button>
+                    <div class="code" style="display: none;">
+                        
+                        <pre><code class="language-cpp">#include &lt;functional&gt;
+std::function&lt;bool(int, bool)&gt; func = [&amp;](int x, bool cond){
+    return cond and x&gt;10;
+};
+func(3, true);</code></pre>
+                        
+                    </div>
+                </div>
+                <div class="languages">
+                    <button class="lg-btn">Python</button>
+                    <div class="code" style="display: none;">
+                        
+                        <pre><code class="language-python">filter(lambda x: x&gt;5, arr)</code></pre>
+                        <pre><code class="language-python">from typing import Callable
+func:Callable[[int,bool],bool] = lambda x, cond: cond and x&gt;10
+func(3, True)</code></pre>
+                        
+                    </div>
+                </div>
+                <div class="languages">
+                    <button class="lg-btn">Javascript</button>
+                    <div class="code" style="display: none;">
+                        
+                        <pre><code class="language-javascript">//Check &#39;Functions&#39; from Macroscopic
+//Arrow function is the simplest form
+//of anonymous function in Javascript</code></pre>
+                        
+                    </div>
+                </div>
+            </div>
+        </details>
+        <details>
+            <summary>Type aliasing</summary>
+            <div class="dropdown-area">
+                <div class="languages">
+                    <button class="lg-btn">C++</button>
+                    <div class="code" style="display: none;">
+                        
+                        <pre><code class="language-cpp">using Vector = std::vector&lt;int&gt;;
+typedef std::vector&lt;int&gt; Vector;  #C-style
+Vector v = {1, 2, 3};</code></pre>
+                        
+                    </div>
+                </div>
+                <div class="languages">
+                    <button class="lg-btn">Python</button>
+                    <div class="code" style="display: none;">
+                        
+                        <pre><code class="language-python">Vector = list[int]
+
+v:Vector = [1, 2, 3]</code></pre>
+                        
+                    </div>
+                </div>
+                <div class="languages">
+                    <button class="lg-btn">Javascript</button>
+                    <div class="code" style="display: none;">
+                        
+                        <pre><code class="language-javascript">No concept of types, check Typescript</code></pre>
                         
                     </div>
                 </div>

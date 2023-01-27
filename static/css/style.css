@@ -54,3 +54,12 @@ ol {
     padding-left: 15px;
     padding-top: 2px;
 }
+
+.dataclasses {
+    padding-top: 5px;
+    width: 700px;
+}
+.pad {
+    padding-left: 15px;
+    padding-top: 5px;
+}
