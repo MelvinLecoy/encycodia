@@ -63,3 +63,15 @@ ol {
     padding-left: 15px;
     padding-top: 5px;
 }
+
+
+
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: yellow;
+    text-align: center;
+}
