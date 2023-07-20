@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {   /* width: 1-100 */
+    .w1p {@apply w-[1%]} .w2p {@apply w-[2%]} .w3p {@apply w-[3%]} .w4p {@apply w-[4%]} .w5p {@apply w-[5%]} .w6p {@apply w-[6%]} .w7p {@apply w-[7%]} .w8p {@apply w-[8%]} .w9p {@apply w-[9%]} .w10p {@apply w-[10%]}
+    .w11p {@apply w-[11%]} .w12p {@apply w-[12%]} .w13p {@apply w-[13%]} .w14p {@apply w-[14%]} .w15p {@apply w-[15%]} .w16p {@apply w-[16%]} .w17p {@apply w-[17%]} .w18p {@apply w-[18%]} .w19p {@apply w-[19%]} .w20p {@apply w-[20%]}
+    .w21p {@apply w-[21%]} .w22p {@apply w-[22%]} .w23p {@apply w-[23%]} .w24p {@apply w-[24%]} .w25p {@apply w-[25%]} .w26p {@apply w-[26%]} .w27p {@apply w-[27%]} .w28p {@apply w-[28%]} .w29p {@apply w-[29%]} .w30p {@apply w-[30%]}
+    .w31p {@apply w-[31%]} .w32p {@apply w-[32%]} .w33p {@apply w-[33%]} .w34p {@apply w-[34%]} .w35p {@apply w-[35%]} .w36p {@apply w-[36%]} .w37p {@apply w-[37%]} .w38p {@apply w-[38%]} .w39p {@apply w-[39%]} .w40p {@apply w-[40%]}
+    .w41p {@apply w-[41%]} .w42p {@apply w-[42%]} .w43p {@apply w-[43%]} .w44p {@apply w-[44%]} .w45p {@apply w-[45%]} .w46p {@apply w-[46%]} .w47p {@apply w-[47%]} .w48p {@apply w-[48%]} .w49p {@apply w-[49%]} .w50p {@apply w-[50%]}
+    .w51p {@apply w-[51%]} .w52p {@apply w-[52%]} .w53p {@apply w-[53%]} .w54p {@apply w-[54%]} .w55p {@apply w-[55%]} .w56p {@apply w-[56%]} .w57p {@apply w-[57%]} .w58p {@apply w-[58%]} .w59p {@apply w-[59%]} .w60p {@apply w-[60%]}
+    .w61p {@apply w-[61%]} .w62p {@apply w-[62%]} .w63p {@apply w-[63%]} .w64p {@apply w-[64%]} .w65p {@apply w-[65%]} .w66p {@apply w-[66%]} .w67p {@apply w-[67%]} .w68p {@apply w-[68%]} .w69p {@apply w-[69%]} .w70p {@apply w-[70%]}
+    .w71p {@apply w-[71%]} .w72p {@apply w-[72%]} .w73p {@apply w-[73%]} .w74p {@apply w-[74%]} .w75p {@apply w-[75%]} .w76p {@apply w-[76%]} .w77p {@apply w-[77%]} .w78p {@apply w-[78%]} .w79p {@apply w-[79%]} .w80p {@apply w-[80%]}
+    .w81p {@apply w-[81%]} .w82p {@apply w-[82%]} .w83p {@apply w-[83%]} .w84p {@apply w-[84%]} .w85p {@apply w-[85%]} .w86p {@apply w-[86%]} .w87p {@apply w-[87%]} .w88p {@apply w-[88%]} .w89p {@apply w-[89%]} .w90p {@apply w-[90%]}
+    .w91p {@apply w-[91%]} .w92p {@apply w-[92%]} .w93p {@apply w-[93%]} .w94p {@apply w-[94%]} .w95p {@apply w-[95%]} .w96p {@apply w-[96%]} .w97p {@apply w-[97%]} .w98p {@apply w-[98%]} .w99p {@apply w-[99%]} .w100p {@apply w-[100%]}
+}
+/* ".w" + str(i) + "p {@apply w-[" + str(i) + "%]}" */
+
+@layer utilities {   /* max-width: 1-100 */
+    .maxw1p {@apply max-w-[1%]} .maxw2p {@apply max-w-[2%]} .maxw3p {@apply max-w-[3%]} .maxw4p {@apply max-w-[4%]} .maxw5p {@apply max-w-[5%]}
+    .maxw6p {@apply max-w-[6%]} .maxw7p {@apply max-w-[7%]} .maxw8p {@apply max-w-[8%]} .maxw9p {@apply max-w-[9%]} .maxw10p {@apply max-w-[10%]}
+    .maxw11p {@apply max-w-[11%]} .maxw12p {@apply max-w-[12%]} .maxw13p {@apply max-w-[13%]} .maxw14p {@apply max-w-[14%]} .maxw15p {@apply max-w-[15%]}
+    .maxw16p {@apply max-w-[16%]} .maxw17p {@apply max-w-[17%]} .maxw18p {@apply max-w-[18%]} .maxw19p {@apply max-w-[19%]} .maxw20p {@apply max-w-[20%]}
+    .maxw21p {@apply max-w-[21%]} .maxw22p {@apply max-w-[22%]} .maxw23p {@apply max-w-[23%]} .maxw24p {@apply max-w-[24%]} .maxw25p {@apply max-w-[25%]}
+    .maxw26p {@apply max-w-[26%]} .maxw27p {@apply max-w-[27%]} .maxw28p {@apply max-w-[28%]} .maxw29p {@apply max-w-[29%]} .maxw30p {@apply max-w-[30%]}
+    .maxw31p {@apply max-w-[31%]} .maxw32p {@apply max-w-[32%]} .maxw33p {@apply max-w-[33%]} .maxw34p {@apply max-w-[34%]} .maxw35p {@apply max-w-[35%]}
+    .maxw36p {@apply max-w-[36%]} .maxw37p {@apply max-w-[37%]} .maxw38p {@apply max-w-[38%]} .maxw39p {@apply max-w-[39%]} .maxw40p {@apply max-w-[40%]}
+    .maxw41p {@apply max-w-[41%]} .maxw42p {@apply max-w-[42%]} .maxw43p {@apply max-w-[43%]} .maxw44p {@apply max-w-[44%]} .maxw45p {@apply max-w-[45%]}
+    .maxw46p {@apply max-w-[46%]} .maxw47p {@apply max-w-[47%]} .maxw48p {@apply max-w-[48%]} .maxw49p {@apply max-w-[49%]} .maxw50p {@apply max-w-[50%]}
+    .maxw51p {@apply max-w-[51%]} .maxw52p {@apply max-w-[52%]} .maxw53p {@apply max-w-[53%]} .maxw54p {@apply max-w-[54%]} .maxw55p {@apply max-w-[55%]}
+    .maxw56p {@apply max-w-[56%]} .maxw57p {@apply max-w-[57%]} .maxw58p {@apply max-w-[58%]} .maxw59p {@apply max-w-[59%]} .maxw60p {@apply max-w-[60%]}
+    .maxw61p {@apply max-w-[61%]} .maxw62p {@apply max-w-[62%]} .maxw63p {@apply max-w-[63%]} .maxw64p {@apply max-w-[64%]} .maxw65p {@apply max-w-[65%]}
+    .maxw66p {@apply max-w-[66%]} .maxw67p {@apply max-w-[67%]} .maxw68p {@apply max-w-[68%]} .maxw69p {@apply max-w-[69%]} .maxw70p {@apply max-w-[70%]}
+    .maxw71p {@apply max-w-[71%]} .maxw72p {@apply max-w-[72%]} .maxw73p {@apply max-w-[73%]} .maxw74p {@apply max-w-[74%]} .maxw75p {@apply max-w-[75%]}
+    .maxw76p {@apply max-w-[76%]} .maxw77p {@apply max-w-[77%]} .maxw78p {@apply max-w-[78%]} .maxw79p {@apply max-w-[79%]} .maxw80p {@apply max-w-[80%]}
+    .maxw81p {@apply max-w-[81%]} .maxw82p {@apply max-w-[82%]} .maxw83p {@apply max-w-[83%]} .maxw84p {@apply max-w-[84%]} .maxw85p {@apply max-w-[85%]}
+    .maxw86p {@apply max-w-[86%]} .maxw87p {@apply max-w-[87%]} .maxw88p {@apply max-w-[88%]} .maxw89p {@apply max-w-[89%]} .maxw90p {@apply max-w-[90%]}
+    .maxw91p {@apply max-w-[91%]} .maxw92p {@apply max-w-[92%]} .maxw93p {@apply max-w-[93%]} .maxw94p {@apply max-w-[94%]} .maxw95p {@apply max-w-[95%]}
+    .maxw96p {@apply max-w-[96%]} .maxw97p {@apply max-w-[97%]} .maxw98p {@apply max-w-[98%]} .maxw99p {@apply max-w-[99%]} .maxw100p {@apply max-w-[100%]}
+}
+/* ".maxw" + str(i) + "p {@apply max-w-[" + str(i) + "%]}" */
+
+@layer utilities {   /* min-width: 1-100 */
+    .minw1p {@apply min-w-[1%]} .minw2p {@apply min-w-[2%]} .minw3p {@apply min-w-[3%]} .minw4p {@apply min-w-[4%]} .minw5p {@apply min-w-[5%]}
+    .minw6p {@apply min-w-[6%]} .minw7p {@apply min-w-[7%]} .minw8p {@apply min-w-[8%]} .minw9p {@apply min-w-[9%]} .minw10p {@apply min-w-[10%]}
+    .minw11p {@apply min-w-[11%]} .minw12p {@apply min-w-[12%]} .minw13p {@apply min-w-[13%]} .minw14p {@apply min-w-[14%]} .minw15p {@apply min-w-[15%]}
+    .minw16p {@apply min-w-[16%]} .minw17p {@apply min-w-[17%]} .minw18p {@apply min-w-[18%]} .minw19p {@apply min-w-[19%]} .minw20p {@apply min-w-[20%]}
+    .minw21p {@apply min-w-[21%]} .minw22p {@apply min-w-[22%]} .minw23p {@apply min-w-[23%]} .minw24p {@apply min-w-[24%]} .minw25p {@apply min-w-[25%]}
+    .minw26p {@apply min-w-[26%]} .minw27p {@apply min-w-[27%]} .minw28p {@apply min-w-[28%]} .minw29p {@apply min-w-[29%]} .minw30p {@apply min-w-[30%]}
+    .minw31p {@apply min-w-[31%]} .minw32p {@apply min-w-[32%]} .minw33p {@apply min-w-[33%]} .minw34p {@apply min-w-[34%]} .minw35p {@apply min-w-[35%]}
+    .minw36p {@apply min-w-[36%]} .minw37p {@apply min-w-[37%]} .minw38p {@apply min-w-[38%]} .minw39p {@apply min-w-[39%]} .minw40p {@apply min-w-[40%]}
+    .minw41p {@apply min-w-[41%]} .minw42p {@apply min-w-[42%]} .minw43p {@apply min-w-[43%]} .minw44p {@apply min-w-[44%]} .minw45p {@apply min-w-[45%]}
+    .minw46p {@apply min-w-[46%]} .minw47p {@apply min-w-[47%]} .minw48p {@apply min-w-[48%]} .minw49p {@apply min-w-[49%]} .minw50p {@apply min-w-[50%]}
+    .minw51p {@apply min-w-[51%]} .minw52p {@apply min-w-[52%]} .minw53p {@apply min-w-[53%]} .minw54p {@apply min-w-[54%]} .minw55p {@apply min-w-[55%]}
+    .minw56p {@apply min-w-[56%]} .minw57p {@apply min-w-[57%]} .minw58p {@apply min-w-[58%]} .minw59p {@apply min-w-[59%]} .minw60p {@apply min-w-[60%]}
+    .minw61p {@apply min-w-[61%]} .minw62p {@apply min-w-[62%]} .minw63p {@apply min-w-[63%]} .minw64p {@apply min-w-[64%]} .minw65p {@apply min-w-[65%]}
+    .minw66p {@apply min-w-[66%]} .minw67p {@apply min-w-[67%]} .minw68p {@apply min-w-[68%]} .minw69p {@apply min-w-[69%]} .minw70p {@apply min-w-[70%]}
+    .minw71p {@apply min-w-[71%]} .minw72p {@apply min-w-[72%]} .minw73p {@apply min-w-[73%]} .minw74p {@apply min-w-[74%]} .minw75p {@apply min-w-[75%]}
+    .minw76p {@apply min-w-[76%]} .minw77p {@apply min-w-[77%]} .minw78p {@apply min-w-[78%]} .minw79p {@apply min-w-[79%]} .minw80p {@apply min-w-[80%]}
+    .minw81p {@apply min-w-[81%]} .minw82p {@apply min-w-[82%]} .minw83p {@apply min-w-[83%]} .minw84p {@apply min-w-[84%]} .minw85p {@apply min-w-[85%]}
+    .minw86p {@apply min-w-[86%]} .minw87p {@apply min-w-[87%]} .minw88p {@apply min-w-[88%]} .minw89p {@apply min-w-[89%]} .minw90p {@apply min-w-[90%]}
+    .minw91p {@apply min-w-[91%]} .minw92p {@apply min-w-[92%]} .minw93p {@apply min-w-[93%]} .minw94p {@apply min-w-[94%]} .minw95p {@apply min-w-[95%]}
+    .minw96p {@apply min-w-[96%]} .minw97p {@apply min-w-[97%]} .minw98p {@apply min-w-[98%]} .minw99p {@apply min-w-[99%]} .minw100p {@apply min-w-[100%]}
+}
+/* ".minw" + str(i) + "p {@apply min-w-[" + str(i) + "%]}" */

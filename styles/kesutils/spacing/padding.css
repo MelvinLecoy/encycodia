@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 1. trbl */
+@layer utilities {
+    .p1em {@apply p-[1em]} .p2em {@apply p-[2em]} .p3em {@apply p-[3em]} .p4em {@apply p-[4em]} .p5em {@apply p-[5em]} .p6em {@apply p-[6em]} .p7em {@apply p-[7em]} .p8em {@apply p-[8em]} .p9em {@apply p-[9em]} .p10em {@apply p-[10em]}
+}
+/* 2. top */
+@layer utilities {
+    .pt1em {@apply pt-[1em]} .pt2em {@apply pt-[2em]} .pt3em {@apply pt-[3em]} .pt4em {@apply pt-[4em]} .pt5em {@apply pt-[5em]} .pt6em {@apply pt-[6em]} .pt7em {@apply pt-[7em]} .pt8em {@apply pt-[8em]} .pt9em {@apply pt-[9em]} .pt10em {@apply pt-[10em]}
+}
+/* 3. bottom */
+@layer utilities {
+    .pb1em {@apply pb-[1em]} .pb2em {@apply pb-[2em]} .pb3em {@apply pb-[3em]} .pb4em {@apply pb-[4em]} .pb5em {@apply pb-[5em]} .pb6em {@apply pb-[6em]} .pb7em {@apply pb-[7em]} .pb8em {@apply pb-[8em]} .pb9em {@apply pb-[9em]} .pb10em {@apply pb-[10em]}
+}
+/* 4. left */
+@layer utilities {
+    .pl1em {@apply pl-[1em]} .pl2em {@apply pl-[2em]} .pl3em {@apply pl-[3em]} .pl4em {@apply pl-[4em]} .pl5em {@apply pl-[5em]} .pl6em {@apply pl-[6em]} .pl7em {@apply pl-[7em]} .pl8em {@apply pl-[8em]} .pl9em {@apply pl-[9em]} .pl10em {@apply pl-[10em]}
+}
+/* 5. right */
+@layer utilities {
+    .pr1em {@apply pr-[1em]} .pr2em {@apply pr-[2em]} .pr3em {@apply pr-[3em]} .pr4em {@apply pr-[4em]} .pr5em {@apply pr-[5em]} .pr6em {@apply pr-[6em]} .pr7em {@apply pr-[7em]} .pr8em {@apply pr-[8em]} .pr9em {@apply pr-[9em]} .pr10em {@apply pr-[10em]}
+}
+/* 6. x (left-right) */
+@layer utilities {
+    .px1em {@apply px-[1em]} .px2em {@apply px-[2em]} .px3em {@apply px-[3em]} .px4em {@apply px-[4em]} .px5em {@apply px-[5em]} .px6em {@apply px-[6em]} .px7em {@apply px-[7em]} .px8em {@apply px-[8em]} .px9em {@apply px-[9em]} .px10em {@apply px-[10em]}
+}
+/* 7. y (top-bottom) */
+@layer utilities {
+    .py1em {@apply py-[1em]} .py2em {@apply py-[2em]} .py3em {@apply py-[3em]} .py4em {@apply py-[4em]} .py5em {@apply py-[5em]} .py6em {@apply py-[6em]} .py7em {@apply py-[7em]} .py8em {@apply py-[8em]} .py9em {@apply py-[9em]} .py10em {@apply py-[10em]}
+}
+/* 8. top-left */
+@layer utilities {
+    .ptl1em {@apply pt1em pl1em} .ptl2em {@apply pt2em pl2em} .ptl3em {@apply pt3em pl3em} .ptl4em {@apply pt4em pl4em} .ptl5em {@apply pt5em pl5em}
+    .ptl6em {@apply pt6em pl6em} .ptl7em {@apply pt7em pl7em} .ptl8em {@apply pt8em pl8em} .ptl9em {@apply pt9em pl9em} .ptl10em {@apply pt10em pl10em}
+}
+/* 9. top-right */
+@layer utilities {
+    .ptr1em {@apply pt1em pr1em} .ptr2em {@apply pt2em pr2em} .ptr3em {@apply pt3em pr3em} .ptr4em {@apply pt4em pr4em} .ptr5em {@apply pt5em pr5em}
+    .ptr6em {@apply pt6em pr6em} .ptr7em {@apply pt7em pr7em} .ptr8em {@apply pt8em pr8em} .ptr9em {@apply pt9em pr9em} .ptr10em {@apply pt10em pr10em}
+}
+/* 10. bottom-left */
+@layer utilities {
+    .pbl1em {@apply pb1em pl1em} .pbl2em {@apply pb2em pl2em} .pbl3em {@apply pb3em pl3em} .pbl4em {@apply pb4em pl4em} .pbl5em {@apply pb5em pl5em}
+    .pbl6em {@apply pb6em pl6em} .pbl7em {@apply pb7em pl7em} .pbl8em {@apply pb8em pl8em} .pbl9em {@apply pb9em pl9em} .pbl10em {@apply pb10em pl10em}
+}
+/* 11. bottom-right */
+@layer utilities {
+    .pbr1em {@apply pb1em pr1em} .pbr2em {@apply pb2em pr2em} .pbr3em {@apply pb3em pr3em} .pbr4em {@apply pb4em pr4em} .pbr5em {@apply pb5em pr5em}
+    .pbr6em {@apply pb6em pr6em} .pbr7em {@apply pb7em pr7em} .pbr8em {@apply pb8em pr8em} .pbr9em {@apply pb9em pr9em} .pbr10em {@apply pb10em pr10em}
+}
+/* 12. x-top */
+@layer utilities {
+    .pxt1em {@apply px1em pt1em} .pxt2em {@apply px2em pt2em} .pxt3em {@apply px3em pt3em} .pxt4em {@apply px4em pt4em} .pxt5em {@apply px5em pt5em}
+    .pxt6em {@apply px6em pt6em} .pxt7em {@apply px7em pt7em} .pxt8em {@apply px8em pt8em} .pxt9em {@apply px9em pt9em} .pxt10em {@apply px10em pt10em}
+}
+/* 13. x-bottom */
+@layer utilities {
+    .pxb1em {@apply px1em pb1em} .pxb2em {@apply px2em pb2em} .pxb3em {@apply px3em pb3em} .pxb4em {@apply px4em pb4em} .pxb5em {@apply px5em pb5em}
+    .pxb6em {@apply px6em pb6em} .pxb7em {@apply px7em pb7em} .pxb8em {@apply px8em pb8em} .pxb9em {@apply px9em pb9em} .pxb10em {@apply px10em pb10em}
+}
+/* 14. y-left */
+@layer utilities {
+    .pyl1em {@apply py1em pl1em} .pyl2em {@apply py2em pl2em} .pyl3em {@apply py3em pl3em} .pyl4em {@apply py4em pl4em} .pyl5em {@apply py5em pl5em}
+    .pyl6em {@apply py6em pl6em} .pyl7em {@apply py7em pl7em} .pyl8em {@apply py8em pl8em} .pyl9em {@apply py9em pl9em} .pyl10em {@apply py10em pl10em}
+}
+/* 15. y-right */
+@layer utilities {
+    .pyr1em {@apply py1em pr1em} .pyr2em {@apply py2em pr2em} .pyr3em {@apply py3em pr3em} .pyr4em {@apply py4em pr4em} .pyr5em {@apply py5em pr5em}
+    .pyr6em {@apply py6em pr6em} .pyr7em {@apply py7em pr7em} .pyr8em {@apply py8em pr8em} .pyr9em {@apply py9em pr9em} .pyr10em {@apply py10em pr10em}
+}

@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {   /* 25-75, 100-5000 */
+    .transdelay25 {@apply delay-[25ms]} .transdelay50 {@apply delay-[50ms]} .transdelay75 {@apply delay-75}
+    .transdelay100 {@apply delay-[100ms]} .transdelay150 {@apply delay-[150ms]} .transdelay200 {@apply delay-[200ms]} .transdelay250 {@apply delay-[250ms]}
+    .transdelay300 {@apply delay-[300ms]} .transdelay350 {@apply delay-[350ms]} .transdelay400 {@apply delay-[400ms]} .transdelay450 {@apply delay-[450ms]} .transdelay500 {@apply delay-[500ms]}
+    .transdelay550 {@apply delay-[550ms]} .transdelay600 {@apply delay-[600ms]} .transdelay650 {@apply delay-[650ms]} .transdelay700 {@apply delay-[700ms]} .transdelay750 {@apply delay-[750ms]}
+    .transdelay800 {@apply delay-[800ms]} .transdelay850 {@apply delay-[850ms]} .transdelay900 {@apply delay-[900ms]} .transdelay950 {@apply delay-[950ms]} .transdelay1000 {@apply delay-[1000ms]}
+    .transdelay1050 {@apply delay-[1050ms]} .transdelay1100 {@apply delay-[1100ms]} .transdelay1150 {@apply delay-[1150ms]} .transdelay1200 {@apply delay-[1200ms]} .transdelay1250 {@apply delay-[1250ms]}
+    .transdelay1300 {@apply delay-[1300ms]} .transdelay1350 {@apply delay-[1350ms]} .transdelay1400 {@apply delay-[1400ms]} .transdelay1450 {@apply delay-[1450ms]} .transdelay1500 {@apply delay-[1500ms]}
+    .transdelay1550 {@apply delay-[1550ms]} .transdelay1600 {@apply delay-[1600ms]} .transdelay1650 {@apply delay-[1650ms]} .transdelay1700 {@apply delay-[1700ms]} .transdelay1750 {@apply delay-[1750ms]}
+    .transdelay1800 {@apply delay-[1800ms]} .transdelay1850 {@apply delay-[1850ms]} .transdelay1900 {@apply delay-[1900ms]} .transdelay1950 {@apply delay-[1950ms]} .transdelay2000 {@apply delay-[2000ms]}
+    .transdelay2050 {@apply delay-[2050ms]} .transdelay2100 {@apply delay-[2100ms]} .transdelay2150 {@apply delay-[2150ms]} .transdelay2200 {@apply delay-[2200ms]} .transdelay2250 {@apply delay-[2250ms]}
+    .transdelay2300 {@apply delay-[2300ms]} .transdelay2350 {@apply delay-[2350ms]} .transdelay2400 {@apply delay-[2400ms]} .transdelay2450 {@apply delay-[2450ms]} .transdelay2500 {@apply delay-[2500ms]}
+    .transdelay2550 {@apply delay-[2550ms]} .transdelay2600 {@apply delay-[2600ms]} .transdelay2650 {@apply delay-[2650ms]} .transdelay2700 {@apply delay-[2700ms]} .transdelay2750 {@apply delay-[2750ms]}
+    .transdelay2800 {@apply delay-[2800ms]} .transdelay2850 {@apply delay-[2850ms]} .transdelay2900 {@apply delay-[2900ms]} .transdelay2950 {@apply delay-[2950ms]} .transdelay3000 {@apply delay-[3000ms]}
+    .transdelay3050 {@apply delay-[3050ms]} .transdelay3100 {@apply delay-[3100ms]} .transdelay3150 {@apply delay-[3150ms]} .transdelay3200 {@apply delay-[3200ms]} .transdelay3250 {@apply delay-[3250ms]}
+    .transdelay3300 {@apply delay-[3300ms]} .transdelay3350 {@apply delay-[3350ms]} .transdelay3400 {@apply delay-[3400ms]} .transdelay3450 {@apply delay-[3450ms]} .transdelay3500 {@apply delay-[3500ms]}
+    .transdelay3550 {@apply delay-[3550ms]} .transdelay3600 {@apply delay-[3600ms]} .transdelay3650 {@apply delay-[3650ms]} .transdelay3700 {@apply delay-[3700ms]} .transdelay3750 {@apply delay-[3750ms]}
+    .transdelay3800 {@apply delay-[3800ms]} .transdelay3850 {@apply delay-[3850ms]} .transdelay3900 {@apply delay-[3900ms]} .transdelay3950 {@apply delay-[3950ms]} .transdelay4000 {@apply delay-[4000ms]}
+    .transdelay4050 {@apply delay-[4050ms]} .transdelay4100 {@apply delay-[4100ms]} .transdelay4150 {@apply delay-[4150ms]} .transdelay4200 {@apply delay-[4200ms]} .transdelay4250 {@apply delay-[4250ms]}
+    .transdelay4300 {@apply delay-[4300ms]} .transdelay4350 {@apply delay-[4350ms]} .transdelay4400 {@apply delay-[4400ms]} .transdelay4450 {@apply delay-[4450ms]} .transdelay4500 {@apply delay-[4500ms]}
+    .transdelay4550 {@apply delay-[4550ms]} .transdelay4600 {@apply delay-[4600ms]} .transdelay4650 {@apply delay-[4650ms]} .transdelay4700 {@apply delay-[4700ms]} .transdelay4750 {@apply delay-[4750ms]}
+    .transdelay4800 {@apply delay-[4800ms]} .transdelay4850 {@apply delay-[4850ms]} .transdelay4900 {@apply delay-[4900ms]} .transdelay4950 {@apply delay-[4950ms]} .transdelay5000 {@apply delay-[5000ms]}
+}
+
+/* ".transdelay" + str(i) + " {@apply delay-[" + str(i) + "ms]}" */

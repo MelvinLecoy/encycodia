@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .ar1w1h {@apply aspect-[1/1]} .ar1w2h {@apply aspect-[1/2]} .ar1w3h {@apply aspect-[1/3]} .ar1w4h {@apply aspect-[1/4]} .ar1w5h {@apply aspect-[1/5]}
+    .ar1w6h {@apply aspect-[1/6]} .ar1w7h {@apply aspect-[1/7]} .ar1w8h {@apply aspect-[1/8]} .ar1w9h {@apply aspect-[1/9]} .ar1w10h {@apply aspect-[1/10]}
+    .ar1w11h {@apply aspect-[1/11]} .ar1w12h {@apply aspect-[1/12]} .ar1w13h {@apply aspect-[1/13]} .ar1w14h {@apply aspect-[1/14]} .ar1w15h {@apply aspect-[1/15]}
+    .ar1w16h {@apply aspect-[1/16]} .ar1w17h {@apply aspect-[1/17]} .ar1w18h {@apply aspect-[1/18]} .ar1w19h {@apply aspect-[1/19]} .ar1w20h {@apply aspect-[1/20]}
+    .ar1w21h {@apply aspect-[1/21]} .ar1w22h {@apply aspect-[1/22]} .ar1w23h {@apply aspect-[1/23]} .ar1w24h {@apply aspect-[1/24]} .ar1w25h {@apply aspect-[1/25]}
+    .ar1w26h {@apply aspect-[1/26]} .ar1w27h {@apply aspect-[1/27]} .ar1w28h {@apply aspect-[1/28]} .ar1w29h {@apply aspect-[1/29]} .ar1w30h {@apply aspect-[1/30]}
+
+    .ar2w1h {@apply aspect-[2/1]} .ar2w3h {@apply aspect-[2/3]} .ar2w5h {@apply aspect-[2/5]} .ar2w7h {@apply aspect-[2/7]} .ar2w9h {@apply aspect-[2/9]}
+    .ar2w11h {@apply aspect-[2/11]} .ar2w13h {@apply aspect-[2/13]} .ar2w15h {@apply aspect-[2/15]} .ar2w17h {@apply aspect-[2/17]} .ar2w19h {@apply aspect-[2/19]}
+    .ar2w21h {@apply aspect-[2/21]} .ar2w23h {@apply aspect-[2/23]} .ar2w25h {@apply aspect-[2/25]} .ar2w27h {@apply aspect-[2/27]} .ar2w29h {@apply aspect-[2/29]}
+
+    .ar3w1h {@apply aspect-[3/1]} .ar3w2h {@apply aspect-[3/2]} .ar3w4h {@apply aspect-[3/4]} .ar3w5h {@apply aspect-[3/5]} .ar3w7h {@apply aspect-[3/7]}
+    .ar3w8h {@apply aspect-[3/8]} .ar3w10h {@apply aspect-[3/10]} .ar3w11h {@apply aspect-[3/11]} .ar3w13h {@apply aspect-[3/13]} .ar3w14h {@apply aspect-[3/14]}
+    .ar3w16h {@apply aspect-[3/16]} .ar3w17h {@apply aspect-[3/17]} .ar3w19h {@apply aspect-[3/19]} .ar3w20h {@apply aspect-[3/20]} .ar3w22h {@apply aspect-[3/22]}
+    .ar3w23h {@apply aspect-[3/23]} .ar3w25h {@apply aspect-[3/25]} .ar3w26h {@apply aspect-[3/26]} .ar3w28h {@apply aspect-[3/28]} .ar3w29h {@apply aspect-[3/29]}
+
+    .ar4w1h {@apply aspect-[4/1]} .ar4w3h {@apply aspect-[4/3]} .ar4w5h {@apply aspect-[4/5]} .ar4w7h {@apply aspect-[4/7]} .ar4w9h {@apply aspect-[4/9]}
+    .ar4w11h {@apply aspect-[4/11]} .ar4w13h {@apply aspect-[4/13]} .ar4w15h {@apply aspect-[4/15]} .ar4w17h {@apply aspect-[4/17]} .ar4w19h {@apply aspect-[4/19]}
+    .ar4w21h {@apply aspect-[4/21]} .ar4w23h {@apply aspect-[4/23]} .ar4w25h {@apply aspect-[4/25]} .ar4w27h {@apply aspect-[4/27]} .ar4w29h {@apply aspect-[4/29]}
+
+    .ar5w1h {@apply aspect-[5/1]} .ar5w2h {@apply aspect-[5/2]} .ar5w3h {@apply aspect-[5/3]} .ar5w4h {@apply aspect-[5/4]} .ar5w6h {@apply aspect-[5/6]}
+    .ar5w7h {@apply aspect-[5/7]} .ar5w8h {@apply aspect-[5/8]} .ar5w9h {@apply aspect-[5/9]} .ar5w11h {@apply aspect-[5/11]} .ar5w12h {@apply aspect-[5/12]}
+    .ar5w13h {@apply aspect-[5/13]} .ar5w14h {@apply aspect-[5/14]} .ar5w16h {@apply aspect-[5/16]} .ar5w17h {@apply aspect-[5/17]} .ar5w18h {@apply aspect-[5/18]}
+    .ar5w19h {@apply aspect-[5/19]} .ar5w21h {@apply aspect-[5/21]} .ar5w22h {@apply aspect-[5/22]} .ar5w23h {@apply aspect-[5/23]} .ar5w24h {@apply aspect-[5/24]}
+    .ar5w26h {@apply aspect-[5/26]} .ar5w27h {@apply aspect-[5/27]} .ar5w28h {@apply aspect-[5/28]} .ar5w29h {@apply aspect-[5/29]}
+
+    .ar6w1h {@apply aspect-[6/1]} .ar6w5h {@apply aspect-[6/5]} .ar6w7h {@apply aspect-[6/7]} .ar6w11h {@apply aspect-[6/11]} .ar6w13h {@apply aspect-[6/13]}
+    .ar6w17h {@apply aspect-[6/17]} .ar6w19h {@apply aspect-[6/19]} .ar6w23h {@apply aspect-[6/23]} .ar6w25h {@apply aspect-[6/25]} .ar6w29h {@apply aspect-[6/29]}
+
+    .ar7w1h {@apply aspect-[7/1]} .ar7w2h {@apply aspect-[7/2]} .ar7w3h {@apply aspect-[7/3]} .ar7w4h {@apply aspect-[7/4]} .ar7w5h {@apply aspect-[7/5]}
+    .ar7w6h {@apply aspect-[7/6]} .ar7w8h {@apply aspect-[7/8]} .ar7w9h {@apply aspect-[7/9]} .ar7w10h {@apply aspect-[7/10]} .ar7w11h {@apply aspect-[7/11]} .ar7w12h {@apply aspect-[7/12]}
+    .ar7w13h {@apply aspect-[7/13]} .ar7w15h {@apply aspect-[7/15]} .ar7w16h {@apply aspect-[7/16]} .ar7w17h {@apply aspect-[7/17]} .ar7w18h {@apply aspect-[7/18]}
+    .ar7w19h {@apply aspect-[7/19]} .ar7w20h {@apply aspect-[7/20]} .ar7w22h {@apply aspect-[7/22]} .ar7w23h {@apply aspect-[7/23]} .ar7w24h {@apply aspect-[7/24]}
+    .ar7w25h {@apply aspect-[7/25]} .ar7w26h {@apply aspect-[7/26]} .ar7w27h {@apply aspect-[7/27]} .ar7w29h {@apply aspect-[7/29]} .ar7w30h {@apply aspect-[7/30]}
+
+    .ar8w1h {@apply aspect-[8/1]} .ar8w3h {@apply aspect-[8/3]} .ar8w5h {@apply aspect-[8/5]} .ar8w7h {@apply aspect-[8/7]} .ar8w9h {@apply aspect-[8/9]}
+    .ar8w11h {@apply aspect-[8/11]} .ar8w13h {@apply aspect-[8/13]} .ar8w15h {@apply aspect-[8/15]} .ar8w17h {@apply aspect-[8/17]} .ar8w19h {@apply aspect-[8/19]}
+    .ar8w21h {@apply aspect-[8/21]} .ar8w23h {@apply aspect-[8/23]} .ar8w25h {@apply aspect-[8/25]} .ar8w27h {@apply aspect-[8/27]} .ar8w29h {@apply aspect-[8/29]}
+
+    .ar9w1h {@apply aspect-[9/1]} .ar9w2h {@apply aspect-[9/2]} .ar9w4h {@apply aspect-[9/4]} .ar9w5h {@apply aspect-[9/5]} .ar9w7h {@apply aspect-[9/7]}
+    .ar9w8h {@apply aspect-[9/8]} .ar9w10h {@apply aspect-[9/10]} .ar9w11h {@apply aspect-[9/11]} .ar9w13h {@apply aspect-[9/13]} .ar9w14h {@apply aspect-[9/14]}
+    .ar9w16h {@apply aspect-[9/16]} .ar9w17h {@apply aspect-[9/17]} .ar9w19h {@apply aspect-[9/19]} .ar9w20h {@apply aspect-[9/20]} .ar9w22h {@apply aspect-[9/22]}
+    .ar9w23h {@apply aspect-[9/23]} .ar9w25h {@apply aspect-[9/25]} .ar9w26h {@apply aspect-[9/26]} .ar9w28h {@apply aspect-[9/28]} .ar9w29h {@apply aspect-[9/29]}
+
+    .ar10w1h {@apply aspect-[10/1]} .ar10w3h {@apply aspect-[10/3]} .ar10w7h {@apply aspect-[10/7]} .ar10w9h {@apply aspect-[10/9]} .ar10w11h {@apply aspect-[10/11]}
+    .ar10w13h {@apply aspect-[10/13]} .ar10w17h {@apply aspect-[10/17]} .ar10w19h {@apply aspect-[10/19]} .ar10w21h {@apply aspect-[10/21]} .ar10w23h {@apply aspect-[10/23]}
+    .ar10w27h {@apply aspect-[10/27]} .ar10w29h {@apply aspect-[10/29]}
+
+    .ar11w1h {@apply aspect-[11/1]} .ar11w2h {@apply aspect-[11/2]} .ar11w3h {@apply aspect-[11/3]} .ar11w4h {@apply aspect-[11/4]} .ar11w5h {@apply aspect-[11/5]}
+    .ar11w6h {@apply aspect-[11/6]} .ar11w7h {@apply aspect-[11/7]} .ar11w8h {@apply aspect-[11/8]}
+    .ar11w9h {@apply aspect-[11/9]} .ar11w10h {@apply aspect-[11/10]} .ar11w12h {@apply aspect-[11/12]} .ar11w13h {@apply aspect-[11/13]} .ar11w14h {@apply aspect-[11/14]}
+    .ar11w15h {@apply aspect-[11/15]} .ar11w16h {@apply aspect-[11/16]} .ar11w17h {@apply aspect-[11/17]} .ar11w18h {@apply aspect-[11/18]} .ar11w19h {@apply aspect-[11/19]}
+    .ar11w20h {@apply aspect-[11/20]} .ar11w21h {@apply aspect-[11/21]} .ar11w23h {@apply aspect-[11/23]} .ar11w24h {@apply aspect-[11/24]} .ar11w25h {@apply aspect-[11/25]}
+    .ar11w26h {@apply aspect-[11/26]} .ar11w27h {@apply aspect-[11/27]} .ar11w28h {@apply aspect-[11/28]} .ar11w29h {@apply aspect-[11/29]} .ar11w30h {@apply aspect-[11/30]}
+
+    .ar12w1h {@apply aspect-[12/1]} .ar12w5h {@apply aspect-[12/5]} .ar12w7h {@apply aspect-[12/7]} .ar12w11h {@apply aspect-[12/11]} .ar12w13h {@apply aspect-[12/13]}
+    .ar12w17h {@apply aspect-[12/17]} .ar12w19h {@apply aspect-[12/19]} .ar12w23h {@apply aspect-[12/23]} .ar12w25h {@apply aspect-[12/25]} .ar12w29h {@apply aspect-[12/29]}
+
+    .ar13w1h {@apply aspect-[13/1]} .ar13w2h {@apply aspect-[13/2]} .ar13w3h {@apply aspect-[13/3]} .ar13w4h {@apply aspect-[13/4]} .ar13w5h {@apply aspect-[13/5]}
+    .ar13w6h {@apply aspect-[13/6]} .ar13w7h {@apply aspect-[13/7]} .ar13w8h {@apply aspect-[13/8]} .ar13w9h {@apply aspect-[13/9]} .ar13w10h {@apply aspect-[13/10]}
+    .ar13w11h {@apply aspect-[13/11]} .ar13w12h {@apply aspect-[13/12]} .ar13w14h {@apply aspect-[13/14]} .ar13w15h {@apply aspect-[13/15]} .ar13w16h {@apply aspect-[13/16]}
+    .ar13w17h {@apply aspect-[13/17]} .ar13w18h {@apply aspect-[13/18]} .ar13w19h {@apply aspect-[13/19]} .ar13w20h {@apply aspect-[13/20]} .ar13w21h {@apply aspect-[13/21]}
+    .ar13w22h {@apply aspect-[13/22]} .ar13w23h {@apply aspect-[13/23]} .ar13w24h {@apply aspect-[13/24]} .ar13w25h {@apply aspect-[13/25]} .ar13w27h {@apply aspect-[13/27]}
+    .ar13w28h {@apply aspect-[13/28]} .ar13w29h {@apply aspect-[13/29]} .ar13w30h {@apply aspect-[13/30]}
+
+    .ar14w1h {@apply aspect-[14/1]} .ar14w3h {@apply aspect-[14/3]} .ar14w5h {@apply aspect-[14/5]} .ar14w9h {@apply aspect-[14/9]} .ar14w11h {@apply aspect-[14/11]}
+    .ar14w13h {@apply aspect-[14/13]} .ar14w15h {@apply aspect-[14/15]} .ar14w17h {@apply aspect-[14/17]} .ar14w19h {@apply aspect-[14/19]} .ar14w23h {@apply aspect-[14/23]}
+    .ar14w25h {@apply aspect-[14/25]} .ar14w27h {@apply aspect-[14/27]} .ar14w29h {@apply aspect-[14/29]}
+
+    .ar15w1h {@apply aspect-[15/1]} .ar15w2h {@apply aspect-[15/2]} .ar15w4h {@apply aspect-[15/4]} .ar15w7h {@apply aspect-[15/7]} .ar15w8h {@apply aspect-[15/8]} .ar15w11h {@apply aspect-[15/11]}
+    .ar15w13h {@apply aspect-[15/13]} .ar15w14h {@apply aspect-[15/14]} .ar15w16h {@apply aspect-[15/16]} .ar15w17h {@apply aspect-[15/17]} .ar15w19h {@apply aspect-[15/19]}
+    .ar15w22h {@apply aspect-[15/22]} .ar15w23h {@apply aspect-[15/23]} .ar15w26h {@apply aspect-[15/26]} .ar15w28h {@apply aspect-[15/28]} .ar15w29h {@apply aspect-[15/29]}
+
+    .ar16w1h {@apply aspect-[16/1]} .ar16w3h {@apply aspect-[16/3]} .ar16w5h {@apply aspect-[16/5]} .ar16w7h {@apply aspect-[16/7]} .ar16w9h {@apply aspect-[16/9]} .ar16w11h {@apply aspect-[16/11]}
+    .ar16w13h {@apply aspect-[16/13]} .ar16w15h {@apply aspect-[16/15]} .ar16w17h {@apply aspect-[16/17]} .ar16w19h {@apply aspect-[16/19]} .ar16w21h {@apply aspect-[16/21]}
+    .ar16w23h {@apply aspect-[16/23]} .ar16w25h {@apply aspect-[16/25]} .ar16w27h {@apply aspect-[16/27]} .ar16w29h {@apply aspect-[16/29]}
+
+    .ar17w1h {@apply aspect-[17/1]} .ar17w2h {@apply aspect-[17/2]} .ar17w3h {@apply aspect-[17/3]} .ar17w4h {@apply aspect-[17/4]} .ar17w5h {@apply aspect-[17/5]} .ar17w6h {@apply aspect-[17/6]}
+    .ar17w7h {@apply aspect-[17/7]} .ar17w8h {@apply aspect-[17/8]} .ar17w9h {@apply aspect-[17/9]} .ar17w10h {@apply aspect-[17/10]} .ar17w11h {@apply aspect-[17/11]} .ar17w12h {@apply aspect-[17/12]}
+    .ar17w13h {@apply aspect-[17/13]} .ar17w14h {@apply aspect-[17/14]} .ar17w15h {@apply aspect-[17/15]} .ar17w16h {@apply aspect-[17/16]} .ar17w18h {@apply aspect-[17/18]} .ar17w19h {@apply aspect-[17/19]}
+    .ar17w20h {@apply aspect-[17/20]} .ar17w21h {@apply aspect-[17/21]} .ar17w22h {@apply aspect-[17/22]} .ar17w23h {@apply aspect-[17/23]} .ar17w24h {@apply aspect-[17/24]} .ar17w25h {@apply aspect-[17/25]}
+    .ar17w26h {@apply aspect-[17/26]} .ar17w27h {@apply aspect-[17/27]} .ar17w28h {@apply aspect-[17/28]} .ar17w29h {@apply aspect-[17/29]} .ar17w30h {@apply aspect-[17/30]}
+
+    .ar18w1h {@apply aspect-[18/1]} .ar18w5h {@apply aspect-[18/5]} .ar18w7h {@apply aspect-[18/7]} .ar18w11h {@apply aspect-[18/11]} .ar18w13h {@apply aspect-[18/13]}
+    .ar18w17h {@apply aspect-[18/17]} .ar18w19h {@apply aspect-[18/19]} .ar18w23h {@apply aspect-[18/23]} .ar18w25h {@apply aspect-[18/25]} .ar18w29h {@apply aspect-[18/29]}
+
+    .ar19w1h {@apply aspect-[19/1]} .ar19w2h {@apply aspect-[19/2]} .ar19w3h {@apply aspect-[19/3]} .ar19w4h {@apply aspect-[19/4]}
+    .ar19w5h {@apply aspect-[19/5]} .ar19w6h {@apply aspect-[19/6]} .ar19w7h {@apply aspect-[19/7]} .ar19w8h {@apply aspect-[19/8]} .ar19w9h {@apply aspect-[19/9]}
+    .ar19w10h {@apply aspect-[19/10]} .ar19w11h {@apply aspect-[19/11]} .ar19w12h {@apply aspect-[19/12]} .ar19w13h {@apply aspect-[19/13]} .ar19w14h {@apply aspect-[19/14]}
+    .ar19w15h {@apply aspect-[19/15]} .ar19w16h {@apply aspect-[19/16]} .ar19w17h {@apply aspect-[19/17]} .ar19w18h {@apply aspect-[19/18]} .ar19w20h {@apply aspect-[19/20]}
+    .ar19w21h {@apply aspect-[19/21]} .ar19w22h {@apply aspect-[19/22]} .ar19w23h {@apply aspect-[19/23]} .ar19w24h {@apply aspect-[19/24]} .ar19w25h {@apply aspect-[19/25]}
+    .ar19w26h {@apply aspect-[19/26]} .ar19w27h {@apply aspect-[19/27]} .ar19w28h {@apply aspect-[19/28]} .ar19w29h {@apply aspect-[19/29]} .ar19w30h {@apply aspect-[19/30]}
+
+    .ar20w1h {@apply aspect-[20/1]} .ar20w3h {@apply aspect-[20/3]} .ar20w7h {@apply aspect-[20/7]} .ar20w9h {@apply aspect-[20/9]} .ar20w11h {@apply aspect-[20/11]} .ar20w13h {@apply aspect-[20/13]}
+    .ar20w17h {@apply aspect-[20/17]} .ar20w19h {@apply aspect-[20/19]} .ar20w21h {@apply aspect-[20/21]} .ar20w23h {@apply aspect-[20/23]} .ar20w27h {@apply aspect-[20/27]} .ar20w29h {@apply aspect-[20/29]}
+
+    .ar21w1h {@apply aspect-[21/1]} .ar21w2h {@apply aspect-[21/2]} .ar21w4h {@apply aspect-[21/4]} .ar21w5h {@apply aspect-[21/5]} .ar21w8h {@apply aspect-[21/8]} .ar21w10h {@apply aspect-[21/10]}
+    .ar21w11h {@apply aspect-[21/11]} .ar21w13h {@apply aspect-[21/13]} .ar21w16h {@apply aspect-[21/16]} .ar21w17h {@apply aspect-[21/17]} .ar21w19h {@apply aspect-[21/19]}
+    .ar21w20h {@apply aspect-[21/20]} .ar21w22h {@apply aspect-[21/22]} .ar21w23h {@apply aspect-[21/23]} .ar21w25h {@apply aspect-[21/25]} .ar21w26h {@apply aspect-[21/26]} .ar21w29h {@apply aspect-[21/29]} 
+    
+    .ar22w1h {@apply aspect-[22/1]} .ar22w3h {@apply aspect-[22/3]} .ar22w5h {@apply aspect-[22/5]} .ar22w7h {@apply aspect-[22/7]} .ar22w9h {@apply aspect-[22/9]} .ar22w13h {@apply aspect-[22/13]}
+    .ar22w15h {@apply aspect-[22/15]} .ar22w17h {@apply aspect-[22/17]} .ar22w19h {@apply aspect-[22/19]} .ar22w21h {@apply aspect-[22/21]} .ar22w23h {@apply aspect-[22/23]}
+    .ar22w25h {@apply aspect-[22/25]} .ar22w27h {@apply aspect-[22/27]} .ar22w29h {@apply aspect-[22/29]}
+
+    .ar23w1h {@apply aspect-[23/1]} .ar23w2h {@apply aspect-[23/2]} .ar23w3h {@apply aspect-[23/3]} .ar23w4h {@apply aspect-[23/4]} .ar23w5h {@apply aspect-[23/5]} .ar23w6h {@apply aspect-[23/6]}
+    .ar23w7h {@apply aspect-[23/7]} .ar23w8h {@apply aspect-[23/8]} .ar23w9h {@apply aspect-[23/9]} .ar23w10h {@apply aspect-[23/10]} .ar23w11h {@apply aspect-[23/11]} .ar23w12h {@apply aspect-[23/12]}
+    .ar23w13h {@apply aspect-[23/13]} .ar23w14h {@apply aspect-[23/14]} .ar23w15h {@apply aspect-[23/15]} .ar23w16h {@apply aspect-[23/16]} .ar23w17h {@apply aspect-[23/17]} .ar23w18h {@apply aspect-[23/18]}
+    .ar23w19h {@apply aspect-[23/19]} .ar23w20h {@apply aspect-[23/20]} .ar23w21h {@apply aspect-[23/21]} .ar23w22h {@apply aspect-[23/22]} .ar23w24h {@apply aspect-[23/24]} .ar23w25h {@apply aspect-[23/25]}
+    .ar23w26h {@apply aspect-[23/26]} .ar23w27h {@apply aspect-[23/27]} .ar23w28h {@apply aspect-[23/28]} .ar23w29h {@apply aspect-[23/29]} .ar23w30h {@apply aspect-[23/30]}
+
+    .ar24w1h {@apply aspect-[24/1]} .ar24w5h {@apply aspect-[24/5]} .ar24w7h {@apply aspect-[24/7]} .ar24w11h {@apply aspect-[24/11]} .ar24w13h {@apply aspect-[24/13]} .ar24w17h {@apply aspect-[24/17]}
+    .ar24w19h {@apply aspect-[24/19]} .ar24w23h {@apply aspect-[24/23]} .ar24w25h {@apply aspect-[24/25]} .ar24w29h {@apply aspect-[24/29]}
+
+    .ar25w1h {@apply aspect-[25/1]} .ar25w2h {@apply aspect-[25/2]} .ar25w3h {@apply aspect-[25/3]} .ar25w4h {@apply aspect-[25/4]} .ar25w6h {@apply aspect-[25/6]} .ar25w7h {@apply aspect-[25/7]}
+    .ar25w8h {@apply aspect-[25/8]} .ar25w9h {@apply aspect-[25/9]} .ar25w11h {@apply aspect-[25/11]} .ar25w12h {@apply aspect-[25/12]} .ar25w13h {@apply aspect-[25/13]} .ar25w14h {@apply aspect-[25/14]}
+    .ar25w16h {@apply aspect-[25/16]} .ar25w17h {@apply aspect-[25/17]} .ar25w18h {@apply aspect-[25/18]} .ar25w19h {@apply aspect-[25/19]} .ar25w21h {@apply aspect-[25/21]} .ar25w22h {@apply aspect-[25/22]}
+    .ar25w23h {@apply aspect-[25/23]} .ar25w24h {@apply aspect-[25/24]} .ar25w26h {@apply aspect-[25/26]} .ar25w27h {@apply aspect-[25/27]} .ar25w28h {@apply aspect-[25/28]} .ar25w29h {@apply aspect-[25/29]}
+
+    .ar26w1h {@apply aspect-[26/1]} .ar26w3h {@apply aspect-[26/3]} .ar26w5h {@apply aspect-[26/5]} .ar26w7h {@apply aspect-[26/7]}
+    .ar26w9h {@apply aspect-[26/9]} .ar26w11h {@apply aspect-[26/11]} .ar26w15h {@apply aspect-[26/15]} .ar26w17h {@apply aspect-[26/17]} .ar26w19h {@apply aspect-[26/19]}
+    .ar26w21h {@apply aspect-[26/21]} .ar26w23h {@apply aspect-[26/23]} .ar26w25h {@apply aspect-[26/25]} .ar26w27h {@apply aspect-[26/27]} .ar26w29h {@apply aspect-[26/29]}
+
+    .ar27w1h {@apply aspect-[27/1]} .ar27w2h {@apply aspect-[27/2]} .ar27w4h {@apply aspect-[27/4]} .ar27w5h {@apply aspect-[27/5]} .ar27w7h {@apply aspect-[27/7]}
+    .ar27w8h {@apply aspect-[27/8]} .ar27w10h {@apply aspect-[27/10]} .ar27w11h {@apply aspect-[27/11]} .ar27w13h {@apply aspect-[27/13]} .ar27w14h {@apply aspect-[27/14]}
+    .ar27w16h {@apply aspect-[27/16]} .ar27w17h {@apply aspect-[27/17]} .ar27w19h {@apply aspect-[27/19]} .ar27w20h {@apply aspect-[27/20]} .ar27w22h {@apply aspect-[27/22]}
+    .ar27w23h {@apply aspect-[27/23]} .ar27w25h {@apply aspect-[27/25]} .ar27w26h {@apply aspect-[27/26]} .ar27w28h {@apply aspect-[27/28]} .ar27w29h {@apply aspect-[27/29]}
+
+    .ar28w1h {@apply aspect-[28/1]} .ar28w3h {@apply aspect-[28/3]} .ar28w5h {@apply aspect-[28/5]} .ar28w9h {@apply aspect-[28/9]} .ar28w11h {@apply aspect-[28/11]}
+    .ar28w13h {@apply aspect-[28/13]} .ar28w15h {@apply aspect-[28/15]} .ar28w17h {@apply aspect-[28/17]} .ar28w19h {@apply aspect-[28/19]} .ar28w23h {@apply aspect-[28/23]}
+    .ar28w25h {@apply aspect-[28/25]} .ar28w27h {@apply aspect-[28/27]} .ar28w29h {@apply aspect-[28/29]}
+
+    .ar29w1h {@apply aspect-[29/1]} .ar29w2h {@apply aspect-[29/2]} .ar29w3h {@apply aspect-[29/3]} .ar29w4h {@apply aspect-[29/4]} .ar29w5h {@apply aspect-[29/5]} .ar29w6h {@apply aspect-[29/6]}
+    .ar29w7h {@apply aspect-[29/7]} .ar29w8h {@apply aspect-[29/8]} .ar29w9h {@apply aspect-[29/9]} .ar29w10h {@apply aspect-[29/10]} .ar29w11h {@apply aspect-[29/11]}
+    .ar29w12h {@apply aspect-[29/12]} .ar29w13h {@apply aspect-[29/13]} .ar29w14h {@apply aspect-[29/14]} .ar29w15h {@apply aspect-[29/15]} .ar29w16h {@apply aspect-[29/16]}
+    .ar29w17h {@apply aspect-[29/17]} .ar29w18h {@apply aspect-[29/18]} .ar29w19h {@apply aspect-[29/19]} .ar29w20h {@apply aspect-[29/20]} .ar29w21h {@apply aspect-[29/21]}
+    .ar29w22h {@apply aspect-[29/22]} .ar29w23h {@apply aspect-[29/23]} .ar29w24h {@apply aspect-[29/24]} .ar29w25h {@apply aspect-[29/25]} .ar29w26h {@apply aspect-[29/26]}
+    .ar29w27h {@apply aspect-[29/27]} .ar29w28h {@apply aspect-[29/28]} .ar29w30h {@apply aspect-[29/30]}
+
+    .ar30w1h {@apply aspect-[30/1]} .ar30w7h {@apply aspect-[30/7]} .ar30w11h {@apply aspect-[30/11]} .ar30w13h {@apply aspect-[30/13]}
+    .ar30w17h {@apply aspect-[30/17]} .ar30w19h {@apply aspect-[30/19]} .ar30w23h {@apply aspect-[30/23]} .ar30w29h {@apply aspect-[30/29]}
+}
+
+/* s = set()
+count = 0
+for i in range(1, 31):
+    for j in range(1, 31):
+        if i/j not in s:
+            count += 1
+            s.add(i/j)
+            tw = ".ar" + str(i) + "w" + str(j) + "h {@apply aspect-[" + str(i) + "/" + str(j) + "]}"
+            print(tw, end=" ") if count % 5 != 0 else print(tw)
+    print()
+print(count) */

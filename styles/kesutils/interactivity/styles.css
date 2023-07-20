@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 1. snap */
+@layer utilities {
+    .snapx {@apply snap-x} .snapy {@apply snap-y}
+    .snaps {@apply snap-start} .snape {@apply snap-end} .snapc {@apply snap-center}
+    .snapmand {@apply snap-mandatory}
+}
+
+/* 2. pointer events */
+@layer utilities {
+    .penone {@apply pointer-events-none} .peauto {@apply pointer-events-auto}
+}
+/* 3. cursor */
+@layer utilities {
+    .cursorp {@apply cursor-pointer} .cursorna {@apply cursor-not-allowed} .cursort {@apply cursor-text} .cursord {@apply cursor-default}
+}

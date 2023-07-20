@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {   /* height: 5-100vh */
+    .hs {@apply h-screen}
+    .h5s {@apply h-[5vh]} .h10s {@apply h-[10vh]} .h15s {@apply h-[15vh]} .h20s {@apply h-[20vh]} .h25s {@apply h-[25vh]}
+    .h30s {@apply h-[30vh]} .h35s {@apply h-[35vh]} .h40s {@apply h-[40vh]} .h45s {@apply h-[45vh]} .h50s {@apply h-[50vh]}
+    .h55s {@apply h-[55vh]} .h60s {@apply h-[60vh]} .h65s {@apply h-[65vh]} .h70s {@apply h-[70vh]} .h75s {@apply h-[75vh]}
+    .h80s {@apply h-[80vh]} .h85s {@apply h-[85vh]} .h90s {@apply h-[90vh]} .h95s {@apply h-[95vh]}
+}
+/* ".h" + str(i) + "s {@apply h-[" + str(i) + "vh]}" */
+
+@layer utilities {   /* max-height: 5-100vh */
+    .maxhs {@apply max-h-[100vw]}
+    .maxh5s {@apply max-h-[5vh]} .maxh10s {@apply max-h-[10vh]} .maxh15s {@apply max-h-[15vh]} .maxh20s {@apply max-h-[20vh]} .maxh25s {@apply max-h-[25vh]}
+    .maxh30s {@apply max-h-[30vh]} .maxh35s {@apply max-h-[35vh]} .maxh40s {@apply max-h-[40vh]} .maxh45s {@apply max-h-[45vh]} .maxh50s {@apply max-h-[50vh]}
+    .maxh55s {@apply max-h-[55vh]} .maxh60s {@apply max-h-[60vh]} .maxh65s {@apply max-h-[65vh]} .maxh70s {@apply max-h-[70vh]} .maxh75s {@apply max-h-[75vh]}
+    .maxh80s {@apply max-h-[80vh]} .maxh85s {@apply max-h-[85vh]} .maxh90s {@apply max-h-[90vh]} .maxh95s {@apply max-h-[95vh]}
+}
+/* ".maxh" + str(i) + "s {@apply max-h-[" + str(i) + "vh]}" */
+
+@layer utilities {   /* min-height: 5-100vh */
+    .minhs {@apply min-h-[100vw]}
+    .minh5s {@apply min-h-[5vh]} .minh10s {@apply min-h-[10vh]} .minh15s {@apply min-h-[15vh]} .minh20s {@apply min-h-[20vh]} .minh25s {@apply min-h-[25vh]}
+    .minh30s {@apply min-h-[30vh]} .minh35s {@apply min-h-[35vh]} .minh40s {@apply min-h-[40vh]} .minh45s {@apply min-h-[45vh]} .minh50s {@apply min-h-[50vh]}
+    .minh55s {@apply min-h-[55vh]} .minh60s {@apply min-h-[60vh]} .minh65s {@apply min-h-[65vh]} .minh70s {@apply min-h-[70vh]} .minh75s {@apply min-h-[75vh]}
+    .minh80s {@apply min-h-[80vh]} .minh85s {@apply min-h-[85vh]} .minh90s {@apply min-h-[90vh]} .minh95s {@apply min-h-[95vh]}
+}
+/* ".minh" + str(i) + "s {@apply min-h-[" + str(i) + "vh]}" */

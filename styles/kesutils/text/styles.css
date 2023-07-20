@@ -1,0 +1,40 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "fontsize.css";
+@import "lineheight.css";
+
+/* 1. text align */
+@layer utilities {
+    .tl {@apply text-left} .tr {@apply text-right} .tc {@apply text-center} .tj {@apply text-justify}
+}
+
+/* 2.1 italic */
+@layer utilities {
+    .titalic {@apply italic} .tnoitalic {@apply not-italic}
+}
+/* 2.2 bold (4 6 7) */
+@layer utilities {
+    .tb4 {@apply font-normal} .tb5 {@apply font-medium}
+    .tb6 {@apply font-semibold} .tb7 {@apply font-bold}
+    .tb1 {@apply font-thin} .tb2 {@apply font-extralight} .tb3 {@apply font-light} .tb8 {@apply font-extrabold} .tb9 {@apply font-black}
+}
+/* 2.3 line decoration */
+@layer utilities {
+    .tudl {@apply underline} .tovrl {@apply overline} .tstrikethru {@apply line-through}
+    .tdbludl {@apply tudl decoration-double} .tdblovrl {@apply tovrl decoration-double} .tdblstrikethru {@apply tstrikethru decoration-double}
+    .tdottedudl {@apply tudl decoration-dotted} .tdottedovrl {@apply tovrl decoration-dotted} .tdottedstrikethru {@apply tstrikethru decoration-dotted}
+    .tdashedudl {@apply tudl decoration-dashed} .tdashedovrl {@apply tovrl decoration-dashed} .tdashedstrikethru {@apply tstrikethru decoration-dashed}
+    .twavyudl {@apply tudl decoration-wavy} .twavyovrl {@apply tovrl decoration-wavy} .twavystrikethru {@apply tstrikethru decoration-wavy}
+}
+/* 2.4 letter case */
+@layer utilities {
+    .tupper {@apply uppercase} .tlower {@apply lowercase} .tcapital {@apply capitalize} .tnormalcase {@apply normal-case}
+}
+
+
+/* letter spacing */
+/* text overflow */
+/* indent */
+/* vertical align */

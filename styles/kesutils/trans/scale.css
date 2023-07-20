@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {   /* 0-500 */
+    .scale0 {@apply scale-0} .scale5 {@apply scale-[0.05]} .scale10 {@apply scale-[0.1]} .scale15 {@apply scale-[0.15]} .scale20 {@apply scale-[0.2]} .scale25 {@apply scale-[0.25]}
+    .scale30 {@apply scale-[0.3]} .scale35 {@apply scale-[0.35]} .scale40 {@apply scale-[0.4]} .scale45 {@apply scale-[0.45]} .scale50 {@apply scale-[0.5]}
+    .scale55 {@apply scale-[0.55]} .scale60 {@apply scale-[0.6]} .scale65 {@apply scale-[0.65]} .scale70 {@apply scale-[0.7]} .scale75 {@apply scale-[0.75]}
+    .scale80 {@apply scale-[0.8]} .scale85 {@apply scale-[0.85]} .scale90 {@apply scale-[0.9]} .scale95 {@apply scale-[0.95]} .scale100 {@apply scale-[1.0]}
+    .scale105 {@apply scale-[1.05]} .scale110 {@apply scale-[1.1]} .scale115 {@apply scale-[1.15]} .scale120 {@apply scale-[1.2]} .scale125 {@apply scale-[1.25]}
+    .scale130 {@apply scale-[1.3]} .scale135 {@apply scale-[1.35]} .scale140 {@apply scale-[1.4]} .scale145 {@apply scale-[1.45]} .scale150 {@apply scale-[1.5]}
+    .scale155 {@apply scale-[1.55]} .scale160 {@apply scale-[1.6]} .scale165 {@apply scale-[1.65]} .scale170 {@apply scale-[1.7]} .scale175 {@apply scale-[1.75]}
+    .scale180 {@apply scale-[1.8]} .scale185 {@apply scale-[1.85]} .scale190 {@apply scale-[1.9]} .scale195 {@apply scale-[1.95]} .scale200 {@apply scale-[2.0]}
+    .scale205 {@apply scale-[2.05]} .scale210 {@apply scale-[2.1]} .scale215 {@apply scale-[2.15]} .scale220 {@apply scale-[2.2]} .scale225 {@apply scale-[2.25]}
+    .scale230 {@apply scale-[2.3]} .scale235 {@apply scale-[2.35]} .scale240 {@apply scale-[2.4]} .scale245 {@apply scale-[2.45]} .scale250 {@apply scale-[2.5]}
+    .scale255 {@apply scale-[2.55]} .scale260 {@apply scale-[2.6]} .scale265 {@apply scale-[2.65]} .scale270 {@apply scale-[2.7]} .scale275 {@apply scale-[2.75]}
+    .scale280 {@apply scale-[2.8]} .scale285 {@apply scale-[2.85]} .scale290 {@apply scale-[2.9]} .scale295 {@apply scale-[2.95]} .scale300 {@apply scale-[3.0]}
+    .scale305 {@apply scale-[3.05]} .scale310 {@apply scale-[3.1]} .scale315 {@apply scale-[3.15]} .scale320 {@apply scale-[3.2]} .scale325 {@apply scale-[3.25]}
+    .scale330 {@apply scale-[3.3]} .scale335 {@apply scale-[3.35]} .scale340 {@apply scale-[3.4]} .scale345 {@apply scale-[3.45]} .scale350 {@apply scale-[3.5]}
+    .scale355 {@apply scale-[3.55]} .scale360 {@apply scale-[3.6]} .scale365 {@apply scale-[3.65]} .scale370 {@apply scale-[3.7]} .scale375 {@apply scale-[3.75]}
+    .scale380 {@apply scale-[3.8]} .scale385 {@apply scale-[3.85]} .scale390 {@apply scale-[3.9]} .scale395 {@apply scale-[3.95]} .scale400 {@apply scale-[4.0]}
+    .scale405 {@apply scale-[4.05]} .scale410 {@apply scale-[4.1]} .scale415 {@apply scale-[4.15]} .scale420 {@apply scale-[4.2]} .scale425 {@apply scale-[4.25]}
+    .scale430 {@apply scale-[4.3]} .scale435 {@apply scale-[4.35]} .scale440 {@apply scale-[4.4]} .scale445 {@apply scale-[4.45]} .scale450 {@apply scale-[4.5]}
+    .scale455 {@apply scale-[4.55]} .scale460 {@apply scale-[4.6]} .scale465 {@apply scale-[4.65]} .scale470 {@apply scale-[4.7]} .scale475 {@apply scale-[4.75]}
+    .scale480 {@apply scale-[4.8]} .scale485 {@apply scale-[4.85]} .scale490 {@apply scale-[4.9]} .scale495 {@apply scale-[4.95]} .scale500 {@apply scale-[5.0]}
+}
+/* ".scale" + str(i) + " {@apply scale-[" + str(i/100) + "]}" */
+
+@layer utilities {   /* x: 0-500 */
+    .scalex0 {@apply scale-x-0} .scalex5 {@apply scale-x-[0.05]} .scalex10 {@apply scale-x-[0.1]} .scalex15 {@apply scale-x-[0.15]} .scalex20 {@apply scale-x-[0.2]} .scalex25 {@apply scale-x-[0.25]}
+    .scalex30 {@apply scale-x-[0.3]} .scalex35 {@apply scale-x-[0.35]} .scalex40 {@apply scale-x-[0.4]} .scalex45 {@apply scale-x-[0.45]} .scalex50 {@apply scale-x-[0.5]}
+    .scalex55 {@apply scale-x-[0.55]} .scalex60 {@apply scale-x-[0.6]} .scalex65 {@apply scale-x-[0.65]} .scalex70 {@apply scale-x-[0.7]} .scalex75 {@apply scale-x-[0.75]}
+    .scalex80 {@apply scale-x-[0.8]} .scalex85 {@apply scale-x-[0.85]} .scalex90 {@apply scale-x-[0.9]} .scalex95 {@apply scale-x-[0.95]} .scalex100 {@apply scale-x-[1.0]}
+    .scalex105 {@apply scale-x-[1.05]} .scalex110 {@apply scale-x-[1.1]} .scalex115 {@apply scale-x-[1.15]} .scalex120 {@apply scale-x-[1.2]} .scalex125 {@apply scale-x-[1.25]}
+    .scalex130 {@apply scale-x-[1.3]} .scalex135 {@apply scale-x-[1.35]} .scalex140 {@apply scale-x-[1.4]} .scalex145 {@apply scale-x-[1.45]} .scalex150 {@apply scale-x-[1.5]}
+    .scalex155 {@apply scale-x-[1.55]} .scalex160 {@apply scale-x-[1.6]} .scalex165 {@apply scale-x-[1.65]} .scalex170 {@apply scale-x-[1.7]} .scalex175 {@apply scale-x-[1.75]}
+    .scalex180 {@apply scale-x-[1.8]} .scalex185 {@apply scale-x-[1.85]} .scalex190 {@apply scale-x-[1.9]} .scalex195 {@apply scale-x-[1.95]} .scalex200 {@apply scale-x-[2.0]}
+    .scalex205 {@apply scale-x-[2.05]} .scalex210 {@apply scale-x-[2.1]} .scalex215 {@apply scale-x-[2.15]} .scalex220 {@apply scale-x-[2.2]} .scalex225 {@apply scale-x-[2.25]}
+    .scalex230 {@apply scale-x-[2.3]} .scalex235 {@apply scale-x-[2.35]} .scalex240 {@apply scale-x-[2.4]} .scalex245 {@apply scale-x-[2.45]} .scalex250 {@apply scale-x-[2.5]}
+    .scalex255 {@apply scale-x-[2.55]} .scalex260 {@apply scale-x-[2.6]} .scalex265 {@apply scale-x-[2.65]} .scalex270 {@apply scale-x-[2.7]} .scalex275 {@apply scale-x-[2.75]}
+    .scalex280 {@apply scale-x-[2.8]} .scalex285 {@apply scale-x-[2.85]} .scalex290 {@apply scale-x-[2.9]} .scalex295 {@apply scale-x-[2.95]} .scalex300 {@apply scale-x-[3.0]}
+    .scalex305 {@apply scale-x-[3.05]} .scalex310 {@apply scale-x-[3.1]} .scalex315 {@apply scale-x-[3.15]} .scalex320 {@apply scale-x-[3.2]} .scalex325 {@apply scale-x-[3.25]}
+    .scalex330 {@apply scale-x-[3.3]} .scalex335 {@apply scale-x-[3.35]} .scalex340 {@apply scale-x-[3.4]} .scalex345 {@apply scale-x-[3.45]} .scalex350 {@apply scale-x-[3.5]}
+    .scalex355 {@apply scale-x-[3.55]} .scalex360 {@apply scale-x-[3.6]} .scalex365 {@apply scale-x-[3.65]} .scalex370 {@apply scale-x-[3.7]} .scalex375 {@apply scale-x-[3.75]}
+    .scalex380 {@apply scale-x-[3.8]} .scalex385 {@apply scale-x-[3.85]} .scalex390 {@apply scale-x-[3.9]} .scalex395 {@apply scale-x-[3.95]} .scalex400 {@apply scale-x-[4.0]}
+    .scalex405 {@apply scale-x-[4.05]} .scalex410 {@apply scale-x-[4.1]} .scalex415 {@apply scale-x-[4.15]} .scalex420 {@apply scale-x-[4.2]} .scalex425 {@apply scale-x-[4.25]}
+    .scalex430 {@apply scale-x-[4.3]} .scalex435 {@apply scale-x-[4.35]} .scalex440 {@apply scale-x-[4.4]} .scalex445 {@apply scale-x-[4.45]} .scalex450 {@apply scale-x-[4.5]}
+    .scalex455 {@apply scale-x-[4.55]} .scalex460 {@apply scale-x-[4.6]} .scalex465 {@apply scale-x-[4.65]} .scalex470 {@apply scale-x-[4.7]} .scalex475 {@apply scale-x-[4.75]}
+    .scalex480 {@apply scale-x-[4.8]} .scalex485 {@apply scale-x-[4.85]} .scalex490 {@apply scale-x-[4.9]} .scalex495 {@apply scale-x-[4.95]} .scalex500 {@apply scale-x-[5.0]}
+}
+/* ".scalex" + str(i) + " {@apply scale-x-[" + str(i/100) + "]}" */
+
+@layer utilities {   /* y: 0-500 */
+    .scaley0 {@apply scale-y-0} .scaley5 {@apply scale-y-[0.05]} .scaley10 {@apply scale-y-[0.1]} .scaley15 {@apply scale-y-[0.15]} .scaley20 {@apply scale-y-[0.2]} .scaley25 {@apply scale-y-[0.25]}
+    .scaley30 {@apply scale-y-[0.3]} .scaley35 {@apply scale-y-[0.35]} .scaley40 {@apply scale-y-[0.4]} .scaley45 {@apply scale-y-[0.45]} .scaley50 {@apply scale-y-[0.5]}
+    .scaley55 {@apply scale-y-[0.55]} .scaley60 {@apply scale-y-[0.6]} .scaley65 {@apply scale-y-[0.65]} .scaley70 {@apply scale-y-[0.7]} .scaley75 {@apply scale-y-[0.75]}
+    .scaley80 {@apply scale-y-[0.8]} .scaley85 {@apply scale-y-[0.85]} .scaley90 {@apply scale-y-[0.9]} .scaley95 {@apply scale-y-[0.95]} .scaley100 {@apply scale-y-[1.0]}
+    .scaley105 {@apply scale-y-[1.05]} .scaley110 {@apply scale-y-[1.1]} .scaley115 {@apply scale-y-[1.15]} .scaley120 {@apply scale-y-[1.2]} .scaley125 {@apply scale-y-[1.25]}
+    .scaley130 {@apply scale-y-[1.3]} .scaley135 {@apply scale-y-[1.35]} .scaley140 {@apply scale-y-[1.4]} .scaley145 {@apply scale-y-[1.45]} .scaley150 {@apply scale-y-[1.5]}
+    .scaley155 {@apply scale-y-[1.55]} .scaley160 {@apply scale-y-[1.6]} .scaley165 {@apply scale-y-[1.65]} .scaley170 {@apply scale-y-[1.7]} .scaley175 {@apply scale-y-[1.75]}
+    .scaley180 {@apply scale-y-[1.8]} .scaley185 {@apply scale-y-[1.85]} .scaley190 {@apply scale-y-[1.9]} .scaley195 {@apply scale-y-[1.95]} .scaley200 {@apply scale-y-[2.0]}
+    .scaley205 {@apply scale-y-[2.05]} .scaley210 {@apply scale-y-[2.1]} .scaley215 {@apply scale-y-[2.15]} .scaley220 {@apply scale-y-[2.2]} .scaley225 {@apply scale-y-[2.25]}
+    .scaley230 {@apply scale-y-[2.3]} .scaley235 {@apply scale-y-[2.35]} .scaley240 {@apply scale-y-[2.4]} .scaley245 {@apply scale-y-[2.45]} .scaley250 {@apply scale-y-[2.5]}
+    .scaley255 {@apply scale-y-[2.55]} .scaley260 {@apply scale-y-[2.6]} .scaley265 {@apply scale-y-[2.65]} .scaley270 {@apply scale-y-[2.7]} .scaley275 {@apply scale-y-[2.75]}
+    .scaley280 {@apply scale-y-[2.8]} .scaley285 {@apply scale-y-[2.85]} .scaley290 {@apply scale-y-[2.9]} .scaley295 {@apply scale-y-[2.95]} .scaley300 {@apply scale-y-[3.0]}
+    .scaley305 {@apply scale-y-[3.05]} .scaley310 {@apply scale-y-[3.1]} .scaley315 {@apply scale-y-[3.15]} .scaley320 {@apply scale-y-[3.2]} .scaley325 {@apply scale-y-[3.25]}
+    .scaley330 {@apply scale-y-[3.3]} .scaley335 {@apply scale-y-[3.35]} .scaley340 {@apply scale-y-[3.4]} .scaley345 {@apply scale-y-[3.45]} .scaley350 {@apply scale-y-[3.5]}
+    .scaley355 {@apply scale-y-[3.55]} .scaley360 {@apply scale-y-[3.6]} .scaley365 {@apply scale-y-[3.65]} .scaley370 {@apply scale-y-[3.7]} .scaley375 {@apply scale-y-[3.75]}
+    .scaley380 {@apply scale-y-[3.8]} .scaley385 {@apply scale-y-[3.85]} .scaley390 {@apply scale-y-[3.9]} .scaley395 {@apply scale-y-[3.95]} .scaley400 {@apply scale-y-[4.0]}
+    .scaley405 {@apply scale-y-[4.05]} .scaley410 {@apply scale-y-[4.1]} .scaley415 {@apply scale-y-[4.15]} .scaley420 {@apply scale-y-[4.2]} .scaley425 {@apply scale-y-[4.25]}
+    .scaley430 {@apply scale-y-[4.3]} .scaley435 {@apply scale-y-[4.35]} .scaley440 {@apply scale-y-[4.4]} .scaley445 {@apply scale-y-[4.45]} .scaley450 {@apply scale-y-[4.5]}
+    .scaley455 {@apply scale-y-[4.55]} .scaley460 {@apply scale-y-[4.6]} .scaley465 {@apply scale-y-[4.65]} .scaley470 {@apply scale-y-[4.7]} .scaley475 {@apply scale-y-[4.75]}
+    .scaley480 {@apply scale-y-[4.8]} .scaley485 {@apply scale-y-[4.85]} .scaley490 {@apply scale-y-[4.9]} .scaley495 {@apply scale-y-[4.95]} .scaley500 {@apply scale-y-[5.0]}
+}
+/* ".scaley" + str(i) + " {@apply scale-y-[" + str(i/100) + "]}" */

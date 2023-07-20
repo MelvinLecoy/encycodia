@@ -1,0 +1,14 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "heightpercent.css";
+@import "heightpx.css";
+@import "heightvh.css";
+
+
+@layer utilities {
+    .hfit {@apply h-fit} .hmincont {@apply h-min} .hmaxcont {@apply h-max}
+    .maxhfit {@apply max-h-fit} .maxhmincont {@apply max-h-min} .maxhmaxcont {@apply max-h-max} .maxhnone {@apply max-h-none}
+    .minhfit {@apply min-h-fit} .minhmincont {@apply min-h-min} .minhmaxcont {@apply min-h-max}
+}

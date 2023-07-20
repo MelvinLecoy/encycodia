@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 1. basics */
+@layer utilities {
+    .f {@apply flex} .fr {@apply flex-row} .fc {@apply flex-col}
+}
+/* 2. justify content: primary axis */
+@layer utilities {
+    .js {@apply justify-start} .je {@apply justify-end} .jc {@apply justify-center} .jb {@apply justify-between} .jeven {@apply justify-evenly} .jard {@apply justify-around}
+    .fjs {@apply f js} .fje {@apply f je} .fjc {@apply f jc} .fjb {@apply f jb} .fjeven {@apply f jeven} .fjard {@apply f jard}
+}
+/* 3. align items: secondary axis */
+@layer utilities {
+    .is {@apply items-start} .ie {@apply items-end} .ic {@apply items-center} .istretch {@apply items-stretch}
+    .fis {@apply f is} .fie {@apply f ie} .fic {@apply f ic} .fistretch {@apply f istretch}
+}
+/* 4. f + jc + ai */
+@layer utilities {
+    .fjsic {@apply f js ic} .fjsis {@apply f js is} .fjsie {@apply f js ie}
+    .fjeic {@apply f je ic} .fjeis {@apply f je is} .fjeie {@apply f je ie}
+    .fjcic {@apply f jc ic} .fjcis {@apply f jc is} .fjcie {@apply f jc ie}
+    .fjbic {@apply f jb ic} .fjbis {@apply f jb is} .fjbie {@apply f jb ie}
+    .fjevenic {@apply f jeven ic} .fjevenis {@apply f jeven is} .fjevenie {@apply f jeven ie}
+    .fjardic {@apply f jard ic} .fjardis {@apply f jard is} .fjardie {@apply f jard ie}
+}
+/* align self: put that on child container */
+@layer utilities {
+    .ss {@apply self-start} .se {@apply self-end} .sc {@apply self-center} .sstretch {@apply self-stretch} 
+}
+/* 5. flex wrap */
+@layer utilities {
+    .fwrap {@apply flex-wrap} .fnowrap {@apply flex-nowrap}
+}
+/* 6. span and shrink */
+@layer utilities {
+    .fshrink {@apply shrink} .fnoshrink {@apply shrink-0}  /* 6. flex shrink */
+    .fspan {@apply grow} .fnospan {@apply grow-0}          /* 7. flex grow */
+}
+
+/* flex basis */
+/* place content */

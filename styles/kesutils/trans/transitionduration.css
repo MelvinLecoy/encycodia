@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {   /* 25-75, 100-5000 */
+    .transdur25 {@apply duration-[25ms]} .transdur50 {@apply duration-[50ms]} .transdur75 {@apply duration-75}
+    .transdur100 {@apply duration-[100ms]} .transdur150 {@apply duration-[150ms]} .transdur200 {@apply duration-[200ms]} .transdur250 {@apply duration-[250ms]}
+    .transdur300 {@apply duration-[300ms]} .transdur350 {@apply duration-[350ms]} .transdur400 {@apply duration-[400ms]} .transdur450 {@apply duration-[450ms]} .transdur500 {@apply duration-[500ms]}
+    .transdur550 {@apply duration-[550ms]} .transdur600 {@apply duration-[600ms]} .transdur650 {@apply duration-[650ms]} .transdur700 {@apply duration-[700ms]} .transdur750 {@apply duration-[750ms]}
+    .transdur800 {@apply duration-[800ms]} .transdur850 {@apply duration-[850ms]} .transdur900 {@apply duration-[900ms]} .transdur950 {@apply duration-[950ms]} .transdur1000 {@apply duration-[1000ms]}
+    .transdur1050 {@apply duration-[1050ms]} .transdur1100 {@apply duration-[1100ms]} .transdur1150 {@apply duration-[1150ms]} .transdur1200 {@apply duration-[1200ms]} .transdur1250 {@apply duration-[1250ms]}
+    .transdur1300 {@apply duration-[1300ms]} .transdur1350 {@apply duration-[1350ms]} .transdur1400 {@apply duration-[1400ms]} .transdur1450 {@apply duration-[1450ms]} .transdur1500 {@apply duration-[1500ms]}
+    .transdur1550 {@apply duration-[1550ms]} .transdur1600 {@apply duration-[1600ms]} .transdur1650 {@apply duration-[1650ms]} .transdur1700 {@apply duration-[1700ms]} .transdur1750 {@apply duration-[1750ms]}
+    .transdur1800 {@apply duration-[1800ms]} .transdur1850 {@apply duration-[1850ms]} .transdur1900 {@apply duration-[1900ms]} .transdur1950 {@apply duration-[1950ms]} .transdur2000 {@apply duration-[2000ms]}
+    .transdur2050 {@apply duration-[2050ms]} .transdur2100 {@apply duration-[2100ms]} .transdur2150 {@apply duration-[2150ms]} .transdur2200 {@apply duration-[2200ms]} .transdur2250 {@apply duration-[2250ms]}
+    .transdur2300 {@apply duration-[2300ms]} .transdur2350 {@apply duration-[2350ms]} .transdur2400 {@apply duration-[2400ms]} .transdur2450 {@apply duration-[2450ms]} .transdur2500 {@apply duration-[2500ms]}
+    .transdur2550 {@apply duration-[2550ms]} .transdur2600 {@apply duration-[2600ms]} .transdur2650 {@apply duration-[2650ms]} .transdur2700 {@apply duration-[2700ms]} .transdur2750 {@apply duration-[2750ms]}
+    .transdur2800 {@apply duration-[2800ms]} .transdur2850 {@apply duration-[2850ms]} .transdur2900 {@apply duration-[2900ms]} .transdur2950 {@apply duration-[2950ms]} .transdur3000 {@apply duration-[3000ms]}
+    .transdur3050 {@apply duration-[3050ms]} .transdur3100 {@apply duration-[3100ms]} .transdur3150 {@apply duration-[3150ms]} .transdur3200 {@apply duration-[3200ms]} .transdur3250 {@apply duration-[3250ms]}
+    .transdur3300 {@apply duration-[3300ms]} .transdur3350 {@apply duration-[3350ms]} .transdur3400 {@apply duration-[3400ms]} .transdur3450 {@apply duration-[3450ms]} .transdur3500 {@apply duration-[3500ms]}
+    .transdur3550 {@apply duration-[3550ms]} .transdur3600 {@apply duration-[3600ms]} .transdur3650 {@apply duration-[3650ms]} .transdur3700 {@apply duration-[3700ms]} .transdur3750 {@apply duration-[3750ms]}
+    .transdur3800 {@apply duration-[3800ms]} .transdur3850 {@apply duration-[3850ms]} .transdur3900 {@apply duration-[3900ms]} .transdur3950 {@apply duration-[3950ms]} .transdur4000 {@apply duration-[4000ms]}
+    .transdur4050 {@apply duration-[4050ms]} .transdur4100 {@apply duration-[4100ms]} .transdur4150 {@apply duration-[4150ms]} .transdur4200 {@apply duration-[4200ms]} .transdur4250 {@apply duration-[4250ms]}
+    .transdur4300 {@apply duration-[4300ms]} .transdur4350 {@apply duration-[4350ms]} .transdur4400 {@apply duration-[4400ms]} .transdur4450 {@apply duration-[4450ms]} .transdur4500 {@apply duration-[4500ms]}
+    .transdur4550 {@apply duration-[4550ms]} .transdur4600 {@apply duration-[4600ms]} .transdur4650 {@apply duration-[4650ms]} .transdur4700 {@apply duration-[4700ms]} .transdur4750 {@apply duration-[4750ms]}
+    .transdur4800 {@apply duration-[4800ms]} .transdur4850 {@apply duration-[4850ms]} .transdur4900 {@apply duration-[4900ms]} .transdur4950 {@apply duration-[4950ms]} .transdur5000 {@apply duration-[5000ms]}
+}
+
+/* ".transdur" + str(i) + " {@apply duration-[" + str(i) + "ms]}" */

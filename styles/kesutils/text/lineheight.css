@@ -1,0 +1,204 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 3: 12 */
+/* 4: 16 */
+/* 5: 20 */
+/* 6: 24 */
+/* 7: 28 */
+/* 8: 32 */
+/* 9: 36 */
+/* 10: 40 */
+
+@layer utilities {   /* 1-500 */
+    .lh1 {@apply leading-[1px]} .lh2 {@apply leading-[2px]} .lh3 {@apply leading-[3px]} .lh4 {@apply leading-[4px]} .lh5 {@apply leading-[5px]}
+    .lh6 {@apply leading-[6px]} .lh7 {@apply leading-[7px]} .lh8 {@apply leading-[8px]} .lh9 {@apply leading-[9px]} .lh10 {@apply leading-[10px]}
+    .lh11 {@apply leading-[11px]} .lh12 {@apply leading-[12px]} .lh13 {@apply leading-[13px]} .lh14 {@apply leading-[14px]} .lh15 {@apply leading-[15px]}
+    .lh16 {@apply leading-[16px]} .lh17 {@apply leading-[17px]} .lh18 {@apply leading-[18px]} .lh19 {@apply leading-[19px]} .lh20 {@apply leading-[20px]}
+    .lh21 {@apply leading-[21px]} .lh22 {@apply leading-[22px]} .lh23 {@apply leading-[23px]} .lh24 {@apply leading-[24px]} .lh25 {@apply leading-[25px]}
+    .lh26 {@apply leading-[26px]} .lh27 {@apply leading-[27px]} .lh28 {@apply leading-[28px]} .lh29 {@apply leading-[29px]} .lh30 {@apply leading-[30px]}
+    .lh31 {@apply leading-[31px]} .lh32 {@apply leading-[32px]} .lh33 {@apply leading-[33px]} .lh34 {@apply leading-[34px]} .lh35 {@apply leading-[35px]}
+    .lh36 {@apply leading-[36px]} .lh37 {@apply leading-[37px]} .lh38 {@apply leading-[38px]} .lh39 {@apply leading-[39px]} .lh40 {@apply leading-[40px]}
+    .lh41 {@apply leading-[41px]} .lh42 {@apply leading-[42px]} .lh43 {@apply leading-[43px]} .lh44 {@apply leading-[44px]} .lh45 {@apply leading-[45px]}
+    .lh46 {@apply leading-[46px]} .lh47 {@apply leading-[47px]} .lh48 {@apply leading-[48px]} .lh49 {@apply leading-[49px]} .lh50 {@apply leading-[50px]}
+    .lh51 {@apply leading-[51px]} .lh52 {@apply leading-[52px]} .lh53 {@apply leading-[53px]} .lh54 {@apply leading-[54px]} .lh55 {@apply leading-[55px]}
+    .lh56 {@apply leading-[56px]} .lh57 {@apply leading-[57px]} .lh58 {@apply leading-[58px]} .lh59 {@apply leading-[59px]} .lh60 {@apply leading-[60px]}
+    .lh61 {@apply leading-[61px]} .lh62 {@apply leading-[62px]} .lh63 {@apply leading-[63px]} .lh64 {@apply leading-[64px]} .lh65 {@apply leading-[65px]}
+    .lh66 {@apply leading-[66px]} .lh67 {@apply leading-[67px]} .lh68 {@apply leading-[68px]} .lh69 {@apply leading-[69px]} .lh70 {@apply leading-[70px]}
+    .lh71 {@apply leading-[71px]} .lh72 {@apply leading-[72px]} .lh73 {@apply leading-[73px]} .lh74 {@apply leading-[74px]} .lh75 {@apply leading-[75px]}
+    .lh76 {@apply leading-[76px]} .lh77 {@apply leading-[77px]} .lh78 {@apply leading-[78px]} .lh79 {@apply leading-[79px]} .lh80 {@apply leading-[80px]}
+    .lh81 {@apply leading-[81px]} .lh82 {@apply leading-[82px]} .lh83 {@apply leading-[83px]} .lh84 {@apply leading-[84px]} .lh85 {@apply leading-[85px]}
+    .lh86 {@apply leading-[86px]} .lh87 {@apply leading-[87px]} .lh88 {@apply leading-[88px]} .lh89 {@apply leading-[89px]} .lh90 {@apply leading-[90px]}
+    .lh91 {@apply leading-[91px]} .lh92 {@apply leading-[92px]} .lh93 {@apply leading-[93px]} .lh94 {@apply leading-[94px]} .lh95 {@apply leading-[95px]}
+    .lh96 {@apply leading-[96px]} .lh97 {@apply leading-[97px]} .lh98 {@apply leading-[98px]} .lh99 {@apply leading-[99px]} .lh100 {@apply leading-[100px]}
+    .lh101 {@apply leading-[101px]} .lh102 {@apply leading-[102px]} .lh103 {@apply leading-[103px]} .lh104 {@apply leading-[104px]} .lh105 {@apply leading-[105px]}
+    .lh106 {@apply leading-[106px]} .lh107 {@apply leading-[107px]} .lh108 {@apply leading-[108px]} .lh109 {@apply leading-[109px]} .lh110 {@apply leading-[110px]}
+    .lh111 {@apply leading-[111px]} .lh112 {@apply leading-[112px]} .lh113 {@apply leading-[113px]} .lh114 {@apply leading-[114px]} .lh115 {@apply leading-[115px]}
+    .lh116 {@apply leading-[116px]} .lh117 {@apply leading-[117px]} .lh118 {@apply leading-[118px]} .lh119 {@apply leading-[119px]} .lh120 {@apply leading-[120px]}
+    .lh121 {@apply leading-[121px]} .lh122 {@apply leading-[122px]} .lh123 {@apply leading-[123px]} .lh124 {@apply leading-[124px]} .lh125 {@apply leading-[125px]}
+    .lh126 {@apply leading-[126px]} .lh127 {@apply leading-[127px]} .lh128 {@apply leading-[128px]} .lh129 {@apply leading-[129px]} .lh130 {@apply leading-[130px]}
+    .lh131 {@apply leading-[131px]} .lh132 {@apply leading-[132px]} .lh133 {@apply leading-[133px]} .lh134 {@apply leading-[134px]} .lh135 {@apply leading-[135px]}
+    .lh136 {@apply leading-[136px]} .lh137 {@apply leading-[137px]} .lh138 {@apply leading-[138px]} .lh139 {@apply leading-[139px]} .lh140 {@apply leading-[140px]}
+    .lh141 {@apply leading-[141px]} .lh142 {@apply leading-[142px]} .lh143 {@apply leading-[143px]} .lh144 {@apply leading-[144px]} .lh145 {@apply leading-[145px]}
+    .lh146 {@apply leading-[146px]} .lh147 {@apply leading-[147px]} .lh148 {@apply leading-[148px]} .lh149 {@apply leading-[149px]} .lh150 {@apply leading-[150px]}
+    .lh151 {@apply leading-[151px]} .lh152 {@apply leading-[152px]} .lh153 {@apply leading-[153px]} .lh154 {@apply leading-[154px]} .lh155 {@apply leading-[155px]}
+    .lh156 {@apply leading-[156px]} .lh157 {@apply leading-[157px]} .lh158 {@apply leading-[158px]} .lh159 {@apply leading-[159px]} .lh160 {@apply leading-[160px]}
+    .lh161 {@apply leading-[161px]} .lh162 {@apply leading-[162px]} .lh163 {@apply leading-[163px]} .lh164 {@apply leading-[164px]} .lh165 {@apply leading-[165px]}
+    .lh166 {@apply leading-[166px]} .lh167 {@apply leading-[167px]} .lh168 {@apply leading-[168px]} .lh169 {@apply leading-[169px]} .lh170 {@apply leading-[170px]}
+    .lh171 {@apply leading-[171px]} .lh172 {@apply leading-[172px]} .lh173 {@apply leading-[173px]} .lh174 {@apply leading-[174px]} .lh175 {@apply leading-[175px]}
+    .lh176 {@apply leading-[176px]} .lh177 {@apply leading-[177px]} .lh178 {@apply leading-[178px]} .lh179 {@apply leading-[179px]} .lh180 {@apply leading-[180px]}
+    .lh181 {@apply leading-[181px]} .lh182 {@apply leading-[182px]} .lh183 {@apply leading-[183px]} .lh184 {@apply leading-[184px]} .lh185 {@apply leading-[185px]}
+    .lh186 {@apply leading-[186px]} .lh187 {@apply leading-[187px]} .lh188 {@apply leading-[188px]} .lh189 {@apply leading-[189px]} .lh190 {@apply leading-[190px]}
+    .lh191 {@apply leading-[191px]} .lh192 {@apply leading-[192px]} .lh193 {@apply leading-[193px]} .lh194 {@apply leading-[194px]} .lh195 {@apply leading-[195px]}
+    .lh196 {@apply leading-[196px]} .lh197 {@apply leading-[197px]} .lh198 {@apply leading-[198px]} .lh199 {@apply leading-[199px]} .lh200 {@apply leading-[200px]}
+    .lh201 {@apply leading-[201px]} .lh202 {@apply leading-[202px]} .lh203 {@apply leading-[203px]} .lh204 {@apply leading-[204px]} .lh205 {@apply leading-[205px]}
+    .lh206 {@apply leading-[206px]} .lh207 {@apply leading-[207px]} .lh208 {@apply leading-[208px]} .lh209 {@apply leading-[209px]} .lh210 {@apply leading-[210px]}
+    .lh211 {@apply leading-[211px]} .lh212 {@apply leading-[212px]} .lh213 {@apply leading-[213px]} .lh214 {@apply leading-[214px]} .lh215 {@apply leading-[215px]}
+    .lh216 {@apply leading-[216px]} .lh217 {@apply leading-[217px]} .lh218 {@apply leading-[218px]} .lh219 {@apply leading-[219px]} .lh220 {@apply leading-[220px]}
+    .lh221 {@apply leading-[221px]} .lh222 {@apply leading-[222px]} .lh223 {@apply leading-[223px]} .lh224 {@apply leading-[224px]} .lh225 {@apply leading-[225px]}
+    .lh226 {@apply leading-[226px]} .lh227 {@apply leading-[227px]} .lh228 {@apply leading-[228px]} .lh229 {@apply leading-[229px]} .lh230 {@apply leading-[230px]}
+    .lh231 {@apply leading-[231px]} .lh232 {@apply leading-[232px]} .lh233 {@apply leading-[233px]} .lh234 {@apply leading-[234px]} .lh235 {@apply leading-[235px]}
+    .lh236 {@apply leading-[236px]} .lh237 {@apply leading-[237px]} .lh238 {@apply leading-[238px]} .lh239 {@apply leading-[239px]} .lh240 {@apply leading-[240px]}
+    .lh241 {@apply leading-[241px]} .lh242 {@apply leading-[242px]} .lh243 {@apply leading-[243px]} .lh244 {@apply leading-[244px]} .lh245 {@apply leading-[245px]}
+    .lh246 {@apply leading-[246px]} .lh247 {@apply leading-[247px]} .lh248 {@apply leading-[248px]} .lh249 {@apply leading-[249px]} .lh250 {@apply leading-[250px]}
+    .lh251 {@apply leading-[251px]} .lh252 {@apply leading-[252px]} .lh253 {@apply leading-[253px]} .lh254 {@apply leading-[254px]} .lh255 {@apply leading-[255px]}
+    .lh256 {@apply leading-[256px]} .lh257 {@apply leading-[257px]} .lh258 {@apply leading-[258px]} .lh259 {@apply leading-[259px]} .lh260 {@apply leading-[260px]}
+    .lh261 {@apply leading-[261px]} .lh262 {@apply leading-[262px]} .lh263 {@apply leading-[263px]} .lh264 {@apply leading-[264px]} .lh265 {@apply leading-[265px]}
+    .lh266 {@apply leading-[266px]} .lh267 {@apply leading-[267px]} .lh268 {@apply leading-[268px]} .lh269 {@apply leading-[269px]} .lh270 {@apply leading-[270px]}
+    .lh271 {@apply leading-[271px]} .lh272 {@apply leading-[272px]} .lh273 {@apply leading-[273px]} .lh274 {@apply leading-[274px]} .lh275 {@apply leading-[275px]}
+    .lh276 {@apply leading-[276px]} .lh277 {@apply leading-[277px]} .lh278 {@apply leading-[278px]} .lh279 {@apply leading-[279px]} .lh280 {@apply leading-[280px]}
+    .lh281 {@apply leading-[281px]} .lh282 {@apply leading-[282px]} .lh283 {@apply leading-[283px]} .lh284 {@apply leading-[284px]} .lh285 {@apply leading-[285px]}
+    .lh286 {@apply leading-[286px]} .lh287 {@apply leading-[287px]} .lh288 {@apply leading-[288px]} .lh289 {@apply leading-[289px]} .lh290 {@apply leading-[290px]}
+    .lh291 {@apply leading-[291px]} .lh292 {@apply leading-[292px]} .lh293 {@apply leading-[293px]} .lh294 {@apply leading-[294px]} .lh295 {@apply leading-[295px]}
+    .lh296 {@apply leading-[296px]} .lh297 {@apply leading-[297px]} .lh298 {@apply leading-[298px]} .lh299 {@apply leading-[299px]} .lh300 {@apply leading-[300px]}
+    .lh301 {@apply leading-[301px]} .lh302 {@apply leading-[302px]} .lh303 {@apply leading-[303px]} .lh304 {@apply leading-[304px]} .lh305 {@apply leading-[305px]}
+    .lh306 {@apply leading-[306px]} .lh307 {@apply leading-[307px]} .lh308 {@apply leading-[308px]} .lh309 {@apply leading-[309px]} .lh310 {@apply leading-[310px]}
+    .lh311 {@apply leading-[311px]} .lh312 {@apply leading-[312px]} .lh313 {@apply leading-[313px]} .lh314 {@apply leading-[314px]} .lh315 {@apply leading-[315px]}
+    .lh316 {@apply leading-[316px]} .lh317 {@apply leading-[317px]} .lh318 {@apply leading-[318px]} .lh319 {@apply leading-[319px]} .lh320 {@apply leading-[320px]}
+    .lh321 {@apply leading-[321px]} .lh322 {@apply leading-[322px]} .lh323 {@apply leading-[323px]} .lh324 {@apply leading-[324px]} .lh325 {@apply leading-[325px]}
+    .lh326 {@apply leading-[326px]} .lh327 {@apply leading-[327px]} .lh328 {@apply leading-[328px]} .lh329 {@apply leading-[329px]} .lh330 {@apply leading-[330px]}
+    .lh331 {@apply leading-[331px]} .lh332 {@apply leading-[332px]} .lh333 {@apply leading-[333px]} .lh334 {@apply leading-[334px]} .lh335 {@apply leading-[335px]}
+    .lh336 {@apply leading-[336px]} .lh337 {@apply leading-[337px]} .lh338 {@apply leading-[338px]} .lh339 {@apply leading-[339px]} .lh340 {@apply leading-[340px]}
+    .lh341 {@apply leading-[341px]} .lh342 {@apply leading-[342px]} .lh343 {@apply leading-[343px]} .lh344 {@apply leading-[344px]} .lh345 {@apply leading-[345px]}
+    .lh346 {@apply leading-[346px]} .lh347 {@apply leading-[347px]} .lh348 {@apply leading-[348px]} .lh349 {@apply leading-[349px]} .lh350 {@apply leading-[350px]}
+    .lh351 {@apply leading-[351px]} .lh352 {@apply leading-[352px]} .lh353 {@apply leading-[353px]} .lh354 {@apply leading-[354px]} .lh355 {@apply leading-[355px]}
+    .lh356 {@apply leading-[356px]} .lh357 {@apply leading-[357px]} .lh358 {@apply leading-[358px]} .lh359 {@apply leading-[359px]} .lh360 {@apply leading-[360px]}
+    .lh361 {@apply leading-[361px]} .lh362 {@apply leading-[362px]} .lh363 {@apply leading-[363px]} .lh364 {@apply leading-[364px]} .lh365 {@apply leading-[365px]}
+    .lh366 {@apply leading-[366px]} .lh367 {@apply leading-[367px]} .lh368 {@apply leading-[368px]} .lh369 {@apply leading-[369px]} .lh370 {@apply leading-[370px]}
+    .lh371 {@apply leading-[371px]} .lh372 {@apply leading-[372px]} .lh373 {@apply leading-[373px]} .lh374 {@apply leading-[374px]} .lh375 {@apply leading-[375px]}
+    .lh376 {@apply leading-[376px]} .lh377 {@apply leading-[377px]} .lh378 {@apply leading-[378px]} .lh379 {@apply leading-[379px]} .lh380 {@apply leading-[380px]}
+    .lh381 {@apply leading-[381px]} .lh382 {@apply leading-[382px]} .lh383 {@apply leading-[383px]} .lh384 {@apply leading-[384px]} .lh385 {@apply leading-[385px]}
+    .lh386 {@apply leading-[386px]} .lh387 {@apply leading-[387px]} .lh388 {@apply leading-[388px]} .lh389 {@apply leading-[389px]} .lh390 {@apply leading-[390px]}
+    .lh391 {@apply leading-[391px]} .lh392 {@apply leading-[392px]} .lh393 {@apply leading-[393px]} .lh394 {@apply leading-[394px]} .lh395 {@apply leading-[395px]}
+    .lh396 {@apply leading-[396px]} .lh397 {@apply leading-[397px]} .lh398 {@apply leading-[398px]} .lh399 {@apply leading-[399px]} .lh400 {@apply leading-[400px]}
+    .lh401 {@apply leading-[401px]} .lh402 {@apply leading-[402px]} .lh403 {@apply leading-[403px]} .lh404 {@apply leading-[404px]} .lh405 {@apply leading-[405px]}
+    .lh406 {@apply leading-[406px]} .lh407 {@apply leading-[407px]} .lh408 {@apply leading-[408px]} .lh409 {@apply leading-[409px]} .lh410 {@apply leading-[410px]}
+    .lh411 {@apply leading-[411px]} .lh412 {@apply leading-[412px]} .lh413 {@apply leading-[413px]} .lh414 {@apply leading-[414px]} .lh415 {@apply leading-[415px]}
+    .lh416 {@apply leading-[416px]} .lh417 {@apply leading-[417px]} .lh418 {@apply leading-[418px]} .lh419 {@apply leading-[419px]} .lh420 {@apply leading-[420px]}
+    .lh421 {@apply leading-[421px]} .lh422 {@apply leading-[422px]} .lh423 {@apply leading-[423px]} .lh424 {@apply leading-[424px]} .lh425 {@apply leading-[425px]}
+    .lh426 {@apply leading-[426px]} .lh427 {@apply leading-[427px]} .lh428 {@apply leading-[428px]} .lh429 {@apply leading-[429px]} .lh430 {@apply leading-[430px]}
+    .lh431 {@apply leading-[431px]} .lh432 {@apply leading-[432px]} .lh433 {@apply leading-[433px]} .lh434 {@apply leading-[434px]} .lh435 {@apply leading-[435px]}
+    .lh436 {@apply leading-[436px]} .lh437 {@apply leading-[437px]} .lh438 {@apply leading-[438px]} .lh439 {@apply leading-[439px]} .lh440 {@apply leading-[440px]}
+    .lh441 {@apply leading-[441px]} .lh442 {@apply leading-[442px]} .lh443 {@apply leading-[443px]} .lh444 {@apply leading-[444px]} .lh445 {@apply leading-[445px]}
+    .lh446 {@apply leading-[446px]} .lh447 {@apply leading-[447px]} .lh448 {@apply leading-[448px]} .lh449 {@apply leading-[449px]} .lh450 {@apply leading-[450px]}
+    .lh451 {@apply leading-[451px]} .lh452 {@apply leading-[452px]} .lh453 {@apply leading-[453px]} .lh454 {@apply leading-[454px]} .lh455 {@apply leading-[455px]}
+    .lh456 {@apply leading-[456px]} .lh457 {@apply leading-[457px]} .lh458 {@apply leading-[458px]} .lh459 {@apply leading-[459px]} .lh460 {@apply leading-[460px]}
+    .lh461 {@apply leading-[461px]} .lh462 {@apply leading-[462px]} .lh463{@apply leading-[463px]} .lh464 {@apply leading-[464px]} .lh465 {@apply leading-[465px]}
+    .lh466 {@apply leading-[466px]} .lh467 {@apply leading-[467px]} .lh468 {@apply leading-[468px]} .lh469 {@apply leading-[469px]} .lh470 {@apply leading-[470px]}
+    .lh471 {@apply leading-[471px]} .lh472 {@apply leading-[472px]} .lh473 {@apply leading-[473px]} .lh474 {@apply leading-[474px]} .lh475 {@apply leading-[475px]}
+    .lh476 {@apply leading-[476px]} .lh477 {@apply leading-[477px]} .lh478 {@apply leading-[478px]} .lh479 {@apply leading-[479px]} .lh480 {@apply leading-[480px]}
+    .lh481 {@apply leading-[481px]} .lh482 {@apply leading-[482px]} .lh483 {@apply leading-[483px]} .lh484 {@apply leading-[484px]} .lh485 {@apply leading-[485px]}
+    .lh486 {@apply leading-[486px]} .lh487 {@apply leading-[487px]} .lh488 {@apply leading-[488px]} .lh489 {@apply leading-[489px]} .lh490 {@apply leading-[490px]}
+    .lh491 {@apply leading-[491px]} .lh492 {@apply leading-[492px]} .lh493 {@apply leading-[493px]} .lh494 {@apply leading-[494px]} .lh495 {@apply leading-[495px]}
+    .lh496 {@apply leading-[496px]} .lh497 {@apply leading-[497px]} .lh498 {@apply leading-[498px]} .lh499 {@apply leading-[499px]} .lh500 {@apply leading-[500px]}
+}
+/* ".lh" + str(i) + " {@apply leading-[" + str(i) + "px]}" */
+
+
+@layer utilities {   /* 0.5-2.5 */
+    .lh0_5 {@apply leading-[0.5]} .lh0_505 {@apply leading-[0.505]} .lh0_51 {@apply leading-[0.51]} .lh0_515 {@apply leading-[0.515]} .lh0_52 {@apply leading-[0.52]} .lh0_525 {@apply leading-[0.525]}
+    .lh0_53 {@apply leading-[0.53]} .lh0_535 {@apply leading-[0.535]} .lh0_54 {@apply leading-[0.54]} .lh0_545 {@apply leading-[0.545]} .lh0_55 {@apply leading-[0.55]}
+    .lh0_555 {@apply leading-[0.555]} .lh0_56 {@apply leading-[0.56]} .lh0_565 {@apply leading-[0.565]} .lh0_57 {@apply leading-[0.57]} .lh0_575 {@apply leading-[0.575]}
+    .lh0_58 {@apply leading-[0.58]} .lh0_585 {@apply leading-[0.585]} .lh0_59 {@apply leading-[0.59]} .lh0_595 {@apply leading-[0.595]} .lh0_6 {@apply leading-[0.6]}
+    .lh0_605 {@apply leading-[0.605]} .lh0_61 {@apply leading-[0.61]} .lh0_615 {@apply leading-[0.615]} .lh0_62 {@apply leading-[0.62]} .lh0_625 {@apply leading-[0.625]}
+    .lh0_63 {@apply leading-[0.63]} .lh0_635 {@apply leading-[0.635]} .lh0_64 {@apply leading-[0.64]} .lh0_645 {@apply leading-[0.645]} .lh0_65 {@apply leading-[0.65]}
+    .lh0_655 {@apply leading-[0.655]} .lh0_66 {@apply leading-[0.66]} .lh0_665 {@apply leading-[0.665]} .lh0_67 {@apply leading-[0.67]} .lh0_675 {@apply leading-[0.675]}
+    .lh0_68 {@apply leading-[0.68]} .lh0_685 {@apply leading-[0.685]} .lh0_69 {@apply leading-[0.69]} .lh0_695 {@apply leading-[0.695]} .lh0_7 {@apply leading-[0.7]}
+    .lh0_705 {@apply leading-[0.705]} .lh0_71 {@apply leading-[0.71]} .lh0_715 {@apply leading-[0.715]} .lh0_72 {@apply leading-[0.72]} .lh0_725 {@apply leading-[0.725]}
+    .lh0_73 {@apply leading-[0.73]} .lh0_735 {@apply leading-[0.735]} .lh0_74 {@apply leading-[0.74]} .lh0_745 {@apply leading-[0.745]} .lh0_75 {@apply leading-[0.75]}
+    .lh0_755 {@apply leading-[0.755]} .lh0_76 {@apply leading-[0.76]} .lh0_765 {@apply leading-[0.765]} .lh0_77 {@apply leading-[0.77]} .lh0_775 {@apply leading-[0.775]}
+    .lh0_78 {@apply leading-[0.78]} .lh0_785 {@apply leading-[0.785]} .lh0_79 {@apply leading-[0.79]} .lh0_795 {@apply leading-[0.795]} .lh0_8 {@apply leading-[0.8]}
+    .lh0_805 {@apply leading-[0.805]} .lh0_81 {@apply leading-[0.81]} .lh0_815 {@apply leading-[0.815]} .lh0_82 {@apply leading-[0.82]} .lh0_825 {@apply leading-[0.825]}
+    .lh0_83 {@apply leading-[0.83]} .lh0_835 {@apply leading-[0.835]} .lh0_84 {@apply leading-[0.84]} .lh0_845 {@apply leading-[0.845]} .lh0_85 {@apply leading-[0.85]}
+    .lh0_855 {@apply leading-[0.855]} .lh0_86 {@apply leading-[0.86]} .lh0_865 {@apply leading-[0.865]} .lh0_87 {@apply leading-[0.87]} .lh0_875 {@apply leading-[0.875]}
+    .lh0_88 {@apply leading-[0.88]} .lh0_885 {@apply leading-[0.885]} .lh0_89 {@apply leading-[0.89]} .lh0_895 {@apply leading-[0.895]} .lh0_9 {@apply leading-[0.9]}
+    .lh0_905 {@apply leading-[0.905]} .lh0_91 {@apply leading-[0.91]} .lh0_915 {@apply leading-[0.915]} .lh0_92 {@apply leading-[0.92]} .lh0_925 {@apply leading-[0.925]}
+    .lh0_93 {@apply leading-[0.93]} .lh0_935 {@apply leading-[0.935]} .lh0_94 {@apply leading-[0.94]} .lh0_945 {@apply leading-[0.945]} .lh0_95 {@apply leading-[0.95]}
+    .lh0_955 {@apply leading-[0.955]} .lh0_96 {@apply leading-[0.96]} .lh0_965 {@apply leading-[0.965]} .lh0_97 {@apply leading-[0.97]} .lh0_975 {@apply leading-[0.975]}
+    .lh0_98 {@apply leading-[0.98]} .lh0_985 {@apply leading-[0.985]} .lh0_99 {@apply leading-[0.99]} .lh0_995 {@apply leading-[0.995]} .lh1_0 {@apply leading-[1.0]}
+    .lh1_005 {@apply leading-[1.005]} .lh1_01 {@apply leading-[1.01]} .lh1_015 {@apply leading-[1.015]} .lh1_02 {@apply leading-[1.02]} .lh1_025 {@apply leading-[1.025]}
+    .lh1_03 {@apply leading-[1.03]} .lh1_035 {@apply leading-[1.035]} .lh1_04 {@apply leading-[1.04]} .lh1_045 {@apply leading-[1.045]} .lh1_05 {@apply leading-[1.05]}
+    .lh1_055 {@apply leading-[1.055]} .lh1_06 {@apply leading-[1.06]} .lh1_065 {@apply leading-[1.065]} .lh1_07 {@apply leading-[1.07]} .lh1_075 {@apply leading-[1.075]}
+    .lh1_08 {@apply leading-[1.08]} .lh1_085 {@apply leading-[1.085]} .lh1_09 {@apply leading-[1.09]} .lh1_095 {@apply leading-[1.095]} .lh1_1 {@apply leading-[1.1]}
+    .lh1_105 {@apply leading-[1.105]} .lh1_11 {@apply leading-[1.11]} .lh1_115 {@apply leading-[1.115]} .lh1_12 {@apply leading-[1.12]} .lh1_125 {@apply leading-[1.125]}
+    .lh1_13 {@apply leading-[1.13]} .lh1_135 {@apply leading-[1.135]} .lh1_14 {@apply leading-[1.14]} .lh1_145 {@apply leading-[1.145]} .lh1_15 {@apply leading-[1.15]}
+    .lh1_155 {@apply leading-[1.155]} .lh1_16 {@apply leading-[1.16]} .lh1_165 {@apply leading-[1.165]} .lh1_17 {@apply leading-[1.17]} .lh1_175 {@apply leading-[1.175]}
+    .lh1_18 {@apply leading-[1.18]} .lh1_185 {@apply leading-[1.185]} .lh1_19 {@apply leading-[1.19]} .lh1_195 {@apply leading-[1.195]} .lh1_2 {@apply leading-[1.2]}
+    .lh1_205 {@apply leading-[1.205]} .lh1_21 {@apply leading-[1.21]} .lh1_215 {@apply leading-[1.215]} .lh1_22 {@apply leading-[1.22]} .lh1_225 {@apply leading-[1.225]}
+    .lh1_23 {@apply leading-[1.23]} .lh1_235 {@apply leading-[1.235]} .lh1_24 {@apply leading-[1.24]} .lh1_245 {@apply leading-[1.245]} .lh1_25 {@apply leading-[1.25]}
+    .lh1_255 {@apply leading-[1.255]} .lh1_26 {@apply leading-[1.26]} .lh1_265 {@apply leading-[1.265]} .lh1_27 {@apply leading-[1.27]} .lh1_275 {@apply leading-[1.275]}
+    .lh1_28 {@apply leading-[1.28]} .lh1_285 {@apply leading-[1.285]} .lh1_29 {@apply leading-[1.29]} .lh1_295 {@apply leading-[1.295]} .lh1_3 {@apply leading-[1.3]}
+    .lh1_305 {@apply leading-[1.305]} .lh1_31 {@apply leading-[1.31]} .lh1_315 {@apply leading-[1.315]} .lh1_32 {@apply leading-[1.32]} .lh1_325 {@apply leading-[1.325]}
+    .lh1_33 {@apply leading-[1.33]} .lh1_335 {@apply leading-[1.335]} .lh1_34 {@apply leading-[1.34]} .lh1_345 {@apply leading-[1.345]} .lh1_35 {@apply leading-[1.35]}
+    .lh1_355 {@apply leading-[1.355]} .lh1_36 {@apply leading-[1.36]} .lh1_365 {@apply leading-[1.365]} .lh1_37 {@apply leading-[1.37]} .lh1_375 {@apply leading-[1.375]}
+    .lh1_38 {@apply leading-[1.38]} .lh1_385 {@apply leading-[1.385]} .lh1_39 {@apply leading-[1.39]} .lh1_395 {@apply leading-[1.395]} .lh1_4 {@apply leading-[1.4]}
+    .lh1_405 {@apply leading-[1.405]} .lh1_41 {@apply leading-[1.41]} .lh1_415 {@apply leading-[1.415]} .lh1_42 {@apply leading-[1.42]} .lh1_425 {@apply leading-[1.425]}
+    .lh1_43 {@apply leading-[1.43]} .lh1_435 {@apply leading-[1.435]} .lh1_44 {@apply leading-[1.44]} .lh1_445 {@apply leading-[1.445]} .lh1_45 {@apply leading-[1.45]}
+    .lh1_455 {@apply leading-[1.455]} .lh1_46 {@apply leading-[1.46]} .lh1_465 {@apply leading-[1.465]} .lh1_47 {@apply leading-[1.47]} .lh1_475 {@apply leading-[1.475]}
+    .lh1_48 {@apply leading-[1.48]} .lh1_485 {@apply leading-[1.485]} .lh1_49 {@apply leading-[1.49]} .lh1_495 {@apply leading-[1.495]} .lh1_5 {@apply leading-[1.5]}
+    .lh1_505 {@apply leading-[1.505]} .lh1_51 {@apply leading-[1.51]} .lh1_515 {@apply leading-[1.515]} .lh1_52 {@apply leading-[1.52]} .lh1_525 {@apply leading-[1.525]}
+    .lh1_53 {@apply leading-[1.53]} .lh1_535 {@apply leading-[1.535]} .lh1_54 {@apply leading-[1.54]} .lh1_545 {@apply leading-[1.545]} .lh1_55 {@apply leading-[1.55]}
+    .lh1_555 {@apply leading-[1.555]} .lh1_56 {@apply leading-[1.56]} .lh1_565 {@apply leading-[1.565]} .lh1_57 {@apply leading-[1.57]} .lh1_575 {@apply leading-[1.575]}
+    .lh1_58 {@apply leading-[1.58]} .lh1_585 {@apply leading-[1.585]} .lh1_59 {@apply leading-[1.59]} .lh1_595 {@apply leading-[1.595]} .lh1_6 {@apply leading-[1.6]}
+    .lh1_605 {@apply leading-[1.605]} .lh1_61 {@apply leading-[1.61]} .lh1_615 {@apply leading-[1.615]} .lh1_62 {@apply leading-[1.62]} .lh1_625 {@apply leading-[1.625]}
+    .lh1_63 {@apply leading-[1.63]} .lh1_635 {@apply leading-[1.635]} .lh1_64 {@apply leading-[1.64]} .lh1_645 {@apply leading-[1.645]} .lh1_65 {@apply leading-[1.65]}
+    .lh1_655 {@apply leading-[1.655]} .lh1_66 {@apply leading-[1.66]} .lh1_665 {@apply leading-[1.665]} .lh1_67 {@apply leading-[1.67]} .lh1_675 {@apply leading-[1.675]}
+    .lh1_68 {@apply leading-[1.68]} .lh1_685 {@apply leading-[1.685]} .lh1_69 {@apply leading-[1.69]} .lh1_695 {@apply leading-[1.695]} .lh1_7 {@apply leading-[1.7]}
+    .lh1_705 {@apply leading-[1.705]} .lh1_71 {@apply leading-[1.71]} .lh1_715 {@apply leading-[1.715]} .lh1_72 {@apply leading-[1.72]} .lh1_725 {@apply leading-[1.725]}
+    .lh1_73 {@apply leading-[1.73]} .lh1_735 {@apply leading-[1.735]} .lh1_74 {@apply leading-[1.74]} .lh1_745 {@apply leading-[1.745]} .lh1_75 {@apply leading-[1.75]}
+    .lh1_755 {@apply leading-[1.755]} .lh1_76 {@apply leading-[1.76]} .lh1_765 {@apply leading-[1.765]} .lh1_77 {@apply leading-[1.77]} .lh1_775 {@apply leading-[1.775]}
+    .lh1_78 {@apply leading-[1.78]} .lh1_785 {@apply leading-[1.785]} .lh1_79 {@apply leading-[1.79]} .lh1_795 {@apply leading-[1.795]} .lh1_8 {@apply leading-[1.8]}
+    .lh1_805 {@apply leading-[1.805]} .lh1_81 {@apply leading-[1.81]} .lh1_815 {@apply leading-[1.815]} .lh1_82 {@apply leading-[1.82]} .lh1_825 {@apply leading-[1.825]}
+    .lh1_83 {@apply leading-[1.83]} .lh1_835 {@apply leading-[1.835]} .lh1_84 {@apply leading-[1.84]} .lh1_845 {@apply leading-[1.845]} .lh1_85 {@apply leading-[1.85]}
+    .lh1_855 {@apply leading-[1.855]} .lh1_86 {@apply leading-[1.86]} .lh1_865 {@apply leading-[1.865]} .lh1_87 {@apply leading-[1.87]} .lh1_875 {@apply leading-[1.875]}
+    .lh1_88 {@apply leading-[1.88]} .lh1_885 {@apply leading-[1.885]} .lh1_89 {@apply leading-[1.89]} .lh1_895 {@apply leading-[1.895]} .lh1_9 {@apply leading-[1.9]}
+    .lh1_905 {@apply leading-[1.905]} .lh1_91 {@apply leading-[1.91]} .lh1_915 {@apply leading-[1.915]} .lh1_92 {@apply leading-[1.92]} .lh1_925 {@apply leading-[1.925]}
+    .lh1_93 {@apply leading-[1.93]} .lh1_935 {@apply leading-[1.935]} .lh1_94 {@apply leading-[1.94]} .lh1_945 {@apply leading-[1.945]} .lh1_95 {@apply leading-[1.95]}
+    .lh1_955 {@apply leading-[1.955]} .lh1_96 {@apply leading-[1.96]} .lh1_965 {@apply leading-[1.965]} .lh1_97 {@apply leading-[1.97]} .lh1_975 {@apply leading-[1.975]}
+    .lh1_98 {@apply leading-[1.98]} .lh1_985 {@apply leading-[1.985]} .lh1_99 {@apply leading-[1.99]} .lh1_995 {@apply leading-[1.995]} .lh2_0 {@apply leading-[2.0]}
+    .lh2_005 {@apply leading-[2.005]} .lh2_01 {@apply leading-[2.01]} .lh2_015 {@apply leading-[2.015]} .lh2_02 {@apply leading-[2.02]} .lh2_025 {@apply leading-[2.025]}
+    .lh2_03 {@apply leading-[2.03]} .lh2_035 {@apply leading-[2.035]} .lh2_04 {@apply leading-[2.04]} .lh2_045 {@apply leading-[2.045]} .lh2_05 {@apply leading-[2.05]}
+    .lh2_055 {@apply leading-[2.055]} .lh2_06 {@apply leading-[2.06]} .lh2_065 {@apply leading-[2.065]} .lh2_07 {@apply leading-[2.07]} .lh2_075 {@apply leading-[2.075]}
+    .lh2_08 {@apply leading-[2.08]} .lh2_085 {@apply leading-[2.085]} .lh2_09 {@apply leading-[2.09]} .lh2_095 {@apply leading-[2.095]} .lh2_1 {@apply leading-[2.1]}
+    .lh2_105 {@apply leading-[2.105]} .lh2_11 {@apply leading-[2.11]} .lh2_115 {@apply leading-[2.115]} .lh2_12 {@apply leading-[2.12]} .lh2_125 {@apply leading-[2.125]}
+    .lh2_13 {@apply leading-[2.13]} .lh2_135 {@apply leading-[2.135]} .lh2_14 {@apply leading-[2.14]} .lh2_145 {@apply leading-[2.145]} .lh2_15 {@apply leading-[2.15]}
+    .lh2_155 {@apply leading-[2.155]} .lh2_16 {@apply leading-[2.16]} .lh2_165 {@apply leading-[2.165]} .lh2_17 {@apply leading-[2.17]} .lh2_175 {@apply leading-[2.175]}
+    .lh2_18 {@apply leading-[2.18]} .lh2_185 {@apply leading-[2.185]} .lh2_19 {@apply leading-[2.19]} .lh2_195 {@apply leading-[2.195]} .lh2_2 {@apply leading-[2.2]}
+    .lh2_205 {@apply leading-[2.205]} .lh2_21 {@apply leading-[2.21]} .lh2_215 {@apply leading-[2.215]} .lh2_22 {@apply leading-[2.22]} .lh2_225 {@apply leading-[2.225]}
+    .lh2_23 {@apply leading-[2.23]} .lh2_235 {@apply leading-[2.235]} .lh2_24 {@apply leading-[2.24]} .lh2_245 {@apply leading-[2.245]} .lh2_25 {@apply leading-[2.25]}
+    .lh2_255 {@apply leading-[2.255]} .lh2_26 {@apply leading-[2.26]} .lh2_265 {@apply leading-[2.265]} .lh2_27 {@apply leading-[2.27]} .lh2_275 {@apply leading-[2.275]}
+    .lh2_28 {@apply leading-[2.28]} .lh2_285 {@apply leading-[2.285]} .lh2_29 {@apply leading-[2.29]} .lh2_295 {@apply leading-[2.295]} .lh2_3 {@apply leading-[2.3]}
+    .lh2_305 {@apply leading-[2.305]} .lh2_31 {@apply leading-[2.31]} .lh2_315 {@apply leading-[2.315]} .lh2_32 {@apply leading-[2.32]} .lh2_325 {@apply leading-[2.325]}
+    .lh2_33 {@apply leading-[2.33]} .lh2_335 {@apply leading-[2.335]} .lh2_34 {@apply leading-[2.34]} .lh2_345 {@apply leading-[2.345]} .lh2_35 {@apply leading-[2.35]}
+    .lh2_355 {@apply leading-[2.355]} .lh2_36 {@apply leading-[2.36]} .lh2_365 {@apply leading-[2.365]} .lh2_37 {@apply leading-[2.37]} .lh2_375 {@apply leading-[2.375]}
+    .lh2_38 {@apply leading-[2.38]} .lh2_385 {@apply leading-[2.385]} .lh2_39 {@apply leading-[2.39]} .lh2_395 {@apply leading-[2.395]} .lh2_4 {@apply leading-[2.4]}
+    .lh2_405 {@apply leading-[2.405]} .lh2_41 {@apply leading-[2.41]} .lh2_415 {@apply leading-[2.415]} .lh2_42 {@apply leading-[2.42]} .lh2_425 {@apply leading-[2.425]}
+    .lh2_43 {@apply leading-[2.43]} .lh2_435 {@apply leading-[2.435]} .lh2_44 {@apply leading-[2.44]} .lh2_445 {@apply leading-[2.445]} .lh2_45 {@apply leading-[2.45]}
+    .lh2_455 {@apply leading-[2.455]} .lh2_46 {@apply leading-[2.46]} .lh2_465 {@apply leading-[2.465]} .lh2_47 {@apply leading-[2.47]} .lh2_475 {@apply leading-[2.475]}
+    .lh2_48 {@apply leading-[2.48]} .lh2_485 {@apply leading-[2.485]} .lh2_49 {@apply leading-[2.49]} .lh2_495 {@apply leading-[2.495]} .lh2_5 {@apply leading-[2.5]}
+}
+/* def func(i): return str(i).replace(".", "_")
+for i in range(500, 2501, 5):
+    tw = ".lh" + func(i/1000) + " {@apply leading-[" + str(i/1000) + "]}"
+    print(tw, end=" ") if i % 25 != 0 else print(tw) */

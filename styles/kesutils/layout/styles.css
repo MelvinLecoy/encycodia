@@ -1,0 +1,49 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "aspectratio.css";
+@import "zindex.css";
+
+/* 1. position */
+@layer utilities {
+    .rela {@apply relative} .abso {@apply absolute}
+}
+/* 2. display */
+@layer utilities {
+    .blk {@apply block} .il {@apply inline} .ilb {@apply inline-block} .ilf {@apply inline-flex} .ilg {@apply inline-grid}
+    /* hidden	display: none;   vs    visibility*/
+}
+/* 3. overflow */
+@layer utilities {
+    .ofh {@apply overflow-hidden} .ofxh {@apply overflow-x-hidden} .ofyh {@apply overflow-y-hidden}
+    .ofs {@apply overflow-scroll} .ofxs {@apply overflow-x-scroll} .ofys {@apply overflow-y-scroll}
+    .ofv {@apply overflow-visible} .ofxv {@apply overflow-x-visible} .ofyv {@apply overflow-y-visible}
+}
+/* 4. box sizing */
+@layer utilities {
+    .borderbox {@apply box-border} .contentbox {@apply box-content}
+}
+
+
+/* 7. object fit, background fit */
+@layer utilities {
+    .objcov {@apply object-cover} .objcont {@apply object-contain} .objfill {@apply object-fill} /*Stretch img*/
+    .bgcov {@apply bg-cover} .bgcont {@apply bg-contain} .bgauto {@apply bg-auto}
+}
+/* 8. object position */
+/* 9. floats */
+@layer utilities {
+    .floatr {@apply float-right} .floatl {@apply float-left}
+}
+
+/* 10. inset */
+@layer utilities {
+    .inset0 {@apply inset-0} .insetx0 {@apply inset-x-0} .insety0 {@apply inset-y-0}
+    .l0 {@apply left-0} .r0 {@apply right-0} .l1 {@apply left-[1px]} .r1 {@apply right-[1px]} .l2 {@apply left-[2px]} .r2 {@apply right-[2px]} .l3 {@apply left-[3px]} .r3 {@apply right-[3px]}
+    .l4 {@apply left-[4px]} .r4 {@apply right-[4px]} .l5 {@apply left-[5px]} .r5 {@apply right-[5px]} .l6 {@apply left-[6px]} .r6 {@apply right-[6px]} .l7 {@apply left-[7px]} .r7 {@apply right-[7px]}
+    .l8 {@apply left-[8px]} .r8 {@apply right-[8px]} .l9 {@apply left-[9px]} .r9 {@apply right-[9px]} .l10 {@apply left-[10px]} .r10 {@apply right-[10px]} .l11 {@apply left-[11px]} .r11 {@apply right-[11px]}
+    .l12 {@apply left-[12px]} .r12 {@apply right-[12px]} .l13 {@apply left-[13px]} .r13 {@apply right-[13px]} .l14 {@apply left-[14px]} .r14 {@apply right-[14px]} .l15 {@apply left-[15px]} .r15 {@apply right-[15px]}
+    .l16 {@apply left-[16px]} .r16 {@apply right-[16px]}
+    .top0 {@apply top-0} .bot0 {@apply bottom-0}
+}

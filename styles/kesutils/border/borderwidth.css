@@ -1,0 +1,364 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {   /* 0-300 */
+    .b0 {@apply border-0} .b1 {@apply border-[1px]} .b2 {@apply border-[2px]} .b3 {@apply border-[3px]} .b4 {@apply border-[4px]} .b5 {@apply border-[5px]} .b6 {@apply border-[6px]} .b7 {@apply border-[7px]} .b8 {@apply border-[8px]} .b9 {@apply border-[9px]} .b10 {@apply border-[10px]}
+    .b11 {@apply border-[11px]} .b12 {@apply border-[12px]} .b13 {@apply border-[13px]} .b14 {@apply border-[14px]} .b15 {@apply border-[15px]} .b16 {@apply border-[16px]} .b17 {@apply border-[17px]} .b18 {@apply border-[18px]} .b19 {@apply border-[19px]} .b20 {@apply border-[20px]}
+    .b21 {@apply border-[21px]} .b22 {@apply border-[22px]} .b23 {@apply border-[23px]} .b24 {@apply border-[24px]} .b25 {@apply border-[25px]} .b26 {@apply border-[26px]} .b27 {@apply border-[27px]} .b28 {@apply border-[28px]} .b29 {@apply border-[29px]} .b30 {@apply border-[30px]}
+    .b31 {@apply border-[31px]} .b32 {@apply border-[32px]} .b33 {@apply border-[33px]} .b34 {@apply border-[34px]} .b35 {@apply border-[35px]} .b36 {@apply border-[36px]} .b37 {@apply border-[37px]} .b38 {@apply border-[38px]} .b39 {@apply border-[39px]} .b40 {@apply border-[40px]}
+    .b41 {@apply border-[41px]} .b42 {@apply border-[42px]} .b43 {@apply border-[43px]} .b44 {@apply border-[44px]} .b45 {@apply border-[45px]} .b46 {@apply border-[46px]} .b47 {@apply border-[47px]} .b48 {@apply border-[48px]} .b49 {@apply border-[49px]} .b50 {@apply border-[50px]}
+    .b51 {@apply border-[51px]} .b52 {@apply border-[52px]} .b53 {@apply border-[53px]} .b54 {@apply border-[54px]} .b55 {@apply border-[55px]} .b56 {@apply border-[56px]} .b57 {@apply border-[57px]} .b58 {@apply border-[58px]} .b59 {@apply border-[59px]} .b60 {@apply border-[60px]}
+    .b61 {@apply border-[61px]} .b62 {@apply border-[62px]} .b63 {@apply border-[63px]} .b64 {@apply border-[64px]} .b65 {@apply border-[65px]} .b66 {@apply border-[66px]} .b67 {@apply border-[67px]} .b68 {@apply border-[68px]} .b69 {@apply border-[69px]} .b70 {@apply border-[70px]}
+    .b71 {@apply border-[71px]} .b72 {@apply border-[72px]} .b73 {@apply border-[73px]} .b74 {@apply border-[74px]} .b75 {@apply border-[75px]} .b76 {@apply border-[76px]} .b77 {@apply border-[77px]} .b78 {@apply border-[78px]} .b79 {@apply border-[79px]} .b80 {@apply border-[80px]}
+    .b81 {@apply border-[81px]} .b82 {@apply border-[82px]} .b83 {@apply border-[83px]} .b84 {@apply border-[84px]} .b85 {@apply border-[85px]} .b86 {@apply border-[86px]} .b87 {@apply border-[87px]} .b88 {@apply border-[88px]} .b89 {@apply border-[89px]} .b90 {@apply border-[90px]}
+    .b91 {@apply border-[91px]} .b92 {@apply border-[92px]} .b93 {@apply border-[93px]} .b94 {@apply border-[94px]} .b95 {@apply border-[95px]} .b96 {@apply border-[96px]} .b97 {@apply border-[97px]} .b98 {@apply border-[98px]} .b99 {@apply border-[99px]} .b100 {@apply border-[100px]}
+    .b101 {@apply border-[101px]} .b102 {@apply border-[102px]} .b103 {@apply border-[103px]} .b104 {@apply border-[104px]} .b105 {@apply border-[105px]} .b106 {@apply border-[106px]} .b107 {@apply border-[107px]} .b108 {@apply border-[108px]} .b109 {@apply border-[109px]} .b110 {@apply border-[110px]}
+    .b111 {@apply border-[111px]} .b112 {@apply border-[112px]} .b113 {@apply border-[113px]} .b114 {@apply border-[114px]} .b115 {@apply border-[115px]} .b116 {@apply border-[116px]} .b117 {@apply border-[117px]} .b118 {@apply border-[118px]} .b119 {@apply border-[119px]} .b120 {@apply border-[120px]}
+    .b121 {@apply border-[121px]} .b122 {@apply border-[122px]} .b123 {@apply border-[123px]} .b124 {@apply border-[124px]} .b125 {@apply border-[125px]} .b126 {@apply border-[126px]} .b127 {@apply border-[127px]} .b128 {@apply border-[128px]} .b129 {@apply border-[129px]} .b130 {@apply border-[130px]}
+    .b131 {@apply border-[131px]} .b132 {@apply border-[132px]} .b133 {@apply border-[133px]} .b134 {@apply border-[134px]} .b135 {@apply border-[135px]} .b136 {@apply border-[136px]} .b137 {@apply border-[137px]} .b138 {@apply border-[138px]} .b139 {@apply border-[139px]} .b140 {@apply border-[140px]}
+    .b141 {@apply border-[141px]} .b142 {@apply border-[142px]} .b143 {@apply border-[143px]} .b144 {@apply border-[144px]} .b145 {@apply border-[145px]} .b146 {@apply border-[146px]} .b147 {@apply border-[147px]} .b148 {@apply border-[148px]} .b149 {@apply border-[149px]} .b150 {@apply border-[150px]}
+    .b151 {@apply border-[151px]} .b152 {@apply border-[152px]} .b153 {@apply border-[153px]} .b154 {@apply border-[154px]} .b155 {@apply border-[155px]} .b156 {@apply border-[156px]} .b157 {@apply border-[157px]} .b158 {@apply border-[158px]} .b159 {@apply border-[159px]} .b160 {@apply border-[160px]}
+    .b161 {@apply border-[161px]} .b162 {@apply border-[162px]} .b163 {@apply border-[163px]} .b164 {@apply border-[164px]} .b165 {@apply border-[165px]} .b166 {@apply border-[166px]} .b167 {@apply border-[167px]} .b168 {@apply border-[168px]} .b169 {@apply border-[169px]} .b170 {@apply border-[170px]}
+    .b171 {@apply border-[171px]} .b172 {@apply border-[172px]} .b173 {@apply border-[173px]} .b174 {@apply border-[174px]} .b175 {@apply border-[175px]} .b176 {@apply border-[176px]} .b177 {@apply border-[177px]} .b178 {@apply border-[178px]} .b179 {@apply border-[179px]} .b180 {@apply border-[180px]}
+    .b181 {@apply border-[181px]} .b182 {@apply border-[182px]} .b183 {@apply border-[183px]} .b184 {@apply border-[184px]} .b185 {@apply border-[185px]} .b186 {@apply border-[186px]} .b187 {@apply border-[187px]} .b188 {@apply border-[188px]} .b189 {@apply border-[189px]} .b190 {@apply border-[190px]}
+    .b191 {@apply border-[191px]} .b192 {@apply border-[192px]} .b193 {@apply border-[193px]} .b194 {@apply border-[194px]} .b195 {@apply border-[195px]} .b196 {@apply border-[196px]} .b197 {@apply border-[197px]} .b198 {@apply border-[198px]} .b199 {@apply border-[199px]} .b200 {@apply border-[200px]}
+    .b201 {@apply border-[201px]} .b202 {@apply border-[202px]} .b203 {@apply border-[203px]} .b204 {@apply border-[204px]} .b205 {@apply border-[205px]} .b206 {@apply border-[206px]} .b207 {@apply border-[207px]} .b208 {@apply border-[208px]} .b209 {@apply border-[209px]} .b210 {@apply border-[210px]}
+    .b211 {@apply border-[211px]} .b212 {@apply border-[212px]} .b213 {@apply border-[213px]} .b214 {@apply border-[214px]} .b215 {@apply border-[215px]} .b216 {@apply border-[216px]} .b217 {@apply border-[217px]} .b218 {@apply border-[218px]} .b219 {@apply border-[219px]} .b220 {@apply border-[220px]}
+    .b221 {@apply border-[221px]} .b222 {@apply border-[222px]} .b223 {@apply border-[223px]} .b224 {@apply border-[224px]} .b225 {@apply border-[225px]} .b226 {@apply border-[226px]} .b227 {@apply border-[227px]} .b228 {@apply border-[228px]} .b229 {@apply border-[229px]} .b230 {@apply border-[230px]}
+    .b231 {@apply border-[231px]} .b232 {@apply border-[232px]} .b233 {@apply border-[233px]} .b234 {@apply border-[234px]} .b235 {@apply border-[235px]} .b236 {@apply border-[236px]} .b237 {@apply border-[237px]} .b238 {@apply border-[238px]} .b239 {@apply border-[239px]} .b240 {@apply border-[240px]}
+    .b241 {@apply border-[241px]} .b242 {@apply border-[242px]} .b243 {@apply border-[243px]} .b244 {@apply border-[244px]} .b245 {@apply border-[245px]} .b246 {@apply border-[246px]} .b247 {@apply border-[247px]} .b248 {@apply border-[248px]} .b249 {@apply border-[249px]} .b250 {@apply border-[250px]}
+    .b251 {@apply border-[251px]} .b252 {@apply border-[252px]} .b253 {@apply border-[253px]} .b254 {@apply border-[254px]} .b255 {@apply border-[255px]} .b256 {@apply border-[256px]} .b257 {@apply border-[257px]} .b258 {@apply border-[258px]} .b259 {@apply border-[259px]} .b260 {@apply border-[260px]}
+    .b261 {@apply border-[261px]} .b262 {@apply border-[262px]} .b263 {@apply border-[263px]} .b264 {@apply border-[264px]} .b265 {@apply border-[265px]} .b266 {@apply border-[266px]} .b267 {@apply border-[267px]} .b268 {@apply border-[268px]} .b269 {@apply border-[269px]} .b270 {@apply border-[270px]}
+    .b271 {@apply border-[271px]} .b272 {@apply border-[272px]} .b273 {@apply border-[273px]} .b274 {@apply border-[274px]} .b275 {@apply border-[275px]} .b276 {@apply border-[276px]} .b277 {@apply border-[277px]} .b278 {@apply border-[278px]} .b279 {@apply border-[279px]} .b280 {@apply border-[280px]}
+    .b281 {@apply border-[281px]} .b282 {@apply border-[282px]} .b283 {@apply border-[283px]} .b284 {@apply border-[284px]} .b285 {@apply border-[285px]} .b286 {@apply border-[286px]} .b287 {@apply border-[287px]} .b288 {@apply border-[288px]} .b289 {@apply border-[289px]} .b290 {@apply border-[290px]}
+    .b291 {@apply border-[291px]} .b292 {@apply border-[292px]} .b293 {@apply border-[293px]} .b294 {@apply border-[294px]} .b295 {@apply border-[295px]} .b296 {@apply border-[296px]} .b297 {@apply border-[297px]} .b298 {@apply border-[298px]} .b299 {@apply border-[299px]} .b300 {@apply border-[300px]}
+}
+/* ".b" + str(i) + " {@apply border-[" + str(i) + "px]}" */
+
+
+
+@layer utilities {   /* top: 0-300 */
+    .bt0 {@apply border-t-0} .bt1 {@apply border-t-[1px]} .bt2 {@apply border-t-[2px]} .bt3 {@apply border-t-[3px]} .bt4 {@apply border-t-[4px]} .bt5 {@apply border-t-[5px]}
+    .bt6 {@apply border-t-[6px]} .bt7 {@apply border-t-[7px]} .bt8 {@apply border-t-[8px]} .bt9 {@apply border-t-[9px]} .bt10 {@apply border-t-[10px]}
+    .bt11 {@apply border-t-[11px]} .bt12 {@apply border-t-[12px]} .bt13 {@apply border-t-[13px]} .bt14 {@apply border-t-[14px]} .bt15 {@apply border-t-[15px]}
+    .bt16 {@apply border-t-[16px]} .bt17 {@apply border-t-[17px]} .bt18 {@apply border-t-[18px]} .bt19 {@apply border-t-[19px]} .bt20 {@apply border-t-[20px]}
+    .bt21 {@apply border-t-[21px]} .bt22 {@apply border-t-[22px]} .bt23 {@apply border-t-[23px]} .bt24 {@apply border-t-[24px]} .bt25 {@apply border-t-[25px]}
+    .bt26 {@apply border-t-[26px]} .bt27 {@apply border-t-[27px]} .bt28 {@apply border-t-[28px]} .bt29 {@apply border-t-[29px]} .bt30 {@apply border-t-[30px]}
+    .bt31 {@apply border-t-[31px]} .bt32 {@apply border-t-[32px]} .bt33 {@apply border-t-[33px]} .bt34 {@apply border-t-[34px]} .bt35 {@apply border-t-[35px]}
+    .bt36 {@apply border-t-[36px]} .bt37 {@apply border-t-[37px]} .bt38 {@apply border-t-[38px]} .bt39 {@apply border-t-[39px]} .bt40 {@apply border-t-[40px]}
+    .bt41 {@apply border-t-[41px]} .bt42 {@apply border-t-[42px]} .bt43 {@apply border-t-[43px]} .bt44 {@apply border-t-[44px]} .bt45 {@apply border-t-[45px]}
+    .bt46 {@apply border-t-[46px]} .bt47 {@apply border-t-[47px]} .bt48 {@apply border-t-[48px]} .bt49 {@apply border-t-[49px]} .bt50 {@apply border-t-[50px]}
+    .bt51 {@apply border-t-[51px]} .bt52 {@apply border-t-[52px]} .bt53 {@apply border-t-[53px]} .bt54 {@apply border-t-[54px]} .bt55 {@apply border-t-[55px]}
+    .bt56 {@apply border-t-[56px]} .bt57 {@apply border-t-[57px]} .bt58 {@apply border-t-[58px]} .bt59 {@apply border-t-[59px]} .bt60 {@apply border-t-[60px]}
+    .bt61 {@apply border-t-[61px]} .bt62 {@apply border-t-[62px]} .bt63 {@apply border-t-[63px]} .bt64 {@apply border-t-[64px]} .bt65 {@apply border-t-[65px]}
+    .bt66 {@apply border-t-[66px]} .bt67 {@apply border-t-[67px]} .bt68 {@apply border-t-[68px]} .bt69 {@apply border-t-[69px]} .bt70 {@apply border-t-[70px]}
+    .bt71 {@apply border-t-[71px]} .bt72 {@apply border-t-[72px]} .bt73 {@apply border-t-[73px]} .bt74 {@apply border-t-[74px]} .bt75 {@apply border-t-[75px]}
+    .bt76 {@apply border-t-[76px]} .bt77 {@apply border-t-[77px]} .bt78 {@apply border-t-[78px]} .bt79 {@apply border-t-[79px]} .bt80 {@apply border-t-[80px]}
+    .bt81 {@apply border-t-[81px]} .bt82 {@apply border-t-[82px]} .bt83 {@apply border-t-[83px]} .bt84 {@apply border-t-[84px]} .bt85 {@apply border-t-[85px]}
+    .bt86 {@apply border-t-[86px]} .bt87 {@apply border-t-[87px]} .bt88 {@apply border-t-[88px]} .bt89 {@apply border-t-[89px]} .bt90 {@apply border-t-[90px]}
+    .bt91 {@apply border-t-[91px]} .bt92 {@apply border-t-[92px]} .bt93 {@apply border-t-[93px]} .bt94 {@apply border-t-[94px]} .bt95 {@apply border-t-[95px]}
+    .bt96 {@apply border-t-[96px]} .bt97 {@apply border-t-[97px]} .bt98 {@apply border-t-[98px]} .bt99 {@apply border-t-[99px]} .bt100 {@apply border-t-[100px]}
+    .bt101 {@apply border-t-[101px]} .bt102 {@apply border-t-[102px]} .bt103 {@apply border-t-[103px]} .bt104 {@apply border-t-[104px]} .bt105 {@apply border-t-[105px]}
+    .bt106 {@apply border-t-[106px]} .bt107 {@apply border-t-[107px]} .bt108 {@apply border-t-[108px]} .bt109 {@apply border-t-[109px]} .bt110 {@apply border-t-[110px]}
+    .bt111 {@apply border-t-[111px]} .bt112 {@apply border-t-[112px]} .bt113 {@apply border-t-[113px]} .bt114 {@apply border-t-[114px]} .bt115 {@apply border-t-[115px]}
+    .bt116 {@apply border-t-[116px]} .bt117 {@apply border-t-[117px]} .bt118 {@apply border-t-[118px]} .bt119 {@apply border-t-[119px]} .bt120 {@apply border-t-[120px]}
+    .bt121 {@apply border-t-[121px]} .bt122 {@apply border-t-[122px]} .bt123 {@apply border-t-[123px]} .bt124 {@apply border-t-[124px]} .bt125 {@apply border-t-[125px]}
+    .bt126 {@apply border-t-[126px]} .bt127 {@apply border-t-[127px]} .bt128 {@apply border-t-[128px]} .bt129 {@apply border-t-[129px]} .bt130 {@apply border-t-[130px]}
+    .bt131 {@apply border-t-[131px]} .bt132 {@apply border-t-[132px]} .bt133 {@apply border-t-[133px]} .bt134 {@apply border-t-[134px]} .bt135 {@apply border-t-[135px]}
+    .bt136 {@apply border-t-[136px]} .bt137 {@apply border-t-[137px]} .bt138 {@apply border-t-[138px]} .bt139 {@apply border-t-[139px]} .bt140 {@apply border-t-[140px]}
+    .bt141 {@apply border-t-[141px]} .bt142 {@apply border-t-[142px]} .bt143 {@apply border-t-[143px]} .bt144 {@apply border-t-[144px]} .bt145 {@apply border-t-[145px]}
+    .bt146 {@apply border-t-[146px]} .bt147 {@apply border-t-[147px]} .bt148 {@apply border-t-[148px]} .bt149 {@apply border-t-[149px]} .bt150 {@apply border-t-[150px]}
+    .bt151 {@apply border-t-[151px]} .bt152 {@apply border-t-[152px]} .bt153 {@apply border-t-[153px]} .bt154 {@apply border-t-[154px]} .bt155 {@apply border-t-[155px]}
+    .bt156 {@apply border-t-[156px]} .bt157 {@apply border-t-[157px]} .bt158 {@apply border-t-[158px]} .bt159 {@apply border-t-[159px]} .bt160 {@apply border-t-[160px]}
+    .bt161 {@apply border-t-[161px]} .bt162 {@apply border-t-[162px]} .bt163 {@apply border-t-[163px]} .bt164 {@apply border-t-[164px]} .bt165 {@apply border-t-[165px]}
+    .bt166 {@apply border-t-[166px]} .bt167 {@apply border-t-[167px]} .bt168 {@apply border-t-[168px]} .bt169 {@apply border-t-[169px]} .bt170 {@apply border-t-[170px]}
+    .bt171 {@apply border-t-[171px]} .bt172 {@apply border-t-[172px]} .bt173 {@apply border-t-[173px]} .bt174 {@apply border-t-[174px]} .bt175 {@apply border-t-[175px]}
+    .bt176 {@apply border-t-[176px]} .bt177 {@apply border-t-[177px]} .bt178 {@apply border-t-[178px]} .bt179 {@apply border-t-[179px]} .bt180 {@apply border-t-[180px]}
+    .bt181 {@apply border-t-[181px]} .bt182 {@apply border-t-[182px]} .bt183 {@apply border-t-[183px]} .bt184 {@apply border-t-[184px]} .bt185 {@apply border-t-[185px]}
+    .bt186 {@apply border-t-[186px]} .bt187 {@apply border-t-[187px]} .bt188 {@apply border-t-[188px]} .bt189 {@apply border-t-[189px]} .bt190 {@apply border-t-[190px]}
+    .bt191 {@apply border-t-[191px]} .bt192 {@apply border-t-[192px]} .bt193 {@apply border-t-[193px]} .bt194 {@apply border-t-[194px]} .bt195 {@apply border-t-[195px]}
+    .bt196 {@apply border-t-[196px]} .bt197 {@apply border-t-[197px]} .bt198 {@apply border-t-[198px]} .bt199 {@apply border-t-[199px]} .bt200 {@apply border-t-[200px]}
+    .bt201 {@apply border-t-[201px]} .bt202 {@apply border-t-[202px]} .bt203 {@apply border-t-[203px]} .bt204 {@apply border-t-[204px]} .bt205 {@apply border-t-[205px]}
+    .bt206 {@apply border-t-[206px]} .bt207 {@apply border-t-[207px]} .bt208 {@apply border-t-[208px]} .bt209 {@apply border-t-[209px]} .bt210 {@apply border-t-[210px]}
+    .bt211 {@apply border-t-[211px]} .bt212 {@apply border-t-[212px]} .bt213 {@apply border-t-[213px]} .bt214 {@apply border-t-[214px]} .bt215 {@apply border-t-[215px]}
+    .bt216 {@apply border-t-[216px]} .bt217 {@apply border-t-[217px]} .bt218 {@apply border-t-[218px]} .bt219 {@apply border-t-[219px]} .bt220 {@apply border-t-[220px]}
+    .bt221 {@apply border-t-[221px]} .bt222 {@apply border-t-[222px]} .bt223 {@apply border-t-[223px]} .bt224 {@apply border-t-[224px]} .bt225 {@apply border-t-[225px]}
+    .bt226 {@apply border-t-[226px]} .bt227 {@apply border-t-[227px]} .bt228 {@apply border-t-[228px]} .bt229 {@apply border-t-[229px]} .bt230 {@apply border-t-[230px]}
+    .bt231 {@apply border-t-[231px]} .bt232 {@apply border-t-[232px]} .bt233 {@apply border-t-[233px]} .bt234 {@apply border-t-[234px]} .bt235 {@apply border-t-[235px]}
+    .bt236 {@apply border-t-[236px]} .bt237 {@apply border-t-[237px]} .bt238 {@apply border-t-[238px]} .bt239 {@apply border-t-[239px]} .bt240 {@apply border-t-[240px]}
+    .bt241 {@apply border-t-[241px]} .bt242 {@apply border-t-[242px]} .bt243 {@apply border-t-[243px]} .bt244 {@apply border-t-[244px]} .bt245 {@apply border-t-[245px]}
+    .bt246 {@apply border-t-[246px]} .bt247 {@apply border-t-[247px]} .bt248 {@apply border-t-[248px]} .bt249 {@apply border-t-[249px]} .bt250 {@apply border-t-[250px]}
+    .bt251 {@apply border-t-[251px]} .bt252 {@apply border-t-[252px]} .bt253 {@apply border-t-[253px]} .bt254 {@apply border-t-[254px]} .bt255 {@apply border-t-[255px]}
+    .bt256 {@apply border-t-[256px]} .bt257 {@apply border-t-[257px]} .bt258 {@apply border-t-[258px]} .bt259 {@apply border-t-[259px]} .bt260 {@apply border-t-[260px]}
+    .bt261 {@apply border-t-[261px]} .bt262 {@apply border-t-[262px]} .bt263 {@apply border-t-[263px]} .bt264 {@apply border-t-[264px]} .bt265 {@apply border-t-[265px]}
+    .bt266 {@apply border-t-[266px]} .bt267 {@apply border-t-[267px]} .bt268 {@apply border-t-[268px]} .bt269 {@apply border-t-[269px]} .bt270 {@apply border-t-[270px]}
+    .bt271 {@apply border-t-[271px]} .bt272 {@apply border-t-[272px]} .bt273 {@apply border-t-[273px]} .bt274 {@apply border-t-[274px]} .bt275 {@apply border-t-[275px]}
+    .bt276 {@apply border-t-[276px]} .bt277 {@apply border-t-[277px]} .bt278 {@apply border-t-[278px]} .bt279 {@apply border-t-[279px]} .bt280 {@apply border-t-[280px]}
+    .bt281 {@apply border-t-[281px]} .bt282 {@apply border-t-[282px]} .bt283 {@apply border-t-[283px]} .bt284 {@apply border-t-[284px]} .bt285 {@apply border-t-[285px]}
+    .bt286 {@apply border-t-[286px]} .bt287 {@apply border-t-[287px]} .bt288 {@apply border-t-[288px]} .bt289 {@apply border-t-[289px]} .bt290 {@apply border-t-[290px]}
+    .bt291 {@apply border-t-[291px]} .bt292 {@apply border-t-[292px]} .bt293 {@apply border-t-[293px]} .bt294 {@apply border-t-[294px]} .bt295 {@apply border-t-[295px]}
+    .bt296 {@apply border-t-[296px]} .bt297 {@apply border-t-[297px]} .bt298 {@apply border-t-[298px]} .bt299 {@apply border-t-[299px]} .bt300 {@apply border-t-[300px]}
+}
+/* ".bt" + str(i) + " {@apply border-t-[" + str(i) + "px]}" */
+
+@layer utilities {   /* bottom: 0-300 */
+    .bb0 {@apply border-b-0} .bb1 {@apply border-b-[1px]} .bb2 {@apply border-b-[2px]} .bb3 {@apply border-b-[3px]} .bb4 {@apply border-b-[4px]} .bb5 {@apply border-b-[5px]}
+    .bb6 {@apply border-b-[6px]} .bb7 {@apply border-b-[7px]} .bb8 {@apply border-b-[8px]} .bb9 {@apply border-b-[9px]} .bb10 {@apply border-b-[10px]}
+    .bb11 {@apply border-b-[11px]} .bb12 {@apply border-b-[12px]} .bb13 {@apply border-b-[13px]} .bb14 {@apply border-b-[14px]} .bb15 {@apply border-b-[15px]}
+    .bb16 {@apply border-b-[16px]} .bb17 {@apply border-b-[17px]} .bb18 {@apply border-b-[18px]} .bb19 {@apply border-b-[19px]} .bb20 {@apply border-b-[20px]}
+    .bb21 {@apply border-b-[21px]} .bb22 {@apply border-b-[22px]} .bb23 {@apply border-b-[23px]} .bb24 {@apply border-b-[24px]} .bb25 {@apply border-b-[25px]}
+    .bb26 {@apply border-b-[26px]} .bb27 {@apply border-b-[27px]} .bb28 {@apply border-b-[28px]} .bb29 {@apply border-b-[29px]} .bb30 {@apply border-b-[30px]}
+    .bb31 {@apply border-b-[31px]} .bb32 {@apply border-b-[32px]} .bb33 {@apply border-b-[33px]} .bb34 {@apply border-b-[34px]} .bb35 {@apply border-b-[35px]}
+    .bb36 {@apply border-b-[36px]} .bb37 {@apply border-b-[37px]} .bb38 {@apply border-b-[38px]} .bb39 {@apply border-b-[39px]} .bb40 {@apply border-b-[40px]}
+    .bb41 {@apply border-b-[41px]} .bb42 {@apply border-b-[42px]} .bb43 {@apply border-b-[43px]} .bb44 {@apply border-b-[44px]} .bb45 {@apply border-b-[45px]}
+    .bb46 {@apply border-b-[46px]} .bb47 {@apply border-b-[47px]} .bb48 {@apply border-b-[48px]} .bb49 {@apply border-b-[49px]} .bb50 {@apply border-b-[50px]}
+    .bb51 {@apply border-b-[51px]} .bb52 {@apply border-b-[52px]} .bb53 {@apply border-b-[53px]} .bb54 {@apply border-b-[54px]} .bb55 {@apply border-b-[55px]}
+    .bb56 {@apply border-b-[56px]} .bb57 {@apply border-b-[57px]} .bb58 {@apply border-b-[58px]} .bb59 {@apply border-b-[59px]} .bb60 {@apply border-b-[60px]}
+    .bb61 {@apply border-b-[61px]} .bb62 {@apply border-b-[62px]} .bb63 {@apply border-b-[63px]} .bb64 {@apply border-b-[64px]} .bb65 {@apply border-b-[65px]}
+    .bb66 {@apply border-b-[66px]} .bb67 {@apply border-b-[67px]} .bb68 {@apply border-b-[68px]} .bb69 {@apply border-b-[69px]} .bb70 {@apply border-b-[70px]}
+    .bb71 {@apply border-b-[71px]} .bb72 {@apply border-b-[72px]} .bb73 {@apply border-b-[73px]} .bb74 {@apply border-b-[74px]} .bb75 {@apply border-b-[75px]}
+    .bb76 {@apply border-b-[76px]} .bb77 {@apply border-b-[77px]} .bb78 {@apply border-b-[78px]} .bb79 {@apply border-b-[79px]} .bb80 {@apply border-b-[80px]}
+    .bb81 {@apply border-b-[81px]} .bb82 {@apply border-b-[82px]} .bb83 {@apply border-b-[83px]} .bb84 {@apply border-b-[84px]} .bb85 {@apply border-b-[85px]}
+    .bb86 {@apply border-b-[86px]} .bb87 {@apply border-b-[87px]} .bb88 {@apply border-b-[88px]} .bb89 {@apply border-b-[89px]} .bb90 {@apply border-b-[90px]}
+    .bb91 {@apply border-b-[91px]} .bb92 {@apply border-b-[92px]} .bb93 {@apply border-b-[93px]} .bb94 {@apply border-b-[94px]} .bb95 {@apply border-b-[95px]}
+    .bb96 {@apply border-b-[96px]} .bb97 {@apply border-b-[97px]} .bb98 {@apply border-b-[98px]} .bb99 {@apply border-b-[99px]} .bb100 {@apply border-b-[100px]}
+    .bb101 {@apply border-b-[101px]} .bb102 {@apply border-b-[102px]} .bb103 {@apply border-b-[103px]} .bb104 {@apply border-b-[104px]} .bb105 {@apply border-b-[105px]}
+    .bb106 {@apply border-b-[106px]} .bb107 {@apply border-b-[107px]} .bb108 {@apply border-b-[108px]} .bb109 {@apply border-b-[109px]} .bb110 {@apply border-b-[110px]}
+    .bb111 {@apply border-b-[111px]} .bb112 {@apply border-b-[112px]} .bb113 {@apply border-b-[113px]} .bb114 {@apply border-b-[114px]} .bb115 {@apply border-b-[115px]}
+    .bb116 {@apply border-b-[116px]} .bb117 {@apply border-b-[117px]} .bb118 {@apply border-b-[118px]} .bb119 {@apply border-b-[119px]} .bb120 {@apply border-b-[120px]}
+    .bb121 {@apply border-b-[121px]} .bb122 {@apply border-b-[122px]} .bb123 {@apply border-b-[123px]} .bb124 {@apply border-b-[124px]} .bb125 {@apply border-b-[125px]}
+    .bb126 {@apply border-b-[126px]} .bb127 {@apply border-b-[127px]} .bb128 {@apply border-b-[128px]} .bb129 {@apply border-b-[129px]} .bb130 {@apply border-b-[130px]}
+    .bb131 {@apply border-b-[131px]} .bb132 {@apply border-b-[132px]} .bb133 {@apply border-b-[133px]} .bb134 {@apply border-b-[134px]} .bb135 {@apply border-b-[135px]}
+    .bb136 {@apply border-b-[136px]} .bb137 {@apply border-b-[137px]} .bb138 {@apply border-b-[138px]} .bb139 {@apply border-b-[139px]} .bb140 {@apply border-b-[140px]}
+    .bb141 {@apply border-b-[141px]} .bb142 {@apply border-b-[142px]} .bb143 {@apply border-b-[143px]} .bb144 {@apply border-b-[144px]} .bb145 {@apply border-b-[145px]}
+    .bb146 {@apply border-b-[146px]} .bb147 {@apply border-b-[147px]} .bb148 {@apply border-b-[148px]} .bb149 {@apply border-b-[149px]} .bb150 {@apply border-b-[150px]}
+    .bb151 {@apply border-b-[151px]} .bb152 {@apply border-b-[152px]} .bb153 {@apply border-b-[153px]} .bb154 {@apply border-b-[154px]} .bb155 {@apply border-b-[155px]}
+    .bb156 {@apply border-b-[156px]} .bb157 {@apply border-b-[157px]} .bb158 {@apply border-b-[158px]} .bb159 {@apply border-b-[159px]} .bb160 {@apply border-b-[160px]}
+    .bb161 {@apply border-b-[161px]} .bb162 {@apply border-b-[162px]} .bb163 {@apply border-b-[163px]} .bb164 {@apply border-b-[164px]} .bb165 {@apply border-b-[165px]}
+    .bb166 {@apply border-b-[166px]} .bb167 {@apply border-b-[167px]} .bb168 {@apply border-b-[168px]} .bb169 {@apply border-b-[169px]} .bb170 {@apply border-b-[170px]}
+    .bb171 {@apply border-b-[171px]} .bb172 {@apply border-b-[172px]} .bb173 {@apply border-b-[173px]} .bb174 {@apply border-b-[174px]} .bb175 {@apply border-b-[175px]}
+    .bb176 {@apply border-b-[176px]} .bb177 {@apply border-b-[177px]} .bb178 {@apply border-b-[178px]} .bb179 {@apply border-b-[179px]} .bb180 {@apply border-b-[180px]}
+    .bb181 {@apply border-b-[181px]} .bb182 {@apply border-b-[182px]} .bb183 {@apply border-b-[183px]} .bb184 {@apply border-b-[184px]} .bb185 {@apply border-b-[185px]}
+    .bb186 {@apply border-b-[186px]} .bb187 {@apply border-b-[187px]} .bb188 {@apply border-b-[188px]} .bb189 {@apply border-b-[189px]} .bb190 {@apply border-b-[190px]}
+    .bb191 {@apply border-b-[191px]} .bb192 {@apply border-b-[192px]} .bb193 {@apply border-b-[193px]} .bb194 {@apply border-b-[194px]} .bb195 {@apply border-b-[195px]}
+    .bb196 {@apply border-b-[196px]} .bb197 {@apply border-b-[197px]} .bb198 {@apply border-b-[198px]} .bb199 {@apply border-b-[199px]} .bb200 {@apply border-b-[200px]}
+    .bb201 {@apply border-b-[201px]} .bb202 {@apply border-b-[202px]} .bb203 {@apply border-b-[203px]} .bb204 {@apply border-b-[204px]} .bb205 {@apply border-b-[205px]}
+    .bb206 {@apply border-b-[206px]} .bb207 {@apply border-b-[207px]} .bb208 {@apply border-b-[208px]} .bb209 {@apply border-b-[209px]} .bb210 {@apply border-b-[210px]}
+    .bb211 {@apply border-b-[211px]} .bb212 {@apply border-b-[212px]} .bb213 {@apply border-b-[213px]} .bb214 {@apply border-b-[214px]} .bb215 {@apply border-b-[215px]}
+    .bb216 {@apply border-b-[216px]} .bb217 {@apply border-b-[217px]} .bb218 {@apply border-b-[218px]} .bb219 {@apply border-b-[219px]} .bb220 {@apply border-b-[220px]}
+    .bb221 {@apply border-b-[221px]} .bb222 {@apply border-b-[222px]} .bb223 {@apply border-b-[223px]} .bb224 {@apply border-b-[224px]} .bb225 {@apply border-b-[225px]}
+    .bb226 {@apply border-b-[226px]} .bb227 {@apply border-b-[227px]} .bb228 {@apply border-b-[228px]} .bb229 {@apply border-b-[229px]} .bb230 {@apply border-b-[230px]}
+    .bb231 {@apply border-b-[231px]} .bb232 {@apply border-b-[232px]} .bb233 {@apply border-b-[233px]} .bb234 {@apply border-b-[234px]} .bb235 {@apply border-b-[235px]}
+    .bb236 {@apply border-b-[236px]} .bb237 {@apply border-b-[237px]} .bb238 {@apply border-b-[238px]} .bb239 {@apply border-b-[239px]} .bb240 {@apply border-b-[240px]}
+    .bb241 {@apply border-b-[241px]} .bb242 {@apply border-b-[242px]} .bb243 {@apply border-b-[243px]} .bb244 {@apply border-b-[244px]} .bb245 {@apply border-b-[245px]}
+    .bb246 {@apply border-b-[246px]} .bb247 {@apply border-b-[247px]} .bb248 {@apply border-b-[248px]} .bb249 {@apply border-b-[249px]} .bb250 {@apply border-b-[250px]}
+    .bb251 {@apply border-b-[251px]} .bb252 {@apply border-b-[252px]} .bb253 {@apply border-b-[253px]} .bb254 {@apply border-b-[254px]} .bb255 {@apply border-b-[255px]}
+    .bb256 {@apply border-b-[256px]} .bb257 {@apply border-b-[257px]} .bb258 {@apply border-b-[258px]} .bb259 {@apply border-b-[259px]} .bb260 {@apply border-b-[260px]}
+    .bb261 {@apply border-b-[261px]} .bb262 {@apply border-b-[262px]} .bb263 {@apply border-b-[263px]} .bb264 {@apply border-b-[264px]} .bb265 {@apply border-b-[265px]}
+    .bb266 {@apply border-b-[266px]} .bb267 {@apply border-b-[267px]} .bb268 {@apply border-b-[268px]} .bb269 {@apply border-b-[269px]} .bb270 {@apply border-b-[270px]}
+    .bb271 {@apply border-b-[271px]} .bb272 {@apply border-b-[272px]} .bb273 {@apply border-b-[273px]} .bb274 {@apply border-b-[274px]} .bb275 {@apply border-b-[275px]}
+    .bb276 {@apply border-b-[276px]} .bb277 {@apply border-b-[277px]} .bb278 {@apply border-b-[278px]} .bb279 {@apply border-b-[279px]} .bb280 {@apply border-b-[280px]}
+    .bb281 {@apply border-b-[281px]} .bb282 {@apply border-b-[282px]} .bb283 {@apply border-b-[283px]} .bb284 {@apply border-b-[284px]} .bb285 {@apply border-b-[285px]}
+    .bb286 {@apply border-b-[286px]} .bb287 {@apply border-b-[287px]} .bb288 {@apply border-b-[288px]} .bb289 {@apply border-b-[289px]} .bb290 {@apply border-b-[290px]}
+    .bb291 {@apply border-b-[291px]} .bb292 {@apply border-b-[292px]} .bb293 {@apply border-b-[293px]} .bb294 {@apply border-b-[294px]} .bb295 {@apply border-b-[295px]}
+    .bb296 {@apply border-b-[296px]} .bb297 {@apply border-b-[297px]} .bb298 {@apply border-b-[298px]} .bb299 {@apply border-b-[299px]} .bb300 {@apply border-b-[300px]}
+}
+/* ".bb" + str(i) + " {@apply border-b-[" + str(i) + "px]}" */
+
+@layer utilities {   /* left: 0-300 */
+    .bl0 {@apply border-l-0} .bl1 {@apply border-l-[1px]} .bl2 {@apply border-l-[2px]} .bl3 {@apply border-l-[3px]} .bl4 {@apply border-l-[4px]} .bl5 {@apply border-l-[5px]}
+    .bl6 {@apply border-l-[6px]} .bl7 {@apply border-l-[7px]} .bl8 {@apply border-l-[8px]} .bl9 {@apply border-l-[9px]} .bl10 {@apply border-l-[10px]}
+    .bl11 {@apply border-l-[11px]} .bl12 {@apply border-l-[12px]} .bl13 {@apply border-l-[13px]} .bl14 {@apply border-l-[14px]} .bl15 {@apply border-l-[15px]}
+    .bl16 {@apply border-l-[16px]} .bl17 {@apply border-l-[17px]} .bl18 {@apply border-l-[18px]} .bl19 {@apply border-l-[19px]} .bl20 {@apply border-l-[20px]}
+    .bl21 {@apply border-l-[21px]} .bl22 {@apply border-l-[22px]} .bl23 {@apply border-l-[23px]} .bl24 {@apply border-l-[24px]} .bl25 {@apply border-l-[25px]}
+    .bl26 {@apply border-l-[26px]} .bl27 {@apply border-l-[27px]} .bl28 {@apply border-l-[28px]} .bl29 {@apply border-l-[29px]} .bl30 {@apply border-l-[30px]}
+    .bl31 {@apply border-l-[31px]} .bl32 {@apply border-l-[32px]} .bl33 {@apply border-l-[33px]} .bl34 {@apply border-l-[34px]} .bl35 {@apply border-l-[35px]}
+    .bl36 {@apply border-l-[36px]} .bl37 {@apply border-l-[37px]} .bl38 {@apply border-l-[38px]} .bl39 {@apply border-l-[39px]} .bl40 {@apply border-l-[40px]}
+    .bl41 {@apply border-l-[41px]} .bl42 {@apply border-l-[42px]} .bl43 {@apply border-l-[43px]} .bl44 {@apply border-l-[44px]} .bl45 {@apply border-l-[45px]}
+    .bl46 {@apply border-l-[46px]} .bl47 {@apply border-l-[47px]} .bl48 {@apply border-l-[48px]} .bl49 {@apply border-l-[49px]} .bl50 {@apply border-l-[50px]}
+    .bl51 {@apply border-l-[51px]} .bl52 {@apply border-l-[52px]} .bl53 {@apply border-l-[53px]} .bl54 {@apply border-l-[54px]} .bl55 {@apply border-l-[55px]}
+    .bl56 {@apply border-l-[56px]} .bl57 {@apply border-l-[57px]} .bl58 {@apply border-l-[58px]} .bl59 {@apply border-l-[59px]} .bl60 {@apply border-l-[60px]}
+    .bl61 {@apply border-l-[61px]} .bl62 {@apply border-l-[62px]} .bl63 {@apply border-l-[63px]} .bl64 {@apply border-l-[64px]} .bl65 {@apply border-l-[65px]}
+    .bl66 {@apply border-l-[66px]} .bl67 {@apply border-l-[67px]} .bl68 {@apply border-l-[68px]} .bl69 {@apply border-l-[69px]} .bl70 {@apply border-l-[70px]}
+    .bl71 {@apply border-l-[71px]} .bl72 {@apply border-l-[72px]} .bl73 {@apply border-l-[73px]} .bl74 {@apply border-l-[74px]} .bl75 {@apply border-l-[75px]}
+    .bl76 {@apply border-l-[76px]} .bl77 {@apply border-l-[77px]} .bl78 {@apply border-l-[78px]} .bl79 {@apply border-l-[79px]} .bl80 {@apply border-l-[80px]}
+    .bl81 {@apply border-l-[81px]} .bl82 {@apply border-l-[82px]} .bl83 {@apply border-l-[83px]} .bl84 {@apply border-l-[84px]} .bl85 {@apply border-l-[85px]}
+    .bl86 {@apply border-l-[86px]} .bl87 {@apply border-l-[87px]} .bl88 {@apply border-l-[88px]} .bl89 {@apply border-l-[89px]} .bl90 {@apply border-l-[90px]}
+    .bl91 {@apply border-l-[91px]} .bl92 {@apply border-l-[92px]} .bl93 {@apply border-l-[93px]} .bl94 {@apply border-l-[94px]} .bl95 {@apply border-l-[95px]}
+    .bl96 {@apply border-l-[96px]} .bl97 {@apply border-l-[97px]} .bl98 {@apply border-l-[98px]} .bl99 {@apply border-l-[99px]} .bl100 {@apply border-l-[100px]}
+    .bl101 {@apply border-l-[101px]} .bl102 {@apply border-l-[102px]} .bl103 {@apply border-l-[103px]} .bl104 {@apply border-l-[104px]} .bl105 {@apply border-l-[105px]}
+    .bl106 {@apply border-l-[106px]} .bl107 {@apply border-l-[107px]} .bl108 {@apply border-l-[108px]} .bl109 {@apply border-l-[109px]} .bl110 {@apply border-l-[110px]}
+    .bl111 {@apply border-l-[111px]} .bl112 {@apply border-l-[112px]} .bl113 {@apply border-l-[113px]} .bl114 {@apply border-l-[114px]} .bl115 {@apply border-l-[115px]}
+    .bl116 {@apply border-l-[116px]} .bl117 {@apply border-l-[117px]} .bl118 {@apply border-l-[118px]} .bl119 {@apply border-l-[119px]} .bl120 {@apply border-l-[120px]}
+    .bl121 {@apply border-l-[121px]} .bl122 {@apply border-l-[122px]} .bl123 {@apply border-l-[123px]} .bl124 {@apply border-l-[124px]} .bl125 {@apply border-l-[125px]}
+    .bl126 {@apply border-l-[126px]} .bl127 {@apply border-l-[127px]} .bl128 {@apply border-l-[128px]} .bl129 {@apply border-l-[129px]} .bl130 {@apply border-l-[130px]}
+    .bl131 {@apply border-l-[131px]} .bl132 {@apply border-l-[132px]} .bl133 {@apply border-l-[133px]} .bl134 {@apply border-l-[134px]} .bl135 {@apply border-l-[135px]}
+    .bl136 {@apply border-l-[136px]} .bl137 {@apply border-l-[137px]} .bl138 {@apply border-l-[138px]} .bl139 {@apply border-l-[139px]} .bl140 {@apply border-l-[140px]}
+    .bl141 {@apply border-l-[141px]} .bl142 {@apply border-l-[142px]} .bl143 {@apply border-l-[143px]} .bl144 {@apply border-l-[144px]} .bl145 {@apply border-l-[145px]}
+    .bl146 {@apply border-l-[146px]} .bl147 {@apply border-l-[147px]} .bl148 {@apply border-l-[148px]} .bl149 {@apply border-l-[149px]} .bl150 {@apply border-l-[150px]}
+    .bl151 {@apply border-l-[151px]} .bl152 {@apply border-l-[152px]} .bl153 {@apply border-l-[153px]} .bl154 {@apply border-l-[154px]} .bl155 {@apply border-l-[155px]}
+    .bl156 {@apply border-l-[156px]} .bl157 {@apply border-l-[157px]} .bl158 {@apply border-l-[158px]} .bl159 {@apply border-l-[159px]} .bl160 {@apply border-l-[160px]}
+    .bl161 {@apply border-l-[161px]} .bl162 {@apply border-l-[162px]} .bl163 {@apply border-l-[163px]} .bl164 {@apply border-l-[164px]} .bl165 {@apply border-l-[165px]}
+    .bl166 {@apply border-l-[166px]} .bl167 {@apply border-l-[167px]} .bl168 {@apply border-l-[168px]} .bl169 {@apply border-l-[169px]} .bl170 {@apply border-l-[170px]}
+    .bl171 {@apply border-l-[171px]} .bl172 {@apply border-l-[172px]} .bl173 {@apply border-l-[173px]} .bl174 {@apply border-l-[174px]} .bl175 {@apply border-l-[175px]}
+    .bl176 {@apply border-l-[176px]} .bl177 {@apply border-l-[177px]} .bl178 {@apply border-l-[178px]} .bl179 {@apply border-l-[179px]} .bl180 {@apply border-l-[180px]}
+    .bl181 {@apply border-l-[181px]} .bl182 {@apply border-l-[182px]} .bl183 {@apply border-l-[183px]} .bl184 {@apply border-l-[184px]} .bl185 {@apply border-l-[185px]}
+    .bl186 {@apply border-l-[186px]} .bl187 {@apply border-l-[187px]} .bl188 {@apply border-l-[188px]} .bl189 {@apply border-l-[189px]} .bl190 {@apply border-l-[190px]}
+    .bl191 {@apply border-l-[191px]} .bl192 {@apply border-l-[192px]} .bl193 {@apply border-l-[193px]} .bl194 {@apply border-l-[194px]} .bl195 {@apply border-l-[195px]}
+    .bl196 {@apply border-l-[196px]} .bl197 {@apply border-l-[197px]} .bl198 {@apply border-l-[198px]} .bl199 {@apply border-l-[199px]} .bl200 {@apply border-l-[200px]}
+    .bl201 {@apply border-l-[201px]} .bl202 {@apply border-l-[202px]} .bl203 {@apply border-l-[203px]} .bl204 {@apply border-l-[204px]} .bl205 {@apply border-l-[205px]}
+    .bl206 {@apply border-l-[206px]} .bl207 {@apply border-l-[207px]} .bl208 {@apply border-l-[208px]} .bl209 {@apply border-l-[209px]} .bl210 {@apply border-l-[210px]}
+    .bl211 {@apply border-l-[211px]} .bl212 {@apply border-l-[212px]} .bl213 {@apply border-l-[213px]} .bl214 {@apply border-l-[214px]} .bl215 {@apply border-l-[215px]}
+    .bl216 {@apply border-l-[216px]} .bl217 {@apply border-l-[217px]} .bl218 {@apply border-l-[218px]} .bl219 {@apply border-l-[219px]} .bl220 {@apply border-l-[220px]}
+    .bl221 {@apply border-l-[221px]} .bl222 {@apply border-l-[222px]} .bl223 {@apply border-l-[223px]} .bl224 {@apply border-l-[224px]} .bl225 {@apply border-l-[225px]}
+    .bl226 {@apply border-l-[226px]} .bl227 {@apply border-l-[227px]} .bl228 {@apply border-l-[228px]} .bl229 {@apply border-l-[229px]} .bl230 {@apply border-l-[230px]}
+    .bl231 {@apply border-l-[231px]} .bl232 {@apply border-l-[232px]} .bl233 {@apply border-l-[233px]} .bl234 {@apply border-l-[234px]} .bl235 {@apply border-l-[235px]}
+    .bl236 {@apply border-l-[236px]} .bl237 {@apply border-l-[237px]} .bl238 {@apply border-l-[238px]} .bl239 {@apply border-l-[239px]} .bl240 {@apply border-l-[240px]}
+    .bl241 {@apply border-l-[241px]} .bl242 {@apply border-l-[242px]} .bl243 {@apply border-l-[243px]} .bl244 {@apply border-l-[244px]} .bl245 {@apply border-l-[245px]}
+    .bl246 {@apply border-l-[246px]} .bl247 {@apply border-l-[247px]} .bl248 {@apply border-l-[248px]} .bl249 {@apply border-l-[249px]} .bl250 {@apply border-l-[250px]}
+    .bl251 {@apply border-l-[251px]} .bl252 {@apply border-l-[252px]} .bl253 {@apply border-l-[253px]} .bl254 {@apply border-l-[254px]} .bl255 {@apply border-l-[255px]}
+    .bl256 {@apply border-l-[256px]} .bl257 {@apply border-l-[257px]} .bl258 {@apply border-l-[258px]} .bl259 {@apply border-l-[259px]} .bl260 {@apply border-l-[260px]}
+    .bl261 {@apply border-l-[261px]} .bl262 {@apply border-l-[262px]} .bl263 {@apply border-l-[263px]} .bl264 {@apply border-l-[264px]} .bl265 {@apply border-l-[265px]}
+    .bl266 {@apply border-l-[266px]} .bl267 {@apply border-l-[267px]} .bl268 {@apply border-l-[268px]} .bl269 {@apply border-l-[269px]} .bl270 {@apply border-l-[270px]}
+    .bl271 {@apply border-l-[271px]} .bl272 {@apply border-l-[272px]} .bl273 {@apply border-l-[273px]} .bl274 {@apply border-l-[274px]} .bl275 {@apply border-l-[275px]}
+    .bl276 {@apply border-l-[276px]} .bl277 {@apply border-l-[277px]} .bl278 {@apply border-l-[278px]} .bl279 {@apply border-l-[279px]} .bl280 {@apply border-l-[280px]}
+    .bl281 {@apply border-l-[281px]} .bl282 {@apply border-l-[282px]} .bl283 {@apply border-l-[283px]} .bl284 {@apply border-l-[284px]} .bl285 {@apply border-l-[285px]}
+    .bl286 {@apply border-l-[286px]} .bl287 {@apply border-l-[287px]} .bl288 {@apply border-l-[288px]} .bl289 {@apply border-l-[289px]} .bl290 {@apply border-l-[290px]}
+    .bl291 {@apply border-l-[291px]} .bl292 {@apply border-l-[292px]} .bl293 {@apply border-l-[293px]} .bl294 {@apply border-l-[294px]} .bl295 {@apply border-l-[295px]}
+    .bl296 {@apply border-l-[296px]} .bl297 {@apply border-l-[297px]} .bl298 {@apply border-l-[298px]} .bl299 {@apply border-l-[299px]} .bl300 {@apply border-l-[300px]}
+}
+/* ".bl" + str(i) + " {@apply border-l-[" + str(i) + "px]}" */
+
+@layer utilities {   /* right: 0-300 */
+    .br0 {@apply border-r-0} .br1 {@apply border-r-[1px]} .br2 {@apply border-r-[2px]} .br3 {@apply border-r-[3px]} .br4 {@apply border-r-[4px]} .br5 {@apply border-r-[5px]}
+    .br6 {@apply border-r-[6px]} .br7 {@apply border-r-[7px]} .br8 {@apply border-r-[8px]} .br9 {@apply border-r-[9px]} .br10 {@apply border-r-[10px]}
+    .br11 {@apply border-r-[11px]} .br12 {@apply border-r-[12px]} .br13 {@apply border-r-[13px]} .br14 {@apply border-r-[14px]} .br15 {@apply border-r-[15px]}
+    .br16 {@apply border-r-[16px]} .br17 {@apply border-r-[17px]} .br18 {@apply border-r-[18px]} .br19 {@apply border-r-[19px]} .br20 {@apply border-r-[20px]}
+    .br21 {@apply border-r-[21px]} .br22 {@apply border-r-[22px]} .br23 {@apply border-r-[23px]} .br24 {@apply border-r-[24px]} .br25 {@apply border-r-[25px]}
+    .br26 {@apply border-r-[26px]} .br27 {@apply border-r-[27px]} .br28 {@apply border-r-[28px]} .br29 {@apply border-r-[29px]} .br30 {@apply border-r-[30px]}
+    .br31 {@apply border-r-[31px]} .br32 {@apply border-r-[32px]} .br33 {@apply border-r-[33px]} .br34 {@apply border-r-[34px]} .br35 {@apply border-r-[35px]}
+    .br36 {@apply border-r-[36px]} .br37 {@apply border-r-[37px]} .br38 {@apply border-r-[38px]} .br39 {@apply border-r-[39px]} .br40 {@apply border-r-[40px]}
+    .br41 {@apply border-r-[41px]} .br42 {@apply border-r-[42px]} .br43 {@apply border-r-[43px]} .br44 {@apply border-r-[44px]} .br45 {@apply border-r-[45px]}
+    .br46 {@apply border-r-[46px]} .br47 {@apply border-r-[47px]} .br48 {@apply border-r-[48px]} .br49 {@apply border-r-[49px]} .br50 {@apply border-r-[50px]}
+    .br51 {@apply border-r-[51px]} .br52 {@apply border-r-[52px]} .br53 {@apply border-r-[53px]} .br54 {@apply border-r-[54px]} .br55 {@apply border-r-[55px]}
+    .br56 {@apply border-r-[56px]} .br57 {@apply border-r-[57px]} .br58 {@apply border-r-[58px]} .br59 {@apply border-r-[59px]} .br60 {@apply border-r-[60px]}
+    .br61 {@apply border-r-[61px]} .br62 {@apply border-r-[62px]} .br63 {@apply border-r-[63px]} .br64 {@apply border-r-[64px]} .br65 {@apply border-r-[65px]}
+    .br66 {@apply border-r-[66px]} .br67 {@apply border-r-[67px]} .br68 {@apply border-r-[68px]} .br69 {@apply border-r-[69px]} .br70 {@apply border-r-[70px]}
+    .br71 {@apply border-r-[71px]} .br72 {@apply border-r-[72px]} .br73 {@apply border-r-[73px]} .br74 {@apply border-r-[74px]} .br75 {@apply border-r-[75px]}
+    .br76 {@apply border-r-[76px]} .br77 {@apply border-r-[77px]} .br78 {@apply border-r-[78px]} .br79 {@apply border-r-[79px]} .br80 {@apply border-r-[80px]}
+    .br81 {@apply border-r-[81px]} .br82 {@apply border-r-[82px]} .br83 {@apply border-r-[83px]} .br84 {@apply border-r-[84px]} .br85 {@apply border-r-[85px]}
+    .br86 {@apply border-r-[86px]} .br87 {@apply border-r-[87px]} .br88 {@apply border-r-[88px]} .br89 {@apply border-r-[89px]} .br90 {@apply border-r-[90px]}
+    .br91 {@apply border-r-[91px]} .br92 {@apply border-r-[92px]} .br93 {@apply border-r-[93px]} .br94 {@apply border-r-[94px]} .br95 {@apply border-r-[95px]}
+    .br96 {@apply border-r-[96px]} .br97 {@apply border-r-[97px]} .br98 {@apply border-r-[98px]} .br99 {@apply border-r-[99px]} .br100 {@apply border-r-[100px]}
+    .br101 {@apply border-r-[101px]} .br102 {@apply border-r-[102px]} .br103 {@apply border-r-[103px]} .br104 {@apply border-r-[104px]} .br105 {@apply border-r-[105px]}
+    .br106 {@apply border-r-[106px]} .br107 {@apply border-r-[107px]} .br108 {@apply border-r-[108px]} .br109 {@apply border-r-[109px]} .br110 {@apply border-r-[110px]}
+    .br111 {@apply border-r-[111px]} .br112 {@apply border-r-[112px]} .br113 {@apply border-r-[113px]} .br114 {@apply border-r-[114px]} .br115 {@apply border-r-[115px]}
+    .br116 {@apply border-r-[116px]} .br117 {@apply border-r-[117px]} .br118 {@apply border-r-[118px]} .br119 {@apply border-r-[119px]} .br120 {@apply border-r-[120px]}
+    .br121 {@apply border-r-[121px]} .br122 {@apply border-r-[122px]} .br123 {@apply border-r-[123px]} .br124 {@apply border-r-[124px]} .br125 {@apply border-r-[125px]}
+    .br126 {@apply border-r-[126px]} .br127 {@apply border-r-[127px]} .br128 {@apply border-r-[128px]} .br129 {@apply border-r-[129px]} .br130 {@apply border-r-[130px]}
+    .br131 {@apply border-r-[131px]} .br132 {@apply border-r-[132px]} .br133 {@apply border-r-[133px]} .br134 {@apply border-r-[134px]} .br135 {@apply border-r-[135px]}
+    .br136 {@apply border-r-[136px]} .br137 {@apply border-r-[137px]} .br138 {@apply border-r-[138px]} .br139 {@apply border-r-[139px]} .br140 {@apply border-r-[140px]}
+    .br141 {@apply border-r-[141px]} .br142 {@apply border-r-[142px]} .br143 {@apply border-r-[143px]} .br144 {@apply border-r-[144px]} .br145 {@apply border-r-[145px]}
+    .br146 {@apply border-r-[146px]} .br147 {@apply border-r-[147px]} .br148 {@apply border-r-[148px]} .br149 {@apply border-r-[149px]} .br150 {@apply border-r-[150px]}
+    .br151 {@apply border-r-[151px]} .br152 {@apply border-r-[152px]} .br153 {@apply border-r-[153px]} .br154 {@apply border-r-[154px]} .br155 {@apply border-r-[155px]}
+    .br156 {@apply border-r-[156px]} .br157 {@apply border-r-[157px]} .br158 {@apply border-r-[158px]} .br159 {@apply border-r-[159px]} .br160 {@apply border-r-[160px]}
+    .br161 {@apply border-r-[161px]} .br162 {@apply border-r-[162px]} .br163 {@apply border-r-[163px]} .br164 {@apply border-r-[164px]} .br165 {@apply border-r-[165px]}
+    .br166 {@apply border-r-[166px]} .br167 {@apply border-r-[167px]} .br168 {@apply border-r-[168px]} .br169 {@apply border-r-[169px]} .br170 {@apply border-r-[170px]}
+    .br171 {@apply border-r-[171px]} .br172 {@apply border-r-[172px]} .br173 {@apply border-r-[173px]} .br174 {@apply border-r-[174px]} .br175 {@apply border-r-[175px]}
+    .br176 {@apply border-r-[176px]} .br177 {@apply border-r-[177px]} .br178 {@apply border-r-[178px]} .br179 {@apply border-r-[179px]} .br180 {@apply border-r-[180px]}
+    .br181 {@apply border-r-[181px]} .br182 {@apply border-r-[182px]} .br183 {@apply border-r-[183px]} .br184 {@apply border-r-[184px]} .br185 {@apply border-r-[185px]}
+    .br186 {@apply border-r-[186px]} .br187 {@apply border-r-[187px]} .br188 {@apply border-r-[188px]} .br189 {@apply border-r-[189px]} .br190 {@apply border-r-[190px]}
+    .br191 {@apply border-r-[191px]} .br192 {@apply border-r-[192px]} .br193 {@apply border-r-[193px]} .br194 {@apply border-r-[194px]} .br195 {@apply border-r-[195px]}
+    .br196 {@apply border-r-[196px]} .br197 {@apply border-r-[197px]} .br198 {@apply border-r-[198px]} .br199 {@apply border-r-[199px]} .br200 {@apply border-r-[200px]}
+    .br201 {@apply border-r-[201px]} .br202 {@apply border-r-[202px]} .br203 {@apply border-r-[203px]} .br204 {@apply border-r-[204px]} .br205 {@apply border-r-[205px]}
+    .br206 {@apply border-r-[206px]} .br207 {@apply border-r-[207px]} .br208 {@apply border-r-[208px]} .br209 {@apply border-r-[209px]} .br210 {@apply border-r-[210px]}
+    .br211 {@apply border-r-[211px]} .br212 {@apply border-r-[212px]} .br213 {@apply border-r-[213px]} .br214 {@apply border-r-[214px]} .br215 {@apply border-r-[215px]}
+    .br216 {@apply border-r-[216px]} .br217 {@apply border-r-[217px]} .br218 {@apply border-r-[218px]} .br219 {@apply border-r-[219px]} .br220 {@apply border-r-[220px]}
+    .br221 {@apply border-r-[221px]} .br222 {@apply border-r-[222px]} .br223 {@apply border-r-[223px]} .br224 {@apply border-r-[224px]} .br225 {@apply border-r-[225px]}
+    .br226 {@apply border-r-[226px]} .br227 {@apply border-r-[227px]} .br228 {@apply border-r-[228px]} .br229 {@apply border-r-[229px]} .br230 {@apply border-r-[230px]}
+    .br231 {@apply border-r-[231px]} .br232 {@apply border-r-[232px]} .br233 {@apply border-r-[233px]} .br234 {@apply border-r-[234px]} .br235 {@apply border-r-[235px]}
+    .br236 {@apply border-r-[236px]} .br237 {@apply border-r-[237px]} .br238 {@apply border-r-[238px]} .br239 {@apply border-r-[239px]} .br240 {@apply border-r-[240px]}
+    .br241 {@apply border-r-[241px]} .br242 {@apply border-r-[242px]} .br243 {@apply border-r-[243px]} .br244 {@apply border-r-[244px]} .br245 {@apply border-r-[245px]}
+    .br246 {@apply border-r-[246px]} .br247 {@apply border-r-[247px]} .br248 {@apply border-r-[248px]} .br249 {@apply border-r-[249px]} .br250 {@apply border-r-[250px]}
+    .br251 {@apply border-r-[251px]} .br252 {@apply border-r-[252px]} .br253 {@apply border-r-[253px]} .br254 {@apply border-r-[254px]} .br255 {@apply border-r-[255px]}
+    .br256 {@apply border-r-[256px]} .br257 {@apply border-r-[257px]} .br258 {@apply border-r-[258px]} .br259 {@apply border-r-[259px]} .br260 {@apply border-r-[260px]}
+    .br261 {@apply border-r-[261px]} .br262 {@apply border-r-[262px]} .br263 {@apply border-r-[263px]} .br264 {@apply border-r-[264px]} .br265 {@apply border-r-[265px]}
+    .br266 {@apply border-r-[266px]} .br267 {@apply border-r-[267px]} .br268 {@apply border-r-[268px]} .br269 {@apply border-r-[269px]} .br270 {@apply border-r-[270px]}
+    .br271 {@apply border-r-[271px]} .br272 {@apply border-r-[272px]} .br273 {@apply border-r-[273px]} .br274 {@apply border-r-[274px]} .br275 {@apply border-r-[275px]}
+    .br276 {@apply border-r-[276px]} .br277 {@apply border-r-[277px]} .br278 {@apply border-r-[278px]} .br279 {@apply border-r-[279px]} .br280 {@apply border-r-[280px]}
+    .br281 {@apply border-r-[281px]} .br282 {@apply border-r-[282px]} .br283 {@apply border-r-[283px]} .br284 {@apply border-r-[284px]} .br285 {@apply border-r-[285px]}
+    .br286 {@apply border-r-[286px]} .br287 {@apply border-r-[287px]} .br288 {@apply border-r-[288px]} .br289 {@apply border-r-[289px]} .br290 {@apply border-r-[290px]}
+    .br291 {@apply border-r-[291px]} .br292 {@apply border-r-[292px]} .br293 {@apply border-r-[293px]} .br294 {@apply border-r-[294px]} .br295 {@apply border-r-[295px]}
+    .br296 {@apply border-r-[296px]} .br297 {@apply border-r-[297px]} .br298 {@apply border-r-[298px]} .br299 {@apply border-r-[299px]} .br300 {@apply border-r-[300px]}
+}
+/* ".br" + str(i) + " {@apply border-r-[" + str(i) + "px]}" */
+
+
+@layer utilities {   /* x: 0-300 */
+    .bx0 {@apply bl0 br0} .bx1 {@apply bl1 br1} .bx2 {@apply bl2 br2} .bx3 {@apply bl3 br3} .bx4 {@apply bl4 br4} .bx5 {@apply bl5 br5} .bx6 {@apply bl6 br6} .bx7 {@apply bl7 br7} .bx8 {@apply bl8 br8} .bx9 {@apply bl9 br9} .bx10 {@apply bl10 br10}
+    .bx11 {@apply bl11 br11} .bx12 {@apply bl12 br12} .bx13 {@apply bl13 br13} .bx14 {@apply bl14 br14} .bx15 {@apply bl15 br15} .bx16 {@apply bl16 br16} .bx17 {@apply bl17 br17} .bx18 {@apply bl18 br18} .bx19 {@apply bl19 br19} .bx20 {@apply bl20 br20}
+    .bx21 {@apply bl21 br21} .bx22 {@apply bl22 br22} .bx23 {@apply bl23 br23} .bx24 {@apply bl24 br24} .bx25 {@apply bl25 br25} .bx26 {@apply bl26 br26} .bx27 {@apply bl27 br27} .bx28 {@apply bl28 br28} .bx29 {@apply bl29 br29} .bx30 {@apply bl30 br30}
+    .bx31 {@apply bl31 br31} .bx32 {@apply bl32 br32} .bx33 {@apply bl33 br33} .bx34 {@apply bl34 br34} .bx35 {@apply bl35 br35} .bx36 {@apply bl36 br36} .bx37 {@apply bl37 br37} .bx38 {@apply bl38 br38} .bx39 {@apply bl39 br39} .bx40 {@apply bl40 br40}
+    .bx41 {@apply bl41 br41} .bx42 {@apply bl42 br42} .bx43 {@apply bl43 br43} .bx44 {@apply bl44 br44} .bx45 {@apply bl45 br45} .bx46 {@apply bl46 br46} .bx47 {@apply bl47 br47} .bx48 {@apply bl48 br48} .bx49 {@apply bl49 br49} .bx50 {@apply bl50 br50}
+    .bx51 {@apply bl51 br51} .bx52 {@apply bl52 br52} .bx53 {@apply bl53 br53} .bx54 {@apply bl54 br54} .bx55 {@apply bl55 br55} .bx56 {@apply bl56 br56} .bx57 {@apply bl57 br57} .bx58 {@apply bl58 br58} .bx59 {@apply bl59 br59} .bx60 {@apply bl60 br60}
+    .bx61 {@apply bl61 br61} .bx62 {@apply bl62 br62} .bx63 {@apply bl63 br63} .bx64 {@apply bl64 br64} .bx65 {@apply bl65 br65} .bx66 {@apply bl66 br66} .bx67 {@apply bl67 br67} .bx68 {@apply bl68 br68} .bx69 {@apply bl69 br69} .bx70 {@apply bl70 br70}
+    .bx71 {@apply bl71 br71} .bx72 {@apply bl72 br72} .bx73 {@apply bl73 br73} .bx74 {@apply bl74 br74} .bx75 {@apply bl75 br75} .bx76 {@apply bl76 br76} .bx77 {@apply bl77 br77} .bx78 {@apply bl78 br78} .bx79 {@apply bl79 br79} .bx80 {@apply bl80 br80}
+    .bx81 {@apply bl81 br81} .bx82 {@apply bl82 br82} .bx83 {@apply bl83 br83} .bx84 {@apply bl84 br84} .bx85 {@apply bl85 br85} .bx86 {@apply bl86 br86} .bx87 {@apply bl87 br87} .bx88 {@apply bl88 br88} .bx89 {@apply bl89 br89} .bx90 {@apply bl90 br90}
+    .bx91 {@apply bl91 br91} .bx92 {@apply bl92 br92} .bx93 {@apply bl93 br93} .bx94 {@apply bl94 br94} .bx95 {@apply bl95 br95} .bx96 {@apply bl96 br96} .bx97 {@apply bl97 br97} .bx98 {@apply bl98 br98} .bx99 {@apply bl99 br99} .bx100 {@apply bl100 br100}
+    .bx101 {@apply bl101 br101} .bx102 {@apply bl102 br102} .bx103 {@apply bl103 br103} .bx104 {@apply bl104 br104} .bx105 {@apply bl105 br105} .bx106 {@apply bl106 br106} .bx107 {@apply bl107 br107} .bx108 {@apply bl108 br108} .bx109 {@apply bl109 br109} .bx110 {@apply bl110 br110}
+    .bx111 {@apply bl111 br111} .bx112 {@apply bl112 br112} .bx113 {@apply bl113 br113} .bx114 {@apply bl114 br114} .bx115 {@apply bl115 br115} .bx116 {@apply bl116 br116} .bx117 {@apply bl117 br117} .bx118 {@apply bl118 br118} .bx119 {@apply bl119 br119} .bx120 {@apply bl120 br120}
+    .bx121 {@apply bl121 br121} .bx122 {@apply bl122 br122} .bx123 {@apply bl123 br123} .bx124 {@apply bl124 br124} .bx125 {@apply bl125 br125} .bx126 {@apply bl126 br126} .bx127 {@apply bl127 br127} .bx128 {@apply bl128 br128} .bx129 {@apply bl129 br129} .bx130 {@apply bl130 br130}
+    .bx131 {@apply bl131 br131} .bx132 {@apply bl132 br132} .bx133 {@apply bl133 br133} .bx134 {@apply bl134 br134} .bx135 {@apply bl135 br135} .bx136 {@apply bl136 br136} .bx137 {@apply bl137 br137} .bx138 {@apply bl138 br138} .bx139 {@apply bl139 br139} .bx140 {@apply bl140 br140}
+    .bx141 {@apply bl141 br141} .bx142 {@apply bl142 br142} .bx143 {@apply bl143 br143} .bx144 {@apply bl144 br144} .bx145 {@apply bl145 br145} .bx146 {@apply bl146 br146} .bx147 {@apply bl147 br147} .bx148 {@apply bl148 br148} .bx149 {@apply bl149 br149} .bx150 {@apply bl150 br150}
+    .bx151 {@apply bl151 br151} .bx152 {@apply bl152 br152} .bx153 {@apply bl153 br153} .bx154 {@apply bl154 br154} .bx155 {@apply bl155 br155} .bx156 {@apply bl156 br156} .bx157 {@apply bl157 br157} .bx158 {@apply bl158 br158} .bx159 {@apply bl159 br159} .bx160 {@apply bl160 br160}
+    .bx161 {@apply bl161 br161} .bx162 {@apply bl162 br162} .bx163 {@apply bl163 br163} .bx164 {@apply bl164 br164} .bx165 {@apply bl165 br165} .bx166 {@apply bl166 br166} .bx167 {@apply bl167 br167} .bx168 {@apply bl168 br168} .bx169 {@apply bl169 br169} .bx170 {@apply bl170 br170}
+    .bx171 {@apply bl171 br171} .bx172 {@apply bl172 br172} .bx173 {@apply bl173 br173} .bx174 {@apply bl174 br174} .bx175 {@apply bl175 br175} .bx176 {@apply bl176 br176} .bx177 {@apply bl177 br177} .bx178 {@apply bl178 br178} .bx179 {@apply bl179 br179} .bx180 {@apply bl180 br180}
+    .bx181 {@apply bl181 br181} .bx182 {@apply bl182 br182} .bx183 {@apply bl183 br183} .bx184 {@apply bl184 br184} .bx185 {@apply bl185 br185} .bx186 {@apply bl186 br186} .bx187 {@apply bl187 br187} .bx188 {@apply bl188 br188} .bx189 {@apply bl189 br189} .bx190 {@apply bl190 br190}
+    .bx191 {@apply bl191 br191} .bx192 {@apply bl192 br192} .bx193 {@apply bl193 br193} .bx194 {@apply bl194 br194} .bx195 {@apply bl195 br195} .bx196 {@apply bl196 br196} .bx197 {@apply bl197 br197} .bx198 {@apply bl198 br198} .bx199 {@apply bl199 br199} .bx200 {@apply bl200 br200}
+    .bx201 {@apply bl201 br201} .bx202 {@apply bl202 br202} .bx203 {@apply bl203 br203} .bx204 {@apply bl204 br204} .bx205 {@apply bl205 br205} .bx206 {@apply bl206 br206} .bx207 {@apply bl207 br207} .bx208 {@apply bl208 br208} .bx209 {@apply bl209 br209} .bx210 {@apply bl210 br210}
+    .bx211 {@apply bl211 br211} .bx212 {@apply bl212 br212} .bx213 {@apply bl213 br213} .bx214 {@apply bl214 br214} .bx215 {@apply bl215 br215} .bx216 {@apply bl216 br216} .bx217 {@apply bl217 br217} .bx218 {@apply bl218 br218} .bx219 {@apply bl219 br219} .bx220 {@apply bl220 br220}
+    .bx221 {@apply bl221 br221} .bx222 {@apply bl222 br222} .bx223 {@apply bl223 br223} .bx224 {@apply bl224 br224} .bx225 {@apply bl225 br225} .bx226 {@apply bl226 br226} .bx227 {@apply bl227 br227} .bx228 {@apply bl228 br228} .bx229 {@apply bl229 br229} .bx230 {@apply bl230 br230}
+    .bx231 {@apply bl231 br231} .bx232 {@apply bl232 br232} .bx233 {@apply bl233 br233} .bx234 {@apply bl234 br234} .bx235 {@apply bl235 br235} .bx236 {@apply bl236 br236} .bx237 {@apply bl237 br237} .bx238 {@apply bl238 br238} .bx239 {@apply bl239 br239} .bx240 {@apply bl240 br240}
+    .bx241 {@apply bl241 br241} .bx242 {@apply bl242 br242} .bx243 {@apply bl243 br243} .bx244 {@apply bl244 br244} .bx245 {@apply bl245 br245} .bx246 {@apply bl246 br246} .bx247 {@apply bl247 br247} .bx248 {@apply bl248 br248} .bx249 {@apply bl249 br249} .bx250 {@apply bl250 br250}
+    .bx251 {@apply bl251 br251} .bx252 {@apply bl252 br252} .bx253 {@apply bl253 br253} .bx254 {@apply bl254 br254} .bx255 {@apply bl255 br255} .bx256 {@apply bl256 br256} .bx257 {@apply bl257 br257} .bx258 {@apply bl258 br258} .bx259 {@apply bl259 br259} .bx260 {@apply bl260 br260}
+    .bx261 {@apply bl261 br261} .bx262 {@apply bl262 br262} .bx263 {@apply bl263 br263} .bx264 {@apply bl264 br264} .bx265 {@apply bl265 br265} .bx266 {@apply bl266 br266} .bx267 {@apply bl267 br267} .bx268 {@apply bl268 br268} .bx269 {@apply bl269 br269} .bx270 {@apply bl270 br270}
+    .bx271 {@apply bl271 br271} .bx272 {@apply bl272 br272} .bx273 {@apply bl273 br273} .bx274 {@apply bl274 br274} .bx275 {@apply bl275 br275} .bx276 {@apply bl276 br276} .bx277 {@apply bl277 br277} .bx278 {@apply bl278 br278} .bx279 {@apply bl279 br279} .bx280 {@apply bl280 br280}
+    .bx281 {@apply bl281 br281} .bx282 {@apply bl282 br282} .bx283 {@apply bl283 br283} .bx284 {@apply bl284 br284} .bx285 {@apply bl285 br285} .bx286 {@apply bl286 br286} .bx287 {@apply bl287 br287} .bx288 {@apply bl288 br288} .bx289 {@apply bl289 br289} .bx290 {@apply bl290 br290}
+    .bx291 {@apply bl291 br291} .bx292 {@apply bl292 br292} .bx293 {@apply bl293 br293} .bx294 {@apply bl294 br294} .bx295 {@apply bl295 br295} .bx296 {@apply bl296 br296} .bx297 {@apply bl297 br297} .bx298 {@apply bl298 br298} .bx299 {@apply bl299 br299} .bx300 {@apply bl300 br300}
+}
+/* ".bx" + str(i) + " {@apply bl" + str(i) + " br" + str(i) + "}" */
+
+@layer utilities {   /* y: 0-300 */
+    .by0 {@apply bt0 bb0} .by1 {@apply bt1 bb1} .by2 {@apply bt2 bb2} .by3 {@apply bt3 bb3} .by4 {@apply bt4 bb4} .by5 {@apply bt5 bb5} .by6 {@apply bt6 bb6} .by7 {@apply bt7 bb7} .by8 {@apply bt8 bb8} .by9 {@apply bt9 bb9} .by10 {@apply bt10 bb10}
+    .by11 {@apply bt11 bb11} .by12 {@apply bt12 bb12} .by13 {@apply bt13 bb13} .by14 {@apply bt14 bb14} .by15 {@apply bt15 bb15} .by16 {@apply bt16 bb16} .by17 {@apply bt17 bb17} .by18 {@apply bt18 bb18} .by19 {@apply bt19 bb19} .by20 {@apply bt20 bb20}
+    .by21 {@apply bt21 bb21} .by22 {@apply bt22 bb22} .by23 {@apply bt23 bb23} .by24 {@apply bt24 bb24} .by25 {@apply bt25 bb25} .by26 {@apply bt26 bb26} .by27 {@apply bt27 bb27} .by28 {@apply bt28 bb28} .by29 {@apply bt29 bb29} .by30 {@apply bt30 bb30}
+    .by31 {@apply bt31 bb31} .by32 {@apply bt32 bb32} .by33 {@apply bt33 bb33} .by34 {@apply bt34 bb34} .by35 {@apply bt35 bb35} .by36 {@apply bt36 bb36} .by37 {@apply bt37 bb37} .by38 {@apply bt38 bb38} .by39 {@apply bt39 bb39} .by40 {@apply bt40 bb40}
+    .by41 {@apply bt41 bb41} .by42 {@apply bt42 bb42} .by43 {@apply bt43 bb43} .by44 {@apply bt44 bb44} .by45 {@apply bt45 bb45} .by46 {@apply bt46 bb46} .by47 {@apply bt47 bb47} .by48 {@apply bt48 bb48} .by49 {@apply bt49 bb49} .by50 {@apply bt50 bb50}
+    .by51 {@apply bt51 bb51} .by52 {@apply bt52 bb52} .by53 {@apply bt53 bb53} .by54 {@apply bt54 bb54} .by55 {@apply bt55 bb55} .by56 {@apply bt56 bb56} .by57 {@apply bt57 bb57} .by58 {@apply bt58 bb58} .by59 {@apply bt59 bb59} .by60 {@apply bt60 bb60}
+    .by61 {@apply bt61 bb61} .by62 {@apply bt62 bb62} .by63 {@apply bt63 bb63} .by64 {@apply bt64 bb64} .by65 {@apply bt65 bb65} .by66 {@apply bt66 bb66} .by67 {@apply bt67 bb67} .by68 {@apply bt68 bb68} .by69 {@apply bt69 bb69} .by70 {@apply bt70 bb70}
+    .by71 {@apply bt71 bb71} .by72 {@apply bt72 bb72} .by73 {@apply bt73 bb73} .by74 {@apply bt74 bb74} .by75 {@apply bt75 bb75} .by76 {@apply bt76 bb76} .by77 {@apply bt77 bb77} .by78 {@apply bt78 bb78} .by79 {@apply bt79 bb79} .by80 {@apply bt80 bb80}
+    .by81 {@apply bt81 bb81} .by82 {@apply bt82 bb82} .by83 {@apply bt83 bb83} .by84 {@apply bt84 bb84} .by85 {@apply bt85 bb85} .by86 {@apply bt86 bb86} .by87 {@apply bt87 bb87} .by88 {@apply bt88 bb88} .by89 {@apply bt89 bb89} .by90 {@apply bt90 bb90}
+    .by91 {@apply bt91 bb91} .by92 {@apply bt92 bb92} .by93 {@apply bt93 bb93} .by94 {@apply bt94 bb94} .by95 {@apply bt95 bb95} .by96 {@apply bt96 bb96} .by97 {@apply bt97 bb97} .by98 {@apply bt98 bb98} .by99 {@apply bt99 bb99} .by100 {@apply bt100 bb100}
+    .by101 {@apply bt101 bb101} .by102 {@apply bt102 bb102} .by103 {@apply bt103 bb103} .by104 {@apply bt104 bb104} .by105 {@apply bt105 bb105} .by106 {@apply bt106 bb106} .by107 {@apply bt107 bb107} .by108 {@apply bt108 bb108} .by109 {@apply bt109 bb109} .by110 {@apply bt110 bb110}
+    .by111 {@apply bt111 bb111} .by112 {@apply bt112 bb112} .by113 {@apply bt113 bb113} .by114 {@apply bt114 bb114} .by115 {@apply bt115 bb115} .by116 {@apply bt116 bb116} .by117 {@apply bt117 bb117} .by118 {@apply bt118 bb118} .by119 {@apply bt119 bb119} .by120 {@apply bt120 bb120}
+    .by121 {@apply bt121 bb121} .by122 {@apply bt122 bb122} .by123 {@apply bt123 bb123} .by124 {@apply bt124 bb124} .by125 {@apply bt125 bb125} .by126 {@apply bt126 bb126} .by127 {@apply bt127 bb127} .by128 {@apply bt128 bb128} .by129 {@apply bt129 bb129} .by130 {@apply bt130 bb130}
+    .by131 {@apply bt131 bb131} .by132 {@apply bt132 bb132} .by133 {@apply bt133 bb133} .by134 {@apply bt134 bb134} .by135 {@apply bt135 bb135} .by136 {@apply bt136 bb136} .by137 {@apply bt137 bb137} .by138 {@apply bt138 bb138} .by139 {@apply bt139 bb139} .by140 {@apply bt140 bb140}
+    .by141 {@apply bt141 bb141} .by142 {@apply bt142 bb142} .by143 {@apply bt143 bb143} .by144 {@apply bt144 bb144} .by145 {@apply bt145 bb145} .by146 {@apply bt146 bb146} .by147 {@apply bt147 bb147} .by148 {@apply bt148 bb148} .by149 {@apply bt149 bb149} .by150 {@apply bt150 bb150}
+    .by151 {@apply bt151 bb151} .by152 {@apply bt152 bb152} .by153 {@apply bt153 bb153} .by154 {@apply bt154 bb154} .by155 {@apply bt155 bb155} .by156 {@apply bt156 bb156} .by157 {@apply bt157 bb157} .by158 {@apply bt158 bb158} .by159 {@apply bt159 bb159} .by160 {@apply bt160 bb160}
+    .by161 {@apply bt161 bb161} .by162 {@apply bt162 bb162} .by163 {@apply bt163 bb163} .by164 {@apply bt164 bb164} .by165 {@apply bt165 bb165} .by166 {@apply bt166 bb166} .by167 {@apply bt167 bb167} .by168 {@apply bt168 bb168} .by169 {@apply bt169 bb169} .by170 {@apply bt170 bb170}
+    .by171 {@apply bt171 bb171} .by172 {@apply bt172 bb172} .by173 {@apply bt173 bb173} .by174 {@apply bt174 bb174} .by175 {@apply bt175 bb175} .by176 {@apply bt176 bb176} .by177 {@apply bt177 bb177} .by178 {@apply bt178 bb178} .by179 {@apply bt179 bb179} .by180 {@apply bt180 bb180}
+    .by181 {@apply bt181 bb181} .by182 {@apply bt182 bb182} .by183 {@apply bt183 bb183} .by184 {@apply bt184 bb184} .by185 {@apply bt185 bb185} .by186 {@apply bt186 bb186} .by187 {@apply bt187 bb187} .by188 {@apply bt188 bb188} .by189 {@apply bt189 bb189} .by190 {@apply bt190 bb190}
+    .by191 {@apply bt191 bb191} .by192 {@apply bt192 bb192} .by193 {@apply bt193 bb193} .by194 {@apply bt194 bb194} .by195 {@apply bt195 bb195} .by196 {@apply bt196 bb196} .by197 {@apply bt197 bb197} .by198 {@apply bt198 bb198} .by199 {@apply bt199 bb199} .by200 {@apply bt200 bb200}
+    .by201 {@apply bt201 bb201} .by202 {@apply bt202 bb202} .by203 {@apply bt203 bb203} .by204 {@apply bt204 bb204} .by205 {@apply bt205 bb205} .by206 {@apply bt206 bb206} .by207 {@apply bt207 bb207} .by208 {@apply bt208 bb208} .by209 {@apply bt209 bb209} .by210 {@apply bt210 bb210}
+    .by211 {@apply bt211 bb211} .by212 {@apply bt212 bb212} .by213 {@apply bt213 bb213} .by214 {@apply bt214 bb214} .by215 {@apply bt215 bb215} .by216 {@apply bt216 bb216} .by217 {@apply bt217 bb217} .by218 {@apply bt218 bb218} .by219 {@apply bt219 bb219} .by220 {@apply bt220 bb220}
+    .by221 {@apply bt221 bb221} .by222 {@apply bt222 bb222} .by223 {@apply bt223 bb223} .by224 {@apply bt224 bb224} .by225 {@apply bt225 bb225} .by226 {@apply bt226 bb226} .by227 {@apply bt227 bb227} .by228 {@apply bt228 bb228} .by229 {@apply bt229 bb229} .by230 {@apply bt230 bb230}
+    .by231 {@apply bt231 bb231} .by232 {@apply bt232 bb232} .by233 {@apply bt233 bb233} .by234 {@apply bt234 bb234} .by235 {@apply bt235 bb235} .by236 {@apply bt236 bb236} .by237 {@apply bt237 bb237} .by238 {@apply bt238 bb238} .by239 {@apply bt239 bb239} .by240 {@apply bt240 bb240}
+    .by241 {@apply bt241 bb241} .by242 {@apply bt242 bb242} .by243 {@apply bt243 bb243} .by244 {@apply bt244 bb244} .by245 {@apply bt245 bb245} .by246 {@apply bt246 bb246} .by247 {@apply bt247 bb247} .by248 {@apply bt248 bb248} .by249 {@apply bt249 bb249} .by250 {@apply bt250 bb250}
+    .by251 {@apply bt251 bb251} .by252 {@apply bt252 bb252} .by253 {@apply bt253 bb253} .by254 {@apply bt254 bb254} .by255 {@apply bt255 bb255} .by256 {@apply bt256 bb256} .by257 {@apply bt257 bb257} .by258 {@apply bt258 bb258} .by259 {@apply bt259 bb259} .by260 {@apply bt260 bb260}
+    .by261 {@apply bt261 bb261} .by262 {@apply bt262 bb262} .by263 {@apply bt263 bb263} .by264 {@apply bt264 bb264} .by265 {@apply bt265 bb265} .by266 {@apply bt266 bb266} .by267 {@apply bt267 bb267} .by268 {@apply bt268 bb268} .by269 {@apply bt269 bb269} .by270 {@apply bt270 bb270}
+    .by271 {@apply bt271 bb271} .by272 {@apply bt272 bb272} .by273 {@apply bt273 bb273} .by274 {@apply bt274 bb274} .by275 {@apply bt275 bb275} .by276 {@apply bt276 bb276} .by277 {@apply bt277 bb277} .by278 {@apply bt278 bb278} .by279 {@apply bt279 bb279} .by280 {@apply bt280 bb280}
+    .by281 {@apply bt281 bb281} .by282 {@apply bt282 bb282} .by283 {@apply bt283 bb283} .by284 {@apply bt284 bb284} .by285 {@apply bt285 bb285} .by286 {@apply bt286 bb286} .by287 {@apply bt287 bb287} .by288 {@apply bt288 bb288} .by289 {@apply bt289 bb289} .by290 {@apply bt290 bb290}
+    .by291 {@apply bt291 bb291} .by292 {@apply bt292 bb292} .by293 {@apply bt293 bb293} .by294 {@apply bt294 bb294} .by295 {@apply bt295 bb295} .by296 {@apply bt296 bb296} .by297 {@apply bt297 bb297} .by298 {@apply bt298 bb298} .by299 {@apply bt299 bb299} .by300 {@apply bt300 bb300}
+}
+/* ".by" + str(i) + " {@apply bt" + str(i) + " bb" + str(i) + "}" */

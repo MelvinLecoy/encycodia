@@ -1,0 +1,156 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {   /* 0-359 */
+    .rotate0 {@apply rotate-[0deg]}
+    .rotate1 {@apply rotate-[1deg]} .rotate2 {@apply rotate-[2deg]} .rotate3 {@apply rotate-[3deg]} .rotate4 {@apply rotate-[4deg]} .rotate5 {@apply rotate-[5deg]}
+    .rotate6 {@apply rotate-[6deg]} .rotate7 {@apply rotate-[7deg]} .rotate8 {@apply rotate-[8deg]} .rotate9 {@apply rotate-[9deg]} .rotate10 {@apply rotate-[10deg]}
+    .rotate11 {@apply rotate-[11deg]} .rotate12 {@apply rotate-[12deg]} .rotate13 {@apply rotate-[13deg]} .rotate14 {@apply rotate-[14deg]} .rotate15 {@apply rotate-[15deg]}
+    .rotate16 {@apply rotate-[16deg]} .rotate17 {@apply rotate-[17deg]} .rotate18 {@apply rotate-[18deg]} .rotate19 {@apply rotate-[19deg]} .rotate20 {@apply rotate-[20deg]}
+    .rotate21 {@apply rotate-[21deg]} .rotate22 {@apply rotate-[22deg]} .rotate23 {@apply rotate-[23deg]} .rotate24 {@apply rotate-[24deg]} .rotate25 {@apply rotate-[25deg]}
+    .rotate26 {@apply rotate-[26deg]} .rotate27 {@apply rotate-[27deg]} .rotate28 {@apply rotate-[28deg]} .rotate29 {@apply rotate-[29deg]} .rotate30 {@apply rotate-[30deg]}
+    .rotate31 {@apply rotate-[31deg]} .rotate32 {@apply rotate-[32deg]} .rotate33 {@apply rotate-[33deg]} .rotate34 {@apply rotate-[34deg]} .rotate35 {@apply rotate-[35deg]}
+    .rotate36 {@apply rotate-[36deg]} .rotate37 {@apply rotate-[37deg]} .rotate38 {@apply rotate-[38deg]} .rotate39 {@apply rotate-[39deg]} .rotate40 {@apply rotate-[40deg]}
+    .rotate41 {@apply rotate-[41deg]} .rotate42 {@apply rotate-[42deg]} .rotate43 {@apply rotate-[43deg]} .rotate44 {@apply rotate-[44deg]} .rotate45 {@apply rotate-[45deg]}
+    .rotate46 {@apply rotate-[46deg]} .rotate47 {@apply rotate-[47deg]} .rotate48 {@apply rotate-[48deg]} .rotate49 {@apply rotate-[49deg]} .rotate50 {@apply rotate-[50deg]}
+    .rotate51 {@apply rotate-[51deg]} .rotate52 {@apply rotate-[52deg]} .rotate53 {@apply rotate-[53deg]} .rotate54 {@apply rotate-[54deg]} .rotate55 {@apply rotate-[55deg]}
+    .rotate56 {@apply rotate-[56deg]} .rotate57 {@apply rotate-[57deg]} .rotate58 {@apply rotate-[58deg]} .rotate59 {@apply rotate-[59deg]} .rotate60 {@apply rotate-[60deg]}
+    .rotate61 {@apply rotate-[61deg]} .rotate62 {@apply rotate-[62deg]} .rotate63 {@apply rotate-[63deg]} .rotate64 {@apply rotate-[64deg]} .rotate65 {@apply rotate-[65deg]}
+    .rotate66 {@apply rotate-[66deg]} .rotate67 {@apply rotate-[67deg]} .rotate68 {@apply rotate-[68deg]} .rotate69 {@apply rotate-[69deg]} .rotate70 {@apply rotate-[70deg]}
+    .rotate71 {@apply rotate-[71deg]} .rotate72 {@apply rotate-[72deg]} .rotate73 {@apply rotate-[73deg]} .rotate74 {@apply rotate-[74deg]} .rotate75 {@apply rotate-[75deg]}
+    .rotate76 {@apply rotate-[76deg]} .rotate77 {@apply rotate-[77deg]} .rotate78 {@apply rotate-[78deg]} .rotate79 {@apply rotate-[79deg]} .rotate80 {@apply rotate-[80deg]}
+    .rotate81 {@apply rotate-[81deg]} .rotate82 {@apply rotate-[82deg]} .rotate83 {@apply rotate-[83deg]} .rotate84 {@apply rotate-[84deg]} .rotate85 {@apply rotate-[85deg]}
+    .rotate86 {@apply rotate-[86deg]} .rotate87 {@apply rotate-[87deg]} .rotate88 {@apply rotate-[88deg]} .rotate89 {@apply rotate-[89deg]} .rotate90 {@apply rotate-[90deg]}
+    .rotate91 {@apply rotate-[91deg]} .rotate92 {@apply rotate-[92deg]} .rotate93 {@apply rotate-[93deg]} .rotate94 {@apply rotate-[94deg]} .rotate95 {@apply rotate-[95deg]}
+    .rotate96 {@apply rotate-[96deg]} .rotate97 {@apply rotate-[97deg]} .rotate98 {@apply rotate-[98deg]} .rotate99 {@apply rotate-[99deg]} .rotate100 {@apply rotate-[100deg]}
+    .rotate101 {@apply rotate-[101deg]} .rotate102 {@apply rotate-[102deg]} .rotate103 {@apply rotate-[103deg]} .rotate104 {@apply rotate-[104deg]} .rotate105 {@apply rotate-[105deg]}
+    .rotate106 {@apply rotate-[106deg]} .rotate107 {@apply rotate-[107deg]} .rotate108 {@apply rotate-[108deg]} .rotate109 {@apply rotate-[109deg]} .rotate110 {@apply rotate-[110deg]}
+    .rotate111 {@apply rotate-[111deg]} .rotate112 {@apply rotate-[112deg]} .rotate113 {@apply rotate-[113deg]} .rotate114 {@apply rotate-[114deg]} .rotate115 {@apply rotate-[115deg]}
+    .rotate116 {@apply rotate-[116deg]} .rotate117 {@apply rotate-[117deg]} .rotate118 {@apply rotate-[118deg]} .rotate119 {@apply rotate-[119deg]} .rotate120 {@apply rotate-[120deg]}
+    .rotate121 {@apply rotate-[121deg]} .rotate122 {@apply rotate-[122deg]} .rotate123 {@apply rotate-[123deg]} .rotate124 {@apply rotate-[124deg]} .rotate125 {@apply rotate-[125deg]}
+    .rotate126 {@apply rotate-[126deg]} .rotate127 {@apply rotate-[127deg]} .rotate128 {@apply rotate-[128deg]} .rotate129 {@apply rotate-[129deg]} .rotate130 {@apply rotate-[130deg]}
+    .rotate131 {@apply rotate-[131deg]} .rotate132 {@apply rotate-[132deg]} .rotate133 {@apply rotate-[133deg]} .rotate134 {@apply rotate-[134deg]} .rotate135 {@apply rotate-[135deg]}
+    .rotate136 {@apply rotate-[136deg]} .rotate137 {@apply rotate-[137deg]} .rotate138 {@apply rotate-[138deg]} .rotate139 {@apply rotate-[139deg]} .rotate140 {@apply rotate-[140deg]}
+    .rotate141 {@apply rotate-[141deg]} .rotate142 {@apply rotate-[142deg]} .rotate143 {@apply rotate-[143deg]} .rotate144 {@apply rotate-[144deg]} .rotate145 {@apply rotate-[145deg]}
+    .rotate146 {@apply rotate-[146deg]} .rotate147 {@apply rotate-[147deg]} .rotate148 {@apply rotate-[148deg]} .rotate149 {@apply rotate-[149deg]} .rotate150 {@apply rotate-[150deg]}
+    .rotate151 {@apply rotate-[151deg]} .rotate152 {@apply rotate-[152deg]} .rotate153 {@apply rotate-[153deg]} .rotate154 {@apply rotate-[154deg]} .rotate155 {@apply rotate-[155deg]}
+    .rotate156 {@apply rotate-[156deg]} .rotate157 {@apply rotate-[157deg]} .rotate158 {@apply rotate-[158deg]} .rotate159 {@apply rotate-[159deg]} .rotate160 {@apply rotate-[160deg]}
+    .rotate161 {@apply rotate-[161deg]} .rotate162 {@apply rotate-[162deg]} .rotate163 {@apply rotate-[163deg]} .rotate164 {@apply rotate-[164deg]} .rotate165 {@apply rotate-[165deg]}
+    .rotate166 {@apply rotate-[166deg]} .rotate167 {@apply rotate-[167deg]} .rotate168 {@apply rotate-[168deg]} .rotate169 {@apply rotate-[169deg]} .rotate170 {@apply rotate-[170deg]}
+    .rotate171 {@apply rotate-[171deg]} .rotate172 {@apply rotate-[172deg]} .rotate173 {@apply rotate-[173deg]} .rotate174 {@apply rotate-[174deg]} .rotate175 {@apply rotate-[175deg]}
+    .rotate176 {@apply rotate-[176deg]} .rotate177 {@apply rotate-[177deg]} .rotate178 {@apply rotate-[178deg]} .rotate179 {@apply rotate-[179deg]} .rotate180 {@apply rotate-[180deg]}
+    .rotate181 {@apply rotate-[181deg]} .rotate182 {@apply rotate-[182deg]} .rotate183 {@apply rotate-[183deg]} .rotate184 {@apply rotate-[184deg]} .rotate185 {@apply rotate-[185deg]}
+    .rotate186 {@apply rotate-[186deg]} .rotate187 {@apply rotate-[187deg]} .rotate188 {@apply rotate-[188deg]} .rotate189 {@apply rotate-[189deg]} .rotate190 {@apply rotate-[190deg]}
+    .rotate191 {@apply rotate-[191deg]} .rotate192 {@apply rotate-[192deg]} .rotate193 {@apply rotate-[193deg]} .rotate194 {@apply rotate-[194deg]} .rotate195 {@apply rotate-[195deg]}
+    .rotate196 {@apply rotate-[196deg]} .rotate197 {@apply rotate-[197deg]} .rotate198 {@apply rotate-[198deg]} .rotate199 {@apply rotate-[199deg]} .rotate200 {@apply rotate-[200deg]}
+    .rotate201 {@apply rotate-[201deg]} .rotate202 {@apply rotate-[202deg]} .rotate203 {@apply rotate-[203deg]} .rotate204 {@apply rotate-[204deg]} .rotate205 {@apply rotate-[205deg]}
+    .rotate206 {@apply rotate-[206deg]} .rotate207 {@apply rotate-[207deg]} .rotate208 {@apply rotate-[208deg]} .rotate209 {@apply rotate-[209deg]} .rotate210 {@apply rotate-[210deg]}
+    .rotate211 {@apply rotate-[211deg]} .rotate212 {@apply rotate-[212deg]} .rotate213 {@apply rotate-[213deg]} .rotate214 {@apply rotate-[214deg]} .rotate215 {@apply rotate-[215deg]}
+    .rotate216 {@apply rotate-[216deg]} .rotate217 {@apply rotate-[217deg]} .rotate218 {@apply rotate-[218deg]} .rotate219 {@apply rotate-[219deg]} .rotate220 {@apply rotate-[220deg]}
+    .rotate221 {@apply rotate-[221deg]} .rotate222 {@apply rotate-[222deg]} .rotate223 {@apply rotate-[223deg]} .rotate224 {@apply rotate-[224deg]} .rotate225 {@apply rotate-[225deg]}
+    .rotate226 {@apply rotate-[226deg]} .rotate227 {@apply rotate-[227deg]} .rotate228 {@apply rotate-[228deg]} .rotate229 {@apply rotate-[229deg]} .rotate230 {@apply rotate-[230deg]}
+    .rotate231 {@apply rotate-[231deg]} .rotate232 {@apply rotate-[232deg]} .rotate233 {@apply rotate-[233deg]} .rotate234 {@apply rotate-[234deg]} .rotate235 {@apply rotate-[235deg]}
+    .rotate236 {@apply rotate-[236deg]} .rotate237 {@apply rotate-[237deg]} .rotate238 {@apply rotate-[238deg]} .rotate239 {@apply rotate-[239deg]} .rotate240 {@apply rotate-[240deg]}
+    .rotate241 {@apply rotate-[241deg]} .rotate242 {@apply rotate-[242deg]} .rotate243 {@apply rotate-[243deg]} .rotate244 {@apply rotate-[244deg]} .rotate245 {@apply rotate-[245deg]}
+    .rotate246 {@apply rotate-[246deg]} .rotate247 {@apply rotate-[247deg]} .rotate248 {@apply rotate-[248deg]} .rotate249 {@apply rotate-[249deg]} .rotate250 {@apply rotate-[250deg]}
+    .rotate251 {@apply rotate-[251deg]} .rotate252 {@apply rotate-[252deg]} .rotate253 {@apply rotate-[253deg]} .rotate254 {@apply rotate-[254deg]} .rotate255 {@apply rotate-[255deg]}
+    .rotate256 {@apply rotate-[256deg]} .rotate257 {@apply rotate-[257deg]} .rotate258 {@apply rotate-[258deg]} .rotate259 {@apply rotate-[259deg]} .rotate260 {@apply rotate-[260deg]}
+    .rotate261 {@apply rotate-[261deg]} .rotate262 {@apply rotate-[262deg]} .rotate263 {@apply rotate-[263deg]} .rotate264 {@apply rotate-[264deg]} .rotate265 {@apply rotate-[265deg]}
+    .rotate266 {@apply rotate-[266deg]} .rotate267 {@apply rotate-[267deg]} .rotate268 {@apply rotate-[268deg]} .rotate269 {@apply rotate-[269deg]} .rotate270 {@apply rotate-[270deg]}
+    .rotate271 {@apply rotate-[271deg]} .rotate272 {@apply rotate-[272deg]} .rotate273 {@apply rotate-[273deg]} .rotate274 {@apply rotate-[274deg]} .rotate275 {@apply rotate-[275deg]}
+    .rotate276 {@apply rotate-[276deg]} .rotate277 {@apply rotate-[277deg]} .rotate278 {@apply rotate-[278deg]} .rotate279 {@apply rotate-[279deg]} .rotate280 {@apply rotate-[280deg]}
+    .rotate281 {@apply rotate-[281deg]} .rotate282 {@apply rotate-[282deg]} .rotate283 {@apply rotate-[283deg]} .rotate284 {@apply rotate-[284deg]} .rotate285 {@apply rotate-[285deg]}
+    .rotate286 {@apply rotate-[286deg]} .rotate287 {@apply rotate-[287deg]} .rotate288 {@apply rotate-[288deg]} .rotate289 {@apply rotate-[289deg]} .rotate290 {@apply rotate-[290deg]}
+    .rotate291 {@apply rotate-[291deg]} .rotate292 {@apply rotate-[292deg]} .rotate293 {@apply rotate-[293deg]} .rotate294 {@apply rotate-[294deg]} .rotate295 {@apply rotate-[295deg]}
+    .rotate296 {@apply rotate-[296deg]} .rotate297 {@apply rotate-[297deg]} .rotate298 {@apply rotate-[298deg]} .rotate299 {@apply rotate-[299deg]} .rotate300 {@apply rotate-[300deg]}
+    .rotate301 {@apply rotate-[301deg]} .rotate302 {@apply rotate-[302deg]} .rotate303 {@apply rotate-[303deg]} .rotate304 {@apply rotate-[304deg]} .rotate305 {@apply rotate-[305deg]}
+    .rotate306 {@apply rotate-[306deg]} .rotate307 {@apply rotate-[307deg]} .rotate308 {@apply rotate-[308deg]} .rotate309 {@apply rotate-[309deg]} .rotate310 {@apply rotate-[310deg]}
+    .rotate311 {@apply rotate-[311deg]} .rotate312 {@apply rotate-[312deg]} .rotate313 {@apply rotate-[313deg]} .rotate314 {@apply rotate-[314deg]} .rotate315 {@apply rotate-[315deg]}
+    .rotate316 {@apply rotate-[316deg]} .rotate317 {@apply rotate-[317deg]} .rotate318 {@apply rotate-[318deg]} .rotate319 {@apply rotate-[319deg]} .rotate320 {@apply rotate-[320deg]}
+    .rotate321 {@apply rotate-[321deg]} .rotate322 {@apply rotate-[322deg]} .rotate323 {@apply rotate-[323deg]} .rotate324 {@apply rotate-[324deg]} .rotate325 {@apply rotate-[325deg]}
+    .rotate326 {@apply rotate-[326deg]} .rotate327 {@apply rotate-[327deg]} .rotate328 {@apply rotate-[328deg]} .rotate329 {@apply rotate-[329deg]} .rotate330 {@apply rotate-[330deg]}
+    .rotate331 {@apply rotate-[331deg]} .rotate332 {@apply rotate-[332deg]} .rotate333 {@apply rotate-[333deg]} .rotate334 {@apply rotate-[334deg]} .rotate335 {@apply rotate-[335deg]}
+    .rotate336 {@apply rotate-[336deg]} .rotate337 {@apply rotate-[337deg]} .rotate338 {@apply rotate-[338deg]} .rotate339 {@apply rotate-[339deg]} .rotate340 {@apply rotate-[340deg]}
+    .rotate341 {@apply rotate-[341deg]} .rotate342 {@apply rotate-[342deg]} .rotate343 {@apply rotate-[343deg]} .rotate344 {@apply rotate-[344deg]} .rotate345 {@apply rotate-[345deg]}
+    .rotate346 {@apply rotate-[346deg]} .rotate347 {@apply rotate-[347deg]} .rotate348 {@apply rotate-[348deg]} .rotate349 {@apply rotate-[349deg]} .rotate350 {@apply rotate-[350deg]}
+    .rotate351 {@apply rotate-[351deg]} .rotate352 {@apply rotate-[352deg]} .rotate353 {@apply rotate-[353deg]} .rotate354 {@apply rotate-[354deg]} .rotate355 {@apply rotate-[355deg]}
+    .rotate356 {@apply rotate-[356deg]} .rotate357 {@apply rotate-[357deg]} .rotate358 {@apply rotate-[358deg]} .rotate359 {@apply rotate-[359deg]}
+}
+/* ".rotate" + str(i) + " {@apply rotate-[" + str(i) + "deg]}" */
+
+@layer utilities {   /* -1 - -359 */
+    .-rotate1 {@apply -rotate-[1deg]} .-rotate2 {@apply -rotate-[2deg]} .-rotate3 {@apply -rotate-[3deg]} .-rotate4 {@apply -rotate-[4deg]} .-rotate5 {@apply -rotate-[5deg]}
+    .-rotate6 {@apply -rotate-[6deg]} .-rotate7 {@apply -rotate-[7deg]} .-rotate8 {@apply -rotate-[8deg]} .-rotate9 {@apply -rotate-[9deg]} .-rotate10 {@apply -rotate-[10deg]}
+    .-rotate11 {@apply -rotate-[11deg]} .-rotate12 {@apply -rotate-[12deg]} .-rotate13 {@apply -rotate-[13deg]} .-rotate14 {@apply -rotate-[14deg]} .-rotate15 {@apply -rotate-[15deg]}
+    .-rotate16 {@apply -rotate-[16deg]} .-rotate17 {@apply -rotate-[17deg]} .-rotate18 {@apply -rotate-[18deg]} .-rotate19 {@apply -rotate-[19deg]} .-rotate20 {@apply -rotate-[20deg]}
+    .-rotate21 {@apply -rotate-[21deg]} .-rotate22 {@apply -rotate-[22deg]} .-rotate23 {@apply -rotate-[23deg]} .-rotate24 {@apply -rotate-[24deg]} .-rotate25 {@apply -rotate-[25deg]}
+    .-rotate26 {@apply -rotate-[26deg]} .-rotate27 {@apply -rotate-[27deg]} .-rotate28 {@apply -rotate-[28deg]} .-rotate29 {@apply -rotate-[29deg]} .-rotate30 {@apply -rotate-[30deg]}
+    .-rotate31 {@apply -rotate-[31deg]} .-rotate32 {@apply -rotate-[32deg]} .-rotate33 {@apply -rotate-[33deg]} .-rotate34 {@apply -rotate-[34deg]} .-rotate35 {@apply -rotate-[35deg]}
+    .-rotate36 {@apply -rotate-[36deg]} .-rotate37 {@apply -rotate-[37deg]} .-rotate38 {@apply -rotate-[38deg]} .-rotate39 {@apply -rotate-[39deg]} .-rotate40 {@apply -rotate-[40deg]}
+    .-rotate41 {@apply -rotate-[41deg]} .-rotate42 {@apply -rotate-[42deg]} .-rotate43 {@apply -rotate-[43deg]} .-rotate44 {@apply -rotate-[44deg]} .-rotate45 {@apply -rotate-[45deg]}
+    .-rotate46 {@apply -rotate-[46deg]} .-rotate47 {@apply -rotate-[47deg]} .-rotate48 {@apply -rotate-[48deg]} .-rotate49 {@apply -rotate-[49deg]} .-rotate50 {@apply -rotate-[50deg]}
+    .-rotate51 {@apply -rotate-[51deg]} .-rotate52 {@apply -rotate-[52deg]} .-rotate53 {@apply -rotate-[53deg]} .-rotate54 {@apply -rotate-[54deg]} .-rotate55 {@apply -rotate-[55deg]}
+    .-rotate56 {@apply -rotate-[56deg]} .-rotate57 {@apply -rotate-[57deg]} .-rotate58 {@apply -rotate-[58deg]} .-rotate59 {@apply -rotate-[59deg]} .-rotate60 {@apply -rotate-[60deg]}
+    .-rotate61 {@apply -rotate-[61deg]} .-rotate62 {@apply -rotate-[62deg]} .-rotate63 {@apply -rotate-[63deg]} .-rotate64 {@apply -rotate-[64deg]} .-rotate65 {@apply -rotate-[65deg]}
+    .-rotate66 {@apply -rotate-[66deg]} .-rotate67 {@apply -rotate-[67deg]} .-rotate68 {@apply -rotate-[68deg]} .-rotate69 {@apply -rotate-[69deg]} .-rotate70 {@apply -rotate-[70deg]}
+    .-rotate71 {@apply -rotate-[71deg]} .-rotate72 {@apply -rotate-[72deg]} .-rotate73 {@apply -rotate-[73deg]} .-rotate74 {@apply -rotate-[74deg]} .-rotate75 {@apply -rotate-[75deg]}
+    .-rotate76 {@apply -rotate-[76deg]} .-rotate77 {@apply -rotate-[77deg]} .-rotate78 {@apply -rotate-[78deg]} .-rotate79 {@apply -rotate-[79deg]} .-rotate80 {@apply -rotate-[80deg]}
+    .-rotate81 {@apply -rotate-[81deg]} .-rotate82 {@apply -rotate-[82deg]} .-rotate83 {@apply -rotate-[83deg]} .-rotate84 {@apply -rotate-[84deg]} .-rotate85 {@apply -rotate-[85deg]}
+    .-rotate86 {@apply -rotate-[86deg]} .-rotate87 {@apply -rotate-[87deg]} .-rotate88 {@apply -rotate-[88deg]} .-rotate89 {@apply -rotate-[89deg]} .-rotate90 {@apply -rotate-[90deg]}
+    .-rotate91 {@apply -rotate-[91deg]} .-rotate92 {@apply -rotate-[92deg]} .-rotate93 {@apply -rotate-[93deg]} .-rotate94 {@apply -rotate-[94deg]} .-rotate95 {@apply -rotate-[95deg]}
+    .-rotate96 {@apply -rotate-[96deg]} .-rotate97 {@apply -rotate-[97deg]} .-rotate98 {@apply -rotate-[98deg]} .-rotate99 {@apply -rotate-[99deg]} .-rotate100 {@apply -rotate-[100deg]}
+    .-rotate101 {@apply -rotate-[101deg]} .-rotate102 {@apply -rotate-[102deg]} .-rotate103 {@apply -rotate-[103deg]} .-rotate104 {@apply -rotate-[104deg]} .-rotate105 {@apply -rotate-[105deg]}
+    .-rotate106 {@apply -rotate-[106deg]} .-rotate107 {@apply -rotate-[107deg]} .-rotate108 {@apply -rotate-[108deg]} .-rotate109 {@apply -rotate-[109deg]} .-rotate110 {@apply -rotate-[110deg]}
+    .-rotate111 {@apply -rotate-[111deg]} .-rotate112 {@apply -rotate-[112deg]} .-rotate113 {@apply -rotate-[113deg]} .-rotate114 {@apply -rotate-[114deg]} .-rotate115 {@apply -rotate-[115deg]}
+    .-rotate116 {@apply -rotate-[116deg]} .-rotate117 {@apply -rotate-[117deg]} .-rotate118 {@apply -rotate-[118deg]} .-rotate119 {@apply -rotate-[119deg]} .-rotate120 {@apply -rotate-[120deg]}
+    .-rotate121 {@apply -rotate-[121deg]} .-rotate122 {@apply -rotate-[122deg]} .-rotate123 {@apply -rotate-[123deg]} .-rotate124 {@apply -rotate-[124deg]} .-rotate125 {@apply -rotate-[125deg]}
+    .-rotate126 {@apply -rotate-[126deg]} .-rotate127 {@apply -rotate-[127deg]} .-rotate128 {@apply -rotate-[128deg]} .-rotate129 {@apply -rotate-[129deg]} .-rotate130 {@apply -rotate-[130deg]}
+    .-rotate131 {@apply -rotate-[131deg]} .-rotate132 {@apply -rotate-[132deg]} .-rotate133 {@apply -rotate-[133deg]} .-rotate134 {@apply -rotate-[134deg]} .-rotate135 {@apply -rotate-[135deg]}
+    .-rotate136 {@apply -rotate-[136deg]} .-rotate137 {@apply -rotate-[137deg]} .-rotate138 {@apply -rotate-[138deg]} .-rotate139 {@apply -rotate-[139deg]} .-rotate140 {@apply -rotate-[140deg]}
+    .-rotate141 {@apply -rotate-[141deg]} .-rotate142 {@apply -rotate-[142deg]} .-rotate143 {@apply -rotate-[143deg]} .-rotate144 {@apply -rotate-[144deg]} .-rotate145 {@apply -rotate-[145deg]}
+    .-rotate146 {@apply -rotate-[146deg]} .-rotate147 {@apply -rotate-[147deg]} .-rotate148 {@apply -rotate-[148deg]} .-rotate149 {@apply -rotate-[149deg]} .-rotate150 {@apply -rotate-[150deg]}
+    .-rotate151 {@apply -rotate-[151deg]} .-rotate152 {@apply -rotate-[152deg]} .-rotate153 {@apply -rotate-[153deg]} .-rotate154 {@apply -rotate-[154deg]} .-rotate155 {@apply -rotate-[155deg]}
+    .-rotate156 {@apply -rotate-[156deg]} .-rotate157 {@apply -rotate-[157deg]} .-rotate158 {@apply -rotate-[158deg]} .-rotate159 {@apply -rotate-[159deg]} .-rotate160 {@apply -rotate-[160deg]}
+    .-rotate161 {@apply -rotate-[161deg]} .-rotate162 {@apply -rotate-[162deg]} .-rotate163 {@apply -rotate-[163deg]} .-rotate164 {@apply -rotate-[164deg]} .-rotate165 {@apply -rotate-[165deg]}
+    .-rotate166 {@apply -rotate-[166deg]} .-rotate167 {@apply -rotate-[167deg]} .-rotate168 {@apply -rotate-[168deg]} .-rotate169 {@apply -rotate-[169deg]} .-rotate170 {@apply -rotate-[170deg]}
+    .-rotate171 {@apply -rotate-[171deg]} .-rotate172 {@apply -rotate-[172deg]} .-rotate173 {@apply -rotate-[173deg]} .-rotate174 {@apply -rotate-[174deg]} .-rotate175 {@apply -rotate-[175deg]}
+    .-rotate176 {@apply -rotate-[176deg]} .-rotate177 {@apply -rotate-[177deg]} .-rotate178 {@apply -rotate-[178deg]} .-rotate179 {@apply -rotate-[179deg]} .-rotate180 {@apply -rotate-[180deg]}
+    .-rotate181 {@apply -rotate-[181deg]} .-rotate182 {@apply -rotate-[182deg]} .-rotate183 {@apply -rotate-[183deg]} .-rotate184 {@apply -rotate-[184deg]} .-rotate185 {@apply -rotate-[185deg]}
+    .-rotate186 {@apply -rotate-[186deg]} .-rotate187 {@apply -rotate-[187deg]} .-rotate188 {@apply -rotate-[188deg]} .-rotate189 {@apply -rotate-[189deg]} .-rotate190 {@apply -rotate-[190deg]}
+    .-rotate191 {@apply -rotate-[191deg]} .-rotate192 {@apply -rotate-[192deg]} .-rotate193 {@apply -rotate-[193deg]} .-rotate194 {@apply -rotate-[194deg]} .-rotate195 {@apply -rotate-[195deg]}
+    .-rotate196 {@apply -rotate-[196deg]} .-rotate197 {@apply -rotate-[197deg]} .-rotate198 {@apply -rotate-[198deg]} .-rotate199 {@apply -rotate-[199deg]} .-rotate200 {@apply -rotate-[200deg]}
+    .-rotate201 {@apply -rotate-[201deg]} .-rotate202 {@apply -rotate-[202deg]} .-rotate203 {@apply -rotate-[203deg]} .-rotate204 {@apply -rotate-[204deg]} .-rotate205 {@apply -rotate-[205deg]}
+    .-rotate206 {@apply -rotate-[206deg]} .-rotate207 {@apply -rotate-[207deg]} .-rotate208 {@apply -rotate-[208deg]} .-rotate209 {@apply -rotate-[209deg]} .-rotate210 {@apply -rotate-[210deg]}
+    .-rotate211 {@apply -rotate-[211deg]} .-rotate212 {@apply -rotate-[212deg]} .-rotate213 {@apply -rotate-[213deg]} .-rotate214 {@apply -rotate-[214deg]} .-rotate215 {@apply -rotate-[215deg]}
+    .-rotate216 {@apply -rotate-[216deg]} .-rotate217 {@apply -rotate-[217deg]} .-rotate218 {@apply -rotate-[218deg]} .-rotate219 {@apply -rotate-[219deg]} .-rotate220 {@apply -rotate-[220deg]}
+    .-rotate221 {@apply -rotate-[221deg]} .-rotate222 {@apply -rotate-[222deg]} .-rotate223 {@apply -rotate-[223deg]} .-rotate224 {@apply -rotate-[224deg]} .-rotate225 {@apply -rotate-[225deg]}
+    .-rotate226 {@apply -rotate-[226deg]} .-rotate227 {@apply -rotate-[227deg]} .-rotate228 {@apply -rotate-[228deg]} .-rotate229 {@apply -rotate-[229deg]} .-rotate230 {@apply -rotate-[230deg]}
+    .-rotate231 {@apply -rotate-[231deg]} .-rotate232 {@apply -rotate-[232deg]} .-rotate233 {@apply -rotate-[233deg]} .-rotate234 {@apply -rotate-[234deg]} .-rotate235 {@apply -rotate-[235deg]}
+    .-rotate236 {@apply -rotate-[236deg]} .-rotate237 {@apply -rotate-[237deg]} .-rotate238 {@apply -rotate-[238deg]} .-rotate239 {@apply -rotate-[239deg]} .-rotate240 {@apply -rotate-[240deg]}
+    .-rotate241 {@apply -rotate-[241deg]} .-rotate242 {@apply -rotate-[242deg]} .-rotate243 {@apply -rotate-[243deg]} .-rotate244 {@apply -rotate-[244deg]} .-rotate245 {@apply -rotate-[245deg]}
+    .-rotate246 {@apply -rotate-[246deg]} .-rotate247 {@apply -rotate-[247deg]} .-rotate248 {@apply -rotate-[248deg]} .-rotate249 {@apply -rotate-[249deg]} .-rotate250 {@apply -rotate-[250deg]}
+    .-rotate251 {@apply -rotate-[251deg]} .-rotate252 {@apply -rotate-[252deg]} .-rotate253 {@apply -rotate-[253deg]} .-rotate254 {@apply -rotate-[254deg]} .-rotate255 {@apply -rotate-[255deg]}
+    .-rotate256 {@apply -rotate-[256deg]} .-rotate257 {@apply -rotate-[257deg]} .-rotate258 {@apply -rotate-[258deg]} .-rotate259 {@apply -rotate-[259deg]} .-rotate260 {@apply -rotate-[260deg]}
+    .-rotate261 {@apply -rotate-[261deg]} .-rotate262 {@apply -rotate-[262deg]} .-rotate263 {@apply -rotate-[263deg]} .-rotate264 {@apply -rotate-[264deg]} .-rotate265 {@apply -rotate-[265deg]}
+    .-rotate266 {@apply -rotate-[266deg]} .-rotate267 {@apply -rotate-[267deg]} .-rotate268 {@apply -rotate-[268deg]} .-rotate269 {@apply -rotate-[269deg]} .-rotate270 {@apply -rotate-[270deg]}
+    .-rotate271 {@apply -rotate-[271deg]} .-rotate272 {@apply -rotate-[272deg]} .-rotate273 {@apply -rotate-[273deg]} .-rotate274 {@apply -rotate-[274deg]} .-rotate275 {@apply -rotate-[275deg]}
+    .-rotate276 {@apply -rotate-[276deg]} .-rotate277 {@apply -rotate-[277deg]} .-rotate278 {@apply -rotate-[278deg]} .-rotate279 {@apply -rotate-[279deg]} .-rotate280 {@apply -rotate-[280deg]}
+    .-rotate281 {@apply -rotate-[281deg]} .-rotate282 {@apply -rotate-[282deg]} .-rotate283 {@apply -rotate-[283deg]} .-rotate284 {@apply -rotate-[284deg]} .-rotate285 {@apply -rotate-[285deg]}
+    .-rotate286 {@apply -rotate-[286deg]} .-rotate287 {@apply -rotate-[287deg]} .-rotate288 {@apply -rotate-[288deg]} .-rotate289 {@apply -rotate-[289deg]} .-rotate290 {@apply -rotate-[290deg]}
+    .-rotate291 {@apply -rotate-[291deg]} .-rotate292 {@apply -rotate-[292deg]} .-rotate293 {@apply -rotate-[293deg]} .-rotate294 {@apply -rotate-[294deg]} .-rotate295 {@apply -rotate-[295deg]}
+    .-rotate296 {@apply -rotate-[296deg]} .-rotate297 {@apply -rotate-[297deg]} .-rotate298 {@apply -rotate-[298deg]} .-rotate299 {@apply -rotate-[299deg]} .-rotate300 {@apply -rotate-[300deg]}
+    .-rotate301 {@apply -rotate-[301deg]} .-rotate302 {@apply -rotate-[302deg]} .-rotate303 {@apply -rotate-[303deg]} .-rotate304 {@apply -rotate-[304deg]} .-rotate305 {@apply -rotate-[305deg]}
+    .-rotate306 {@apply -rotate-[306deg]} .-rotate307 {@apply -rotate-[307deg]} .-rotate308 {@apply -rotate-[308deg]} .-rotate309 {@apply -rotate-[309deg]} .-rotate310 {@apply -rotate-[310deg]}
+    .-rotate311 {@apply -rotate-[311deg]} .-rotate312 {@apply -rotate-[312deg]} .-rotate313 {@apply -rotate-[313deg]} .-rotate314 {@apply -rotate-[314deg]} .-rotate315 {@apply -rotate-[315deg]}
+    .-rotate316 {@apply -rotate-[316deg]} .-rotate317 {@apply -rotate-[317deg]} .-rotate318 {@apply -rotate-[318deg]} .-rotate319 {@apply -rotate-[319deg]} .-rotate320 {@apply -rotate-[320deg]}
+    .-rotate321 {@apply -rotate-[321deg]} .-rotate322 {@apply -rotate-[322deg]} .-rotate323 {@apply -rotate-[323deg]} .-rotate324 {@apply -rotate-[324deg]} .-rotate325 {@apply -rotate-[325deg]}
+    .-rotate326 {@apply -rotate-[326deg]} .-rotate327 {@apply -rotate-[327deg]} .-rotate328 {@apply -rotate-[328deg]} .-rotate329 {@apply -rotate-[329deg]} .-rotate330 {@apply -rotate-[330deg]}
+    .-rotate331 {@apply -rotate-[331deg]} .-rotate332 {@apply -rotate-[332deg]} .-rotate333 {@apply -rotate-[333deg]} .-rotate334 {@apply -rotate-[334deg]} .-rotate335 {@apply -rotate-[335deg]}
+    .-rotate336 {@apply -rotate-[336deg]} .-rotate337 {@apply -rotate-[337deg]} .-rotate338 {@apply -rotate-[338deg]} .-rotate339 {@apply -rotate-[339deg]} .-rotate340 {@apply -rotate-[340deg]}
+    .-rotate341 {@apply -rotate-[341deg]} .-rotate342 {@apply -rotate-[342deg]} .-rotate343 {@apply -rotate-[343deg]} .-rotate344 {@apply -rotate-[344deg]} .-rotate345 {@apply -rotate-[345deg]}
+    .-rotate346 {@apply -rotate-[346deg]} .-rotate347 {@apply -rotate-[347deg]} .-rotate348 {@apply -rotate-[348deg]} .-rotate349 {@apply -rotate-[349deg]} .-rotate350 {@apply -rotate-[350deg]}
+    .-rotate351 {@apply -rotate-[351deg]} .-rotate352 {@apply -rotate-[352deg]} .-rotate353 {@apply -rotate-[353deg]} .-rotate354 {@apply -rotate-[354deg]} .-rotate355 {@apply -rotate-[355deg]}
+    .-rotate356 {@apply -rotate-[356deg]} .-rotate357 {@apply -rotate-[357deg]} .-rotate358 {@apply -rotate-[358deg]} .-rotate359 {@apply -rotate-[359deg]}
+}
+/* ".-rotate" + str(i) + " {@apply -rotate-[" + str(i) + "deg]}" */

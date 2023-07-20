@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 1. trbl */
+@layer utilities {
+    .mauto {@apply m-auto}
+    .m1em {@apply m-[1em]} .m2em {@apply m-[2em]} .m3em {@apply m-[3em]} .m4em {@apply m-[4em]} .m5em {@apply m-[5em]} .m6em {@apply m-[6em]} .m7em {@apply m-[7em]} .m8em {@apply m-[8em]} .m9em {@apply m-[9em]} .m10em {@apply m-[10em]}
+}
+/* 2. top */
+@layer utilities {
+    .mtauto {@apply mt-auto}
+    .mt1em {@apply mt-[1em]} .mt2em {@apply mt-[2em]} .mt3em {@apply mt-[3em]} .mt4em {@apply mt-[4em]} .mt5em {@apply mt-[5em]} .mt6em {@apply mt-[6em]} .mt7em {@apply mt-[7em]} .mt8em {@apply mt-[8em]} .mt9em {@apply mt-[9em]} .mt10em {@apply mt-[10em]}
+}
+/* 3. bottom */
+@layer utilities {
+    .mbauto {@apply mb-auto}
+    .mb1em {@apply mb-[1em]} .mb2em {@apply mb-[2em]} .mb3em {@apply mb-[3em]} .mb4em {@apply mb-[4em]} .mb5em {@apply mb-[5em]} .mb6em {@apply mb-[6em]} .mb7em {@apply mb-[7em]} .mb8em {@apply mb-[8em]} .mb9em {@apply mb-[9em]} .mb10em {@apply mb-[10em]}
+}
+/* 4. left */
+@layer utilities {
+    .mlauto {@apply ml-auto}
+    .ml1em {@apply ml-[1em]} .ml2em {@apply ml-[2em]} .ml3em {@apply ml-[3em]} .ml4em {@apply ml-[4em]} .ml5em {@apply ml-[5em]} .ml6em {@apply ml-[6em]} .ml7em {@apply ml-[7em]} .ml8em {@apply ml-[8em]} .ml9em {@apply ml-[9em]} .ml10em {@apply ml-[10em]}
+}
+/* 5. right */
+@layer utilities {
+    .mrauto {@apply mr-auto}
+    .mr1em {@apply mr-[1em]} .mr2em {@apply mr-[2em]} .mr3em {@apply mr-[3em]} .mr4em {@apply mr-[4em]} .mr5em {@apply mr-[5em]} .mr6em {@apply mr-[6em]} .mr7em {@apply mr-[7em]} .mr8em {@apply mr-[8em]} .mr9em {@apply mr-[9em]} .mr10em {@apply mr-[10em]}
+}
+/* 6. x (left-right) */
+@layer utilities {
+    .mxauto {@apply mx-auto}
+    .mx1em {@apply mx-[1em]} .mx2em {@apply mx-[2em]} .mx3em {@apply mx-[3em]} .mx4em {@apply mx-[4em]} .mx5em {@apply mx-[5em]} .mx6em {@apply mx-[6em]} .mx7em {@apply mx-[7em]} .mx8em {@apply mx-[8em]} .mx9em {@apply mx-[9em]} .mx10em {@apply mx-[10em]}
+}
+/* 7. y (top-bottom) */
+@layer utilities {
+    .myauto {@apply my-auto}
+    .my1em {@apply my-[1em]} .my2em {@apply my-[2em]} .my3em {@apply my-[3em]} .my4em {@apply my-[4em]} .my5em {@apply my-[5em]} .my6em {@apply my-[6em]} .my7em {@apply my-[7em]} .my8em {@apply my-[8em]} .my9em {@apply my-[9em]} .my10em {@apply my-[10em]}
+}
+/* 8. top-left */
+@layer utilities {
+    .mtlauto {@apply mtauto mlauto}
+    .mtl1em {@apply mt1em ml1em} .mtl2em {@apply mt2em ml2em} .mtl3em {@apply mt3em ml3em} .mtl4em {@apply mt4em ml4em} .mtl5em {@apply mt5em ml5em}
+    .mtl6em {@apply mt6em ml6em} .mtl7em {@apply mt7em ml7em} .mtl8em {@apply mt8em ml8em} .mtl9em {@apply mt9em ml9em} .mtl10em {@apply mt10em ml10em}
+}
+/* 9. top-right */
+@layer utilities {
+    .mtrauto {@apply mtauto mrauto}
+    .mtr1em {@apply mt1em mr1em} .mtr2em {@apply mt2em mr2em} .mtr3em {@apply mt3em mr3em} .mtr4em {@apply mt4em mr4em} .mtr5em {@apply mt5em mr5em}
+    .mtr6em {@apply mt6em mr6em} .mtr7em {@apply mt7em mr7em} .mtr8em {@apply mt8em mr8em} .mtr9em {@apply mt9em mr9em} .mtr10em {@apply mt10em mr10em}
+}
+/* 10. bottom-left */
+@layer utilities {
+    .mblauto {@apply mbauto mlauto}
+    .mbl1em {@apply mb1em ml1em} .mbl2em {@apply mb2em ml2em} .mbl3em {@apply mb3em ml3em} .mbl4em {@apply mb4em ml4em} .mbl5em {@apply mb5em ml5em}
+    .mbl6em {@apply mb6em ml6em} .mbl7em {@apply mb7em ml7em} .mbl8em {@apply mb8em ml8em} .mbl9em {@apply mb9em ml9em} .mbl10em {@apply mb10em ml10em}
+}
+/* 11. bottom-right */
+@layer utilities {
+    .mbrauto {@apply mbauto mrauto}
+    .mbr1em {@apply mb1em mr1em} .mbr2em {@apply mb2em mr2em} .mbr3em {@apply mb3em mr3em} .mbr4em {@apply mb4em mr4em} .mbr5em {@apply mb5em mr5em}
+    .mbr6em {@apply mb6em mr6em} .mbr7em {@apply mb7em mr7em} .mbr8em {@apply mb8em mr8em} .mbr9em {@apply mb9em mr9em} .mbr10em {@apply mb10em mr10em}
+}
+/* 12. x-top */
+@layer utilities {
+    .mxtauto {@apply mxauto mtauto}
+    .mxt1em {@apply mx1em mt1em} .mxt2em {@apply mx2em mt2em} .mxt3em {@apply mx3em mt3em} .mxt4em {@apply mx4em mt4em} .mxt5em {@apply mx5em mt5em}
+    .mxt6em {@apply mx6em mt6em} .mxt7em {@apply mx7em mt7em} .mxt8em {@apply mx8em mt8em} .mxt9em {@apply mx9em mt9em} .mxt10em {@apply mx10em mt10em}
+}
+/* 13. x-bottom */
+@layer utilities {
+    .mxbauto {@apply mxauto mbauto}
+    .mxb1em {@apply mx1em mb1em} .mxb2em {@apply mx2em mb2em} .mxb3em {@apply mx3em mb3em} .mxb4em {@apply mx4em mb4em} .mxb5em {@apply mx5em mb5em}
+    .mxb6em {@apply mx6em mb6em} .mxb7em {@apply mx7em mb7em} .mxb8em {@apply mx8em mb8em} .mxb9em {@apply mx9em mb9em} .mxb10em {@apply mx10em mb10em}
+}
+/* 14. y-left */
+@layer utilities {
+    .mylauto {@apply myauto mlauto}
+    .myl1em {@apply my1em ml1em} .myl2em {@apply my2em ml2em} .myl3em {@apply my3em ml3em} .myl4em {@apply my4em ml4em} .myl5em {@apply my5em ml5em}
+    .myl6em {@apply my6em ml6em} .myl7em {@apply my7em ml7em} .myl8em {@apply my8em ml8em} .myl9em {@apply my9em ml9em} .myl10em {@apply my10em ml10em}
+}
+/* 15. y-right */
+@layer utilities {
+    .myrauto {@apply myauto mrauto}
+    .myr1em {@apply my1em mr1em} .myr2em {@apply my2em mr2em} .myr3em {@apply my3em mr3em} .myr4em {@apply my4em mr4em} .myr5em {@apply my5em mr5em}
+    .myr6em {@apply my6em mr6em} .myr7em {@apply my7em mr7em} .myr8em {@apply my8em mr8em} .myr9em {@apply my9em mr9em} .myr10em {@apply my10em mr10em}
+}

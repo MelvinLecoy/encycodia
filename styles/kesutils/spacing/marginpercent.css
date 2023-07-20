@@ -1,0 +1,221 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {   /* 1-100 */
+    .m1p {@apply m-[1%]} .m2p {@apply m-[2%]} .m3p {@apply m-[3%]} .m4p {@apply m-[4%]} .m5p {@apply m-[5%]} .m6p {@apply m-[6%]} .m7p {@apply m-[7%]} .m8p {@apply m-[8%]} .m9p {@apply m-[9%]} .m10p {@apply m-[10%]}
+    .m11p {@apply m-[11%]} .m12p {@apply m-[12%]} .m13p {@apply m-[13%]} .m14p {@apply m-[14%]} .m15p {@apply m-[15%]} .m16p {@apply m-[16%]} .m17p {@apply m-[17%]} .m18p {@apply m-[18%]} .m19p {@apply m-[19%]} .m20p {@apply m-[20%]}
+    .m21p {@apply m-[21%]} .m22p {@apply m-[22%]} .m23p {@apply m-[23%]} .m24p {@apply m-[24%]} .m25p {@apply m-[25%]} .m26p {@apply m-[26%]} .m27p {@apply m-[27%]} .m28p {@apply m-[28%]} .m29p {@apply m-[29%]} .m30p {@apply m-[30%]}
+    .m31p {@apply m-[31%]} .m32p {@apply m-[32%]} .m33p {@apply m-[33%]} .m34p {@apply m-[34%]} .m35p {@apply m-[35%]} .m36p {@apply m-[36%]} .m37p {@apply m-[37%]} .m38p {@apply m-[38%]} .m39p {@apply m-[39%]} .m40p {@apply m-[40%]}
+    .m41p {@apply m-[41%]} .m42p {@apply m-[42%]} .m43p {@apply m-[43%]} .m44p {@apply m-[44%]} .m45p {@apply m-[45%]} .m46p {@apply m-[46%]} .m47p {@apply m-[47%]} .m48p {@apply m-[48%]} .m49p {@apply m-[49%]} .m50p {@apply m-[50%]}
+    .m51p {@apply m-[51%]} .m52p {@apply m-[52%]} .m53p {@apply m-[53%]} .m54p {@apply m-[54%]} .m55p {@apply m-[55%]} .m56p {@apply m-[56%]} .m57p {@apply m-[57%]} .m58p {@apply m-[58%]} .m59p {@apply m-[59%]} .m60p {@apply m-[60%]}
+    .m61p {@apply m-[61%]} .m62p {@apply m-[62%]} .m63p {@apply m-[63%]} .m64p {@apply m-[64%]} .m65p {@apply m-[65%]} .m66p {@apply m-[66%]} .m67p {@apply m-[67%]} .m68p {@apply m-[68%]} .m69p {@apply m-[69%]} .m70p {@apply m-[70%]}
+    .m71p {@apply m-[71%]} .m72p {@apply m-[72%]} .m73p {@apply m-[73%]} .m74p {@apply m-[74%]} .m75p {@apply m-[75%]} .m76p {@apply m-[76%]} .m77p {@apply m-[77%]} .m78p {@apply m-[78%]} .m79p {@apply m-[79%]} .m80p {@apply m-[80%]}
+    .m81p {@apply m-[81%]} .m82p {@apply m-[82%]} .m83p {@apply m-[83%]} .m84p {@apply m-[84%]} .m85p {@apply m-[85%]} .m86p {@apply m-[86%]} .m87p {@apply m-[87%]} .m88p {@apply m-[88%]} .m89p {@apply m-[89%]} .m90p {@apply m-[90%]}
+    .m91p {@apply m-[91%]} .m92p {@apply m-[92%]} .m93p {@apply m-[93%]} .m94p {@apply m-[94%]} .m95p {@apply m-[95%]} .m96p {@apply m-[96%]} .m97p {@apply m-[97%]} .m98p {@apply m-[98%]} .m99p {@apply m-[99%]} .m100p {@apply m-[100%]}
+}
+/* ".m" + str(i) + "p {@apply m-[" + str(i) + "%]}" */
+
+
+/* ONE SIDE */
+@layer utilities {   /* top: 1-100 */
+    .mt1p {@apply mt-[1%]} .mt2p {@apply mt-[2%]} .mt3p {@apply mt-[3%]} .mt4p {@apply mt-[4%]} .mt5p {@apply mt-[5%]} .mt6p {@apply mt-[6%]} .mt7p {@apply mt-[7%]} .mt8p {@apply mt-[8%]} .mt9p {@apply mt-[9%]} .mt10p {@apply mt-[10%]}
+    .mt11p {@apply mt-[11%]} .mt12p {@apply mt-[12%]} .mt13p {@apply mt-[13%]} .mt14p {@apply mt-[14%]} .mt15p {@apply mt-[15%]} .mt16p {@apply mt-[16%]} .mt17p {@apply mt-[17%]} .mt18p {@apply mt-[18%]} .mt19p {@apply mt-[19%]} .mt20p {@apply mt-[20%]}
+    .mt21p {@apply mt-[21%]} .mt22p {@apply mt-[22%]} .mt23p {@apply mt-[23%]} .mt24p {@apply mt-[24%]} .mt25p {@apply mt-[25%]} .mt26p {@apply mt-[26%]} .mt27p {@apply mt-[27%]} .mt28p {@apply mt-[28%]} .mt29p {@apply mt-[29%]} .mt30p {@apply mt-[30%]}
+    .mt31p {@apply mt-[31%]} .mt32p {@apply mt-[32%]} .mt33p {@apply mt-[33%]} .mt34p {@apply mt-[34%]} .mt35p {@apply mt-[35%]} .mt36p {@apply mt-[36%]} .mt37p {@apply mt-[37%]} .mt38p {@apply mt-[38%]} .mt39p {@apply mt-[39%]} .mt40p {@apply mt-[40%]}
+    .mt41p {@apply mt-[41%]} .mt42p {@apply mt-[42%]} .mt43p {@apply mt-[43%]} .mt44p {@apply mt-[44%]} .mt45p {@apply mt-[45%]} .mt46p {@apply mt-[46%]} .mt47p {@apply mt-[47%]} .mt48p {@apply mt-[48%]} .mt49p {@apply mt-[49%]} .mt50p {@apply mt-[50%]}
+    .mt51p {@apply mt-[51%]} .mt52p {@apply mt-[52%]} .mt53p {@apply mt-[53%]} .mt54p {@apply mt-[54%]} .mt55p {@apply mt-[55%]} .mt56p {@apply mt-[56%]} .mt57p {@apply mt-[57%]} .mt58p {@apply mt-[58%]} .mt59p {@apply mt-[59%]} .mt60p {@apply mt-[60%]}
+    .mt61p {@apply mt-[61%]} .mt62p {@apply mt-[62%]} .mt63p {@apply mt-[63%]} .mt64p {@apply mt-[64%]} .mt65p {@apply mt-[65%]} .mt66p {@apply mt-[66%]} .mt67p {@apply mt-[67%]} .mt68p {@apply mt-[68%]} .mt69p {@apply mt-[69%]} .mt70p {@apply mt-[70%]}
+    .mt71p {@apply mt-[71%]} .mt72p {@apply mt-[72%]} .mt73p {@apply mt-[73%]} .mt74p {@apply mt-[74%]} .mt75p {@apply mt-[75%]} .mt76p {@apply mt-[76%]} .mt77p {@apply mt-[77%]} .mt78p {@apply mt-[78%]} .mt79p {@apply mt-[79%]} .mt80p {@apply mt-[80%]}
+    .mt81p {@apply mt-[81%]} .mt82p {@apply mt-[82%]} .mt83p {@apply mt-[83%]} .mt84p {@apply mt-[84%]} .mt85p {@apply mt-[85%]} .mt86p {@apply mt-[86%]} .mt87p {@apply mt-[87%]} .mt88p {@apply mt-[88%]} .mt89p {@apply mt-[89%]} .mt90p {@apply mt-[90%]}
+    .mt91p {@apply mt-[91%]} .mt92p {@apply mt-[92%]} .mt93p {@apply mt-[93%]} .mt94p {@apply mt-[94%]} .mt95p {@apply mt-[95%]} .mt96p {@apply mt-[96%]} .mt97p {@apply mt-[97%]} .mt98p {@apply mt-[98%]} .mt99p {@apply mt-[99%]} .mt100p {@apply mt-[100%]}
+}
+/* ".mt" + str(i) + "p {@apply mt-[" + str(i) + "%]}" */
+
+@layer utilities {   /* bottom: 1-100 */
+    .mb1p {@apply mb-[1%]} .mb2p {@apply mb-[2%]} .mb3p {@apply mb-[3%]} .mb4p {@apply mb-[4%]} .mb5p {@apply mb-[5%]} .mb6p {@apply mb-[6%]} .mb7p {@apply mb-[7%]} .mb8p {@apply mb-[8%]} .mb9p {@apply mb-[9%]} .mb10p {@apply mb-[10%]}
+    .mb11p {@apply mb-[11%]} .mb12p {@apply mb-[12%]} .mb13p {@apply mb-[13%]} .mb14p {@apply mb-[14%]} .mb15p {@apply mb-[15%]} .mb16p {@apply mb-[16%]} .mb17p {@apply mb-[17%]} .mb18p {@apply mb-[18%]} .mb19p {@apply mb-[19%]} .mb20p {@apply mb-[20%]}
+    .mb21p {@apply mb-[21%]} .mb22p {@apply mb-[22%]} .mb23p {@apply mb-[23%]} .mb24p {@apply mb-[24%]} .mb25p {@apply mb-[25%]} .mb26p {@apply mb-[26%]} .mb27p {@apply mb-[27%]} .mb28p {@apply mb-[28%]} .mb29p {@apply mb-[29%]} .mb30p {@apply mb-[30%]}
+    .mb31p {@apply mb-[31%]} .mb32p {@apply mb-[32%]} .mb33p {@apply mb-[33%]} .mb34p {@apply mb-[34%]} .mb35p {@apply mb-[35%]} .mb36p {@apply mb-[36%]} .mb37p {@apply mb-[37%]} .mb38p {@apply mb-[38%]} .mb39p {@apply mb-[39%]} .mb40p {@apply mb-[40%]}
+    .mb41p {@apply mb-[41%]} .mb42p {@apply mb-[42%]} .mb43p {@apply mb-[43%]} .mb44p {@apply mb-[44%]} .mb45p {@apply mb-[45%]} .mb46p {@apply mb-[46%]} .mb47p {@apply mb-[47%]} .mb48p {@apply mb-[48%]} .mb49p {@apply mb-[49%]} .mb50p {@apply mb-[50%]}
+    .mb51p {@apply mb-[51%]} .mb52p {@apply mb-[52%]} .mb53p {@apply mb-[53%]} .mb54p {@apply mb-[54%]} .mb55p {@apply mb-[55%]} .mb56p {@apply mb-[56%]} .mb57p {@apply mb-[57%]} .mb58p {@apply mb-[58%]} .mb59p {@apply mb-[59%]} .mb60p {@apply mb-[60%]}
+    .mb61p {@apply mb-[61%]} .mb62p {@apply mb-[62%]} .mb63p {@apply mb-[63%]} .mb64p {@apply mb-[64%]} .mb65p {@apply mb-[65%]} .mb66p {@apply mb-[66%]} .mb67p {@apply mb-[67%]} .mb68p {@apply mb-[68%]} .mb69p {@apply mb-[69%]} .mb70p {@apply mb-[70%]}
+    .mb71p {@apply mb-[71%]} .mb72p {@apply mb-[72%]} .mb73p {@apply mb-[73%]} .mb74p {@apply mb-[74%]} .mb75p {@apply mb-[75%]} .mb76p {@apply mb-[76%]} .mb77p {@apply mb-[77%]} .mb78p {@apply mb-[78%]} .mb79p {@apply mb-[79%]} .mb80p {@apply mb-[80%]}
+    .mb81p {@apply mb-[81%]} .mb82p {@apply mb-[82%]} .mb83p {@apply mb-[83%]} .mb84p {@apply mb-[84%]} .mb85p {@apply mb-[85%]} .mb86p {@apply mb-[86%]} .mb87p {@apply mb-[87%]} .mb88p {@apply mb-[88%]} .mb89p {@apply mb-[89%]} .mb90p {@apply mb-[90%]}
+    .mb91p {@apply mb-[91%]} .mb92p {@apply mb-[92%]} .mb93p {@apply mb-[93%]} .mb94p {@apply mb-[94%]} .mb95p {@apply mb-[95%]} .mb96p {@apply mb-[96%]} .mb97p {@apply mb-[97%]} .mb98p {@apply mb-[98%]} .mb99p {@apply mb-[99%]} .mb100p {@apply mb-[100%]}
+}
+/* ".mb" + str(i) + "p {@apply mb-[" + str(i) + "%]}" */
+
+@layer utilities {   /* left: 1-100 */
+    .ml1p {@apply ml-[1%]} .ml2p {@apply ml-[2%]} .ml3p {@apply ml-[3%]} .ml4p {@apply ml-[4%]} .ml5p {@apply ml-[5%]} .ml6p {@apply ml-[6%]} .ml7p {@apply ml-[7%]} .ml8p {@apply ml-[8%]} .ml9p {@apply ml-[9%]} .ml10p {@apply ml-[10%]}
+    .ml11p {@apply ml-[11%]} .ml12p {@apply ml-[12%]} .ml13p {@apply ml-[13%]} .ml14p {@apply ml-[14%]} .ml15p {@apply ml-[15%]} .ml16p {@apply ml-[16%]} .ml17p {@apply ml-[17%]} .ml18p {@apply ml-[18%]} .ml19p {@apply ml-[19%]} .ml20p {@apply ml-[20%]}
+    .ml21p {@apply ml-[21%]} .ml22p {@apply ml-[22%]} .ml23p {@apply ml-[23%]} .ml24p {@apply ml-[24%]} .ml25p {@apply ml-[25%]} .ml26p {@apply ml-[26%]} .ml27p {@apply ml-[27%]} .ml28p {@apply ml-[28%]} .ml29p {@apply ml-[29%]} .ml30p {@apply ml-[30%]}
+    .ml31p {@apply ml-[31%]} .ml32p {@apply ml-[32%]} .ml33p {@apply ml-[33%]} .ml34p {@apply ml-[34%]} .ml35p {@apply ml-[35%]} .ml36p {@apply ml-[36%]} .ml37p {@apply ml-[37%]} .ml38p {@apply ml-[38%]} .ml39p {@apply ml-[39%]} .ml40p {@apply ml-[40%]}
+    .ml41p {@apply ml-[41%]} .ml42p {@apply ml-[42%]} .ml43p {@apply ml-[43%]} .ml44p {@apply ml-[44%]} .ml45p {@apply ml-[45%]} .ml46p {@apply ml-[46%]} .ml47p {@apply ml-[47%]} .ml48p {@apply ml-[48%]} .ml49p {@apply ml-[49%]} .ml50p {@apply ml-[50%]}
+    .ml51p {@apply ml-[51%]} .ml52p {@apply ml-[52%]} .ml53p {@apply ml-[53%]} .ml54p {@apply ml-[54%]} .ml55p {@apply ml-[55%]} .ml56p {@apply ml-[56%]} .ml57p {@apply ml-[57%]} .ml58p {@apply ml-[58%]} .ml59p {@apply ml-[59%]} .ml60p {@apply ml-[60%]}
+    .ml61p {@apply ml-[61%]} .ml62p {@apply ml-[62%]} .ml63p {@apply ml-[63%]} .ml64p {@apply ml-[64%]} .ml65p {@apply ml-[65%]} .ml66p {@apply ml-[66%]} .ml67p {@apply ml-[67%]} .ml68p {@apply ml-[68%]} .ml69p {@apply ml-[69%]} .ml70p {@apply ml-[70%]}
+    .ml71p {@apply ml-[71%]} .ml72p {@apply ml-[72%]} .ml73p {@apply ml-[73%]} .ml74p {@apply ml-[74%]} .ml75p {@apply ml-[75%]} .ml76p {@apply ml-[76%]} .ml77p {@apply ml-[77%]} .ml78p {@apply ml-[78%]} .ml79p {@apply ml-[79%]} .ml80p {@apply ml-[80%]}
+    .ml81p {@apply ml-[81%]} .ml82p {@apply ml-[82%]} .ml83p {@apply ml-[83%]} .ml84p {@apply ml-[84%]} .ml85p {@apply ml-[85%]} .ml86p {@apply ml-[86%]} .ml87p {@apply ml-[87%]} .ml88p {@apply ml-[88%]} .ml89p {@apply ml-[89%]} .ml90p {@apply ml-[90%]}
+    .ml91p {@apply ml-[91%]} .ml92p {@apply ml-[92%]} .ml93p {@apply ml-[93%]} .ml94p {@apply ml-[94%]} .ml95p {@apply ml-[95%]} .ml96p {@apply ml-[96%]} .ml97p {@apply ml-[97%]} .ml98p {@apply ml-[98%]} .ml99p {@apply ml-[99%]} .ml100p {@apply ml-[100%]}
+}
+/* ".ml" + str(i) + "p {@apply ml-[" + str(i) + "%]}" */
+
+@layer utilities {   /* right: 1-100 */
+    .mr1p {@apply mr-[1%]} .mr2p {@apply mr-[2%]} .mr3p {@apply mr-[3%]} .mr4p {@apply mr-[4%]} .mr5p {@apply mr-[5%]} .mr6p {@apply mr-[6%]} .mr7p {@apply mr-[7%]} .mr8p {@apply mr-[8%]} .mr9p {@apply mr-[9%]} .mr10p {@apply mr-[10%]}
+    .mr11p {@apply mr-[11%]} .mr12p {@apply mr-[12%]} .mr13p {@apply mr-[13%]} .mr14p {@apply mr-[14%]} .mr15p {@apply mr-[15%]} .mr16p {@apply mr-[16%]} .mr17p {@apply mr-[17%]} .mr18p {@apply mr-[18%]} .mr19p {@apply mr-[19%]} .mr20p {@apply mr-[20%]}
+    .mr21p {@apply mr-[21%]} .mr22p {@apply mr-[22%]} .mr23p {@apply mr-[23%]} .mr24p {@apply mr-[24%]} .mr25p {@apply mr-[25%]} .mr26p {@apply mr-[26%]} .mr27p {@apply mr-[27%]} .mr28p {@apply mr-[28%]} .mr29p {@apply mr-[29%]} .mr30p {@apply mr-[30%]}
+    .mr31p {@apply mr-[31%]} .mr32p {@apply mr-[32%]} .mr33p {@apply mr-[33%]} .mr34p {@apply mr-[34%]} .mr35p {@apply mr-[35%]} .mr36p {@apply mr-[36%]} .mr37p {@apply mr-[37%]} .mr38p {@apply mr-[38%]} .mr39p {@apply mr-[39%]} .mr40p {@apply mr-[40%]}
+    .mr41p {@apply mr-[41%]} .mr42p {@apply mr-[42%]} .mr43p {@apply mr-[43%]} .mr44p {@apply mr-[44%]} .mr45p {@apply mr-[45%]} .mr46p {@apply mr-[46%]} .mr47p {@apply mr-[47%]} .mr48p {@apply mr-[48%]} .mr49p {@apply mr-[49%]} .mr50p {@apply mr-[50%]}
+    .mr51p {@apply mr-[51%]} .mr52p {@apply mr-[52%]} .mr53p {@apply mr-[53%]} .mr54p {@apply mr-[54%]} .mr55p {@apply mr-[55%]} .mr56p {@apply mr-[56%]} .mr57p {@apply mr-[57%]} .mr58p {@apply mr-[58%]} .mr59p {@apply mr-[59%]} .mr60p {@apply mr-[60%]}
+    .mr61p {@apply mr-[61%]} .mr62p {@apply mr-[62%]} .mr63p {@apply mr-[63%]} .mr64p {@apply mr-[64%]} .mr65p {@apply mr-[65%]} .mr66p {@apply mr-[66%]} .mr67p {@apply mr-[67%]} .mr68p {@apply mr-[68%]} .mr69p {@apply mr-[69%]} .mr70p {@apply mr-[70%]}
+    .mr71p {@apply mr-[71%]} .mr72p {@apply mr-[72%]} .mr73p {@apply mr-[73%]} .mr74p {@apply mr-[74%]} .mr75p {@apply mr-[75%]} .mr76p {@apply mr-[76%]} .mr77p {@apply mr-[77%]} .mr78p {@apply mr-[78%]} .mr79p {@apply mr-[79%]} .mr80p {@apply mr-[80%]}
+    .mr81p {@apply mr-[81%]} .mr82p {@apply mr-[82%]} .mr83p {@apply mr-[83%]} .mr84p {@apply mr-[84%]} .mr85p {@apply mr-[85%]} .mr86p {@apply mr-[86%]} .mr87p {@apply mr-[87%]} .mr88p {@apply mr-[88%]} .mr89p {@apply mr-[89%]} .mr90p {@apply mr-[90%]}
+    .mr91p {@apply mr-[91%]} .mr92p {@apply mr-[92%]} .mr93p {@apply mr-[93%]} .mr94p {@apply mr-[94%]} .mr95p {@apply mr-[95%]} .mr96p {@apply mr-[96%]} .mr97p {@apply mr-[97%]} .mr98p {@apply mr-[98%]} .mr99p {@apply mr-[99%]} .mr100p {@apply mr-[100%]}
+}
+/* ".mr" + str(i) + "p {@apply mr-[" + str(i) + "%]}" */
+
+
+/* TWO SIDES */
+@layer utilities {   /* x: 1-100 */
+    .mx1p {@apply mx-[1%]} .mx2p {@apply mx-[2%]} .mx3p {@apply mx-[3%]} .mx4p {@apply mx-[4%]} .mx5p {@apply mx-[5%]} .mx6p {@apply mx-[6%]} .mx7p {@apply mx-[7%]} .mx8p {@apply mx-[8%]} .mx9p {@apply mx-[9%]} .mx10p {@apply mx-[10%]}
+    .mx11p {@apply mx-[11%]} .mx12p {@apply mx-[12%]} .mx13p {@apply mx-[13%]} .mx14p {@apply mx-[14%]} .mx15p {@apply mx-[15%]} .mx16p {@apply mx-[16%]} .mx17p {@apply mx-[17%]} .mx18p {@apply mx-[18%]} .mx19p {@apply mx-[19%]} .mx20p {@apply mx-[20%]}
+    .mx21p {@apply mx-[21%]} .mx22p {@apply mx-[22%]} .mx23p {@apply mx-[23%]} .mx24p {@apply mx-[24%]} .mx25p {@apply mx-[25%]} .mx26p {@apply mx-[26%]} .mx27p {@apply mx-[27%]} .mx28p {@apply mx-[28%]} .mx29p {@apply mx-[29%]} .mx30p {@apply mx-[30%]}
+    .mx31p {@apply mx-[31%]} .mx32p {@apply mx-[32%]} .mx33p {@apply mx-[33%]} .mx34p {@apply mx-[34%]} .mx35p {@apply mx-[35%]} .mx36p {@apply mx-[36%]} .mx37p {@apply mx-[37%]} .mx38p {@apply mx-[38%]} .mx39p {@apply mx-[39%]} .mx40p {@apply mx-[40%]}
+    .mx41p {@apply mx-[41%]} .mx42p {@apply mx-[42%]} .mx43p {@apply mx-[43%]} .mx44p {@apply mx-[44%]} .mx45p {@apply mx-[45%]} .mx46p {@apply mx-[46%]} .mx47p {@apply mx-[47%]} .mx48p {@apply mx-[48%]} .mx49p {@apply mx-[49%]} .mx50p {@apply mx-[50%]}
+    .mx51p {@apply mx-[51%]} .mx52p {@apply mx-[52%]} .mx53p {@apply mx-[53%]} .mx54p {@apply mx-[54%]} .mx55p {@apply mx-[55%]} .mx56p {@apply mx-[56%]} .mx57p {@apply mx-[57%]} .mx58p {@apply mx-[58%]} .mx59p {@apply mx-[59%]} .mx60p {@apply mx-[60%]}
+    .mx61p {@apply mx-[61%]} .mx62p {@apply mx-[62%]} .mx63p {@apply mx-[63%]} .mx64p {@apply mx-[64%]} .mx65p {@apply mx-[65%]} .mx66p {@apply mx-[66%]} .mx67p {@apply mx-[67%]} .mx68p {@apply mx-[68%]} .mx69p {@apply mx-[69%]} .mx70p {@apply mx-[70%]}
+    .mx71p {@apply mx-[71%]} .mx72p {@apply mx-[72%]} .mx73p {@apply mx-[73%]} .mx74p {@apply mx-[74%]} .mx75p {@apply mx-[75%]} .mx76p {@apply mx-[76%]} .mx77p {@apply mx-[77%]} .mx78p {@apply mx-[78%]} .mx79p {@apply mx-[79%]} .mx80p {@apply mx-[80%]}
+    .mx81p {@apply mx-[81%]} .mx82p {@apply mx-[82%]} .mx83p {@apply mx-[83%]} .mx84p {@apply mx-[84%]} .mx85p {@apply mx-[85%]} .mx86p {@apply mx-[86%]} .mx87p {@apply mx-[87%]} .mx88p {@apply mx-[88%]} .mx89p {@apply mx-[89%]} .mx90p {@apply mx-[90%]}
+    .mx91p {@apply mx-[91%]} .mx92p {@apply mx-[92%]} .mx93p {@apply mx-[93%]} .mx94p {@apply mx-[94%]} .mx95p {@apply mx-[95%]} .mx96p {@apply mx-[96%]} .mx97p {@apply mx-[97%]} .mx98p {@apply mx-[98%]} .mx99p {@apply mx-[99%]} .mx100p {@apply mx-[100%]}
+}
+/* ".mx" + str(i) + "p {@apply mx-[" + str(i) + "%]}" */
+
+@layer utilities {   /* y: 1-100 */
+    .my1p {@apply my-[1%]} .my2p {@apply my-[2%]} .my3p {@apply my-[3%]} .my4p {@apply my-[4%]} .my5p {@apply my-[5%]} .my6p {@apply my-[6%]} .my7p {@apply my-[7%]} .my8p {@apply my-[8%]} .my9p {@apply my-[9%]} .my10p {@apply my-[10%]}
+    .my11p {@apply my-[11%]} .my12p {@apply my-[12%]} .my13p {@apply my-[13%]} .my14p {@apply my-[14%]} .my15p {@apply my-[15%]} .my16p {@apply my-[16%]} .my17p {@apply my-[17%]} .my18p {@apply my-[18%]} .my19p {@apply my-[19%]} .my20p {@apply my-[20%]}
+    .my21p {@apply my-[21%]} .my22p {@apply my-[22%]} .my23p {@apply my-[23%]} .my24p {@apply my-[24%]} .my25p {@apply my-[25%]} .my26p {@apply my-[26%]} .my27p {@apply my-[27%]} .my28p {@apply my-[28%]} .my29p {@apply my-[29%]} .my30p {@apply my-[30%]}
+    .my31p {@apply my-[31%]} .my32p {@apply my-[32%]} .my33p {@apply my-[33%]} .my34p {@apply my-[34%]} .my35p {@apply my-[35%]} .my36p {@apply my-[36%]} .my37p {@apply my-[37%]} .my38p {@apply my-[38%]} .my39p {@apply my-[39%]} .my40p {@apply my-[40%]}
+    .my41p {@apply my-[41%]} .my42p {@apply my-[42%]} .my43p {@apply my-[43%]} .my44p {@apply my-[44%]} .my45p {@apply my-[45%]} .my46p {@apply my-[46%]} .my47p {@apply my-[47%]} .my48p {@apply my-[48%]} .my49p {@apply my-[49%]} .my50p {@apply my-[50%]}
+    .my51p {@apply my-[51%]} .my52p {@apply my-[52%]} .my53p {@apply my-[53%]} .my54p {@apply my-[54%]} .my55p {@apply my-[55%]} .my56p {@apply my-[56%]} .my57p {@apply my-[57%]} .my58p {@apply my-[58%]} .my59p {@apply my-[59%]} .my60p {@apply my-[60%]}
+    .my61p {@apply my-[61%]} .my62p {@apply my-[62%]} .my63p {@apply my-[63%]} .my64p {@apply my-[64%]} .my65p {@apply my-[65%]} .my66p {@apply my-[66%]} .my67p {@apply my-[67%]} .my68p {@apply my-[68%]} .my69p {@apply my-[69%]} .my70p {@apply my-[70%]}
+    .my71p {@apply my-[71%]} .my72p {@apply my-[72%]} .my73p {@apply my-[73%]} .my74p {@apply my-[74%]} .my75p {@apply my-[75%]} .my76p {@apply my-[76%]} .my77p {@apply my-[77%]} .my78p {@apply my-[78%]} .my79p {@apply my-[79%]} .my80p {@apply my-[80%]}
+    .my81p {@apply my-[81%]} .my82p {@apply my-[82%]} .my83p {@apply my-[83%]} .my84p {@apply my-[84%]} .my85p {@apply my-[85%]} .my86p {@apply my-[86%]} .my87p {@apply my-[87%]} .my88p {@apply my-[88%]} .my89p {@apply my-[89%]} .my90p {@apply my-[90%]}
+    .my91p {@apply my-[91%]} .my92p {@apply my-[92%]} .my93p {@apply my-[93%]} .my94p {@apply my-[94%]} .my95p {@apply my-[95%]} .my96p {@apply my-[96%]} .my97p {@apply my-[97%]} .my98p {@apply my-[98%]} .my99p {@apply my-[99%]} .my100p {@apply my-[100%]}
+}
+/* ".my" + str(i) + "p {@apply my-[" + str(i) + "%]}" */
+
+
+@layer utilities {   /* top-left: 1-100 */
+    .mtl1p {@apply mt1p ml1p} .mtl2p {@apply mt2p ml2p} .mtl3p {@apply mt3p ml3p} .mtl4p {@apply mt4p ml4p} .mtl5p {@apply mt5p ml5p} .mtl6p {@apply mt6p ml6p} .mtl7p {@apply mt7p ml7p} .mtl8p {@apply mt8p ml8p} .mtl9p {@apply mt9p ml9p} .mtl10p {@apply mt10p ml10p}
+    .mtl11p {@apply mt11p ml11p} .mtl12p {@apply mt12p ml12p} .mtl13p {@apply mt13p ml13p} .mtl14p {@apply mt14p ml14p} .mtl15p {@apply mt15p ml15p} .mtl16p {@apply mt16p ml16p} .mtl17p {@apply mt17p ml17p} .mtl18p {@apply mt18p ml18p} .mtl19p {@apply mt19p ml19p} .mtl20p {@apply mt20p ml20p}
+    .mtl21p {@apply mt21p ml21p} .mtl22p {@apply mt22p ml22p} .mtl23p {@apply mt23p ml23p} .mtl24p {@apply mt24p ml24p} .mtl25p {@apply mt25p ml25p} .mtl26p {@apply mt26p ml26p} .mtl27p {@apply mt27p ml27p} .mtl28p {@apply mt28p ml28p} .mtl29p {@apply mt29p ml29p} .mtl30p {@apply mt30p ml30p}
+    .mtl31p {@apply mt31p ml31p} .mtl32p {@apply mt32p ml32p} .mtl33p {@apply mt33p ml33p} .mtl34p {@apply mt34p ml34p} .mtl35p {@apply mt35p ml35p} .mtl36p {@apply mt36p ml36p} .mtl37p {@apply mt37p ml37p} .mtl38p {@apply mt38p ml38p} .mtl39p {@apply mt39p ml39p} .mtl40p {@apply mt40p ml40p}
+    .mtl41p {@apply mt41p ml41p} .mtl42p {@apply mt42p ml42p} .mtl43p {@apply mt43p ml43p} .mtl44p {@apply mt44p ml44p} .mtl45p {@apply mt45p ml45p} .mtl46p {@apply mt46p ml46p} .mtl47p {@apply mt47p ml47p} .mtl48p {@apply mt48p ml48p} .mtl49p {@apply mt49p ml49p} .mtl50p {@apply mt50p ml50p}
+    .mtl51p {@apply mt51p ml51p} .mtl52p {@apply mt52p ml52p} .mtl53p {@apply mt53p ml53p} .mtl54p {@apply mt54p ml54p} .mtl55p {@apply mt55p ml55p} .mtl56p {@apply mt56p ml56p} .mtl57p {@apply mt57p ml57p} .mtl58p {@apply mt58p ml58p} .mtl59p {@apply mt59p ml59p} .mtl60p {@apply mt60p ml60p}
+    .mtl61p {@apply mt61p ml61p} .mtl62p {@apply mt62p ml62p} .mtl63p {@apply mt63p ml63p} .mtl64p {@apply mt64p ml64p} .mtl65p {@apply mt65p ml65p} .mtl66p {@apply mt66p ml66p} .mtl67p {@apply mt67p ml67p} .mtl68p {@apply mt68p ml68p} .mtl69p {@apply mt69p ml69p} .mtl70p {@apply mt70p ml70p}
+    .mtl71p {@apply mt71p ml71p} .mtl72p {@apply mt72p ml72p} .mtl73p {@apply mt73p ml73p} .mtl74p {@apply mt74p ml74p} .mtl75p {@apply mt75p ml75p} .mtl76p {@apply mt76p ml76p} .mtl77p {@apply mt77p ml77p} .mtl78p {@apply mt78p ml78p} .mtl79p {@apply mt79p ml79p} .mtl80p {@apply mt80p ml80p}
+    .mtl81p {@apply mt81p ml81p} .mtl82p {@apply mt82p ml82p} .mtl83p {@apply mt83p ml83p} .mtl84p {@apply mt84p ml84p} .mtl85p {@apply mt85p ml85p} .mtl86p {@apply mt86p ml86p} .mtl87p {@apply mt87p ml87p} .mtl88p {@apply mt88p ml88p} .mtl89p {@apply mt89p ml89p} .mtl90p {@apply mt90p ml90p}
+    .mtl91p {@apply mt91p ml91p} .mtl92p {@apply mt92p ml92p} .mtl93p {@apply mt93p ml93p} .mtl94p {@apply mt94p ml94p} .mtl95p {@apply mt95p ml95p} .mtl96p {@apply mt96p ml96p} .mtl97p {@apply mt97p ml97p} .mtl98p {@apply mt98p ml98p} .mtl99p {@apply mt99p ml99p} .mtl100p {@apply mt100p ml100p}
+}
+/* ".mtl" + str(i) + "p {@apply mt" + str(i) + "p ml" + str(i) + "p}" */
+
+@layer utilities {   /* top-right: 1-100 */
+    .mtr1p {@apply mt1p mr1p} .mtr2p {@apply mt2p mr2p} .mtr3p {@apply mt3p mr3p} .mtr4p {@apply mt4p mr4p} .mtr5p {@apply mt5p mr5p} .mtr6p {@apply mt6p mr6p} .mtr7p {@apply mt7p mr7p} .mtr8p {@apply mt8p mr8p} .mtr9p {@apply mt9p mr9p} .mtr10p {@apply mt10p mr10p}
+    .mtr11p {@apply mt11p mr11p} .mtr12p {@apply mt12p mr12p} .mtr13p {@apply mt13p mr13p} .mtr14p {@apply mt14p mr14p} .mtr15p {@apply mt15p mr15p} .mtr16p {@apply mt16p mr16p} .mtr17p {@apply mt17p mr17p} .mtr18p {@apply mt18p mr18p} .mtr19p {@apply mt19p mr19p} .mtr20p {@apply mt20p mr20p}
+    .mtr21p {@apply mt21p mr21p} .mtr22p {@apply mt22p mr22p} .mtr23p {@apply mt23p mr23p} .mtr24p {@apply mt24p mr24p} .mtr25p {@apply mt25p mr25p} .mtr26p {@apply mt26p mr26p} .mtr27p {@apply mt27p mr27p} .mtr28p {@apply mt28p mr28p} .mtr29p {@apply mt29p mr29p} .mtr30p {@apply mt30p mr30p}
+    .mtr31p {@apply mt31p mr31p} .mtr32p {@apply mt32p mr32p} .mtr33p {@apply mt33p mr33p} .mtr34p {@apply mt34p mr34p} .mtr35p {@apply mt35p mr35p} .mtr36p {@apply mt36p mr36p} .mtr37p {@apply mt37p mr37p} .mtr38p {@apply mt38p mr38p} .mtr39p {@apply mt39p mr39p} .mtr40p {@apply mt40p mr40p}
+    .mtr41p {@apply mt41p mr41p} .mtr42p {@apply mt42p mr42p} .mtr43p {@apply mt43p mr43p} .mtr44p {@apply mt44p mr44p} .mtr45p {@apply mt45p mr45p} .mtr46p {@apply mt46p mr46p} .mtr47p {@apply mt47p mr47p} .mtr48p {@apply mt48p mr48p} .mtr49p {@apply mt49p mr49p} .mtr50p {@apply mt50p mr50p}
+    .mtr51p {@apply mt51p mr51p} .mtr52p {@apply mt52p mr52p} .mtr53p {@apply mt53p mr53p} .mtr54p {@apply mt54p mr54p} .mtr55p {@apply mt55p mr55p} .mtr56p {@apply mt56p mr56p} .mtr57p {@apply mt57p mr57p} .mtr58p {@apply mt58p mr58p} .mtr59p {@apply mt59p mr59p} .mtr60p {@apply mt60p mr60p}
+    .mtr61p {@apply mt61p mr61p} .mtr62p {@apply mt62p mr62p} .mtr63p {@apply mt63p mr63p} .mtr64p {@apply mt64p mr64p} .mtr65p {@apply mt65p mr65p} .mtr66p {@apply mt66p mr66p} .mtr67p {@apply mt67p mr67p} .mtr68p {@apply mt68p mr68p} .mtr69p {@apply mt69p mr69p} .mtr70p {@apply mt70p mr70p}
+    .mtr71p {@apply mt71p mr71p} .mtr72p {@apply mt72p mr72p} .mtr73p {@apply mt73p mr73p} .mtr74p {@apply mt74p mr74p} .mtr75p {@apply mt75p mr75p} .mtr76p {@apply mt76p mr76p} .mtr77p {@apply mt77p mr77p} .mtr78p {@apply mt78p mr78p} .mtr79p {@apply mt79p mr79p} .mtr80p {@apply mt80p mr80p}
+    .mtr81p {@apply mt81p mr81p} .mtr82p {@apply mt82p mr82p} .mtr83p {@apply mt83p mr83p} .mtr84p {@apply mt84p mr84p} .mtr85p {@apply mt85p mr85p} .mtr86p {@apply mt86p mr86p} .mtr87p {@apply mt87p mr87p} .mtr88p {@apply mt88p mr88p} .mtr89p {@apply mt89p mr89p} .mtr90p {@apply mt90p mr90p}
+    .mtr91p {@apply mt91p mr91p} .mtr92p {@apply mt92p mr92p} .mtr93p {@apply mt93p mr93p} .mtr94p {@apply mt94p mr94p} .mtr95p {@apply mt95p mr95p} .mtr96p {@apply mt96p mr96p} .mtr97p {@apply mt97p mr97p} .mtr98p {@apply mt98p mr98p} .mtr99p {@apply mt99p mr99p} .mtr100p {@apply mt100p mr100p}
+}
+/* ".mtr" + str(i) + "p {@apply mt" + str(i) + "p mr" + str(i) + "p}" */
+
+@layer utilities {   /* bottom-left: 1-100 */
+    .mbl1p {@apply mb1p ml1p} .mbl2p {@apply mb2p ml2p} .mbl3p {@apply mb3p ml3p} .mbl4p {@apply mb4p ml4p} .mbl5p {@apply mb5p ml5p} .mbl6p {@apply mb6p ml6p} .mbl7p {@apply mb7p ml7p} .mbl8p {@apply mb8p ml8p} .mbl9p {@apply mb9p ml9p} .mbl10p {@apply mb10p ml10p}
+    .mbl11p {@apply mb11p ml11p} .mbl12p {@apply mb12p ml12p} .mbl13p {@apply mb13p ml13p} .mbl14p {@apply mb14p ml14p} .mbl15p {@apply mb15p ml15p} .mbl16p {@apply mb16p ml16p} .mbl17p {@apply mb17p ml17p} .mbl18p {@apply mb18p ml18p} .mbl19p {@apply mb19p ml19p} .mbl20p {@apply mb20p ml20p}
+    .mbl21p {@apply mb21p ml21p} .mbl22p {@apply mb22p ml22p} .mbl23p {@apply mb23p ml23p} .mbl24p {@apply mb24p ml24p} .mbl25p {@apply mb25p ml25p} .mbl26p {@apply mb26p ml26p} .mbl27p {@apply mb27p ml27p} .mbl28p {@apply mb28p ml28p} .mbl29p {@apply mb29p ml29p} .mbl30p {@apply mb30p ml30p}
+    .mbl31p {@apply mb31p ml31p} .mbl32p {@apply mb32p ml32p} .mbl33p {@apply mb33p ml33p} .mbl34p {@apply mb34p ml34p} .mbl35p {@apply mb35p ml35p} .mbl36p {@apply mb36p ml36p} .mbl37p {@apply mb37p ml37p} .mbl38p {@apply mb38p ml38p} .mbl39p {@apply mb39p ml39p} .mbl40p {@apply mb40p ml40p}
+    .mbl41p {@apply mb41p ml41p} .mbl42p {@apply mb42p ml42p} .mbl43p {@apply mb43p ml43p} .mbl44p {@apply mb44p ml44p} .mbl45p {@apply mb45p ml45p} .mbl46p {@apply mb46p ml46p} .mbl47p {@apply mb47p ml47p} .mbl48p {@apply mb48p ml48p} .mbl49p {@apply mb49p ml49p} .mbl50p {@apply mb50p ml50p}
+    .mbl51p {@apply mb51p ml51p} .mbl52p {@apply mb52p ml52p} .mbl53p {@apply mb53p ml53p} .mbl54p {@apply mb54p ml54p} .mbl55p {@apply mb55p ml55p} .mbl56p {@apply mb56p ml56p} .mbl57p {@apply mb57p ml57p} .mbl58p {@apply mb58p ml58p} .mbl59p {@apply mb59p ml59p} .mbl60p {@apply mb60p ml60p}
+    .mbl61p {@apply mb61p ml61p} .mbl62p {@apply mb62p ml62p} .mbl63p {@apply mb63p ml63p} .mbl64p {@apply mb64p ml64p} .mbl65p {@apply mb65p ml65p} .mbl66p {@apply mb66p ml66p} .mbl67p {@apply mb67p ml67p} .mbl68p {@apply mb68p ml68p} .mbl69p {@apply mb69p ml69p} .mbl70p {@apply mb70p ml70p}
+    .mbl71p {@apply mb71p ml71p} .mbl72p {@apply mb72p ml72p} .mbl73p {@apply mb73p ml73p} .mbl74p {@apply mb74p ml74p} .mbl75p {@apply mb75p ml75p} .mbl76p {@apply mb76p ml76p} .mbl77p {@apply mb77p ml77p} .mbl78p {@apply mb78p ml78p} .mbl79p {@apply mb79p ml79p} .mbl80p {@apply mb80p ml80p}
+    .mbl81p {@apply mb81p ml81p} .mbl82p {@apply mb82p ml82p} .mbl83p {@apply mb83p ml83p} .mbl84p {@apply mb84p ml84p} .mbl85p {@apply mb85p ml85p} .mbl86p {@apply mb86p ml86p} .mbl87p {@apply mb87p ml87p} .mbl88p {@apply mb88p ml88p} .mbl89p {@apply mb89p ml89p} .mbl90p {@apply mb90p ml90p}
+    .mbl91p {@apply mb91p ml91p} .mbl92p {@apply mb92p ml92p} .mbl93p {@apply mb93p ml93p} .mbl94p {@apply mb94p ml94p} .mbl95p {@apply mb95p ml95p} .mbl96p {@apply mb96p ml96p} .mbl97p {@apply mb97p ml97p} .mbl98p {@apply mb98p ml98p} .mbl99p {@apply mb99p ml99p} .mbl100p {@apply mb100p ml100p}
+}
+/* ".mbl" + str(i) + "p {@apply mb" + str(i) + "p ml" + str(i) + "p}" */
+
+@layer utilities {   /* bottom-right: 1-100 */
+    .mbr1p {@apply mb1p mr1p} .mbr2p {@apply mb2p mr2p} .mbr3p {@apply mb3p mr3p} .mbr4p {@apply mb4p mr4p} .mbr5p {@apply mb5p mr5p} .mbr6p {@apply mb6p mr6p} .mbr7p {@apply mb7p mr7p} .mbr8p {@apply mb8p mr8p} .mbr9p {@apply mb9p mr9p} .mbr10p {@apply mb10p mr10p}
+    .mbr11p {@apply mb11p mr11p} .mbr12p {@apply mb12p mr12p} .mbr13p {@apply mb13p mr13p} .mbr14p {@apply mb14p mr14p} .mbr15p {@apply mb15p mr15p} .mbr16p {@apply mb16p mr16p} .mbr17p {@apply mb17p mr17p} .mbr18p {@apply mb18p mr18p} .mbr19p {@apply mb19p mr19p} .mbr20p {@apply mb20p mr20p}
+    .mbr21p {@apply mb21p mr21p} .mbr22p {@apply mb22p mr22p} .mbr23p {@apply mb23p mr23p} .mbr24p {@apply mb24p mr24p} .mbr25p {@apply mb25p mr25p} .mbr26p {@apply mb26p mr26p} .mbr27p {@apply mb27p mr27p} .mbr28p {@apply mb28p mr28p} .mbr29p {@apply mb29p mr29p} .mbr30p {@apply mb30p mr30p}
+    .mbr31p {@apply mb31p mr31p} .mbr32p {@apply mb32p mr32p} .mbr33p {@apply mb33p mr33p} .mbr34p {@apply mb34p mr34p} .mbr35p {@apply mb35p mr35p} .mbr36p {@apply mb36p mr36p} .mbr37p {@apply mb37p mr37p} .mbr38p {@apply mb38p mr38p} .mbr39p {@apply mb39p mr39p} .mbr40p {@apply mb40p mr40p}
+    .mbr41p {@apply mb41p mr41p} .mbr42p {@apply mb42p mr42p} .mbr43p {@apply mb43p mr43p} .mbr44p {@apply mb44p mr44p} .mbr45p {@apply mb45p mr45p} .mbr46p {@apply mb46p mr46p} .mbr47p {@apply mb47p mr47p} .mbr48p {@apply mb48p mr48p} .mbr49p {@apply mb49p mr49p} .mbr50p {@apply mb50p mr50p}
+    .mbr51p {@apply mb51p mr51p} .mbr52p {@apply mb52p mr52p} .mbr53p {@apply mb53p mr53p} .mbr54p {@apply mb54p mr54p} .mbr55p {@apply mb55p mr55p} .mbr56p {@apply mb56p mr56p} .mbr57p {@apply mb57p mr57p} .mbr58p {@apply mb58p mr58p} .mbr59p {@apply mb59p mr59p} .mbr60p {@apply mb60p mr60p}
+    .mbr61p {@apply mb61p mr61p} .mbr62p {@apply mb62p mr62p} .mbr63p {@apply mb63p mr63p} .mbr64p {@apply mb64p mr64p} .mbr65p {@apply mb65p mr65p} .mbr66p {@apply mb66p mr66p} .mbr67p {@apply mb67p mr67p} .mbr68p {@apply mb68p mr68p} .mbr69p {@apply mb69p mr69p} .mbr70p {@apply mb70p mr70p}
+    .mbr71p {@apply mb71p mr71p} .mbr72p {@apply mb72p mr72p} .mbr73p {@apply mb73p mr73p} .mbr74p {@apply mb74p mr74p} .mbr75p {@apply mb75p mr75p} .mbr76p {@apply mb76p mr76p} .mbr77p {@apply mb77p mr77p} .mbr78p {@apply mb78p mr78p} .mbr79p {@apply mb79p mr79p} .mbr80p {@apply mb80p mr80p}
+    .mbr81p {@apply mb81p mr81p} .mbr82p {@apply mb82p mr82p} .mbr83p {@apply mb83p mr83p} .mbr84p {@apply mb84p mr84p} .mbr85p {@apply mb85p mr85p} .mbr86p {@apply mb86p mr86p} .mbr87p {@apply mb87p mr87p} .mbr88p {@apply mb88p mr88p} .mbr89p {@apply mb89p mr89p} .mbr90p {@apply mb90p mr90p}
+    .mbr91p {@apply mb91p mr91p} .mbr92p {@apply mb92p mr92p} .mbr93p {@apply mb93p mr93p} .mbr94p {@apply mb94p mr94p} .mbr95p {@apply mb95p mr95p} .mbr96p {@apply mb96p mr96p} .mbr97p {@apply mb97p mr97p} .mbr98p {@apply mb98p mr98p} .mbr99p {@apply mb99p mr99p} .mbr100p {@apply mb100p mr100p}
+}
+/* ".mbr" + str(i) + "p {@apply mb" + str(i) + "p mr" + str(i) + "p}" */
+
+
+
+/* THREE SIDES */
+@layer utilities {   /* x-top: 1-100 */
+    .mxt1p {@apply mx1p mt1p} .mxt2p {@apply mx2p mt2p} .mxt3p {@apply mx3p mt3p} .mxt4p {@apply mx4p mt4p} .mxt5p {@apply mx5p mt5p} .mxt6p {@apply mx6p mt6p} .mxt7p {@apply mx7p mt7p} .mxt8p {@apply mx8p mt8p} .mxt9p {@apply mx9p mt9p} .mxt10p {@apply mx10p mt10p}
+    .mxt11p {@apply mx11p mt11p} .mxt12p {@apply mx12p mt12p} .mxt13p {@apply mx13p mt13p} .mxt14p {@apply mx14p mt14p} .mxt15p {@apply mx15p mt15p} .mxt16p {@apply mx16p mt16p} .mxt17p {@apply mx17p mt17p} .mxt18p {@apply mx18p mt18p} .mxt19p {@apply mx19p mt19p} .mxt20p {@apply mx20p mt20p}
+    .mxt21p {@apply mx21p mt21p} .mxt22p {@apply mx22p mt22p} .mxt23p {@apply mx23p mt23p} .mxt24p {@apply mx24p mt24p} .mxt25p {@apply mx25p mt25p} .mxt26p {@apply mx26p mt26p} .mxt27p {@apply mx27p mt27p} .mxt28p {@apply mx28p mt28p} .mxt29p {@apply mx29p mt29p} .mxt30p {@apply mx30p mt30p}
+    .mxt31p {@apply mx31p mt31p} .mxt32p {@apply mx32p mt32p} .mxt33p {@apply mx33p mt33p} .mxt34p {@apply mx34p mt34p} .mxt35p {@apply mx35p mt35p} .mxt36p {@apply mx36p mt36p} .mxt37p {@apply mx37p mt37p} .mxt38p {@apply mx38p mt38p} .mxt39p {@apply mx39p mt39p} .mxt40p {@apply mx40p mt40p}
+    .mxt41p {@apply mx41p mt41p} .mxt42p {@apply mx42p mt42p} .mxt43p {@apply mx43p mt43p} .mxt44p {@apply mx44p mt44p} .mxt45p {@apply mx45p mt45p} .mxt46p {@apply mx46p mt46p} .mxt47p {@apply mx47p mt47p} .mxt48p {@apply mx48p mt48p} .mxt49p {@apply mx49p mt49p} .mxt50p {@apply mx50p mt50p}
+    .mxt51p {@apply mx51p mt51p} .mxt52p {@apply mx52p mt52p} .mxt53p {@apply mx53p mt53p} .mxt54p {@apply mx54p mt54p} .mxt55p {@apply mx55p mt55p} .mxt56p {@apply mx56p mt56p} .mxt57p {@apply mx57p mt57p} .mxt58p {@apply mx58p mt58p} .mxt59p {@apply mx59p mt59p} .mxt60p {@apply mx60p mt60p}
+    .mxt61p {@apply mx61p mt61p} .mxt62p {@apply mx62p mt62p} .mxt63p {@apply mx63p mt63p} .mxt64p {@apply mx64p mt64p} .mxt65p {@apply mx65p mt65p} .mxt66p {@apply mx66p mt66p} .mxt67p {@apply mx67p mt67p} .mxt68p {@apply mx68p mt68p} .mxt69p {@apply mx69p mt69p} .mxt70p {@apply mx70p mt70p}
+    .mxt71p {@apply mx71p mt71p} .mxt72p {@apply mx72p mt72p} .mxt73p {@apply mx73p mt73p} .mxt74p {@apply mx74p mt74p} .mxt75p {@apply mx75p mt75p} .mxt76p {@apply mx76p mt76p} .mxt77p {@apply mx77p mt77p} .mxt78p {@apply mx78p mt78p} .mxt79p {@apply mx79p mt79p} .mxt80p {@apply mx80p mt80p}
+    .mxt81p {@apply mx81p mt81p} .mxt82p {@apply mx82p mt82p} .mxt83p {@apply mx83p mt83p} .mxt84p {@apply mx84p mt84p} .mxt85p {@apply mx85p mt85p} .mxt86p {@apply mx86p mt86p} .mxt87p {@apply mx87p mt87p} .mxt88p {@apply mx88p mt88p} .mxt89p {@apply mx89p mt89p} .mxt90p {@apply mx90p mt90p}
+    .mxt91p {@apply mx91p mt91p} .mxt92p {@apply mx92p mt92p} .mxt93p {@apply mx93p mt93p} .mxt94p {@apply mx94p mt94p} .mxt95p {@apply mx95p mt95p} .mxt96p {@apply mx96p mt96p} .mxt97p {@apply mx97p mt97p} .mxt98p {@apply mx98p mt98p} .mxt99p {@apply mx99p mt99p} .mxt100p {@apply mx100p mt100p}
+}
+/* ".mxt" + str(i) + "p {@apply mx" + str(i) + "p mt" + str(i) + "p}" */
+
+@layer utilities {   /* x-bottom: 1-100 */
+    .mxb1p {@apply mx1p mb1p} .mxb2p {@apply mx2p mb2p} .mxb3p {@apply mx3p mb3p} .mxb4p {@apply mx4p mb4p} .mxb5p {@apply mx5p mb5p} .mxb6p {@apply mx6p mb6p} .mxb7p {@apply mx7p mb7p} .mxb8p {@apply mx8p mb8p} .mxb9p {@apply mx9p mb9p} .mxb10p {@apply mx10p mb10p}
+    .mxb11p {@apply mx11p mb11p} .mxb12p {@apply mx12p mb12p} .mxb13p {@apply mx13p mb13p} .mxb14p {@apply mx14p mb14p} .mxb15p {@apply mx15p mb15p} .mxb16p {@apply mx16p mb16p} .mxb17p {@apply mx17p mb17p} .mxb18p {@apply mx18p mb18p} .mxb19p {@apply mx19p mb19p} .mxb20p {@apply mx20p mb20p}
+    .mxb21p {@apply mx21p mb21p} .mxb22p {@apply mx22p mb22p} .mxb23p {@apply mx23p mb23p} .mxb24p {@apply mx24p mb24p} .mxb25p {@apply mx25p mb25p} .mxb26p {@apply mx26p mb26p} .mxb27p {@apply mx27p mb27p} .mxb28p {@apply mx28p mb28p} .mxb29p {@apply mx29p mb29p} .mxb30p {@apply mx30p mb30p}
+    .mxb31p {@apply mx31p mb31p} .mxb32p {@apply mx32p mb32p} .mxb33p {@apply mx33p mb33p} .mxb34p {@apply mx34p mb34p} .mxb35p {@apply mx35p mb35p} .mxb36p {@apply mx36p mb36p} .mxb37p {@apply mx37p mb37p} .mxb38p {@apply mx38p mb38p} .mxb39p {@apply mx39p mb39p} .mxb40p {@apply mx40p mb40p}
+    .mxb41p {@apply mx41p mb41p} .mxb42p {@apply mx42p mb42p} .mxb43p {@apply mx43p mb43p} .mxb44p {@apply mx44p mb44p} .mxb45p {@apply mx45p mb45p} .mxb46p {@apply mx46p mb46p} .mxb47p {@apply mx47p mb47p} .mxb48p {@apply mx48p mb48p} .mxb49p {@apply mx49p mb49p} .mxb50p {@apply mx50p mb50p}
+    .mxb51p {@apply mx51p mb51p} .mxb52p {@apply mx52p mb52p} .mxb53p {@apply mx53p mb53p} .mxb54p {@apply mx54p mb54p} .mxb55p {@apply mx55p mb55p} .mxb56p {@apply mx56p mb56p} .mxb57p {@apply mx57p mb57p} .mxb58p {@apply mx58p mb58p} .mxb59p {@apply mx59p mb59p} .mxb60p {@apply mx60p mb60p}
+    .mxb61p {@apply mx61p mb61p} .mxb62p {@apply mx62p mb62p} .mxb63p {@apply mx63p mb63p} .mxb64p {@apply mx64p mb64p} .mxb65p {@apply mx65p mb65p} .mxb66p {@apply mx66p mb66p} .mxb67p {@apply mx67p mb67p} .mxb68p {@apply mx68p mb68p} .mxb69p {@apply mx69p mb69p} .mxb70p {@apply mx70p mb70p}
+    .mxb71p {@apply mx71p mb71p} .mxb72p {@apply mx72p mb72p} .mxb73p {@apply mx73p mb73p} .mxb74p {@apply mx74p mb74p} .mxb75p {@apply mx75p mb75p} .mxb76p {@apply mx76p mb76p} .mxb77p {@apply mx77p mb77p} .mxb78p {@apply mx78p mb78p} .mxb79p {@apply mx79p mb79p} .mxb80p {@apply mx80p mb80p}
+    .mxb81p {@apply mx81p mb81p} .mxb82p {@apply mx82p mb82p} .mxb83p {@apply mx83p mb83p} .mxb84p {@apply mx84p mb84p} .mxb85p {@apply mx85p mb85p} .mxb86p {@apply mx86p mb86p} .mxb87p {@apply mx87p mb87p} .mxb88p {@apply mx88p mb88p} .mxb89p {@apply mx89p mb89p} .mxb90p {@apply mx90p mb90p}
+    .mxb91p {@apply mx91p mb91p} .mxb92p {@apply mx92p mb92p} .mxb93p {@apply mx93p mb93p} .mxb94p {@apply mx94p mb94p} .mxb95p {@apply mx95p mb95p} .mxb96p {@apply mx96p mb96p} .mxb97p {@apply mx97p mb97p} .mxb98p {@apply mx98p mb98p} .mxb99p {@apply mx99p mb99p} .mxb100p {@apply mx100p mb100p}
+}
+/* ".mxb" + str(i) + "p {@apply mx" + str(i) + "p mb" + str(i) + "p}" */
+
+@layer utilities {   /* y-left: 1-100 */
+    .myl1p {@apply my1p ml1p} .myl2p {@apply my2p ml2p} .myl3p {@apply my3p ml3p} .myl4p {@apply my4p ml4p} .myl5p {@apply my5p ml5p} .myl6p {@apply my6p ml6p} .myl7p {@apply my7p ml7p} .myl8p {@apply my8p ml8p} .myl9p {@apply my9p ml9p} .myl10p {@apply my10p ml10p}
+    .myl11p {@apply my11p ml11p} .myl12p {@apply my12p ml12p} .myl13p {@apply my13p ml13p} .myl14p {@apply my14p ml14p} .myl15p {@apply my15p ml15p} .myl16p {@apply my16p ml16p} .myl17p {@apply my17p ml17p} .myl18p {@apply my18p ml18p} .myl19p {@apply my19p ml19p} .myl20p {@apply my20p ml20p}
+    .myl21p {@apply my21p ml21p} .myl22p {@apply my22p ml22p} .myl23p {@apply my23p ml23p} .myl24p {@apply my24p ml24p} .myl25p {@apply my25p ml25p} .myl26p {@apply my26p ml26p} .myl27p {@apply my27p ml27p} .myl28p {@apply my28p ml28p} .myl29p {@apply my29p ml29p} .myl30p {@apply my30p ml30p}
+    .myl31p {@apply my31p ml31p} .myl32p {@apply my32p ml32p} .myl33p {@apply my33p ml33p} .myl34p {@apply my34p ml34p} .myl35p {@apply my35p ml35p} .myl36p {@apply my36p ml36p} .myl37p {@apply my37p ml37p} .myl38p {@apply my38p ml38p} .myl39p {@apply my39p ml39p} .myl40p {@apply my40p ml40p}
+    .myl41p {@apply my41p ml41p} .myl42p {@apply my42p ml42p} .myl43p {@apply my43p ml43p} .myl44p {@apply my44p ml44p} .myl45p {@apply my45p ml45p} .myl46p {@apply my46p ml46p} .myl47p {@apply my47p ml47p} .myl48p {@apply my48p ml48p} .myl49p {@apply my49p ml49p} .myl50p {@apply my50p ml50p}
+    .myl51p {@apply my51p ml51p} .myl52p {@apply my52p ml52p} .myl53p {@apply my53p ml53p} .myl54p {@apply my54p ml54p} .myl55p {@apply my55p ml55p} .myl56p {@apply my56p ml56p} .myl57p {@apply my57p ml57p} .myl58p {@apply my58p ml58p} .myl59p {@apply my59p ml59p} .myl60p {@apply my60p ml60p}
+    .myl61p {@apply my61p ml61p} .myl62p {@apply my62p ml62p} .myl63p {@apply my63p ml63p} .myl64p {@apply my64p ml64p} .myl65p {@apply my65p ml65p} .myl66p {@apply my66p ml66p} .myl67p {@apply my67p ml67p} .myl68p {@apply my68p ml68p} .myl69p {@apply my69p ml69p} .myl70p {@apply my70p ml70p}
+    .myl71p {@apply my71p ml71p} .myl72p {@apply my72p ml72p} .myl73p {@apply my73p ml73p} .myl74p {@apply my74p ml74p} .myl75p {@apply my75p ml75p} .myl76p {@apply my76p ml76p} .myl77p {@apply my77p ml77p} .myl78p {@apply my78p ml78p} .myl79p {@apply my79p ml79p} .myl80p {@apply my80p ml80p}
+    .myl81p {@apply my81p ml81p} .myl82p {@apply my82p ml82p} .myl83p {@apply my83p ml83p} .myl84p {@apply my84p ml84p} .myl85p {@apply my85p ml85p} .myl86p {@apply my86p ml86p} .myl87p {@apply my87p ml87p} .myl88p {@apply my88p ml88p} .myl89p {@apply my89p ml89p} .myl90p {@apply my90p ml90p}
+    .myl91p {@apply my91p ml91p} .myl92p {@apply my92p ml92p} .myl93p {@apply my93p ml93p} .myl94p {@apply my94p ml94p} .myl95p {@apply my95p ml95p} .myl96p {@apply my96p ml96p} .myl97p {@apply my97p ml97p} .myl98p {@apply my98p ml98p} .myl99p {@apply my99p ml99p} .myl100p {@apply my100p ml100p}
+}
+/* ".myl" + str(i) + "p {@apply my" + str(i) + "p ml" + str(i) + "p}" */
+
+@layer utilities {   /* y-right: 1-100 */
+    .myr1p {@apply my1p mr1p} .myr2p {@apply my2p mr2p} .myr3p {@apply my3p mr3p} .myr4p {@apply my4p mr4p} .myr5p {@apply my5p mr5p} .myr6p {@apply my6p mr6p} .myr7p {@apply my7p mr7p} .myr8p {@apply my8p mr8p} .myr9p {@apply my9p mr9p} .myr10p {@apply my10p mr10p}
+    .myr11p {@apply my11p mr11p} .myr12p {@apply my12p mr12p} .myr13p {@apply my13p mr13p} .myr14p {@apply my14p mr14p} .myr15p {@apply my15p mr15p} .myr16p {@apply my16p mr16p} .myr17p {@apply my17p mr17p} .myr18p {@apply my18p mr18p} .myr19p {@apply my19p mr19p} .myr20p {@apply my20p mr20p}
+    .myr21p {@apply my21p mr21p} .myr22p {@apply my22p mr22p} .myr23p {@apply my23p mr23p} .myr24p {@apply my24p mr24p} .myr25p {@apply my25p mr25p} .myr26p {@apply my26p mr26p} .myr27p {@apply my27p mr27p} .myr28p {@apply my28p mr28p} .myr29p {@apply my29p mr29p} .myr30p {@apply my30p mr30p}
+    .myr31p {@apply my31p mr31p} .myr32p {@apply my32p mr32p} .myr33p {@apply my33p mr33p} .myr34p {@apply my34p mr34p} .myr35p {@apply my35p mr35p} .myr36p {@apply my36p mr36p} .myr37p {@apply my37p mr37p} .myr38p {@apply my38p mr38p} .myr39p {@apply my39p mr39p} .myr40p {@apply my40p mr40p}
+    .myr41p {@apply my41p mr41p} .myr42p {@apply my42p mr42p} .myr43p {@apply my43p mr43p} .myr44p {@apply my44p mr44p} .myr45p {@apply my45p mr45p} .myr46p {@apply my46p mr46p} .myr47p {@apply my47p mr47p} .myr48p {@apply my48p mr48p} .myr49p {@apply my49p mr49p} .myr50p {@apply my50p mr50p}
+    .myr51p {@apply my51p mr51p} .myr52p {@apply my52p mr52p} .myr53p {@apply my53p mr53p} .myr54p {@apply my54p mr54p} .myr55p {@apply my55p mr55p} .myr56p {@apply my56p mr56p} .myr57p {@apply my57p mr57p} .myr58p {@apply my58p mr58p} .myr59p {@apply my59p mr59p} .myr60p {@apply my60p mr60p}
+    .myr61p {@apply my61p mr61p} .myr62p {@apply my62p mr62p} .myr63p {@apply my63p mr63p} .myr64p {@apply my64p mr64p} .myr65p {@apply my65p mr65p} .myr66p {@apply my66p mr66p} .myr67p {@apply my67p mr67p} .myr68p {@apply my68p mr68p} .myr69p {@apply my69p mr69p} .myr70p {@apply my70p mr70p}
+    .myr71p {@apply my71p mr71p} .myr72p {@apply my72p mr72p} .myr73p {@apply my73p mr73p} .myr74p {@apply my74p mr74p} .myr75p {@apply my75p mr75p} .myr76p {@apply my76p mr76p} .myr77p {@apply my77p mr77p} .myr78p {@apply my78p mr78p} .myr79p {@apply my79p mr79p} .myr80p {@apply my80p mr80p}
+    .myr81p {@apply my81p mr81p} .myr82p {@apply my82p mr82p} .myr83p {@apply my83p mr83p} .myr84p {@apply my84p mr84p} .myr85p {@apply my85p mr85p} .myr86p {@apply my86p mr86p} .myr87p {@apply my87p mr87p} .myr88p {@apply my88p mr88p} .myr89p {@apply my89p mr89p} .myr90p {@apply my90p mr90p}
+    .myr91p {@apply my91p mr91p} .myr92p {@apply my92p mr92p} .myr93p {@apply my93p mr93p} .myr94p {@apply my94p mr94p} .myr95p {@apply my95p mr95p} .myr96p {@apply my96p mr96p} .myr97p {@apply my97p mr97p} .myr98p {@apply my98p mr98p} .myr99p {@apply my99p mr99p} .myr100p {@apply my100p mr100p}
+}
+/* ".myr" + str(i) + "p {@apply my" + str(i) + "p mr" + str(i) + "p}" */

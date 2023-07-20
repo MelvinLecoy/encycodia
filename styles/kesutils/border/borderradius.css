@@ -1,0 +1,238 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* rounded-sm:  2 */
+/* rounded:     4 */
+/* rounded-md:  6 */
+/* rounded-lg:  8 */
+/* rounded-xl:  12 */
+/* rounded-2xl: 16 */
+/* rounded-3xl: 24 */
+
+@layer utilities {   /* 0-100 */
+    .brounded {@apply rounded-full} .brounded0 {@apply rounded-none}
+    .brounded1 {@apply rounded-[1px]} .brounded2 {@apply rounded-[2px]} .brounded3 {@apply rounded-[3px]} .brounded4 {@apply rounded-[4px]} .brounded5 {@apply rounded-[5px]}
+    .brounded6 {@apply rounded-[6px]} .brounded7 {@apply rounded-[7px]} .brounded8 {@apply rounded-[8px]} .brounded9 {@apply rounded-[9px]} .brounded10 {@apply rounded-[10px]}
+    .brounded11 {@apply rounded-[11px]} .brounded12 {@apply rounded-[12px]} .brounded13 {@apply rounded-[13px]} .brounded14 {@apply rounded-[14px]} .brounded15 {@apply rounded-[15px]}
+    .brounded16 {@apply rounded-[16px]} .brounded17 {@apply rounded-[17px]} .brounded18 {@apply rounded-[18px]} .brounded19 {@apply rounded-[19px]} .brounded20 {@apply rounded-[20px]}
+    .brounded21 {@apply rounded-[21px]} .brounded22 {@apply rounded-[22px]} .brounded23 {@apply rounded-[23px]} .brounded24 {@apply rounded-[24px]} .brounded25 {@apply rounded-[25px]}
+    .brounded26 {@apply rounded-[26px]} .brounded27 {@apply rounded-[27px]} .brounded28 {@apply rounded-[28px]} .brounded29 {@apply rounded-[29px]} .brounded30 {@apply rounded-[30px]}
+    .brounded31 {@apply rounded-[31px]} .brounded32 {@apply rounded-[32px]} .brounded33 {@apply rounded-[33px]} .brounded34 {@apply rounded-[34px]} .brounded35 {@apply rounded-[35px]}
+    .brounded36 {@apply rounded-[36px]} .brounded37 {@apply rounded-[37px]} .brounded38 {@apply rounded-[38px]} .brounded39 {@apply rounded-[39px]} .brounded40 {@apply rounded-[40px]}
+    .brounded41 {@apply rounded-[41px]} .brounded42 {@apply rounded-[42px]} .brounded43 {@apply rounded-[43px]} .brounded44 {@apply rounded-[44px]} .brounded45 {@apply rounded-[45px]}
+    .brounded46 {@apply rounded-[46px]} .brounded47 {@apply rounded-[47px]} .brounded48 {@apply rounded-[48px]} .brounded49 {@apply rounded-[49px]} .brounded50 {@apply rounded-[50px]}
+    .brounded51 {@apply rounded-[51px]} .brounded52 {@apply rounded-[52px]} .brounded53 {@apply rounded-[53px]} .brounded54 {@apply rounded-[54px]} .brounded55 {@apply rounded-[55px]}
+    .brounded56 {@apply rounded-[56px]} .brounded57 {@apply rounded-[57px]} .brounded58 {@apply rounded-[58px]} .brounded59 {@apply rounded-[59px]} .brounded60 {@apply rounded-[60px]}
+    .brounded61 {@apply rounded-[61px]} .brounded62 {@apply rounded-[62px]} .brounded63 {@apply rounded-[63px]} .brounded64 {@apply rounded-[64px]} .brounded65 {@apply rounded-[65px]}
+    .brounded66 {@apply rounded-[66px]} .brounded67 {@apply rounded-[67px]} .brounded68 {@apply rounded-[68px]} .brounded69 {@apply rounded-[69px]} .brounded70 {@apply rounded-[70px]}
+    .brounded71 {@apply rounded-[71px]} .brounded72 {@apply rounded-[72px]} .brounded73 {@apply rounded-[73px]} .brounded74 {@apply rounded-[74px]} .brounded75 {@apply rounded-[75px]}
+    .brounded76 {@apply rounded-[76px]} .brounded77 {@apply rounded-[77px]} .brounded78 {@apply rounded-[78px]} .brounded79 {@apply rounded-[79px]} .brounded80 {@apply rounded-[80px]}
+    .brounded81 {@apply rounded-[81px]} .brounded82 {@apply rounded-[82px]} .brounded83 {@apply rounded-[83px]} .brounded84 {@apply rounded-[84px]} .brounded85 {@apply rounded-[85px]}
+    .brounded86 {@apply rounded-[86px]} .brounded87 {@apply rounded-[87px]} .brounded88 {@apply rounded-[88px]} .brounded89 {@apply rounded-[89px]} .brounded90 {@apply rounded-[90px]}
+    .brounded91 {@apply rounded-[91px]} .brounded92 {@apply rounded-[92px]} .brounded93 {@apply rounded-[93px]} .brounded94 {@apply rounded-[94px]} .brounded95 {@apply rounded-[95px]}
+    .brounded96 {@apply rounded-[96px]} .brounded97 {@apply rounded-[97px]} .brounded98 {@apply rounded-[98px]} .brounded99 {@apply rounded-[99px]} .brounded100 {@apply rounded-[100px]}
+}
+/* ".brounded" + str(i) + " {@apply rounded-[" + str(i) + "px]}" */
+
+
+@layer utilities {   /* top: 0-100 */
+    .broundedt {@apply rounded-t-full} .broundedt0 {@apply rounded-t-none}
+    .broundedt1 {@apply rounded-t-[1px]} .broundedt2 {@apply rounded-t-[2px]} .broundedt3 {@apply rounded-t-[3px]} .broundedt4 {@apply rounded-t-[4px]} .broundedt5 {@apply rounded-t-[5px]}
+    .broundedt6 {@apply rounded-t-[6px]} .broundedt7 {@apply rounded-t-[7px]} .broundedt8 {@apply rounded-t-[8px]} .broundedt9 {@apply rounded-t-[9px]} .broundedt10 {@apply rounded-t-[10px]}
+    .broundedt11 {@apply rounded-t-[11px]} .broundedt12 {@apply rounded-t-[12px]} .broundedt13 {@apply rounded-t-[13px]} .broundedt14 {@apply rounded-t-[14px]} .broundedt15 {@apply rounded-t-[15px]}
+    .broundedt16 {@apply rounded-t-[16px]} .broundedt17 {@apply rounded-t-[17px]} .broundedt18 {@apply rounded-t-[18px]} .broundedt19 {@apply rounded-t-[19px]} .broundedt20 {@apply rounded-t-[20px]}
+    .broundedt21 {@apply rounded-t-[21px]} .broundedt22 {@apply rounded-t-[22px]} .broundedt23 {@apply rounded-t-[23px]} .broundedt24 {@apply rounded-t-[24px]} .broundedt25 {@apply rounded-t-[25px]}
+    .broundedt26 {@apply rounded-t-[26px]} .broundedt27 {@apply rounded-t-[27px]} .broundedt28 {@apply rounded-t-[28px]} .broundedt29 {@apply rounded-t-[29px]} .broundedt30 {@apply rounded-t-[30px]}
+    .broundedt31 {@apply rounded-t-[31px]} .broundedt32 {@apply rounded-t-[32px]} .broundedt33 {@apply rounded-t-[33px]} .broundedt34 {@apply rounded-t-[34px]} .broundedt35 {@apply rounded-t-[35px]}
+    .broundedt36 {@apply rounded-t-[36px]} .broundedt37 {@apply rounded-t-[37px]} .broundedt38 {@apply rounded-t-[38px]} .broundedt39 {@apply rounded-t-[39px]} .broundedt40 {@apply rounded-t-[40px]}
+    .broundedt41 {@apply rounded-t-[41px]} .broundedt42 {@apply rounded-t-[42px]} .broundedt43 {@apply rounded-t-[43px]} .broundedt44 {@apply rounded-t-[44px]} .broundedt45 {@apply rounded-t-[45px]}
+    .broundedt46 {@apply rounded-t-[46px]} .broundedt47 {@apply rounded-t-[47px]} .broundedt48 {@apply rounded-t-[48px]} .broundedt49 {@apply rounded-t-[49px]} .broundedt50 {@apply rounded-t-[50px]}
+    .broundedt51 {@apply rounded-t-[51px]} .broundedt52 {@apply rounded-t-[52px]} .broundedt53 {@apply rounded-t-[53px]} .broundedt54 {@apply rounded-t-[54px]} .broundedt55 {@apply rounded-t-[55px]}
+    .broundedt56 {@apply rounded-t-[56px]} .broundedt57 {@apply rounded-t-[57px]} .broundedt58 {@apply rounded-t-[58px]} .broundedt59 {@apply rounded-t-[59px]} .broundedt60 {@apply rounded-t-[60px]}
+    .broundedt61 {@apply rounded-t-[61px]} .broundedt62 {@apply rounded-t-[62px]} .broundedt63 {@apply rounded-t-[63px]} .broundedt64 {@apply rounded-t-[64px]} .broundedt65 {@apply rounded-t-[65px]}
+    .broundedt66 {@apply rounded-t-[66px]} .broundedt67 {@apply rounded-t-[67px]} .broundedt68 {@apply rounded-t-[68px]} .broundedt69 {@apply rounded-t-[69px]} .broundedt70 {@apply rounded-t-[70px]}
+    .broundedt71 {@apply rounded-t-[71px]} .broundedt72 {@apply rounded-t-[72px]} .broundedt73 {@apply rounded-t-[73px]} .broundedt74 {@apply rounded-t-[74px]} .broundedt75 {@apply rounded-t-[75px]}
+    .broundedt76 {@apply rounded-t-[76px]} .broundedt77 {@apply rounded-t-[77px]} .broundedt78 {@apply rounded-t-[78px]} .broundedt79 {@apply rounded-t-[79px]} .broundedt80 {@apply rounded-t-[80px]}
+    .broundedt81 {@apply rounded-t-[81px]} .broundedt82 {@apply rounded-t-[82px]} .broundedt83 {@apply rounded-t-[83px]} .broundedt84 {@apply rounded-t-[84px]} .broundedt85 {@apply rounded-t-[85px]}
+    .broundedt86 {@apply rounded-t-[86px]} .broundedt87 {@apply rounded-t-[87px]} .broundedt88 {@apply rounded-t-[88px]} .broundedt89 {@apply rounded-t-[89px]} .broundedt90 {@apply rounded-t-[90px]}
+    .broundedt91 {@apply rounded-t-[91px]} .broundedt92 {@apply rounded-t-[92px]} .broundedt93 {@apply rounded-t-[93px]} .broundedt94 {@apply rounded-t-[94px]} .broundedt95 {@apply rounded-t-[95px]}
+    .broundedt96 {@apply rounded-t-[96px]} .broundedt97 {@apply rounded-t-[97px]} .broundedt98 {@apply rounded-t-[98px]} .broundedt99 {@apply rounded-t-[99px]} .broundedt100 {@apply rounded-t-[100px]}
+}
+/* ".broundedt" + str(i) + " {@apply rounded-t-[" + str(i) + "px]}" */
+
+@layer utilities {   /* bottom: 0-100 */
+    .broundedb {@apply rounded-b-full} .broundedb0 {@apply rounded-b-none}
+    .broundedb1 {@apply rounded-b-[1px]} .broundedb2 {@apply rounded-b-[2px]} .broundedb3 {@apply rounded-b-[3px]} .broundedb4 {@apply rounded-b-[4px]} .broundedb5 {@apply rounded-b-[5px]}
+    .broundedb6 {@apply rounded-b-[6px]} .broundedb7 {@apply rounded-b-[7px]} .broundedb8 {@apply rounded-b-[8px]} .broundedb9 {@apply rounded-b-[9px]} .broundedb10 {@apply rounded-b-[10px]}
+    .broundedb11 {@apply rounded-b-[11px]} .broundedb12 {@apply rounded-b-[12px]} .broundedb13 {@apply rounded-b-[13px]} .broundedb14 {@apply rounded-b-[14px]} .broundedb15 {@apply rounded-b-[15px]}
+    .broundedb16 {@apply rounded-b-[16px]} .broundedb17 {@apply rounded-b-[17px]} .broundedb18 {@apply rounded-b-[18px]} .broundedb19 {@apply rounded-b-[19px]} .broundedb20 {@apply rounded-b-[20px]}
+    .broundedb21 {@apply rounded-b-[21px]} .broundedb22 {@apply rounded-b-[22px]} .broundedb23 {@apply rounded-b-[23px]} .broundedb24 {@apply rounded-b-[24px]} .broundedb25 {@apply rounded-b-[25px]}
+    .broundedb26 {@apply rounded-b-[26px]} .broundedb27 {@apply rounded-b-[27px]} .broundedb28 {@apply rounded-b-[28px]} .broundedb29 {@apply rounded-b-[29px]} .broundedb30 {@apply rounded-b-[30px]}
+    .broundedb31 {@apply rounded-b-[31px]} .broundedb32 {@apply rounded-b-[32px]} .broundedb33 {@apply rounded-b-[33px]} .broundedb34 {@apply rounded-b-[34px]} .broundedb35 {@apply rounded-b-[35px]}
+    .broundedb36 {@apply rounded-b-[36px]} .broundedb37 {@apply rounded-b-[37px]} .broundedb38 {@apply rounded-b-[38px]} .broundedb39 {@apply rounded-b-[39px]} .broundedb40 {@apply rounded-b-[40px]}
+    .broundedb41 {@apply rounded-b-[41px]} .broundedb42 {@apply rounded-b-[42px]} .broundedb43 {@apply rounded-b-[43px]} .broundedb44 {@apply rounded-b-[44px]} .broundedb45 {@apply rounded-b-[45px]}
+    .broundedb46 {@apply rounded-b-[46px]} .broundedb47 {@apply rounded-b-[47px]} .broundedb48 {@apply rounded-b-[48px]} .broundedb49 {@apply rounded-b-[49px]} .broundedb50 {@apply rounded-b-[50px]}
+    .broundedb51 {@apply rounded-b-[51px]} .broundedb52 {@apply rounded-b-[52px]} .broundedb53 {@apply rounded-b-[53px]} .broundedb54 {@apply rounded-b-[54px]} .broundedb55 {@apply rounded-b-[55px]}
+    .broundedb56 {@apply rounded-b-[56px]} .broundedb57 {@apply rounded-b-[57px]} .broundedb58 {@apply rounded-b-[58px]} .broundedb59 {@apply rounded-b-[59px]} .broundedb60 {@apply rounded-b-[60px]}
+    .broundedb61 {@apply rounded-b-[61px]} .broundedb62 {@apply rounded-b-[62px]} .broundedb63 {@apply rounded-b-[63px]} .broundedb64 {@apply rounded-b-[64px]} .broundedb65 {@apply rounded-b-[65px]}
+    .broundedb66 {@apply rounded-b-[66px]} .broundedb67 {@apply rounded-b-[67px]} .broundedb68 {@apply rounded-b-[68px]} .broundedb69 {@apply rounded-b-[69px]} .broundedb70 {@apply rounded-b-[70px]}
+    .broundedb71 {@apply rounded-b-[71px]} .broundedb72 {@apply rounded-b-[72px]} .broundedb73 {@apply rounded-b-[73px]} .broundedb74 {@apply rounded-b-[74px]} .broundedb75 {@apply rounded-b-[75px]}
+    .broundedb76 {@apply rounded-b-[76px]} .broundedb77 {@apply rounded-b-[77px]} .broundedb78 {@apply rounded-b-[78px]} .broundedb79 {@apply rounded-b-[79px]} .broundedb80 {@apply rounded-b-[80px]}
+    .broundedb81 {@apply rounded-b-[81px]} .broundedb82 {@apply rounded-b-[82px]} .broundedb83 {@apply rounded-b-[83px]} .broundedb84 {@apply rounded-b-[84px]} .broundedb85 {@apply rounded-b-[85px]}
+    .broundedb86 {@apply rounded-b-[86px]} .broundedb87 {@apply rounded-b-[87px]} .broundedb88 {@apply rounded-b-[88px]} .broundedb89 {@apply rounded-b-[89px]} .broundedb90 {@apply rounded-b-[90px]}
+    .broundedb91 {@apply rounded-b-[91px]} .broundedb92 {@apply rounded-b-[92px]} .broundedb93 {@apply rounded-b-[93px]} .broundedb94 {@apply rounded-b-[94px]} .broundedb95 {@apply rounded-b-[95px]}
+    .broundedb96 {@apply rounded-b-[96px]} .broundedb97 {@apply rounded-b-[97px]} .broundedb98 {@apply rounded-b-[98px]} .broundedb99 {@apply rounded-b-[99px]} .broundedb100 {@apply rounded-b-[100px]}
+}
+/* ".broundedb" + str(i) + " {@apply rounded-b-[" + str(i) + "px]}" */
+
+@layer utilities {   /* left: 0-100 */
+    .broundedl {@apply rounded-l-full} .broundedl0 {@apply rounded-l-none}
+    .broundedl1 {@apply rounded-l-[1px]} .broundedl2 {@apply rounded-l-[2px]} .broundedl3 {@apply rounded-l-[3px]} .broundedl4 {@apply rounded-l-[4px]} .broundedl5 {@apply rounded-l-[5px]}
+    .broundedl6 {@apply rounded-l-[6px]} .broundedl7 {@apply rounded-l-[7px]} .broundedl8 {@apply rounded-l-[8px]} .broundedl9 {@apply rounded-l-[9px]} .broundedl10 {@apply rounded-l-[10px]}
+    .broundedl11 {@apply rounded-l-[11px]} .broundedl12 {@apply rounded-l-[12px]} .broundedl13 {@apply rounded-l-[13px]} .broundedl14 {@apply rounded-l-[14px]} .broundedl15 {@apply rounded-l-[15px]}
+    .broundedl16 {@apply rounded-l-[16px]} .broundedl17 {@apply rounded-l-[17px]} .broundedl18 {@apply rounded-l-[18px]} .broundedl19 {@apply rounded-l-[19px]} .broundedl20 {@apply rounded-l-[20px]}
+    .broundedl21 {@apply rounded-l-[21px]} .broundedl22 {@apply rounded-l-[22px]} .broundedl23 {@apply rounded-l-[23px]} .broundedl24 {@apply rounded-l-[24px]} .broundedl25 {@apply rounded-l-[25px]}
+    .broundedl26 {@apply rounded-l-[26px]} .broundedl27 {@apply rounded-l-[27px]} .broundedl28 {@apply rounded-l-[28px]} .broundedl29 {@apply rounded-l-[29px]} .broundedl30 {@apply rounded-l-[30px]}
+    .broundedl31 {@apply rounded-l-[31px]} .broundedl32 {@apply rounded-l-[32px]} .broundedl33 {@apply rounded-l-[33px]} .broundedl34 {@apply rounded-l-[34px]} .broundedl35 {@apply rounded-l-[35px]}
+    .broundedl36 {@apply rounded-l-[36px]} .broundedl37 {@apply rounded-l-[37px]} .broundedl38 {@apply rounded-l-[38px]} .broundedl39 {@apply rounded-l-[39px]} .broundedl40 {@apply rounded-l-[40px]}
+    .broundedl41 {@apply rounded-l-[41px]} .broundedl42 {@apply rounded-l-[42px]} .broundedl43 {@apply rounded-l-[43px]} .broundedl44 {@apply rounded-l-[44px]} .broundedl45 {@apply rounded-l-[45px]}
+    .broundedl46 {@apply rounded-l-[46px]} .broundedl47 {@apply rounded-l-[47px]} .broundedl48 {@apply rounded-l-[48px]} .broundedl49 {@apply rounded-l-[49px]} .broundedl50 {@apply rounded-l-[50px]}
+    .broundedl51 {@apply rounded-l-[51px]} .broundedl52 {@apply rounded-l-[52px]} .broundedl53 {@apply rounded-l-[53px]} .broundedl54 {@apply rounded-l-[54px]} .broundedl55 {@apply rounded-l-[55px]}
+    .broundedl56 {@apply rounded-l-[56px]} .broundedl57 {@apply rounded-l-[57px]} .broundedl58 {@apply rounded-l-[58px]} .broundedl59 {@apply rounded-l-[59px]} .broundedl60 {@apply rounded-l-[60px]}
+    .broundedl61 {@apply rounded-l-[61px]} .broundedl62 {@apply rounded-l-[62px]} .broundedl63 {@apply rounded-l-[63px]} .broundedl64 {@apply rounded-l-[64px]} .broundedl65 {@apply rounded-l-[65px]}
+    .broundedl66 {@apply rounded-l-[66px]} .broundedl67 {@apply rounded-l-[67px]} .broundedl68 {@apply rounded-l-[68px]} .broundedl69 {@apply rounded-l-[69px]} .broundedl70 {@apply rounded-l-[70px]}
+    .broundedl71 {@apply rounded-l-[71px]} .broundedl72 {@apply rounded-l-[72px]} .broundedl73 {@apply rounded-l-[73px]} .broundedl74 {@apply rounded-l-[74px]} .broundedl75 {@apply rounded-l-[75px]}
+    .broundedl76 {@apply rounded-l-[76px]} .broundedl77 {@apply rounded-l-[77px]} .broundedl78 {@apply rounded-l-[78px]} .broundedl79 {@apply rounded-l-[79px]} .broundedl80 {@apply rounded-l-[80px]}
+    .broundedl81 {@apply rounded-l-[81px]} .broundedl82 {@apply rounded-l-[82px]} .broundedl83 {@apply rounded-l-[83px]} .broundedl84 {@apply rounded-l-[84px]} .broundedl85 {@apply rounded-l-[85px]}
+    .broundedl86 {@apply rounded-l-[86px]} .broundedl87 {@apply rounded-l-[87px]} .broundedl88 {@apply rounded-l-[88px]} .broundedl89 {@apply rounded-l-[89px]} .broundedl90 {@apply rounded-l-[90px]}
+    .broundedl91 {@apply rounded-l-[91px]} .broundedl92 {@apply rounded-l-[92px]} .broundedl93 {@apply rounded-l-[93px]} .broundedl94 {@apply rounded-l-[94px]} .broundedl95 {@apply rounded-l-[95px]}
+    .broundedl96 {@apply rounded-l-[96px]} .broundedl97 {@apply rounded-l-[97px]} .broundedl98 {@apply rounded-l-[98px]} .broundedl99 {@apply rounded-l-[99px]} .broundedl100 {@apply rounded-l-[100px]}
+}
+/* ".broundedl" + str(i) + " {@apply rounded-l-[" + str(i) + "px]}" */
+
+@layer utilities {   /* right: 0-100 */
+    .broundedr {@apply rounded-r-full} .broundedr0 {@apply rounded-r-none}
+    .broundedr1 {@apply rounded-r-[1px]} .broundedr2 {@apply rounded-r-[2px]} .broundedr3 {@apply rounded-r-[3px]} .broundedr4 {@apply rounded-r-[4px]} .broundedr5 {@apply rounded-r-[5px]}
+    .broundedr6 {@apply rounded-r-[6px]} .broundedr7 {@apply rounded-r-[7px]} .broundedr8 {@apply rounded-r-[8px]} .broundedr9 {@apply rounded-r-[9px]} .broundedr10 {@apply rounded-r-[10px]}
+    .broundedr11 {@apply rounded-r-[11px]} .broundedr12 {@apply rounded-r-[12px]} .broundedr13 {@apply rounded-r-[13px]} .broundedr14 {@apply rounded-r-[14px]} .broundedr15 {@apply rounded-r-[15px]}
+    .broundedr16 {@apply rounded-r-[16px]} .broundedr17 {@apply rounded-r-[17px]} .broundedr18 {@apply rounded-r-[18px]} .broundedr19 {@apply rounded-r-[19px]} .broundedr20 {@apply rounded-r-[20px]}
+    .broundedr21 {@apply rounded-r-[21px]} .broundedr22 {@apply rounded-r-[22px]} .broundedr23 {@apply rounded-r-[23px]} .broundedr24 {@apply rounded-r-[24px]} .broundedr25 {@apply rounded-r-[25px]}
+    .broundedr26 {@apply rounded-r-[26px]} .broundedr27 {@apply rounded-r-[27px]} .broundedr28 {@apply rounded-r-[28px]} .broundedr29 {@apply rounded-r-[29px]} .broundedr30 {@apply rounded-r-[30px]}
+    .broundedr31 {@apply rounded-r-[31px]} .broundedr32 {@apply rounded-r-[32px]} .broundedr33 {@apply rounded-r-[33px]} .broundedr34 {@apply rounded-r-[34px]} .broundedr35 {@apply rounded-r-[35px]}
+    .broundedr36 {@apply rounded-r-[36px]} .broundedr37 {@apply rounded-r-[37px]} .broundedr38 {@apply rounded-r-[38px]} .broundedr39 {@apply rounded-r-[39px]} .broundedr40 {@apply rounded-r-[40px]}
+    .broundedr41 {@apply rounded-r-[41px]} .broundedr42 {@apply rounded-r-[42px]} .broundedr43 {@apply rounded-r-[43px]} .broundedr44 {@apply rounded-r-[44px]} .broundedr45 {@apply rounded-r-[45px]}
+    .broundedr46 {@apply rounded-r-[46px]} .broundedr47 {@apply rounded-r-[47px]} .broundedr48 {@apply rounded-r-[48px]} .broundedr49 {@apply rounded-r-[49px]} .broundedr50 {@apply rounded-r-[50px]}
+    .broundedr51 {@apply rounded-r-[51px]} .broundedr52 {@apply rounded-r-[52px]} .broundedr53 {@apply rounded-r-[53px]} .broundedr54 {@apply rounded-r-[54px]} .broundedr55 {@apply rounded-r-[55px]}
+    .broundedr56 {@apply rounded-r-[56px]} .broundedr57 {@apply rounded-r-[57px]} .broundedr58 {@apply rounded-r-[58px]} .broundedr59 {@apply rounded-r-[59px]} .broundedr60 {@apply rounded-r-[60px]}
+    .broundedr61 {@apply rounded-r-[61px]} .broundedr62 {@apply rounded-r-[62px]} .broundedr63 {@apply rounded-r-[63px]} .broundedr64 {@apply rounded-r-[64px]} .broundedr65 {@apply rounded-r-[65px]}
+    .broundedr66 {@apply rounded-r-[66px]} .broundedr67 {@apply rounded-r-[67px]} .broundedr68 {@apply rounded-r-[68px]} .broundedr69 {@apply rounded-r-[69px]} .broundedr70 {@apply rounded-r-[70px]}
+    .broundedr71 {@apply rounded-r-[71px]} .broundedr72 {@apply rounded-r-[72px]} .broundedr73 {@apply rounded-r-[73px]} .broundedr74 {@apply rounded-r-[74px]} .broundedr75 {@apply rounded-r-[75px]}
+    .broundedr76 {@apply rounded-r-[76px]} .broundedr77 {@apply rounded-r-[77px]} .broundedr78 {@apply rounded-r-[78px]} .broundedr79 {@apply rounded-r-[79px]} .broundedr80 {@apply rounded-r-[80px]}
+    .broundedr81 {@apply rounded-r-[81px]} .broundedr82 {@apply rounded-r-[82px]} .broundedr83 {@apply rounded-r-[83px]} .broundedr84 {@apply rounded-r-[84px]} .broundedr85 {@apply rounded-r-[85px]}
+    .broundedr86 {@apply rounded-r-[86px]} .broundedr87 {@apply rounded-r-[87px]} .broundedr88 {@apply rounded-r-[88px]} .broundedr89 {@apply rounded-r-[89px]} .broundedr90 {@apply rounded-r-[90px]}
+    .broundedr91 {@apply rounded-r-[91px]} .broundedr92 {@apply rounded-r-[92px]} .broundedr93 {@apply rounded-r-[93px]} .broundedr94 {@apply rounded-r-[94px]} .broundedr95 {@apply rounded-r-[95px]}
+    .broundedr96 {@apply rounded-r-[96px]} .broundedr97 {@apply rounded-r-[97px]} .broundedr98 {@apply rounded-r-[98px]} .broundedr99 {@apply rounded-r-[99px]} .broundedr100 {@apply rounded-r-[100px]}
+}
+/* ".broundedr" + str(i) + " {@apply rounded-r-[" + str(i) + "px]}" */
+
+
+@layer utilities {   /* top-left: 0-100 */
+    .broundedtl {@apply rounded-tl-full} .broundedtl0 {@apply rounded-tl-none}
+    .broundedtl1 {@apply rounded-tl-[1px]} .broundedtl2 {@apply rounded-tl-[2px]} .broundedtl3 {@apply rounded-tl-[3px]} .broundedtl4 {@apply rounded-tl-[4px]} .broundedtl5 {@apply rounded-tl-[5px]}
+    .broundedtl6 {@apply rounded-tl-[6px]} .broundedtl7 {@apply rounded-tl-[7px]} .broundedtl8 {@apply rounded-tl-[8px]} .broundedtl9 {@apply rounded-tl-[9px]} .broundedtl10 {@apply rounded-tl-[10px]}
+    .broundedtl11 {@apply rounded-tl-[11px]} .broundedtl12 {@apply rounded-tl-[12px]} .broundedtl13 {@apply rounded-tl-[13px]} .broundedtl14 {@apply rounded-tl-[14px]} .broundedtl15 {@apply rounded-tl-[15px]}
+    .broundedtl16 {@apply rounded-tl-[16px]} .broundedtl17 {@apply rounded-tl-[17px]} .broundedtl18 {@apply rounded-tl-[18px]} .broundedtl19 {@apply rounded-tl-[19px]} .broundedtl20 {@apply rounded-tl-[20px]}
+    .broundedtl21 {@apply rounded-tl-[21px]} .broundedtl22 {@apply rounded-tl-[22px]} .broundedtl23 {@apply rounded-tl-[23px]} .broundedtl24 {@apply rounded-tl-[24px]} .broundedtl25 {@apply rounded-tl-[25px]}
+    .broundedtl26 {@apply rounded-tl-[26px]} .broundedtl27 {@apply rounded-tl-[27px]} .broundedtl28 {@apply rounded-tl-[28px]} .broundedtl29 {@apply rounded-tl-[29px]} .broundedtl30 {@apply rounded-tl-[30px]}
+    .broundedtl31 {@apply rounded-tl-[31px]} .broundedtl32 {@apply rounded-tl-[32px]} .broundedtl33 {@apply rounded-tl-[33px]} .broundedtl34 {@apply rounded-tl-[34px]} .broundedtl35 {@apply rounded-tl-[35px]}
+    .broundedtl36 {@apply rounded-tl-[36px]} .broundedtl37 {@apply rounded-tl-[37px]} .broundedtl38 {@apply rounded-tl-[38px]} .broundedtl39 {@apply rounded-tl-[39px]} .broundedtl40 {@apply rounded-tl-[40px]}
+    .broundedtl41 {@apply rounded-tl-[41px]} .broundedtl42 {@apply rounded-tl-[42px]} .broundedtl43 {@apply rounded-tl-[43px]} .broundedtl44 {@apply rounded-tl-[44px]} .broundedtl45 {@apply rounded-tl-[45px]}
+    .broundedtl46 {@apply rounded-tl-[46px]} .broundedtl47 {@apply rounded-tl-[47px]} .broundedtl48 {@apply rounded-tl-[48px]} .broundedtl49 {@apply rounded-tl-[49px]} .broundedtl50 {@apply rounded-tl-[50px]}
+    .broundedtl51 {@apply rounded-tl-[51px]} .broundedtl52 {@apply rounded-tl-[52px]} .broundedtl53 {@apply rounded-tl-[53px]} .broundedtl54 {@apply rounded-tl-[54px]} .broundedtl55 {@apply rounded-tl-[55px]}
+    .broundedtl56 {@apply rounded-tl-[56px]} .broundedtl57 {@apply rounded-tl-[57px]} .broundedtl58 {@apply rounded-tl-[58px]} .broundedtl59 {@apply rounded-tl-[59px]} .broundedtl60 {@apply rounded-tl-[60px]}
+    .broundedtl61 {@apply rounded-tl-[61px]} .broundedtl62 {@apply rounded-tl-[62px]} .broundedtl63 {@apply rounded-tl-[63px]} .broundedtl64 {@apply rounded-tl-[64px]} .broundedtl65 {@apply rounded-tl-[65px]}
+    .broundedtl66 {@apply rounded-tl-[66px]} .broundedtl67 {@apply rounded-tl-[67px]} .broundedtl68 {@apply rounded-tl-[68px]} .broundedtl69 {@apply rounded-tl-[69px]} .broundedtl70 {@apply rounded-tl-[70px]}
+    .broundedtl71 {@apply rounded-tl-[71px]} .broundedtl72 {@apply rounded-tl-[72px]} .broundedtl73 {@apply rounded-tl-[73px]} .broundedtl74 {@apply rounded-tl-[74px]} .broundedtl75 {@apply rounded-tl-[75px]}
+    .broundedtl76 {@apply rounded-tl-[76px]} .broundedtl77 {@apply rounded-tl-[77px]} .broundedtl78 {@apply rounded-tl-[78px]} .broundedtl79 {@apply rounded-tl-[79px]} .broundedtl80 {@apply rounded-tl-[80px]}
+    .broundedtl81 {@apply rounded-tl-[81px]} .broundedtl82 {@apply rounded-tl-[82px]} .broundedtl83 {@apply rounded-tl-[83px]} .broundedtl84 {@apply rounded-tl-[84px]} .broundedtl85 {@apply rounded-tl-[85px]}
+    .broundedtl86 {@apply rounded-tl-[86px]} .broundedtl87 {@apply rounded-tl-[87px]} .broundedtl88 {@apply rounded-tl-[88px]} .broundedtl89 {@apply rounded-tl-[89px]} .broundedtl90 {@apply rounded-tl-[90px]}
+    .broundedtl91 {@apply rounded-tl-[91px]} .broundedtl92 {@apply rounded-tl-[92px]} .broundedtl93 {@apply rounded-tl-[93px]} .broundedtl94 {@apply rounded-tl-[94px]} .broundedtl95 {@apply rounded-tl-[95px]}
+    .broundedtl96 {@apply rounded-tl-[96px]} .broundedtl97 {@apply rounded-tl-[97px]} .broundedtl98 {@apply rounded-tl-[98px]} .broundedtl99 {@apply rounded-tl-[99px]} .broundedtl100 {@apply rounded-tl-[100px]}
+}
+/* ".broundedtl" + str(i) + " {@apply rounded-tl-[" + str(i) + "px]}" */
+
+@layer utilities {   /* top-right: 0-100 */
+    .broundedtr {@apply rounded-tr-full} .broundedtr0 {@apply rounded-tr-none}
+    .broundedtr1 {@apply rounded-tr-[1px]} .broundedtr2 {@apply rounded-tr-[2px]} .broundedtr3 {@apply rounded-tr-[3px]} .broundedtr4 {@apply rounded-tr-[4px]} .broundedtr5 {@apply rounded-tr-[5px]}
+    .broundedtr6 {@apply rounded-tr-[6px]} .broundedtr7 {@apply rounded-tr-[7px]} .broundedtr8 {@apply rounded-tr-[8px]} .broundedtr9 {@apply rounded-tr-[9px]} .broundedtr10 {@apply rounded-tr-[10px]}
+    .broundedtr11 {@apply rounded-tr-[11px]} .broundedtr12 {@apply rounded-tr-[12px]} .broundedtr13 {@apply rounded-tr-[13px]} .broundedtr14 {@apply rounded-tr-[14px]} .broundedtr15 {@apply rounded-tr-[15px]}
+    .broundedtr16 {@apply rounded-tr-[16px]} .broundedtr17 {@apply rounded-tr-[17px]} .broundedtr18 {@apply rounded-tr-[18px]} .broundedtr19 {@apply rounded-tr-[19px]} .broundedtr20 {@apply rounded-tr-[20px]}
+    .broundedtr21 {@apply rounded-tr-[21px]} .broundedtr22 {@apply rounded-tr-[22px]} .broundedtr23 {@apply rounded-tr-[23px]} .broundedtr24 {@apply rounded-tr-[24px]} .broundedtr25 {@apply rounded-tr-[25px]}
+    .broundedtr26 {@apply rounded-tr-[26px]} .broundedtr27 {@apply rounded-tr-[27px]} .broundedtr28 {@apply rounded-tr-[28px]} .broundedtr29 {@apply rounded-tr-[29px]} .broundedtr30 {@apply rounded-tr-[30px]}
+    .broundedtr31 {@apply rounded-tr-[31px]} .broundedtr32 {@apply rounded-tr-[32px]} .broundedtr33 {@apply rounded-tr-[33px]} .broundedtr34 {@apply rounded-tr-[34px]} .broundedtr35 {@apply rounded-tr-[35px]}
+    .broundedtr36 {@apply rounded-tr-[36px]} .broundedtr37 {@apply rounded-tr-[37px]} .broundedtr38 {@apply rounded-tr-[38px]} .broundedtr39 {@apply rounded-tr-[39px]} .broundedtr40 {@apply rounded-tr-[40px]}
+    .broundedtr41 {@apply rounded-tr-[41px]} .broundedtr42 {@apply rounded-tr-[42px]} .broundedtr43 {@apply rounded-tr-[43px]} .broundedtr44 {@apply rounded-tr-[44px]} .broundedtr45 {@apply rounded-tr-[45px]}
+    .broundedtr46 {@apply rounded-tr-[46px]} .broundedtr47 {@apply rounded-tr-[47px]} .broundedtr48 {@apply rounded-tr-[48px]} .broundedtr49 {@apply rounded-tr-[49px]} .broundedtr50 {@apply rounded-tr-[50px]}
+    .broundedtr51 {@apply rounded-tr-[51px]} .broundedtr52 {@apply rounded-tr-[52px]} .broundedtr53 {@apply rounded-tr-[53px]} .broundedtr54 {@apply rounded-tr-[54px]} .broundedtr55 {@apply rounded-tr-[55px]}
+    .broundedtr56 {@apply rounded-tr-[56px]} .broundedtr57 {@apply rounded-tr-[57px]} .broundedtr58 {@apply rounded-tr-[58px]} .broundedtr59 {@apply rounded-tr-[59px]} .broundedtr60 {@apply rounded-tr-[60px]}
+    .broundedtr61 {@apply rounded-tr-[61px]} .broundedtr62 {@apply rounded-tr-[62px]} .broundedtr63 {@apply rounded-tr-[63px]} .broundedtr64 {@apply rounded-tr-[64px]} .broundedtr65 {@apply rounded-tr-[65px]}
+    .broundedtr66 {@apply rounded-tr-[66px]} .broundedtr67 {@apply rounded-tr-[67px]} .broundedtr68 {@apply rounded-tr-[68px]} .broundedtr69 {@apply rounded-tr-[69px]} .broundedtr70 {@apply rounded-tr-[70px]}
+    .broundedtr71 {@apply rounded-tr-[71px]} .broundedtr72 {@apply rounded-tr-[72px]} .broundedtr73 {@apply rounded-tr-[73px]} .broundedtr74 {@apply rounded-tr-[74px]} .broundedtr75 {@apply rounded-tr-[75px]}
+    .broundedtr76 {@apply rounded-tr-[76px]} .broundedtr77 {@apply rounded-tr-[77px]} .broundedtr78 {@apply rounded-tr-[78px]} .broundedtr79 {@apply rounded-tr-[79px]} .broundedtr80 {@apply rounded-tr-[80px]}
+    .broundedtr81 {@apply rounded-tr-[81px]} .broundedtr82 {@apply rounded-tr-[82px]} .broundedtr83 {@apply rounded-tr-[83px]} .broundedtr84 {@apply rounded-tr-[84px]} .broundedtr85 {@apply rounded-tr-[85px]}
+    .broundedtr86 {@apply rounded-tr-[86px]} .broundedtr87 {@apply rounded-tr-[87px]} .broundedtr88 {@apply rounded-tr-[88px]} .broundedtr89 {@apply rounded-tr-[89px]} .broundedtr90 {@apply rounded-tr-[90px]}
+    .broundedtr91 {@apply rounded-tr-[91px]} .broundedtr92 {@apply rounded-tr-[92px]} .broundedtr93 {@apply rounded-tr-[93px]} .broundedtr94 {@apply rounded-tr-[94px]} .broundedtr95 {@apply rounded-tr-[95px]}
+    .broundedtr96 {@apply rounded-tr-[96px]} .broundedtr97 {@apply rounded-tr-[97px]} .broundedtr98 {@apply rounded-tr-[98px]} .broundedtr99 {@apply rounded-tr-[99px]} .broundedtr100 {@apply rounded-tr-[100px]}
+}
+/* ".broundedtr" + str(i) + " {@apply rounded-tr-[" + str(i) + "px]}" */
+
+@layer utilities {   /* bottom-left: 0-100 */
+    .broundedbl {@apply rounded-bl-full} .broundedbl0 {@apply rounded-bl-none}
+    .broundedbl1 {@apply rounded-bl-[1px]} .broundedbl2 {@apply rounded-bl-[2px]} .broundedbl3 {@apply rounded-bl-[3px]} .broundedbl4 {@apply rounded-bl-[4px]} .broundedbl5 {@apply rounded-bl-[5px]}
+    .broundedbl6 {@apply rounded-bl-[6px]} .broundedbl7 {@apply rounded-bl-[7px]} .broundedbl8 {@apply rounded-bl-[8px]} .broundedbl9 {@apply rounded-bl-[9px]} .broundedbl10 {@apply rounded-bl-[10px]}
+    .broundedbl11 {@apply rounded-bl-[11px]} .broundedbl12 {@apply rounded-bl-[12px]} .broundedbl13 {@apply rounded-bl-[13px]} .broundedbl14 {@apply rounded-bl-[14px]} .broundedbl15 {@apply rounded-bl-[15px]}
+    .broundedbl16 {@apply rounded-bl-[16px]} .broundedbl17 {@apply rounded-bl-[17px]} .broundedbl18 {@apply rounded-bl-[18px]} .broundedbl19 {@apply rounded-bl-[19px]} .broundedbl20 {@apply rounded-bl-[20px]}
+    .broundedbl21 {@apply rounded-bl-[21px]} .broundedbl22 {@apply rounded-bl-[22px]} .broundedbl23 {@apply rounded-bl-[23px]} .broundedbl24 {@apply rounded-bl-[24px]} .broundedbl25 {@apply rounded-bl-[25px]}
+    .broundedbl26 {@apply rounded-bl-[26px]} .broundedbl27 {@apply rounded-bl-[27px]} .broundedbl28 {@apply rounded-bl-[28px]} .broundedbl29 {@apply rounded-bl-[29px]} .broundedbl30 {@apply rounded-bl-[30px]}
+    .broundedbl31 {@apply rounded-bl-[31px]} .broundedbl32 {@apply rounded-bl-[32px]} .broundedbl33 {@apply rounded-bl-[33px]} .broundedbl34 {@apply rounded-bl-[34px]} .broundedbl35 {@apply rounded-bl-[35px]}
+    .broundedbl36 {@apply rounded-bl-[36px]} .broundedbl37 {@apply rounded-bl-[37px]} .broundedbl38 {@apply rounded-bl-[38px]} .broundedbl39 {@apply rounded-bl-[39px]} .broundedbl40 {@apply rounded-bl-[40px]}
+    .broundedbl41 {@apply rounded-bl-[41px]} .broundedbl42 {@apply rounded-bl-[42px]} .broundedbl43 {@apply rounded-bl-[43px]} .broundedbl44 {@apply rounded-bl-[44px]} .broundedbl45 {@apply rounded-bl-[45px]}
+    .broundedbl46 {@apply rounded-bl-[46px]} .broundedbl47 {@apply rounded-bl-[47px]} .broundedbl48 {@apply rounded-bl-[48px]} .broundedbl49 {@apply rounded-bl-[49px]} .broundedbl50 {@apply rounded-bl-[50px]}
+    .broundedbl51 {@apply rounded-bl-[51px]} .broundedbl52 {@apply rounded-bl-[52px]} .broundedbl53 {@apply rounded-bl-[53px]} .broundedbl54 {@apply rounded-bl-[54px]} .broundedbl55 {@apply rounded-bl-[55px]}
+    .broundedbl56 {@apply rounded-bl-[56px]} .broundedbl57 {@apply rounded-bl-[57px]} .broundedbl58 {@apply rounded-bl-[58px]} .broundedbl59 {@apply rounded-bl-[59px]} .broundedbl60 {@apply rounded-bl-[60px]}
+    .broundedbl61 {@apply rounded-bl-[61px]} .broundedbl62 {@apply rounded-bl-[62px]} .broundedbl63 {@apply rounded-bl-[63px]} .broundedbl64 {@apply rounded-bl-[64px]} .broundedbl65 {@apply rounded-bl-[65px]}
+    .broundedbl66 {@apply rounded-bl-[66px]} .broundedbl67 {@apply rounded-bl-[67px]} .broundedbl68 {@apply rounded-bl-[68px]} .broundedbl69 {@apply rounded-bl-[69px]} .broundedbl70 {@apply rounded-bl-[70px]}
+    .broundedbl71 {@apply rounded-bl-[71px]} .broundedbl72 {@apply rounded-bl-[72px]} .broundedbl73 {@apply rounded-bl-[73px]} .broundedbl74 {@apply rounded-bl-[74px]} .broundedbl75 {@apply rounded-bl-[75px]}
+    .broundedbl76 {@apply rounded-bl-[76px]} .broundedbl77 {@apply rounded-bl-[77px]} .broundedbl78 {@apply rounded-bl-[78px]} .broundedbl79 {@apply rounded-bl-[79px]} .broundedbl80 {@apply rounded-bl-[80px]}
+    .broundedbl81 {@apply rounded-bl-[81px]} .broundedbl82 {@apply rounded-bl-[82px]} .broundedbl83 {@apply rounded-bl-[83px]} .broundedbl84 {@apply rounded-bl-[84px]} .broundedbl85 {@apply rounded-bl-[85px]}
+    .broundedbl86 {@apply rounded-bl-[86px]} .broundedbl87 {@apply rounded-bl-[87px]} .broundedbl88 {@apply rounded-bl-[88px]} .broundedbl89 {@apply rounded-bl-[89px]} .broundedbl90 {@apply rounded-bl-[90px]}
+    .broundedbl91 {@apply rounded-bl-[91px]} .broundedbl92 {@apply rounded-bl-[92px]} .broundedbl93 {@apply rounded-bl-[93px]} .broundedbl94 {@apply rounded-bl-[94px]} .broundedbl95 {@apply rounded-bl-[95px]}
+    .broundedbl96 {@apply rounded-bl-[96px]} .broundedbl97 {@apply rounded-bl-[97px]} .broundedbl98 {@apply rounded-bl-[98px]} .broundedbl99 {@apply rounded-bl-[99px]} .broundedbl100 {@apply rounded-bl-[100px]}
+}
+/* ".broundedbl" + str(i) + " {@apply rounded-bl-[" + str(i) + "px]}" */
+
+@layer utilities {   /* bottom-right: 0-100 */
+    .broundedbr {@apply rounded-br-full} .broundedbr0 {@apply rounded-br-none}
+    .broundedbr1 {@apply rounded-br-[1px]} .broundedbr2 {@apply rounded-br-[2px]} .broundedbr3 {@apply rounded-br-[3px]} .broundedbr4 {@apply rounded-br-[4px]} .broundedbr5 {@apply rounded-br-[5px]}
+    .broundedbr6 {@apply rounded-br-[6px]} .broundedbr7 {@apply rounded-br-[7px]} .broundedbr8 {@apply rounded-br-[8px]} .broundedbr9 {@apply rounded-br-[9px]} .broundedbr10 {@apply rounded-br-[10px]}
+    .broundedbr11 {@apply rounded-br-[11px]} .broundedbr12 {@apply rounded-br-[12px]} .broundedbr13 {@apply rounded-br-[13px]} .broundedbr14 {@apply rounded-br-[14px]} .broundedbr15 {@apply rounded-br-[15px]}
+    .broundedbr16 {@apply rounded-br-[16px]} .broundedbr17 {@apply rounded-br-[17px]} .broundedbr18 {@apply rounded-br-[18px]} .broundedbr19 {@apply rounded-br-[19px]} .broundedbr20 {@apply rounded-br-[20px]}
+    .broundedbr21 {@apply rounded-br-[21px]} .broundedbr22 {@apply rounded-br-[22px]} .broundedbr23 {@apply rounded-br-[23px]} .broundedbr24 {@apply rounded-br-[24px]} .broundedbr25 {@apply rounded-br-[25px]}
+    .broundedbr26 {@apply rounded-br-[26px]} .broundedbr27 {@apply rounded-br-[27px]} .broundedbr28 {@apply rounded-br-[28px]} .broundedbr29 {@apply rounded-br-[29px]} .broundedbr30 {@apply rounded-br-[30px]}
+    .broundedbr31 {@apply rounded-br-[31px]} .broundedbr32 {@apply rounded-br-[32px]} .broundedbr33 {@apply rounded-br-[33px]} .broundedbr34 {@apply rounded-br-[34px]} .broundedbr35 {@apply rounded-br-[35px]}
+    .broundedbr36 {@apply rounded-br-[36px]} .broundedbr37 {@apply rounded-br-[37px]} .broundedbr38 {@apply rounded-br-[38px]} .broundedbr39 {@apply rounded-br-[39px]} .broundedbr40 {@apply rounded-br-[40px]}
+    .broundedbr41 {@apply rounded-br-[41px]} .broundedbr42 {@apply rounded-br-[42px]} .broundedbr43 {@apply rounded-br-[43px]} .broundedbr44 {@apply rounded-br-[44px]} .broundedbr45 {@apply rounded-br-[45px]}
+    .broundedbr46 {@apply rounded-br-[46px]} .broundedbr47 {@apply rounded-br-[47px]} .broundedbr48 {@apply rounded-br-[48px]} .broundedbr49 {@apply rounded-br-[49px]} .broundedbr50 {@apply rounded-br-[50px]}
+    .broundedbr51 {@apply rounded-br-[51px]} .broundedbr52 {@apply rounded-br-[52px]} .broundedbr53 {@apply rounded-br-[53px]} .broundedbr54 {@apply rounded-br-[54px]} .broundedbr55 {@apply rounded-br-[55px]}
+    .broundedbr56 {@apply rounded-br-[56px]} .broundedbr57 {@apply rounded-br-[57px]} .broundedbr58 {@apply rounded-br-[58px]} .broundedbr59 {@apply rounded-br-[59px]} .broundedbr60 {@apply rounded-br-[60px]}
+    .broundedbr61 {@apply rounded-br-[61px]} .broundedbr62 {@apply rounded-br-[62px]} .broundedbr63 {@apply rounded-br-[63px]} .broundedbr64 {@apply rounded-br-[64px]} .broundedbr65 {@apply rounded-br-[65px]}
+    .broundedbr66 {@apply rounded-br-[66px]} .broundedbr67 {@apply rounded-br-[67px]} .broundedbr68 {@apply rounded-br-[68px]} .broundedbr69 {@apply rounded-br-[69px]} .broundedbr70 {@apply rounded-br-[70px]}
+    .broundedbr71 {@apply rounded-br-[71px]} .broundedbr72 {@apply rounded-br-[72px]} .broundedbr73 {@apply rounded-br-[73px]} .broundedbr74 {@apply rounded-br-[74px]} .broundedbr75 {@apply rounded-br-[75px]}
+    .broundedbr76 {@apply rounded-br-[76px]} .broundedbr77 {@apply rounded-br-[77px]} .broundedbr78 {@apply rounded-br-[78px]} .broundedbr79 {@apply rounded-br-[79px]} .broundedbr80 {@apply rounded-br-[80px]}
+    .broundedbr81 {@apply rounded-br-[81px]} .broundedbr82 {@apply rounded-br-[82px]} .broundedbr83 {@apply rounded-br-[83px]} .broundedbr84 {@apply rounded-br-[84px]} .broundedbr85 {@apply rounded-br-[85px]}
+    .broundedbr86 {@apply rounded-br-[86px]} .broundedbr87 {@apply rounded-br-[87px]} .broundedbr88 {@apply rounded-br-[88px]} .broundedbr89 {@apply rounded-br-[89px]} .broundedbr90 {@apply rounded-br-[90px]}
+    .broundedbr91 {@apply rounded-br-[91px]} .broundedbr92 {@apply rounded-br-[92px]} .broundedbr93 {@apply rounded-br-[93px]} .broundedbr94 {@apply rounded-br-[94px]} .broundedbr95 {@apply rounded-br-[95px]}
+    .broundedbr96 {@apply rounded-br-[96px]} .broundedbr97 {@apply rounded-br-[97px]} .broundedbr98 {@apply rounded-br-[98px]} .broundedbr99 {@apply rounded-br-[99px]} .broundedbr100 {@apply rounded-br-[100px]}
+}
+/* ".broundedbr" + str(i) + " {@apply rounded-br-[" + str(i) + "px]}" */

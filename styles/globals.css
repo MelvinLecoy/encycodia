@@ -1,0 +1,11 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "./kesutils/utils.css";
+
+@layer utilities {
+    /* .bgImg {
+        background: url(../public/img/wallpaper.jpg) no-repeat center center fixed;
+        @apply bgcov
+    } */
+}

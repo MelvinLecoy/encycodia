@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {   /* width: 5-100vw */
+    .ws {@apply w-screen}
+    .w5s {@apply w-[5vw]} .w10s {@apply w-[10vw]} .w15s {@apply w-[15vw]} .w20s {@apply w-[20vw]} .w25s {@apply w-[25vw]}
+    .w30s {@apply w-[30vw]} .w35s {@apply w-[35vw]} .w40s {@apply w-[40vw]} .w45s {@apply w-[45vw]} .w50s {@apply w-[50vw]}
+    .w55s {@apply w-[55vw]} .w60s {@apply w-[60vw]} .w65s {@apply w-[65vw]} .w70s {@apply w-[70vw]} .w75s {@apply w-[75vw]}
+    .w80s {@apply w-[80vw]} .w85s {@apply w-[85vw]} .w90s {@apply w-[90vw]} .w95s {@apply w-[95vw]}
+}
+/* ".w" + str(i) + "s {@apply w-[" + str(i) + "vw]}" */
+
+@layer utilities {   /* max-width: 5-100vw */
+    .maxws {@apply max-w-[100vw]}
+    .maxw5s {@apply max-w-[5vw]} .maxw10s {@apply max-w-[10vw]} .maxw15s {@apply max-w-[15vw]} .maxw20s {@apply max-w-[20vw]} .maxw25s {@apply max-w-[25vw]}
+    .maxw30s {@apply max-w-[30vw]} .maxw35s {@apply max-w-[35vw]} .maxw40s {@apply max-w-[40vw]} .maxw45s {@apply max-w-[45vw]} .maxw50s {@apply max-w-[50vw]}
+    .maxw55s {@apply max-w-[55vw]} .maxw60s {@apply max-w-[60vw]} .maxw65s {@apply max-w-[65vw]} .maxw70s {@apply max-w-[70vw]} .maxw75s {@apply max-w-[75vw]}
+    .maxw80s {@apply max-w-[80vw]} .maxw85s {@apply max-w-[85vw]} .maxw90s {@apply max-w-[90vw]} .maxw95s {@apply max-w-[95vw]}
+}
+/* ".maxw" + str(i) + "s {@apply max-w-[" + str(i) + "vw]}" */
+
+@layer utilities {   /* min-width: 5-100vw */
+    .minws {@apply min-w-[100vw]}
+    .minw5s {@apply min-w-[5vw]} .minw10s {@apply min-w-[10vw]} .minw15s {@apply min-w-[15vw]} .minw20s {@apply min-w-[20vw]} .minw25s {@apply min-w-[25vw]}
+    .minw30s {@apply min-w-[30vw]} .minw35s {@apply min-w-[35vw]} .minw40s {@apply min-w-[40vw]} .minw45s {@apply min-w-[45vw]} .minw50s {@apply min-w-[50vw]}
+    .minw55s {@apply min-w-[55vw]} .minw60s {@apply min-w-[60vw]} .minw65s {@apply min-w-[65vw]} .minw70s {@apply min-w-[70vw]} .minw75s {@apply min-w-[75vw]}
+    .minw80s {@apply min-w-[80vw]} .minw85s {@apply min-w-[85vw]} .minw90s {@apply min-w-[90vw]} .minw95s {@apply min-w-[95vw]}
+}
+/* ".minw" + str(i) + "s {@apply min-w-[" + str(i) + "vw]}" */

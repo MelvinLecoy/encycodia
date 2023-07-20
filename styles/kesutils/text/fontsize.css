@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* text-xs:   12 + lh16 */
+/* text-sm:   14 + lh20 */
+/* text-base: 16 + lh24 */
+/* text-lg:   18 + lh28 */
+/* text-xl:   20 + lh28 */
+/* text-2xl:  24 + lh32 */
+/* text-3xl:  30 + lh36 */
+/* text-4xl:  36 + lh40 */
+/* text-5xl:  48 */
+/* text-6xl:  60 */
+/* text-7xl:  72 */
+/* text-8xl:  96 */
+/* text-9xl:  128 */
+
+@layer utilities {   /* 1-500 */
+    .t1 {@apply text-[1px]} .t2 {@apply text-[2px]} .t3 {@apply text-[3px]} .t4 {@apply text-[4px]} .t5 {@apply text-[5px]}
+    .t6 {@apply text-[6px]} .t7 {@apply text-[7px]} .t8 {@apply text-[8px]} .t9 {@apply text-[9px]} .t10 {@apply text-[10px]}
+    .t11 {@apply text-[11px]} .t12 {@apply text-[12px]} .t13 {@apply text-[13px]} .t14 {@apply text-[14px]} .t15 {@apply text-[15px]}
+    .t16 {@apply text-[16px]} .t17 {@apply text-[17px]} .t18 {@apply text-[18px]} .t19 {@apply text-[19px]} .t20 {@apply text-[20px]}
+    .t21 {@apply text-[21px]} .t22 {@apply text-[22px]} .t23 {@apply text-[23px]} .t24 {@apply text-[24px]} .t25 {@apply text-[25px]}
+    .t26 {@apply text-[26px]} .t27 {@apply text-[27px]} .t28 {@apply text-[28px]} .t29 {@apply text-[29px]} .t30 {@apply text-[30px]}
+    .t31 {@apply text-[31px]} .t32 {@apply text-[32px]} .t33 {@apply text-[33px]} .t34 {@apply text-[34px]} .t35 {@apply text-[35px]}
+    .t36 {@apply text-[36px]} .t37 {@apply text-[37px]} .t38 {@apply text-[38px]} .t39 {@apply text-[39px]} .t40 {@apply text-[40px]}
+    .t41 {@apply text-[41px]} .t42 {@apply text-[42px]} .t43 {@apply text-[43px]} .t44 {@apply text-[44px]} .t45 {@apply text-[45px]}
+    .t46 {@apply text-[46px]} .t47 {@apply text-[47px]} .t48 {@apply text-[48px]} .t49 {@apply text-[49px]} .t50 {@apply text-[50px]}
+    .t51 {@apply text-[51px]} .t52 {@apply text-[52px]} .t53 {@apply text-[53px]} .t54 {@apply text-[54px]} .t55 {@apply text-[55px]}
+    .t56 {@apply text-[56px]} .t57 {@apply text-[57px]} .t58 {@apply text-[58px]} .t59 {@apply text-[59px]} .t60 {@apply text-[60px]}
+    .t61 {@apply text-[61px]} .t62 {@apply text-[62px]} .t63 {@apply text-[63px]} .t64 {@apply text-[64px]} .t65 {@apply text-[65px]}
+    .t66 {@apply text-[66px]} .t67 {@apply text-[67px]} .t68 {@apply text-[68px]} .t69 {@apply text-[69px]} .t70 {@apply text-[70px]}
+    .t71 {@apply text-[71px]} .t72 {@apply text-[72px]} .t73 {@apply text-[73px]} .t74 {@apply text-[74px]} .t75 {@apply text-[75px]}
+    .t76 {@apply text-[76px]} .t77 {@apply text-[77px]} .t78 {@apply text-[78px]} .t79 {@apply text-[79px]} .t80 {@apply text-[80px]}
+    .t81 {@apply text-[81px]} .t82 {@apply text-[82px]} .t83 {@apply text-[83px]} .t84 {@apply text-[84px]} .t85 {@apply text-[85px]}
+    .t86 {@apply text-[86px]} .t87 {@apply text-[87px]} .t88 {@apply text-[88px]} .t89 {@apply text-[89px]} .t90 {@apply text-[90px]}
+    .t91 {@apply text-[91px]} .t92 {@apply text-[92px]} .t93 {@apply text-[93px]} .t94 {@apply text-[94px]} .t95 {@apply text-[95px]}
+    .t96 {@apply text-[96px]} .t97 {@apply text-[97px]} .t98 {@apply text-[98px]} .t99 {@apply text-[99px]} .t100 {@apply text-[100px]}
+    .t101 {@apply text-[101px]} .t102 {@apply text-[102px]} .t103 {@apply text-[103px]} .t104 {@apply text-[104px]} .t105 {@apply text-[105px]}
+    .t106 {@apply text-[106px]} .t107 {@apply text-[107px]} .t108 {@apply text-[108px]} .t109 {@apply text-[109px]} .t110 {@apply text-[110px]}
+    .t111 {@apply text-[111px]} .t112 {@apply text-[112px]} .t113 {@apply text-[113px]} .t114 {@apply text-[114px]} .t115 {@apply text-[115px]}
+    .t116 {@apply text-[116px]} .t117 {@apply text-[117px]} .t118 {@apply text-[118px]} .t119 {@apply text-[119px]} .t120 {@apply text-[120px]}
+    .t121 {@apply text-[121px]} .t122 {@apply text-[122px]} .t123 {@apply text-[123px]} .t124 {@apply text-[124px]} .t125 {@apply text-[125px]}
+    .t126 {@apply text-[126px]} .t127 {@apply text-[127px]} .t128 {@apply text-[128px]} .t129 {@apply text-[129px]} .t130 {@apply text-[130px]}
+    .t131 {@apply text-[131px]} .t132 {@apply text-[132px]} .t133 {@apply text-[133px]} .t134 {@apply text-[134px]} .t135 {@apply text-[135px]}
+    .t136 {@apply text-[136px]} .t137 {@apply text-[137px]} .t138 {@apply text-[138px]} .t139 {@apply text-[139px]} .t140 {@apply text-[140px]}
+    .t141 {@apply text-[141px]} .t142 {@apply text-[142px]} .t143 {@apply text-[143px]} .t144 {@apply text-[144px]} .t145 {@apply text-[145px]}
+    .t146 {@apply text-[146px]} .t147 {@apply text-[147px]} .t148 {@apply text-[148px]} .t149 {@apply text-[149px]} .t150 {@apply text-[150px]}
+    .t151 {@apply text-[151px]} .t152 {@apply text-[152px]} .t153 {@apply text-[153px]} .t154 {@apply text-[154px]} .t155 {@apply text-[155px]}
+    .t156 {@apply text-[156px]} .t157 {@apply text-[157px]} .t158 {@apply text-[158px]} .t159 {@apply text-[159px]} .t160 {@apply text-[160px]}
+    .t161 {@apply text-[161px]} .t162 {@apply text-[162px]} .t163 {@apply text-[163px]} .t164 {@apply text-[164px]} .t165 {@apply text-[165px]}
+    .t166 {@apply text-[166px]} .t167 {@apply text-[167px]} .t168 {@apply text-[168px]} .t169 {@apply text-[169px]} .t170 {@apply text-[170px]}
+    .t171 {@apply text-[171px]} .t172 {@apply text-[172px]} .t173 {@apply text-[173px]} .t174 {@apply text-[174px]} .t175 {@apply text-[175px]}
+    .t176 {@apply text-[176px]} .t177 {@apply text-[177px]} .t178 {@apply text-[178px]} .t179 {@apply text-[179px]} .t180 {@apply text-[180px]}
+    .t181 {@apply text-[181px]} .t182 {@apply text-[182px]} .t183 {@apply text-[183px]} .t184 {@apply text-[184px]} .t185 {@apply text-[185px]}
+    .t186 {@apply text-[186px]} .t187 {@apply text-[187px]} .t188 {@apply text-[188px]} .t189 {@apply text-[189px]} .t190 {@apply text-[190px]}
+    .t191 {@apply text-[191px]} .t192 {@apply text-[192px]} .t193 {@apply text-[193px]} .t194 {@apply text-[194px]} .t195 {@apply text-[195px]}
+    .t196 {@apply text-[196px]} .t197 {@apply text-[197px]} .t198 {@apply text-[198px]} .t199 {@apply text-[199px]} .t200 {@apply text-[200px]}
+    .t201 {@apply text-[201px]} .t202 {@apply text-[202px]} .t203 {@apply text-[203px]} .t204 {@apply text-[204px]} .t205 {@apply text-[205px]}
+    .t206 {@apply text-[206px]} .t207 {@apply text-[207px]} .t208 {@apply text-[208px]} .t209 {@apply text-[209px]} .t210 {@apply text-[210px]}
+    .t211 {@apply text-[211px]} .t212 {@apply text-[212px]} .t213 {@apply text-[213px]} .t214 {@apply text-[214px]} .t215 {@apply text-[215px]}
+    .t216 {@apply text-[216px]} .t217 {@apply text-[217px]} .t218 {@apply text-[218px]} .t219 {@apply text-[219px]} .t220 {@apply text-[220px]}
+    .t221 {@apply text-[221px]} .t222 {@apply text-[222px]} .t223 {@apply text-[223px]} .t224 {@apply text-[224px]} .t225 {@apply text-[225px]}
+    .t226 {@apply text-[226px]} .t227 {@apply text-[227px]} .t228 {@apply text-[228px]} .t229 {@apply text-[229px]} .t230 {@apply text-[230px]}
+    .t231 {@apply text-[231px]} .t232 {@apply text-[232px]} .t233 {@apply text-[233px]} .t234 {@apply text-[234px]} .t235 {@apply text-[235px]}
+    .t236 {@apply text-[236px]} .t237 {@apply text-[237px]} .t238 {@apply text-[238px]} .t239 {@apply text-[239px]} .t240 {@apply text-[240px]}
+    .t241 {@apply text-[241px]} .t242 {@apply text-[242px]} .t243 {@apply text-[243px]} .t244 {@apply text-[244px]} .t245 {@apply text-[245px]}
+    .t246 {@apply text-[246px]} .t247 {@apply text-[247px]} .t248 {@apply text-[248px]} .t249 {@apply text-[249px]} .t250 {@apply text-[250px]}
+    .t251 {@apply text-[251px]} .t252 {@apply text-[252px]} .t253 {@apply text-[253px]} .t254 {@apply text-[254px]} .t255 {@apply text-[255px]}
+    .t256 {@apply text-[256px]} .t257 {@apply text-[257px]} .t258 {@apply text-[258px]} .t259 {@apply text-[259px]} .t260 {@apply text-[260px]}
+    .t261 {@apply text-[261px]} .t262 {@apply text-[262px]} .t263 {@apply text-[263px]} .t264 {@apply text-[264px]} .t265 {@apply text-[265px]}
+    .t266 {@apply text-[266px]} .t267 {@apply text-[267px]} .t268 {@apply text-[268px]} .t269 {@apply text-[269px]} .t270 {@apply text-[270px]}
+    .t271 {@apply text-[271px]} .t272 {@apply text-[272px]} .t273 {@apply text-[273px]} .t274 {@apply text-[274px]} .t275 {@apply text-[275px]}
+    .t276 {@apply text-[276px]} .t277 {@apply text-[277px]} .t278 {@apply text-[278px]} .t279 {@apply text-[279px]} .t280 {@apply text-[280px]}
+    .t281 {@apply text-[281px]} .t282 {@apply text-[282px]} .t283 {@apply text-[283px]} .t284 {@apply text-[284px]} .t285 {@apply text-[285px]}
+    .t286 {@apply text-[286px]} .t287 {@apply text-[287px]} .t288 {@apply text-[288px]} .t289 {@apply text-[289px]} .t290 {@apply text-[290px]}
+    .t291 {@apply text-[291px]} .t292 {@apply text-[292px]} .t293 {@apply text-[293px]} .t294 {@apply text-[294px]} .t295 {@apply text-[295px]}
+    .t296 {@apply text-[296px]} .t297 {@apply text-[297px]} .t298 {@apply text-[298px]} .t299 {@apply text-[299px]} .t300 {@apply text-[300px]}
+    .t301 {@apply text-[301px]} .t302 {@apply text-[302px]} .t303 {@apply text-[303px]} .t304 {@apply text-[304px]} .t305 {@apply text-[305px]}
+    .t306 {@apply text-[306px]} .t307 {@apply text-[307px]} .t308 {@apply text-[308px]} .t309 {@apply text-[309px]} .t310 {@apply text-[310px]}
+    .t311 {@apply text-[311px]} .t312 {@apply text-[312px]} .t313 {@apply text-[313px]} .t314 {@apply text-[314px]} .t315 {@apply text-[315px]}
+    .t316 {@apply text-[316px]} .t317 {@apply text-[317px]} .t318 {@apply text-[318px]} .t319 {@apply text-[319px]} .t320 {@apply text-[320px]}
+    .t321 {@apply text-[321px]} .t322 {@apply text-[322px]} .t323 {@apply text-[323px]} .t324 {@apply text-[324px]} .t325 {@apply text-[325px]}
+    .t326 {@apply text-[326px]} .t327 {@apply text-[327px]} .t328 {@apply text-[328px]} .t329 {@apply text-[329px]} .t330 {@apply text-[330px]}
+    .t331 {@apply text-[331px]} .t332 {@apply text-[332px]} .t333 {@apply text-[333px]} .t334 {@apply text-[334px]} .t335 {@apply text-[335px]}
+    .t336 {@apply text-[336px]} .t337 {@apply text-[337px]} .t338 {@apply text-[338px]} .t339 {@apply text-[339px]} .t340 {@apply text-[340px]}
+    .t341 {@apply text-[341px]} .t342 {@apply text-[342px]} .t343 {@apply text-[343px]} .t344 {@apply text-[344px]} .t345 {@apply text-[345px]}
+    .t346 {@apply text-[346px]} .t347 {@apply text-[347px]} .t348 {@apply text-[348px]} .t349 {@apply text-[349px]} .t350 {@apply text-[350px]}
+    .t351 {@apply text-[351px]} .t352 {@apply text-[352px]} .t353 {@apply text-[353px]} .t354 {@apply text-[354px]} .t355 {@apply text-[355px]}
+    .t356 {@apply text-[356px]} .t357 {@apply text-[357px]} .t358 {@apply text-[358px]} .t359 {@apply text-[359px]} .t360 {@apply text-[360px]}
+    .t361 {@apply text-[361px]} .t362 {@apply text-[362px]} .t363 {@apply text-[363px]} .t364 {@apply text-[364px]} .t365 {@apply text-[365px]}
+    .t366 {@apply text-[366px]} .t367 {@apply text-[367px]} .t368 {@apply text-[368px]} .t369 {@apply text-[369px]} .t370 {@apply text-[370px]}
+    .t371 {@apply text-[371px]} .t372 {@apply text-[372px]} .t373 {@apply text-[373px]} .t374 {@apply text-[374px]} .t375 {@apply text-[375px]}
+    .t376 {@apply text-[376px]} .t377 {@apply text-[377px]} .t378 {@apply text-[378px]} .t379 {@apply text-[379px]} .t380 {@apply text-[380px]}
+    .t381 {@apply text-[381px]} .t382 {@apply text-[382px]} .t383 {@apply text-[383px]} .t384 {@apply text-[384px]} .t385 {@apply text-[385px]}
+    .t386 {@apply text-[386px]} .t387 {@apply text-[387px]} .t388 {@apply text-[388px]} .t389 {@apply text-[389px]} .t390 {@apply text-[390px]}
+    .t391 {@apply text-[391px]} .t392 {@apply text-[392px]} .t393 {@apply text-[393px]} .t394 {@apply text-[394px]} .t395 {@apply text-[395px]}
+    .t396 {@apply text-[396px]} .t397 {@apply text-[397px]} .t398 {@apply text-[398px]} .t399 {@apply text-[399px]} .t400 {@apply text-[400px]}
+    .t401 {@apply text-[401px]} .t402 {@apply text-[402px]} .t403 {@apply text-[403px]} .t404 {@apply text-[404px]} .t405 {@apply text-[405px]}
+    .t406 {@apply text-[406px]} .t407 {@apply text-[407px]} .t408 {@apply text-[408px]} .t409 {@apply text-[409px]} .t410 {@apply text-[410px]}
+    .t411 {@apply text-[411px]} .t412 {@apply text-[412px]} .t413 {@apply text-[413px]} .t414 {@apply text-[414px]} .t415 {@apply text-[415px]}
+    .t416 {@apply text-[416px]} .t417 {@apply text-[417px]} .t418 {@apply text-[418px]} .t419 {@apply text-[419px]} .t420 {@apply text-[420px]}
+    .t421 {@apply text-[421px]} .t422 {@apply text-[422px]} .t423 {@apply text-[423px]} .t424 {@apply text-[424px]} .t425 {@apply text-[425px]}
+    .t426 {@apply text-[426px]} .t427 {@apply text-[427px]} .t428 {@apply text-[428px]} .t429 {@apply text-[429px]} .t430 {@apply text-[430px]}
+    .t431 {@apply text-[431px]} .t432 {@apply text-[432px]} .t433 {@apply text-[433px]} .t434 {@apply text-[434px]} .t435 {@apply text-[435px]}
+    .t436 {@apply text-[436px]} .t437 {@apply text-[437px]} .t438 {@apply text-[438px]} .t439 {@apply text-[439px]} .t440 {@apply text-[440px]}
+    .t441 {@apply text-[441px]} .t442 {@apply text-[442px]} .t443 {@apply text-[443px]} .t444 {@apply text-[444px]} .t445 {@apply text-[445px]}
+    .t446 {@apply text-[446px]} .t447 {@apply text-[447px]} .t448 {@apply text-[448px]} .t449 {@apply text-[449px]} .t450 {@apply text-[450px]}
+    .t451 {@apply text-[451px]} .t452 {@apply text-[452px]} .t453 {@apply text-[453px]} .t454 {@apply text-[454px]} .t455 {@apply text-[455px]}
+    .t456 {@apply text-[456px]} .t457 {@apply text-[457px]} .t458 {@apply text-[458px]} .t459 {@apply text-[459px]} .t460 {@apply text-[460px]}
+    .t461 {@apply text-[461px]} .t462 {@apply text-[462px]} .t463 {@apply text-[463px]} .t464 {@apply text-[464px]} .t465 {@apply text-[465px]}
+    .t466 {@apply text-[466px]} .t467 {@apply text-[467px]} .t468 {@apply text-[468px]} .t469 {@apply text-[469px]} .t470 {@apply text-[470px]}
+    .t471 {@apply text-[471px]} .t472 {@apply text-[472px]} .t473 {@apply text-[473px]} .t474 {@apply text-[474px]} .t475 {@apply text-[475px]}
+    .t476 {@apply text-[476px]} .t477 {@apply text-[477px]} .t478 {@apply text-[478px]} .t479 {@apply text-[479px]} .t480 {@apply text-[480px]}
+    .t481 {@apply text-[481px]} .t482 {@apply text-[482px]} .t483 {@apply text-[483px]} .t484 {@apply text-[484px]} .t485 {@apply text-[485px]}
+    .t486 {@apply text-[486px]} .t487 {@apply text-[487px]} .t488 {@apply text-[488px]} .t489 {@apply text-[489px]} .t490 {@apply text-[490px]}
+    .t491 {@apply text-[491px]} .t492 {@apply text-[492px]} .t493 {@apply text-[493px]} .t494 {@apply text-[494px]} .t495 {@apply text-[495px]}
+    .t496 {@apply text-[496px]} .t497 {@apply text-[497px]} .t498 {@apply text-[498px]} .t499 {@apply text-[499px]} .t500 {@apply text-[500px]}
+}
+
+/* for i in range(1, 501):
+    tw = ".t" + str(i) + " {@apply text-[" + str(i) + "px]}"
+    print(tw, end=" ") if i % 10 != 0 else print(tw) */

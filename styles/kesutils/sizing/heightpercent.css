@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {   /* height: 1-100 */
+    .h1p {@apply h-[1%]} .h2p {@apply h-[2%]} .h3p {@apply h-[3%]} .h4p {@apply h-[4%]} .h5p {@apply h-[5%]}
+    .h6p {@apply h-[6%]} .h7p {@apply h-[7%]} .h8p {@apply h-[8%]} .h9p {@apply h-[9%]} .h10p {@apply h-[10%]}
+    .h11p {@apply h-[11%]} .h12p {@apply h-[12%]} .h13p {@apply h-[13%]} .h14p {@apply h-[14%]} .h15p {@apply h-[15%]}
+    .h16p {@apply h-[16%]} .h17p {@apply h-[17%]} .h18p {@apply h-[18%]} .h19p {@apply h-[19%]} .h20p {@apply h-[20%]}
+    .h21p {@apply h-[21%]} .h22p {@apply h-[22%]} .h23p {@apply h-[23%]} .h24p {@apply h-[24%]} .h25p {@apply h-[25%]}
+    .h26p {@apply h-[26%]} .h27p {@apply h-[27%]} .h28p {@apply h-[28%]} .h29p {@apply h-[29%]} .h30p {@apply h-[30%]}
+    .h31p {@apply h-[31%]} .h32p {@apply h-[32%]} .h33p {@apply h-[33%]} .h34p {@apply h-[34%]} .h35p {@apply h-[35%]}
+    .h36p {@apply h-[36%]} .h37p {@apply h-[37%]} .h38p {@apply h-[38%]} .h39p {@apply h-[39%]} .h40p {@apply h-[40%]}
+    .h41p {@apply h-[41%]} .h42p {@apply h-[42%]} .h43p {@apply h-[43%]} .h44p {@apply h-[44%]} .h45p {@apply h-[45%]}
+    .h46p {@apply h-[46%]} .h47p {@apply h-[47%]} .h48p {@apply h-[48%]} .h49p {@apply h-[49%]} .h50p {@apply h-[50%]}
+    .h51p {@apply h-[51%]} .h52p {@apply h-[52%]} .h53p {@apply h-[53%]} .h54p {@apply h-[54%]} .h55p {@apply h-[55%]}
+    .h56p {@apply h-[56%]} .h57p {@apply h-[57%]} .h58p {@apply h-[58%]} .h59p {@apply h-[59%]} .h60p {@apply h-[60%]}
+    .h61p {@apply h-[61%]} .h62p {@apply h-[62%]} .h63p {@apply h-[63%]} .h64p {@apply h-[64%]} .h65p {@apply h-[65%]}
+    .h66p {@apply h-[66%]} .h67p {@apply h-[67%]} .h68p {@apply h-[68%]} .h69p {@apply h-[69%]} .h70p {@apply h-[70%]}
+    .h71p {@apply h-[71%]} .h72p {@apply h-[72%]} .h73p {@apply h-[73%]} .h74p {@apply h-[74%]} .h75p {@apply h-[75%]}
+    .h76p {@apply h-[76%]} .h77p {@apply h-[77%]} .h78p {@apply h-[78%]} .h79p {@apply h-[79%]} .h80p {@apply h-[80%]}
+    .h81p {@apply h-[81%]} .h82p {@apply h-[82%]} .h83p {@apply h-[83%]} .h84p {@apply h-[84%]} .h85p {@apply h-[85%]}
+    .h86p {@apply h-[86%]} .h87p {@apply h-[87%]} .h88p {@apply h-[88%]} .h89p {@apply h-[89%]} .h90p {@apply h-[90%]}
+    .h91p {@apply h-[91%]} .h92p {@apply h-[92%]} .h93p {@apply h-[93%]} .h94p {@apply h-[94%]} .h95p {@apply h-[95%]}
+    .h96p {@apply h-[96%]} .h97p {@apply h-[97%]} .h98p {@apply h-[98%]} .h99p {@apply h-[99%]} .h100p {@apply h-[100%]}
+}
+/* ".h" + str(i) + "p {@apply h-[" + str(i) + "%]}" */
+
+@layer utilities {   /* max-height: 1-100 */
+    .maxh1p {@apply max-h-[1%]} .maxh2p {@apply max-h-[2%]} .maxh3p {@apply max-h-[3%]} .maxh4p {@apply max-h-[4%]} .maxh5p {@apply max-h-[5%]}
+    .maxh6p {@apply max-h-[6%]} .maxh7p {@apply max-h-[7%]} .maxh8p {@apply max-h-[8%]} .maxh9p {@apply max-h-[9%]} .maxh10p {@apply max-h-[10%]}
+    .maxh11p {@apply max-h-[11%]} .maxh12p {@apply max-h-[12%]} .maxh13p {@apply max-h-[13%]} .maxh14p {@apply max-h-[14%]} .maxh15p {@apply max-h-[15%]}
+    .maxh16p {@apply max-h-[16%]} .maxh17p {@apply max-h-[17%]} .maxh18p {@apply max-h-[18%]} .maxh19p {@apply max-h-[19%]} .maxh20p {@apply max-h-[20%]}
+    .maxh21p {@apply max-h-[21%]} .maxh22p {@apply max-h-[22%]} .maxh23p {@apply max-h-[23%]} .maxh24p {@apply max-h-[24%]} .maxh25p {@apply max-h-[25%]}
+    .maxh26p {@apply max-h-[26%]} .maxh27p {@apply max-h-[27%]} .maxh28p {@apply max-h-[28%]} .maxh29p {@apply max-h-[29%]} .maxh30p {@apply max-h-[30%]}
+    .maxh31p {@apply max-h-[31%]} .maxh32p {@apply max-h-[32%]} .maxh33p {@apply max-h-[33%]} .maxh34p {@apply max-h-[34%]} .maxh35p {@apply max-h-[35%]}
+    .maxh36p {@apply max-h-[36%]} .maxh37p {@apply max-h-[37%]} .maxh38p {@apply max-h-[38%]} .maxh39p {@apply max-h-[39%]} .maxh40p {@apply max-h-[40%]}
+    .maxh41p {@apply max-h-[41%]} .maxh42p {@apply max-h-[42%]} .maxh43p {@apply max-h-[43%]} .maxh44p {@apply max-h-[44%]} .maxh45p {@apply max-h-[45%]}
+    .maxh46p {@apply max-h-[46%]} .maxh47p {@apply max-h-[47%]} .maxh48p {@apply max-h-[48%]} .maxh49p {@apply max-h-[49%]} .maxh50p {@apply max-h-[50%]}
+    .maxh51p {@apply max-h-[51%]} .maxh52p {@apply max-h-[52%]} .maxh53p {@apply max-h-[53%]} .maxh54p {@apply max-h-[54%]} .maxh55p {@apply max-h-[55%]}
+    .maxh56p {@apply max-h-[56%]} .maxh57p {@apply max-h-[57%]} .maxh58p {@apply max-h-[58%]} .maxh59p {@apply max-h-[59%]} .maxh60p {@apply max-h-[60%]}
+    .maxh61p {@apply max-h-[61%]} .maxh62p {@apply max-h-[62%]} .maxh63p {@apply max-h-[63%]} .maxh64p {@apply max-h-[64%]} .maxh65p {@apply max-h-[65%]}
+    .maxh66p {@apply max-h-[66%]} .maxh67p {@apply max-h-[67%]} .maxh68p {@apply max-h-[68%]} .maxh69p {@apply max-h-[69%]} .maxh70p {@apply max-h-[70%]}
+    .maxh71p {@apply max-h-[71%]} .maxh72p {@apply max-h-[72%]} .maxh73p {@apply max-h-[73%]} .maxh74p {@apply max-h-[74%]} .maxh75p {@apply max-h-[75%]}
+    .maxh76p {@apply max-h-[76%]} .maxh77p {@apply max-h-[77%]} .maxh78p {@apply max-h-[78%]} .maxh79p {@apply max-h-[79%]} .maxh80p {@apply max-h-[80%]}
+    .maxh81p {@apply max-h-[81%]} .maxh82p {@apply max-h-[82%]} .maxh83p {@apply max-h-[83%]} .maxh84p {@apply max-h-[84%]} .maxh85p {@apply max-h-[85%]}
+    .maxh86p {@apply max-h-[86%]} .maxh87p {@apply max-h-[87%]} .maxh88p {@apply max-h-[88%]} .maxh89p {@apply max-h-[89%]} .maxh90p {@apply max-h-[90%]}
+    .maxh91p {@apply max-h-[91%]} .maxh92p {@apply max-h-[92%]} .maxh93p {@apply max-h-[93%]} .maxh94p {@apply max-h-[94%]} .maxh95p {@apply max-h-[95%]}
+    .maxh96p {@apply max-h-[96%]} .maxh97p {@apply max-h-[97%]} .maxh98p {@apply max-h-[98%]} .maxh99p {@apply max-h-[99%]} .maxh100p {@apply max-h-[100%]}
+}
+/* ".maxh" + str(i) + "p {@apply max-h-[" + str(i) + "%]}" */
+
+@layer utilities {   /* min-height: 1-100 */
+    .minh1p {@apply min-h-[1%]} .minh2p {@apply min-h-[2%]} .minh3p {@apply min-h-[3%]} .minh4p {@apply min-h-[4%]} .minh5p {@apply min-h-[5%]}
+    .minh6p {@apply min-h-[6%]} .minh7p {@apply min-h-[7%]} .minh8p {@apply min-h-[8%]} .minh9p {@apply min-h-[9%]} .minh10p {@apply min-h-[10%]}
+    .minh11p {@apply min-h-[11%]} .minh12p {@apply min-h-[12%]} .minh13p {@apply min-h-[13%]} .minh14p {@apply min-h-[14%]} .minh15p {@apply min-h-[15%]}
+    .minh16p {@apply min-h-[16%]} .minh17p {@apply min-h-[17%]} .minh18p {@apply min-h-[18%]} .minh19p {@apply min-h-[19%]} .minh20p {@apply min-h-[20%]}
+    .minh21p {@apply min-h-[21%]} .minh22p {@apply min-h-[22%]} .minh23p {@apply min-h-[23%]} .minh24p {@apply min-h-[24%]} .minh25p {@apply min-h-[25%]}
+    .minh26p {@apply min-h-[26%]} .minh27p {@apply min-h-[27%]} .minh28p {@apply min-h-[28%]} .minh29p {@apply min-h-[29%]} .minh30p {@apply min-h-[30%]}
+    .minh31p {@apply min-h-[31%]} .minh32p {@apply min-h-[32%]} .minh33p {@apply min-h-[33%]} .minh34p {@apply min-h-[34%]} .minh35p {@apply min-h-[35%]}
+    .minh36p {@apply min-h-[36%]} .minh37p {@apply min-h-[37%]} .minh38p {@apply min-h-[38%]} .minh39p {@apply min-h-[39%]} .minh40p {@apply min-h-[40%]}
+    .minh41p {@apply min-h-[41%]} .minh42p {@apply min-h-[42%]} .minh43p {@apply min-h-[43%]} .minh44p {@apply min-h-[44%]} .minh45p {@apply min-h-[45%]}
+    .minh46p {@apply min-h-[46%]} .minh47p {@apply min-h-[47%]} .minh48p {@apply min-h-[48%]} .minh49p {@apply min-h-[49%]} .minh50p {@apply min-h-[50%]}
+    .minh51p {@apply min-h-[51%]} .minh52p {@apply min-h-[52%]} .minh53p {@apply min-h-[53%]} .minh54p {@apply min-h-[54%]} .minh55p {@apply min-h-[55%]}
+    .minh56p {@apply min-h-[56%]} .minh57p {@apply min-h-[57%]} .minh58p {@apply min-h-[58%]} .minh59p {@apply min-h-[59%]} .minh60p {@apply min-h-[60%]}
+    .minh61p {@apply min-h-[61%]} .minh62p {@apply min-h-[62%]} .minh63p {@apply min-h-[63%]} .minh64p {@apply min-h-[64%]} .minh65p {@apply min-h-[65%]}
+    .minh66p {@apply min-h-[66%]} .minh67p {@apply min-h-[67%]} .minh68p {@apply min-h-[68%]} .minh69p {@apply min-h-[69%]} .minh70p {@apply min-h-[70%]}
+    .minh71p {@apply min-h-[71%]} .minh72p {@apply min-h-[72%]} .minh73p {@apply min-h-[73%]} .minh74p {@apply min-h-[74%]} .minh75p {@apply min-h-[75%]}
+    .minh76p {@apply min-h-[76%]} .minh77p {@apply min-h-[77%]} .minh78p {@apply min-h-[78%]} .minh79p {@apply min-h-[79%]} .minh80p {@apply min-h-[80%]}
+    .minh81p {@apply min-h-[81%]} .minh82p {@apply min-h-[82%]} .minh83p {@apply min-h-[83%]} .minh84p {@apply min-h-[84%]} .minh85p {@apply min-h-[85%]}
+    .minh86p {@apply min-h-[86%]} .minh87p {@apply min-h-[87%]} .minh88p {@apply min-h-[88%]} .minh89p {@apply min-h-[89%]} .minh90p {@apply min-h-[90%]}
+    .minh91p {@apply min-h-[91%]} .minh92p {@apply min-h-[92%]} .minh93p {@apply min-h-[93%]} .minh94p {@apply min-h-[94%]} .minh95p {@apply min-h-[95%]}
+    .minh96p {@apply min-h-[96%]} .minh97p {@apply min-h-[97%]} .minh98p {@apply min-h-[98%]} .minh99p {@apply min-h-[99%]} .minh100p {@apply min-h-[100%]}
+}
+/* ".minh" + str(i) + "p {@apply min-h-[" + str(i) + "%]}" */

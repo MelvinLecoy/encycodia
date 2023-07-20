@@ -1,0 +1,11 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "borderradius.css";
+@import "borderwidth.css";
+
+/* 3. border decoration */
+@layer utilities {
+    .bdbl {@apply border-double} .bdotted {@apply border-dotted} .bdashed {@apply border-dashed} .bnone {@apply border-none}   /* border-hidden */
+}
