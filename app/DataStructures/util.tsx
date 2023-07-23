@@ -7,7 +7,7 @@ export const DSconclusions = {
         "Indexing (if DNE)": ["Only Java has no hm[key]", "Only C++ will add ele. if DNE", "Only Scala use hm(key)"],
         "Addition": ["Java, Rust, Scala & TS hm2 hv no SqBracket Addition"],
         "Deletion": ["Only Go & TS hm1 hv no clear()"],
-        "Direct Printing": ["C++, Rust: error; C#: address"],
+        "Direct Printing": ["C++: error; C#: address"],
         "Check key exist": ["Only Go has no quick func."],
     },
 } as CodeRows;

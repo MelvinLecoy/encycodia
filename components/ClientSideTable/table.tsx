@@ -13,7 +13,7 @@ type Props = {
 
 export default function Table({rows, langSelectionMapping, preHydration, slug, conclusions}: Props) {
   const selectedLangs = Object.keys(langSelectionMapping).filter(k => langSelectionMapping[k]);
-  const tableHeader = Object.values(conclusions).length ? ['', ' ', ...selectedLangs] : [' ', ...selectedLangs];
+  const tableHeader = slug in conclusions ? ['', ' ', ...selectedLangs] : [' ', ...selectedLangs];
   const codeRows = reshapeRows(rows, selectedLangs);
   return (
     <div className="rela f pl10 pr15 pb13 ofs">
