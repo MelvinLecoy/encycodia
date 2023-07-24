@@ -1,6 +1,12 @@
 import { CodeRows } from "@/typings";
 
-export const DScontainers = ["Array", "HashMap", "Deque", "Priority Queue", "String"];
+export const DScontainers = [
+    "Array",
+    "HashMap",
+    // "Deque",
+    // "Priority Queue",
+    "String"
+];
 
 export const DSconclusions = {
     "HashMap": {
